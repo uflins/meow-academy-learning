@@ -1,0 +1,649 @@
+[
+  {
+    "id": "g1zh-l1-001",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是小貓。貓的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🐱",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄇㄠ"
+      },
+      {
+        "label": "ㄇㄧ"
+      }
+    ],
+    "answer": "ㄇㄠ",
+    "explanation": "「貓」的注音是 ㄇㄠ。",
+    "explainSpeak": "貓，是一聲。",
+    "difficulty": 1,
+    "tags": [
+      "look-pick"
+    ]
+  },
+  {
+    "id": "g1zh-l1-002",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是豹。豹的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🐆",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄆㄠˋ"
+      },
+      {
+        "label": "ㄅㄠˋ"
+      },
+      {
+        "label": "ㄉㄠˋ"
+      }
+    ],
+    "answer": "ㄅㄠˋ",
+    "explanation": "「豹」的注音是 ㄅㄠˋ。ㄅ不噴氣，ㄆ會噴氣。",
+    "explainSpeak": "豹，是四聲。豹這個音不噴氣，泡泡的泡才會噴氣。",
+    "difficulty": 2,
+    "tags": [
+      "look-pick",
+      "ㄅㄆ"
+    ]
+  },
+  {
+    "id": "g1zh-l1-003",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是鉛筆。筆的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "✏️",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄅㄧˇ"
+      },
+      {
+        "label": "ㄉㄧˇ"
+      }
+    ],
+    "answer": "ㄅㄧˇ",
+    "explanation": "「筆」的注音是 ㄅㄧˇ。ㄉ比ㄅ多了長腿。",
+    "explainSpeak": "筆，是三聲。筆的聲音，嘴唇要碰一下。",
+    "difficulty": 1,
+    "tags": [
+      "look-pick",
+      "ㄅㄉ"
+    ]
+  },
+  {
+    "id": "g1zh-l1-004",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是皮包。皮包的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "👜",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄆㄧˊ ㄉㄠ"
+      },
+      {
+        "label": "ㄆㄧˊ ㄅㄠ"
+      },
+      {
+        "label": "ㄅㄧˊ ㄅㄠ"
+      }
+    ],
+    "answer": "ㄆㄧˊ ㄅㄠ",
+    "explanation": "「皮包」的注音是 ㄆㄧˊ ㄅㄠ。",
+    "explainSpeak": "皮包，第一個字是二聲，第二個字是一聲。皮包的皮要噴氣。",
+    "difficulty": 3,
+    "tags": [
+      "look-pick",
+      "ㄅㄆ"
+    ]
+  },
+  {
+    "id": "g1zh-l1-005",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是稻米。稻米的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🌾",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄅㄠˋ ㄇㄧˇ"
+      },
+      {
+        "label": "ㄉㄠˋ ㄇㄧˇ"
+      }
+    ],
+    "answer": "ㄉㄠˋ ㄇㄧˇ",
+    "explanation": "「稻米」的注音是 ㄉㄠˋ ㄇㄧˇ。",
+    "explainSpeak": "稻米，第一個字是四聲，第二個字是三聲。",
+    "difficulty": 2,
+    "tags": [
+      "look-pick",
+      "ㄅㄉ"
+    ]
+  },
+  {
+    "id": "g1zh-l1-006",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是寶寶。寶寶的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "👶",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄅㄠˇ ㄅㄠˇ"
+      },
+      {
+        "label": "ㄅㄠˇ ˙ㄅㄠ"
+      }
+    ],
+    "answer": "ㄅㄠˇ ˙ㄅㄠ",
+    "explanation": "「寶寶」的注音是 ㄅㄠˇ ˙ㄅㄠ。第二個字是輕聲。",
+    "explainSpeak": "寶寶，第一個字是三聲，第二個字是輕聲。寶寶的第二個字念得又輕又短。",
+    "difficulty": 2,
+    "tags": [
+      "look-pick",
+      "輕聲"
+    ]
+  },
+  {
+    "id": "g1zh-l1-007",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "拼音魔法鍋：\nㄇ ＋ ㄠ",
+    "speak": "拼音魔法鍋！鍋子裡的注音拼起來，會變出哪一個？",
+    "visual": null,
+    "options": [
+      {
+        "label": "貓",
+        "image": "🐱",
+        "speak": "小貓"
+      },
+      {
+        "label": "刀",
+        "image": "🔪",
+        "speak": "刀子"
+      }
+    ],
+    "answer": "貓",
+    "explanation": "ㄇ ＋ ㄠ 拼成 ㄇㄠ，就是「貓」。",
+    "explainSpeak": "拼起來就是小貓的貓，是一聲。",
+    "difficulty": 1,
+    "tags": [
+      "blend"
+    ]
+  },
+  {
+    "id": "g1zh-l1-008",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "拼音魔法鍋：\nㄉ ＋ ㄠ",
+    "speak": "魔法鍋咕嚕咕嚕！把這幾個注音拼起來，是哪一個？",
+    "visual": null,
+    "options": [
+      {
+        "label": "貓",
+        "image": "🐱",
+        "speak": "小貓"
+      },
+      {
+        "label": "刀",
+        "image": "🔪",
+        "speak": "刀子"
+      },
+      {
+        "label": "豹",
+        "image": "🐆",
+        "speak": "豹"
+      }
+    ],
+    "answer": "刀",
+    "explanation": "ㄉ ＋ ㄠ 拼成 ㄉㄠ，就是「刀」。",
+    "explainSpeak": "拼起來就是刀子的刀，是一聲。",
+    "difficulty": 2,
+    "tags": [
+      "blend"
+    ]
+  },
+  {
+    "id": "g1zh-l1-009",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "拼音魔法鍋：\nㄅ ＋ ㄧ ＋ ˇ",
+    "speak": "這幾個注音拼起來，是哪一個？點一點圖，聽聽看。",
+    "visual": null,
+    "options": [
+      {
+        "label": "筆",
+        "image": "✏️",
+        "speak": "鉛筆"
+      },
+      {
+        "label": "米",
+        "image": "🍚",
+        "speak": "白米"
+      }
+    ],
+    "answer": "筆",
+    "explanation": "ㄅ ＋ ㄧ ＋ ˇ 拼成 ㄅㄧˇ，就是「筆」。",
+    "explainSpeak": "拼起來就是鉛筆的筆，是三聲。",
+    "difficulty": 2,
+    "tags": [
+      "blend"
+    ]
+  },
+  {
+    "id": "g1zh-l1-010",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "拼音魔法鍋：\nㄆ ＋ ㄠ ＋ ˇ",
+    "speak": "拼音魔法鍋！鍋子裡的注音拼起來，會變出哪一個？",
+    "visual": null,
+    "options": [
+      {
+        "label": "抱",
+        "image": "🤗",
+        "speak": "抱抱"
+      },
+      {
+        "label": "跑",
+        "image": "🏃",
+        "speak": "跑步"
+      }
+    ],
+    "answer": "跑",
+    "explanation": "ㄆ ＋ ㄠ ＋ ˇ 拼成 ㄆㄠˇ，就是「跑」。",
+    "explainSpeak": "拼起來就是跑步的跑，是三聲。",
+    "difficulty": 2,
+    "tags": [
+      "blend",
+      "ㄅㄆ"
+    ]
+  },
+  {
+    "id": "g1zh-l1-011",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "拼音魔法鍋：\nㄇ ＋ ㄧ ＋ ˇ",
+    "speak": "魔法鍋咕嚕咕嚕！把這幾個注音拼起來，是哪一個？",
+    "visual": null,
+    "options": [
+      {
+        "label": "筆",
+        "image": "✏️",
+        "speak": "鉛筆"
+      },
+      {
+        "label": "米",
+        "image": "🍚",
+        "speak": "白米"
+      },
+      {
+        "label": "鼻",
+        "image": "👃",
+        "speak": "鼻子"
+      }
+    ],
+    "answer": "米",
+    "explanation": "ㄇ ＋ ㄧ ＋ ˇ 拼成 ㄇㄧˇ，就是「米」。",
+    "explainSpeak": "拼起來就是白米的米，是三聲。",
+    "difficulty": 3,
+    "tags": [
+      "blend"
+    ]
+  },
+  {
+    "id": "g1zh-l1-012",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，是第幾聲？",
+    "speak": "聲調跳跳貓！小貓的貓。貓，貓，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🐱",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "一聲",
+      "二聲"
+    ],
+    "answer": "一聲",
+    "explanation": "「貓」寫成 ㄇㄠ，是一聲。",
+    "explainSpeak": "貓，是一聲。",
+    "difficulty": 1,
+    "tags": [
+      "tone"
+    ]
+  },
+  {
+    "id": "g1zh-l1-013",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，是第幾聲？",
+    "speak": "聲調跳跳貓！鼻子的鼻。鼻，鼻，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "👃",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "二聲",
+      "四聲"
+    ],
+    "answer": "二聲",
+    "explanation": "「鼻」寫成 ㄅㄧˊ，是二聲。",
+    "explainSpeak": "鼻，是二聲。",
+    "difficulty": 1,
+    "tags": [
+      "tone"
+    ]
+  },
+  {
+    "id": "g1zh-l1-014",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，是第幾聲？",
+    "speak": "聲調跳跳貓！豹，豹，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🐆",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "一聲",
+      "二聲",
+      "四聲"
+    ],
+    "answer": "四聲",
+    "explanation": "「豹」寫成 ㄅㄠˋ，是四聲。",
+    "explainSpeak": "豹，是四聲。",
+    "difficulty": 2,
+    "tags": [
+      "tone"
+    ]
+  },
+  {
+    "id": "g1zh-l1-015",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，是第幾聲？",
+    "speak": "聲調跳跳貓！跑步的跑。跑，跑，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🏃",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "一聲",
+      "三聲",
+      "四聲"
+    ],
+    "answer": "三聲",
+    "explanation": "「跑」寫成 ㄆㄠˇ，是三聲。",
+    "explainSpeak": "跑，是三聲。",
+    "difficulty": 2,
+    "tags": [
+      "tone"
+    ]
+  },
+  {
+    "id": "g1zh-l1-016",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，第二個字是第幾聲？",
+    "speak": "聲調跳跳貓！寶寶，寶寶。第二個字，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "👶",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "三聲",
+      "輕聲"
+    ],
+    "answer": "輕聲",
+    "explanation": "「寶寶」寫成 ㄅㄠˇ ˙ㄅㄠ，第二個字是輕聲。輕聲要在前面點一個小點。",
+    "explainSpeak": "寶寶，第二個字是輕聲。輕聲念得又輕又短，不標聲調，要在前面點一個小點。",
+    "difficulty": 2,
+    "tags": [
+      "tone",
+      "輕聲"
+    ]
+  },
+  {
+    "id": "g1zh-l1-017",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，第二個字是第幾聲？",
+    "speak": "聲調跳跳貓！弟弟，弟弟。第二個字，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "👦",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "一聲",
+      "四聲",
+      "輕聲"
+    ],
+    "answer": "輕聲",
+    "explanation": "「弟弟」寫成 ㄉㄧˋ ˙ㄉㄧ，第二個字是輕聲。輕聲要在前面點一個小點。",
+    "explainSpeak": "弟弟，第二個字是輕聲。輕聲念得又輕又短，不標聲調，要在前面點一個小點。",
+    "difficulty": 3,
+    "tags": [
+      "tone",
+      "輕聲"
+    ]
+  },
+  {
+    "id": "g1zh-l1-018",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "注音小偵探：\n哪一張卡的注音寫錯了？",
+    "speak": "注音小偵探出動！有一張卡的注音寫錯了，用放大鏡把它找出來。點一點圖，可以聽聽看。",
+    "visual": null,
+    "options": [
+      {
+        "label": "ㄇㄠ",
+        "image": "🐱",
+        "speak": "小貓"
+      },
+      {
+        "label": "ㄅㄧ",
+        "image": "✏️",
+        "speak": "鉛筆"
+      }
+    ],
+    "answer": "ㄅㄧ",
+    "explanation": "「筆」要寫成 ㄅㄧˇ，不是 ㄅㄧ。",
+    "explainSpeak": "鉛筆的筆是三聲，那張卡忘了寫聲調。",
+    "difficulty": 2,
+    "tags": [
+      "detective",
+      "漏標聲調"
+    ]
+  },
+  {
+    "id": "g1zh-l1-019",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "注音小偵探：\n哪一張卡的注音寫錯了？",
+    "speak": "注音小偵探出動！有一張卡的注音寫錯了，用放大鏡把它找出來。點一點圖，可以聽聽看。",
+    "visual": null,
+    "options": [
+      {
+        "label": "ㄇㄧˇ",
+        "image": "🍚",
+        "speak": "白米"
+      },
+      {
+        "label": "ㄅㄠ",
+        "image": "🔪",
+        "speak": "刀子"
+      },
+      {
+        "label": "ㄅㄠˋ",
+        "image": "🐆",
+        "speak": "豹"
+      }
+    ],
+    "answer": "ㄅㄠ",
+    "explanation": "「刀」要寫成 ㄉㄠ，不是 ㄅㄠ。",
+    "explainSpeak": "刀子的刀，要用長腿的那個符號，那張卡寫成包包的包了。",
+    "difficulty": 2,
+    "tags": [
+      "detective",
+      "ㄅㄉ"
+    ]
+  },
+  {
+    "id": "g1zh-l1-020",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "1",
+    "type": "choice",
+    "prompt": "注音小偵探：\n哪一張卡的注音寫錯了？",
+    "speak": "注音小偵探出動！有一張卡的注音寫錯了，用放大鏡把它找出來。點一點圖，可以聽聽看。",
+    "visual": null,
+    "options": [
+      {
+        "label": "ㄅㄠˇ ㄅㄠˇ",
+        "image": "👶",
+        "speak": "寶寶"
+      },
+      {
+        "label": "ㄇㄠ ㄇㄧ",
+        "image": "🐱",
+        "speak": "貓咪"
+      }
+    ],
+    "answer": "ㄅㄠˇ ㄅㄠˇ",
+    "explanation": "「寶寶」要寫成 ㄅㄠˇ ˙ㄅㄠ，不是 ㄅㄠˇ ㄅㄠˇ。",
+    "explainSpeak": "寶寶的第二個字是輕聲，要點一個小點，不能標三聲。",
+    "difficulty": 3,
+    "tags": [
+      "detective",
+      "輕聲"
+    ]
+  }
+]

@@ -1,0 +1,819 @@
+[
+  {
+    "id": "g1zh-r3-001",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是金魚。金魚的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🐠",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄐㄧㄥ ㄩˊ"
+      },
+      {
+        "label": "ㄐㄧㄣ ㄩˊ"
+      }
+    ],
+    "answer": "ㄐㄧㄣ ㄩˊ",
+    "explanation": "「金魚」的注音是 ㄐㄧㄣ ㄩˊ。",
+    "explainSpeak": "金魚，第一個字是一聲，第二個字是二聲。",
+    "difficulty": 2,
+    "tags": [
+      "look-pick",
+      "ㄧㄣㄧㄥ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-002",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是圓形。圓的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "⭕",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄩㄝˊ"
+      },
+      {
+        "label": "ㄩㄢˊ"
+      }
+    ],
+    "answer": "ㄩㄢˊ",
+    "explanation": "「圓」的注音是 ㄩㄢˊ。",
+    "explainSpeak": "圓，是二聲。",
+    "difficulty": 2,
+    "tags": [
+      "look-pick",
+      "ㄩㄝㄩㄢ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-003",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是小熊。熊的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🐻",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄒㄩㄥˊ"
+      },
+      {
+        "label": "ㄒㄩㄣˊ"
+      }
+    ],
+    "answer": "ㄒㄩㄥˊ",
+    "explanation": "「熊」的注音是 ㄒㄩㄥˊ。",
+    "explainSpeak": "熊，是二聲。",
+    "difficulty": 2,
+    "tags": [
+      "look-pick",
+      "ㄩㄣㄩㄥ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-004",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是一塊肉。肉的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🍖",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄖㄡˋ"
+      },
+      {
+        "label": "ㄌㄡˋ"
+      }
+    ],
+    "answer": "ㄖㄡˋ",
+    "explanation": "「肉」的注音是 ㄖㄡˋ。",
+    "explainSpeak": "肉，是四聲。",
+    "difficulty": 2,
+    "tags": [
+      "look-pick",
+      "ㄌㄖ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-005",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是小草。草的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🌿",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄔㄠˇ"
+      },
+      {
+        "label": "ㄎㄠˇ"
+      },
+      {
+        "label": "ㄘㄠˇ"
+      }
+    ],
+    "answer": "ㄘㄠˇ",
+    "explanation": "「草」的注音是 ㄘㄠˇ。",
+    "explainSpeak": "草，是三聲。",
+    "difficulty": 3,
+    "tags": [
+      "look-pick",
+      "ㄔㄘ",
+      "ㄘㄎ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-006",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "看圖找注音：\n這個東西的注音是哪一個？",
+    "speak": "看圖找注音！這是蘋果。蘋果的注音，是哪一個？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🍎",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄆㄧㄣˊ ㄍㄨㄛˇ"
+      },
+      {
+        "label": "ㄆㄧㄥˊ ㄍㄨㄛˇ"
+      }
+    ],
+    "answer": "ㄆㄧㄥˊ ㄍㄨㄛˇ",
+    "explanation": "「蘋果」的注音是 ㄆㄧㄥˊ ㄍㄨㄛˇ。",
+    "explainSpeak": "蘋果，第一個字是二聲，第二個字是三聲。",
+    "difficulty": 2,
+    "tags": [
+      "look-pick",
+      "ㄧㄣㄧㄥ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-007",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "拼音魔法鍋：\nㄊ ＋ ㄨ ＋ ㄟ ＋ ˇ",
+    "speak": "這幾個注音拼起來，是哪一個？點一點圖，聽聽看。",
+    "visual": null,
+    "options": [
+      {
+        "label": "鬼",
+        "image": "👻",
+        "speak": "小鬼"
+      },
+      {
+        "label": "腿",
+        "image": "🦵",
+        "speak": "大腿"
+      },
+      {
+        "label": "嘴",
+        "image": "👄",
+        "speak": "嘴巴"
+      }
+    ],
+    "answer": "腿",
+    "explanation": "ㄊ ＋ ㄨ ＋ ㄟ ＋ ˇ 拼成 ㄊㄨㄟˇ，就是「腿」。",
+    "explainSpeak": "拼起來就是大腿的腿，是三聲。",
+    "difficulty": 3,
+    "tags": [
+      "blend",
+      "三拼"
+    ]
+  },
+  {
+    "id": "g1zh-r3-008",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "拼音魔法鍋：\nㄎ ＋ ㄨ ＋ ㄞ ＋ ˋ",
+    "speak": "拼音魔法鍋！鍋子裡的注音拼起來，會變出哪一個？",
+    "visual": null,
+    "options": [
+      {
+        "label": "筷",
+        "image": "🥢",
+        "speak": "筷子"
+      },
+      {
+        "label": "褲",
+        "image": "👖",
+        "speak": "褲子"
+      }
+    ],
+    "answer": "筷",
+    "explanation": "ㄎ ＋ ㄨ ＋ ㄞ ＋ ˋ 拼成 ㄎㄨㄞˋ，就是「筷」。",
+    "explainSpeak": "拼起來就是筷子的筷，是四聲。",
+    "difficulty": 2,
+    "tags": [
+      "blend",
+      "三拼"
+    ]
+  },
+  {
+    "id": "g1zh-r3-009",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "拼音魔法鍋：\nㄖ ＋ ㄜ ＋ ˋ",
+    "speak": "魔法鍋咕嚕咕嚕！把這幾個注音拼起來，是哪一個？",
+    "visual": null,
+    "options": [
+      {
+        "label": "熱",
+        "image": "🥵",
+        "speak": "好熱"
+      },
+      {
+        "label": "肉",
+        "image": "🍖",
+        "speak": "吃肉"
+      }
+    ],
+    "answer": "熱",
+    "explanation": "ㄖ ＋ ㄜ ＋ ˋ 拼成 ㄖㄜˋ，就是「熱」。",
+    "explainSpeak": "拼起來就是好熱的熱，是四聲。",
+    "difficulty": 2,
+    "tags": [
+      "blend"
+    ]
+  },
+  {
+    "id": "g1zh-r3-010",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "拼音魔法鍋：\nㄒ ＋ ㄩ ＋ ㄝ ＋ ˇ",
+    "speak": "這幾個注音拼起來，是哪一個？點一點圖，聽聽看。",
+    "visual": null,
+    "options": [
+      {
+        "label": "雪",
+        "image": "❄️",
+        "speak": "下雪"
+      },
+      {
+        "label": "熊",
+        "image": "🐻",
+        "speak": "小熊"
+      }
+    ],
+    "answer": "雪",
+    "explanation": "ㄒ ＋ ㄩ ＋ ㄝ ＋ ˇ 拼成 ㄒㄩㄝˇ，就是「雪」。",
+    "explainSpeak": "拼起來就是下雪的雪，是三聲。",
+    "difficulty": 2,
+    "tags": [
+      "blend",
+      "三拼"
+    ]
+  },
+  {
+    "id": "g1zh-r3-011",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "拼音魔法鍋：\nㄘ ＋ ㄨ ＋ ㄥ",
+    "speak": "拼音魔法鍋！鍋子裡的注音拼起來，會變出哪一個？",
+    "visual": null,
+    "options": [
+      {
+        "label": "蔥",
+        "image": "🧅",
+        "speak": "洋蔥"
+      },
+      {
+        "label": "鐘",
+        "image": "⏰",
+        "speak": "時鐘"
+      }
+    ],
+    "answer": "蔥",
+    "explanation": "ㄘ ＋ ㄨ ＋ ㄥ 拼成 ㄘㄨㄥ，就是「蔥」。",
+    "explainSpeak": "拼起來就是洋蔥的蔥，是一聲。",
+    "difficulty": 2,
+    "tags": [
+      "blend",
+      "三拼",
+      "ㄔㄘ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-012",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，第二個字是第幾聲？",
+    "speak": "聲調跳跳貓！蚊子，蚊子。第二個字，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🦟",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "二聲",
+      "輕聲"
+    ],
+    "answer": "輕聲",
+    "explanation": "「蚊子」寫成 ㄨㄣˊ ˙ㄗ，第二個字是輕聲。輕聲要在前面點一個小點。",
+    "explainSpeak": "蚊子，第二個字是輕聲。輕聲念得又輕又短，不標聲調，要在前面點一個小點。",
+    "difficulty": 2,
+    "tags": [
+      "tone",
+      "輕聲"
+    ]
+  },
+  {
+    "id": "g1zh-r3-013",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，是第幾聲？",
+    "speak": "聲調跳跳貓！月亮的月。月，月，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🌙",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "二聲",
+      "三聲",
+      "四聲"
+    ],
+    "answer": "四聲",
+    "explanation": "「月」寫成 ㄩㄝˋ，是四聲。",
+    "explainSpeak": "月，是四聲。",
+    "difficulty": 2,
+    "tags": [
+      "tone"
+    ]
+  },
+  {
+    "id": "g1zh-r3-014",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，是第幾聲？",
+    "speak": "聲調跳跳貓！存錢的錢。錢，錢，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "💰",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "一聲",
+      "二聲"
+    ],
+    "answer": "二聲",
+    "explanation": "「錢」寫成 ㄑㄧㄢˊ，是二聲。",
+    "explainSpeak": "錢，是二聲。",
+    "difficulty": 1,
+    "tags": [
+      "tone"
+    ]
+  },
+  {
+    "id": "g1zh-r3-015",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，是第幾聲？",
+    "speak": "聲調跳跳貓！冰塊的冰。冰，冰，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🧊",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "一聲",
+      "二聲",
+      "四聲"
+    ],
+    "answer": "一聲",
+    "explanation": "「冰」寫成 ㄅㄧㄥ，是一聲。",
+    "explainSpeak": "冰，是一聲。",
+    "difficulty": 2,
+    "tags": [
+      "tone"
+    ]
+  },
+  {
+    "id": "g1zh-r3-016",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "聲調跳跳貓：\n聽一聽，第二個字是第幾聲？",
+    "speak": "聲調跳跳貓！褲子，褲子。第二個字，是第幾聲？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "👖",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      "一聲",
+      "四聲",
+      "輕聲"
+    ],
+    "answer": "輕聲",
+    "explanation": "「褲子」寫成 ㄎㄨˋ ˙ㄗ，第二個字是輕聲。輕聲要在前面點一個小點。",
+    "explainSpeak": "褲子，第二個字是輕聲。輕聲念得又輕又短，不標聲調，要在前面點一個小點。",
+    "difficulty": 3,
+    "tags": [
+      "tone",
+      "輕聲"
+    ]
+  },
+  {
+    "id": "g1zh-r3-017",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "注音小偵探：\n哪一張卡的注音寫錯了？",
+    "speak": "注音小偵探出動！有一張卡的注音寫錯了，用放大鏡把它找出來。點一點圖，可以聽聽看。",
+    "visual": null,
+    "options": [
+      {
+        "label": "ㄧㄤˊ ㄘㄨㄥ",
+        "image": "🧅",
+        "speak": "洋蔥"
+      },
+      {
+        "label": "ㄒㄧㄥ",
+        "image": "⭐",
+        "speak": "星星"
+      },
+      {
+        "label": "ㄅㄞˊ ㄧㄣˊ",
+        "image": "☁️",
+        "speak": "白雲"
+      }
+    ],
+    "answer": "ㄅㄞˊ ㄧㄣˊ",
+    "explanation": "「白雲」要寫成 ㄅㄞˊ ㄩㄣˊ，不是 ㄅㄞˊ ㄧㄣˊ。",
+    "explainSpeak": "白雲的雲要嘟起嘴巴念，那張卡寫成嘴角拉開的音了。",
+    "difficulty": 3,
+    "tags": [
+      "detective",
+      "ㄧㄣㄩㄣ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-018",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "注音小偵探：\n哪一張卡的注音寫錯了？",
+    "speak": "注音小偵探出動！有一張卡的注音寫錯了，用放大鏡把它找出來。點一點圖，可以聽聽看。",
+    "visual": null,
+    "options": [
+      {
+        "label": "ㄆㄧㄥˊ ㄍㄨㄛˇ",
+        "image": "🍎",
+        "speak": "蘋果"
+      },
+      {
+        "label": "ㄊㄤˊ ㄍㄨㄛ",
+        "image": "🍬",
+        "speak": "糖果"
+      }
+    ],
+    "answer": "ㄊㄤˊ ㄍㄨㄛ",
+    "explanation": "「糖果」要寫成 ㄊㄤˊ ㄍㄨㄛˇ，不是 ㄊㄤˊ ㄍㄨㄛ。",
+    "explainSpeak": "糖果的果是三聲，那張卡忘了寫聲調。",
+    "difficulty": 2,
+    "tags": [
+      "detective",
+      "漏標聲調"
+    ]
+  },
+  {
+    "id": "g1zh-r3-019",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "注音小偵探：\n哪一張卡的注音寫錯了？",
+    "speak": "注音小偵探出動！有一張卡的注音寫錯了，用放大鏡把它找出來。點一點圖，可以聽聽看。",
+    "visual": null,
+    "options": [
+      {
+        "label": "ㄎㄨㄥˇ ㄒㄩㄝˋ",
+        "image": "🦚",
+        "speak": "孔雀"
+      },
+      {
+        "label": "ㄩㄢˊ",
+        "image": "⭕",
+        "speak": "圓形"
+      },
+      {
+        "label": "ㄊㄞˋ ㄧㄤˊ",
+        "image": "☀️",
+        "speak": "太陽"
+      }
+    ],
+    "answer": "ㄎㄨㄥˇ ㄒㄩㄝˋ",
+    "explanation": "「孔雀」要寫成 ㄎㄨㄥˇ ㄑㄩㄝˋ，不是 ㄎㄨㄥˇ ㄒㄩㄝˋ。",
+    "explainSpeak": "孔雀的雀，開頭跟數字七一樣，那張卡寫成下雪的雪的開頭了。",
+    "difficulty": 3,
+    "tags": [
+      "detective",
+      "ㄑㄒ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-020",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "注音小偵探：\n哪一張卡的注音寫錯了？",
+    "speak": "注音小偵探出動！有一張卡的注音寫錯了，用放大鏡把它找出來。點一點圖，可以聽聽看。",
+    "visual": null,
+    "options": [
+      {
+        "label": "ㄑㄧㄥ ㄨㄚ",
+        "image": "🐸",
+        "speak": "青蛙"
+      },
+      {
+        "label": "ㄊㄨˋ ˙ㄗ",
+        "image": "🐰",
+        "speak": "兔子"
+      },
+      {
+        "label": "ㄘㄨㄤˊ",
+        "image": "🛏️",
+        "speak": "床"
+      }
+    ],
+    "answer": "ㄘㄨㄤˊ",
+    "explanation": "「床」要寫成 ㄔㄨㄤˊ，不是 ㄘㄨㄤˊ。",
+    "explainSpeak": "睡覺的床，開頭跟吃東西的吃一樣，要捲舌，那張卡寫錯了。",
+    "difficulty": 3,
+    "tags": [
+      "detective",
+      "ㄔㄘ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-021",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "嘴形猜猜看：\n聽一聽，嘴巴是哪一個形狀？",
+    "speak": "嘴形猜猜看！白雲。雲，雲。念念看，嘴巴是扁扁的、圓圓的，還是嘟起來？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "☁️",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄧ",
+        "speak": "扁扁的的嘴巴，衣服的衣"
+      },
+      {
+        "label": "ㄨ",
+        "speak": "圓圓的的嘴巴，烏龜的烏"
+      },
+      {
+        "label": "ㄩ",
+        "speak": "嘟起來的嘴巴，下雨的雨"
+      }
+    ],
+    "answer": "ㄩ",
+    "explanation": "「雲」的注音是 ㄩㄣˊ，有 ㄩ 的音，嘴巴嘟起來。",
+    "explainSpeak": "雲，念的時候嘴巴嘟起來，跟下雨的雨一樣。",
+    "difficulty": 1,
+    "tags": [
+      "mouth",
+      "ㄧㄨㄩ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-022",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "嘴形猜猜看：\n聽一聽，嘴巴是哪一個形狀？",
+    "speak": "嘴形猜猜看！星星。星，星。念念看，嘴巴是扁扁的、圓圓的，還是嘟起來？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "⭐",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄧ",
+        "speak": "扁扁的的嘴巴，衣服的衣"
+      },
+      {
+        "label": "ㄨ",
+        "speak": "圓圓的的嘴巴，烏龜的烏"
+      },
+      {
+        "label": "ㄩ",
+        "speak": "嘟起來的嘴巴，下雨的雨"
+      }
+    ],
+    "answer": "ㄧ",
+    "explanation": "「星」的注音是 ㄒㄧㄥ，有 ㄧ 的音，嘴角往兩邊拉開，扁扁的。",
+    "explainSpeak": "星，念的時候嘴角往兩邊拉開，扁扁的，跟衣服的衣一樣。",
+    "difficulty": 1,
+    "tags": [
+      "mouth",
+      "ㄧㄨㄩ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-023",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "嘴形猜猜看：\n聽一聽，嘴巴是哪一個形狀？",
+    "speak": "嘴形猜猜看！嘴巴。嘴，嘴。念念看，嘴巴是扁扁的、圓圓的，還是嘟起來？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "👄",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄧ",
+        "speak": "扁扁的的嘴巴，衣服的衣"
+      },
+      {
+        "label": "ㄨ",
+        "speak": "圓圓的的嘴巴，烏龜的烏"
+      },
+      {
+        "label": "ㄩ",
+        "speak": "嘟起來的嘴巴，下雨的雨"
+      }
+    ],
+    "answer": "ㄨ",
+    "explanation": "「嘴」的注音是 ㄗㄨㄟˇ，有 ㄨ 的音，嘴巴圓圓的。",
+    "explainSpeak": "嘴，念的時候嘴巴圓圓的，跟烏龜的烏一樣。",
+    "difficulty": 2,
+    "tags": [
+      "mouth",
+      "ㄧㄨㄩ"
+    ]
+  },
+  {
+    "id": "g1zh-r3-024",
+    "grade": 1,
+    "subject": "chinese",
+    "unit": "首冊",
+    "section": "r3",
+    "type": "choice",
+    "prompt": "嘴形猜猜看：\n聽一聽，嘴巴是哪一個形狀？",
+    "speak": "嘴形猜猜看！裙子。裙，裙。念念看，嘴巴是扁扁的、圓圓的，還是嘟起來？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "👗",
+          "count": 1
+        }
+      ]
+    },
+    "options": [
+      {
+        "label": "ㄧ",
+        "speak": "扁扁的的嘴巴，衣服的衣"
+      },
+      {
+        "label": "ㄨ",
+        "speak": "圓圓的的嘴巴，烏龜的烏"
+      },
+      {
+        "label": "ㄩ",
+        "speak": "嘟起來的嘴巴，下雨的雨"
+      }
+    ],
+    "answer": "ㄩ",
+    "explanation": "「裙」的注音是 ㄑㄩㄣˊ，有 ㄩ 的音，嘴巴嘟起來。",
+    "explainSpeak": "裙，念的時候嘴巴嘟起來，跟下雨的雨一樣。",
+    "difficulty": 2,
+    "tags": [
+      "mouth",
+      "ㄧㄨㄩ"
+    ]
+  }
+]

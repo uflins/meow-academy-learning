@@ -1,0 +1,261 @@
+// 戰鬥：每一招都要答一題。答對貓咪攻擊；答錯糊塗怪反擊，並顯示正確答案和說明。
+import { h, wait, modal } from '../ui/dom.js';
+import { findRegion, BATTLE_SIZE } from '../engine/curriculum.js';
+import { loadRegionUnits, battleQuestions } from '../engine/pool.js';
+import { recordBattle, wrongFor, levelOf } from '../engine/progress.js';
+import { renderQuestion, formatAnswer } from '../engine/question-view.js';
+import { speak, stop as stopSpeech } from '../engine/speech.js';
+import { play } from '../engine/sfx.js';
+import { catSVG, monsterSVG, SUBJECT_CAT, CATS } from '../art/art.js';
+import { sample } from '../gen/util.js';
+
+const PRAISE = ['答對了！', '好厲害！', '太棒了！', '漂亮！', '完全正確！'];
+const LOW_PRAISE = ['答對了！好棒！', '哇，你好厲害！', '太棒了！', '對了，耶！'];
+
+function hpBar(kind) {
+  const fill = h('div', { class: 'hp-fill' });
+  const el = h('div', { class: `hp ${kind}` }, fill);
+  return { el, set(v) { fill.style.width = `${Math.max(0, Math.min(100, v))}%`; el.classList.toggle('low', v < 30); } };
+}
+
+async function setup(player, params) {
+  if (params.mode === 'wrongbook') {
+    const subject = params.subject;
+    const pool = wrongFor(player, subject).filter((w) => w.q.grade === player.grade);
+    const n = Math.min(pool.length, BATTLE_SIZE[player.grade]?.normal || 5);
+    const questions = sample(Math.random, pool, n).map((w) => Object.assign({}, w.q, { fromWrongBook: true }));
+    return {
+      region: { id: 'wrongbook', subject, name: '錯題特訓', color: '#B39DDB' },
+      node: { id: `drill-${subject}`, title: '錯題特訓', isBoss: false },
+      questions,
+      backTo: () => ['wrongbook', {}],
+    };
+  }
+  const region = findRegion(player.grade, params.regionId);
+  const units = await loadRegionUnits(region);
+  const node = units.flatMap((u) => u.nodes).find((n) => n.id === params.nodeId);
+  const size = BATTLE_SIZE[player.grade] || BATTLE_SIZE[5];
+  const questions = await battleQuestions(player, region, node, node.isBoss ? size.boss : size.normal);
+  return { region, node, questions, backTo: () => ['region', { regionId: region.id }] };
+}
+
+export default function battle(root, params, { go, app }) {
+  const player = app.player;
+  if (!player) return go('home');
+  const lowGrade = player.grade <= 2;
+  let alive = true;
+
+  const loading = h('div', { class: 'loading' }, '糊塗怪出現中…');
+  root.append(loading);
+
+  setup(player, params).then((ctx) => {
+    if (!alive) return;
+    if (!ctx.questions.length) {
+      root.replaceChildren(h('div', { class: 'warn' }, '這裡還沒有題目。'), h('button', { class: 'btn', onclick: () => go(...ctx.backTo()) }, '返回'));
+      return;
+    }
+    run(ctx);
+  }).catch((e) => {
+    root.replaceChildren(h('div', { class: 'warn' }, `載入失敗：${e.message}`), h('button', { class: 'btn', onclick: () => go('world') }, '回地圖'));
+  });
+
+  async function run({ region, node, questions, backTo }) {
+    const catId = SUBJECT_CAT[region.subject] || 'abacus';
+    const n = questions.length;
+    const hitsNeeded = Math.max(1, Math.ceil(n * 0.6));
+    const hitDamage = 100 / hitsNeeded;
+    let damage = 0;
+    let catHp = 100;
+    let combo = 0;
+    const results = [];
+
+    const catBox = h('div', { class: 'fighter cat idle', html: catSVG(catId) });
+    const monBox = h('div', { class: `fighter monster ${node.isBoss ? 'boss' : ''}`, html: monsterSVG(region.subject, { boss: node.isBoss }) });
+    const catHpBar = hpBar('cat');
+    const monHpBar = hpBar('monster');
+    const comboEl = h('div', { class: 'combo' });
+    const counter = h('div', { class: 'counter' });
+    const fx = h('div', { class: 'fx-layer' });
+    const qwrap = h('div', { class: 'qwrap' });
+
+    const setCat = (mood) => { catBox.innerHTML = catSVG(catId, { mood }); };
+    const setMon = (mood) => { monBox.innerHTML = monsterSVG(region.subject, { boss: node.isBoss, mood }); };
+    const updateHp = () => { catHpBar.set(catHp); monHpBar.set(100 - damage); };
+    const updateCombo = () => {
+      comboEl.textContent = combo >= 3 ? '✨ 必殺技準備好了！' : combo >= 2 ? `🔥 連擊 ×${combo}` : '';
+      comboEl.classList.toggle('ready', combo >= 3);
+    };
+
+    const quit = async () => {
+      const ok = await modal({ title: '要離開這場戰鬥嗎？', body: '這場的進度不會儲存喔。', actions: [
+        { label: '繼續戰鬥', value: false, kind: 'primary' }, { label: '離開', value: true },
+      ] });
+      if (ok) go(...backTo());
+    };
+
+    root.replaceChildren(h('div', { class: 'battle', style: { '--region': region.color } },
+      h('div', { class: 'battle-top' },
+        h('button', { class: 'btn icon', 'aria-label': '離開', onclick: quit }, '✕'),
+        h('div', { class: 'battle-title' }, node.title || region.name),
+        counter,
+      ),
+      h('div', { class: 'stage' },
+        h('div', { class: 'side left' }, h('div', { class: 'name' }, CATS[catId].name), catHpBar.el, catBox),
+        h('div', { class: 'mid' }, comboEl),
+        h('div', { class: 'side right' }, h('div', { class: 'name' }, node.isBoss ? '大魔王' : '糊塗怪'), monHpBar.el, monBox),
+        fx,
+      ),
+      qwrap,
+    ));
+    updateHp();
+    updateCombo();
+    if (node.isBoss) speak(lowGrade ? '大魔王出現了！加油！' : '');
+
+    const burst = async (text, cls) => {
+      const el = h('div', { class: `burst ${cls}` }, text);
+      fx.append(el);
+      await wait(700);
+      el.remove();
+    };
+
+    const catAttack = async (special) => {
+      play(special ? 'special' : 'attack');
+      catBox.classList.add('attack');
+      if (special) burst('✨ 必殺技！✨', 'special');
+      await wait(260);
+      monBox.classList.add('hit');
+      burst(special ? '💥💥' : '💥', 'hit');
+      await wait(380);
+      catBox.classList.remove('attack');
+      monBox.classList.remove('hit');
+    };
+
+    const monsterAttack = async () => {
+      play('hurt');
+      monBox.classList.add('attack');
+      await wait(260);
+      catBox.classList.add('hit');
+      setCat('surprised');
+      burst('咦？', 'oops');
+      await wait(420);
+      monBox.classList.remove('attack');
+      catBox.classList.remove('hit');
+    };
+
+    const explain = (q) => new Promise((resolve) => {
+      const say = q.explainSpeak || q.explanation;
+      const panel = h('div', { class: 'explain' },
+        h('div', { class: 'explain-title' }, '正確答案'),
+        h('div', { class: 'explain-answer' }, formatAnswer(q)),
+        q.explanation ? h('div', { class: 'explain-text' }, q.explanation) : null,
+        h('div', { class: 'explain-actions' },
+          lowGrade && say ? h('button', { class: 'btn', onclick: () => speak(say) }, '🔊 再聽一次') : null,
+          h('button', { class: 'btn primary', onclick: () => { stopSpeech(); panel.remove(); resolve(); } }, '我懂了'),
+        ),
+      );
+      qwrap.append(panel);
+      if (lowGrade && say) speak(say);
+    });
+
+    for (let i = 0; i < n && alive; i++) {
+      const q = questions[i];
+      counter.textContent = `第 ${i + 1} / ${n} 題`;
+      setCat('normal');
+      const view = renderQuestion(q, { lowGrade });
+      qwrap.replaceChildren(view.el);
+      if (lowGrade) speak(q.speak || q.prompt);
+
+      let res = await view.waitAnswer();
+      if (!alive) return;
+      stopSpeech();
+
+      if (res.correct) {
+        play('correct');
+        const special = combo >= 3;
+        combo = special ? 0 : combo + 1;
+        damage += special ? hitDamage * 2 : hitDamage;
+        setCat('happy');
+        if (lowGrade) speak(LOW_PRAISE[i % LOW_PRAISE.length]);
+        else burst(PRAISE[i % PRAISE.length], 'praise');
+        await catAttack(special);
+        results.push({ q, correct: true });
+      } else {
+        play('wrong');
+        combo = 0;
+        catHp = Math.max(12, catHp - (100 / n) * 1.2);
+        await monsterAttack();
+        updateHp();
+        let retried = false;
+        // 一年級：先再給一次機會（選項題）
+        if (lowGrade && (q.type === 'choice' || q.type === 'input') && !(q.type === 'choice' && q.options.length <= 2)) {
+          speak('再想想看');
+          setCat('normal');
+          res = await view.retry(res.btn);
+          if (!alive) return;
+          retried = true;
+          if (res.correct) {
+            play('correct');
+            speak('對了！');
+            damage += hitDamage / 2;
+            setCat('happy');
+            await catAttack(false);
+          }
+        }
+        if (!res.correct || !retried) {
+          view.lock();
+          view.highlightCorrect();
+          await explain(q);
+        }
+        results.push({ q, correct: false });
+      }
+      updateHp();
+      updateCombo();
+      if (damage >= 100) setMon('dizzy');
+      await wait(250);
+    }
+    if (!alive) return;
+
+    const defeated = damage >= 100 - 1e-6;
+    const rec = recordBattle(player, {
+      regionId: region.id, nodeId: node.id, subject: region.subject, catId, results, defeated, isBoss: node.isBoss,
+    });
+    if (defeated) {
+      play('pop');
+      monBox.classList.add('defeated');
+      monBox.innerHTML = '<div class="fish-pop">🐟</div>';
+      await wait(500);
+      play('win');
+    }
+    showResult(rec, defeated);
+
+    function showResult(r, won) {
+      const wrongs = results.filter((x) => !x.correct);
+      const levelUp = r.levelAfter > r.levelBefore;
+      if (levelUp) setTimeout(() => play('levelup'), 600);
+      const msg = won ? (node.isBoss ? '打倒大魔王了！' : '打倒糊塗怪了！') : `${CATS[catId].name}累了，休息一下再挑戰！`;
+      if (lowGrade) speak(won ? `${msg}你答對了${r.correct}題` : msg);
+      qwrap.replaceChildren(h('div', { class: 'result' },
+        h('div', { class: 'result-cat', html: catSVG(catId, { mood: won ? 'happy' : 'sleep' }) }),
+        h('h2', { class: 'result-title' }, msg),
+        h('div', { class: 'result-stars' }, [0, 1, 2].map((k) => h('span', { class: k < r.stars ? 'on' : '', style: { animationDelay: `${k * 0.25}s` } }, '★'))),
+        h('div', { class: 'result-line' }, `答對 ${r.correct} / ${r.total} 題`),
+        h('div', { class: 'result-gains' },
+          h('span', { class: 'chip' }, `+${r.xp} 經驗值`),
+          h('span', { class: 'chip' }, `+${r.fish} 🐟`)),
+        levelUp ? h('div', { class: 'levelup' }, `🎉 ${CATS[catId].name}升到 Lv.${levelOf(player.cats[catId].xp)} 了！`) : null,
+        wrongs.length ? h('details', { class: 'result-wrongs' },
+          h('summary', {}, `看看答錯的題目（${wrongs.length}）`),
+          wrongs.map((w) => h('div', { class: 'wrong-item' },
+            h('div', { class: 'wrong-q' }, w.q.prompt),
+            h('div', { class: 'wrong-a' }, '答案：', formatAnswer(w.q)),
+            w.q.explanation ? h('div', { class: 'wrong-e' }, w.q.explanation) : null))) : null,
+        h('div', { class: 'result-actions' },
+          h('button', { class: 'btn', onclick: () => go(...backTo()) }, '回地圖'),
+          h('button', { class: 'btn primary', onclick: () => go('battle', params) }, '再挑戰一次'),
+        ),
+      ));
+    }
+  }
+
+  return () => { alive = false; stopSpeech(); };
+}

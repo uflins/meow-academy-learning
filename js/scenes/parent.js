@@ -1,0 +1,242 @@
+// 家長區：家長 PIN 保護。玩家管理、各科答對率、存檔備份、語音設定。
+import { h, modal, toast } from '../ui/dom.js';
+import { askPin, createPin } from '../ui/pinpad.js';
+import * as store from '../save/store.js';
+import { AVATARS, CATS, SUBJECT_CAT } from '../art/art.js';
+import { regionsFor } from '../engine/curriculum.js';
+import { levelOf } from '../engine/progress.js';
+import { speak, voiceInfo, available as speechAvailable } from '../engine/speech.js';
+
+const SUBJECT_NAME = { chinese: '國語', math: '數學', science: '自然', social: '社會', english: '英語' };
+const SUPPORTED_GRADES = [1, 5];
+
+function pct(s) {
+  return s && s.total ? `${Math.round((s.correct / s.total) * 100)}%（${s.correct}/${s.total}）` : '還沒玩';
+}
+
+function fmtDate(t) {
+  if (!t) return '從來沒有';
+  const d = new Date(t);
+  return `${d.getMonth() + 1}/${d.getDate()} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+}
+
+async function gate() {
+  if (!store.hasParentPin()) {
+    await modal({ title: '設定家長 PIN', body: '家長區用 6 位數 PIN 保護，請設定一組孩子不知道的數字。', actions: [{ label: '開始設定', value: true, kind: 'primary' }], dismissible: false });
+    const pin = await createPin({ title: '設定家長 PIN', length: 6 });
+    if (pin == null) return false;
+    store.setParentPinHash(await store.hashPin('parent:' + pin));
+    toast('家長 PIN 設定好了');
+    return true;
+  }
+  const ok = await askPin({
+    title: '家長區', subtitle: '輸入 6 位數家長 PIN', length: 6,
+    check: async (v) => (await store.hashPin('parent:' + v)) === store.parentPinHash(),
+  });
+  return ok != null;
+}
+
+export default function parent(root, params, { go }) {
+  let tab = params.tab || 'players';
+  const body = h('div', { class: 'parent-body' });
+  const tabs = h('div', { class: 'tabs' });
+
+  const renderTabs = () => {
+    tabs.replaceChildren(...[['players', '玩家'], ['report', '成績'], ['backup', '存檔'], ['settings', '設定']].map(([id, label]) =>
+      h('button', { class: `tab ${tab === id ? 'on' : ''}`, onclick: () => { tab = id; render(); } }, label)));
+  };
+
+  const render = () => {
+    renderTabs();
+    body.replaceChildren(...({ players, report, backup, settings })[tab]());
+  };
+
+  // ---------- 玩家 ----------
+  function players() {
+    const list = store.listPlayers();
+    return [
+      h('div', { class: 'panel-actions' }, h('button', { class: 'btn primary', onclick: addPlayer }, '＋ 新增玩家')),
+      list.length ? h('div', { class: 'plist' }, list.map((p) => h('div', { class: 'prow' },
+        h('span', { class: 'player-avatar small' }, p.avatar),
+        h('div', { class: 'prow-main' }, h('b', {}, p.name), h('span', {}, `${p.grade} 年級．${p.pinKind === 'pictures' ? '圖片密碼' : '數字密碼'}．🐟 ${p.fish}`)),
+        h('button', { class: 'btn small', onclick: () => resetPin(p) }, '重設密碼'),
+        h('button', { class: 'btn small', onclick: () => changeGrade(p) }, '改年級'),
+        h('button', { class: 'btn small danger', onclick: () => removePlayer(p) }, '刪除'),
+      ))) : h('p', { class: 'muted' }, '還沒有玩家。'),
+    ];
+  }
+
+  async function addPlayer() {
+    const form = { name: '', avatar: AVATARS[0], grade: 5 };
+    const nameInput = h('input', { class: 'text-input', maxlength: 8, placeholder: '暱稱（不要用真實姓名）', oninput: (e) => { form.name = e.target.value.trim(); } });
+    const avatarGrid = h('div', { class: 'avatar-grid' });
+    const renderAvatars = () => avatarGrid.replaceChildren(...AVATARS.map((a) => h('button', {
+      class: `avatar-pick ${form.avatar === a ? 'on' : ''}`, onclick: () => { form.avatar = a; renderAvatars(); },
+    }, a)));
+    renderAvatars();
+    const gradeRow = h('div', { class: 'grade-row' });
+    const renderGrades = () => gradeRow.replaceChildren(...SUPPORTED_GRADES.map((g) => h('button', {
+      class: `btn ${form.grade === g ? 'primary' : ''}`, onclick: () => { form.grade = g; renderGrades(); },
+    }, `${g} 年級`)));
+    renderGrades();
+    const ok = await modal({
+      title: '新增玩家',
+      body: h('div', { class: 'form' },
+        h('label', {}, '暱稱'), nameInput,
+        h('label', {}, '頭像'), avatarGrid,
+        h('label', {}, '年級'), gradeRow,
+        h('p', { class: 'muted' }, '一年級用「圖片密碼」（依序點 3 張圖），其他年級用 4 位數密碼。'),
+      ),
+      actions: [{ label: '取消', value: false }, { label: '下一步：設定密碼', value: true, kind: 'primary' }],
+    });
+    if (!ok) return;
+    if (!form.name) { toast('請輸入暱稱'); return; }
+    const pinKind = form.grade <= 2 ? 'pictures' : 'digits';
+    const pin = await createPin({ title: `${form.avatar} ${form.name} 的密碼`, kind: pinKind, length: pinKind === 'pictures' ? 3 : 4 });
+    if (pin == null) return;
+    store.addPlayer({ name: form.name, avatar: form.avatar, grade: form.grade, pinKind, pinHash: await store.hashPin(pin) });
+    toast(`${form.name} 加入了！`);
+    render();
+  }
+
+  async function resetPin(p) {
+    const pin = await createPin({ title: `重設 ${p.name} 的密碼`, kind: p.pinKind, length: p.pinKind === 'pictures' ? 3 : 4 });
+    if (pin == null) return;
+    store.updatePlayer(p.id, { pinHash: await store.hashPin(pin) });
+    toast('密碼已重設');
+  }
+
+  async function changeGrade(p) {
+    const g = await modal({ title: `${p.name} 的年級`, body: '換年級後，地圖會換成該年級的範圍；舊進度會保留。',
+      actions: SUPPORTED_GRADES.map((x) => ({ label: `${x} 年級`, value: x, kind: x === p.grade ? 'primary' : '' })) });
+    if (!g || g === p.grade) return;
+    const pinKind = g <= 2 ? 'pictures' : 'digits';
+    if (pinKind !== p.pinKind) {
+      const pin = await createPin({ title: `設定 ${p.name} 的新密碼`, kind: pinKind, length: pinKind === 'pictures' ? 3 : 4 });
+      if (pin == null) return;
+      store.updatePlayer(p.id, { grade: g, pinKind, pinHash: await store.hashPin(pin) });
+    } else {
+      store.updatePlayer(p.id, { grade: g });
+    }
+    render();
+  }
+
+  async function removePlayer(p) {
+    const ok = await modal({ title: `刪除 ${p.name}？`, body: '這位玩家的所有進度都會刪除，而且不能復原。建議先到「存檔」匯出備份。',
+      actions: [{ label: '取消', value: false, kind: 'primary' }, { label: '刪除', value: true, kind: 'danger' }] });
+    if (!ok) return;
+    store.removePlayer(p.id);
+    render();
+  }
+
+  // ---------- 成績 ----------
+  function report() {
+    const list = store.listPlayers();
+    if (!list.length) return [h('p', { class: 'muted' }, '還沒有玩家。')];
+    return list.map((p) => {
+      const subjects = [...new Set(regionsFor(p.grade).map((r) => r.subject))];
+      const tagStats = Object.entries(p.stats).filter(([k]) => k.startsWith('tag:')).sort((a, b) => b[1] - a[1]).slice(0, 5);
+      const recentWrong = p.wrongBook.slice(-10).reverse();
+      return h('div', { class: 'report-card' },
+        h('h3', {}, `${p.avatar} ${p.name}（${p.grade} 年級）`),
+        h('table', { class: 'report-table' },
+          h('tr', {}, h('th', {}, '科目'), h('th', {}, '答對率'), h('th', {}, '夥伴貓')),
+          subjects.map((s) => h('tr', {},
+            h('td', {}, SUBJECT_NAME[s]),
+            h('td', {}, pct(p.stats[s])),
+            h('td', {}, `${CATS[SUBJECT_CAT[s]].name} Lv.${levelOf(p.cats[SUBJECT_CAT[s]]?.xp || 0)}`)))),
+        tagStats.length ? h('div', { class: 'muted' }, '最常錯的觀念：', tagStats.map(([k, v]) => `${k.split(':').pop()}（${v}）`).join('、')) : null,
+        h('div', { class: 'muted' }, `錯題本：${p.wrongBook.length} 題`),
+        recentWrong.length ? h('details', {}, h('summary', {}, '最近答錯的題目'),
+          recentWrong.map((w) => h('div', { class: 'wrong-item' }, h('div', { class: 'wrong-q' }, `[${SUBJECT_NAME[w.q.subject]} ${w.q.section}] ${w.q.prompt}`)))) : null,
+      );
+    });
+  }
+
+  // ---------- 存檔 ----------
+  function backup() {
+    const fileInput = h('input', { type: 'file', accept: 'application/json,.json', style: { display: 'none' }, onchange: async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const ok = await modal({ title: '匯入存檔？', body: '匯入後，這台 iPad 上現在的進度會被檔案裡的進度取代。',
+        actions: [{ label: '取消', value: false }, { label: '匯入', value: true, kind: 'primary' }] });
+      if (!ok) return;
+      try {
+        store.importData(await file.text());
+        toast('匯入完成');
+        render();
+      } catch (err) {
+        modal({ title: '匯入失敗', body: err.message });
+      }
+    } });
+    return [
+      h('p', {}, '進度只存在這台 iPad 的這個瀏覽器裡。清除瀏覽資料、換 iPad 之前，請先匯出備份。'),
+      h('p', { class: 'muted' }, `上次匯出：${fmtDate(store.lastBackupAt())}`),
+      h('div', { class: 'panel-actions' },
+        h('button', { class: 'btn primary', onclick: exportSave }, '⬇️ 匯出存檔'),
+        h('button', { class: 'btn', onclick: () => fileInput.click() }, '⬆️ 匯入存檔'),
+        fileInput),
+      !store.isStorageOk() ? h('div', { class: 'warn' }, '⚠️ 這個瀏覽器目前不能存檔（可能是無痕模式）。') : null,
+    ];
+  }
+
+  async function exportSave() {
+    const text = store.exportData();
+    const d = new Date();
+    const name = `喵喵學園存檔-${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}.json`;
+    const file = new File([text], name, { type: 'application/json' });
+    try {
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        await navigator.share({ files: [file], title: name });
+        toast('已匯出');
+        render();
+        return;
+      }
+    } catch (e) {
+      if (e && e.name === 'AbortError') return;
+    }
+    const url = URL.createObjectURL(file);
+    const a = h('a', { href: url, download: name });
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
+    toast('已匯出');
+    render();
+  }
+
+  // ---------- 設定 ----------
+  function settings() {
+    const s = store.settings();
+    return [
+      h('div', { class: 'setting-row' }, h('span', {}, '聲音（語音和音效）'),
+        h('button', { class: `btn ${s.muted ? '' : 'primary'}`, onclick: () => { s.muted = !s.muted; store.save(); render(); } }, s.muted ? '已關閉' : '開啟中')),
+      h('div', { class: 'setting-row' }, h('span', {}, '朗讀速度'),
+        h('div', { class: 'grade-row' }, [[0.75, '慢'], [0.9, '中'], [1.05, '快']].map(([v, l]) =>
+          h('button', { class: `btn small ${s.voiceRate === v ? 'primary' : ''}`, onclick: () => { s.voiceRate = v; store.save(); render(); } }, l)))),
+      h('div', { class: 'setting-row' }, h('span', {}, `語音：${speechAvailable() ? voiceInfo() : '這個瀏覽器不支援'}`),
+        h('button', { class: 'btn small', onclick: () => speak('哪一個是，貓咪的注音？ㄇㄠ，貓。') }, '🔊 測試')),
+      h('div', { class: 'setting-row' }, h('span', {}, '存檔狀態'), h('span', {}, store.isStorageOk() ? '✅ 可以存檔' : '⚠️ 不能存檔')),
+      h('div', { class: 'setting-row' }, h('span', {}, '家長 PIN'),
+        h('button', { class: 'btn small', onclick: async () => {
+          const pin = await createPin({ title: '設定新的家長 PIN', length: 6 });
+          if (pin == null) return;
+          store.setParentPinHash(await store.hashPin('parent:' + pin));
+          toast('家長 PIN 已更新');
+        } }, '更改')),
+    ];
+  }
+
+  root.append(h('div', { class: 'parent' },
+    h('div', { class: 'topbar' },
+      h('button', { class: 'btn icon', 'aria-label': '返回', onclick: () => go('home') }, '◀'),
+      h('div', { class: 'who' }, '👪 家長區'),
+    ),
+    tabs, body));
+
+  gate().then((ok) => {
+    if (!ok) return go('home');
+    render();
+    if (params.setup && !store.listPlayers().length) addPlayer();
+  });
+}
