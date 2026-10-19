@@ -18,7 +18,7 @@
   --gold: #FFC93C;
   --region: #F28C6B;
   --radius: 20px;
-  --font: "jf-openhuninn", -apple-system, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  --font: "PingFang TC", -apple-system, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
 }
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
