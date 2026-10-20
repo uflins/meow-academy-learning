@@ -2,10 +2,18 @@
 import { h } from '../ui/dom.js';
 import { regionsFor } from '../engine/curriculum.js';
 import { wrongFor, WRONG_GRADUATE_STREAK } from '../engine/progress.js';
-import { formatAnswer } from '../engine/question-view.js';
+import { formatAnswer, renderVisual } from '../engine/question-view.js';
 import { playerBar } from './world.js';
 
 const SUBJECT_NAME = { chinese: '國語', math: '數學', science: '自然', social: '社會', english: '英語' };
+
+// 「第 3 課」「複習一」「2-2 節」
+function sectionLabel(q) {
+  const s = String(q.section);
+  if (/^r\d$/.test(s)) return `複習${'一二三'[Number(s[1]) - 1]}`;
+  if (/^\d+$/.test(s)) return `第 ${s} 課`;
+  return `${s} 節`;
+}
 
 export default function wrongbook(root, params, { go, app }) {
   const player = app.player;
@@ -24,8 +32,10 @@ export default function wrongbook(root, params, { go, app }) {
             h('b', {}, `${SUBJECT_NAME[s]}（${list.length} 題）`),
             list.length ? h('button', { class: 'btn primary', onclick: () => go('battle', { mode: 'wrongbook', subject: s }) }, '開始特訓') : h('span', { class: 'muted' }, '目前沒有錯題 🎉')),
           list.length ? h('details', {}, h('summary', {}, '看題目'),
-            list.slice().reverse().map((w) => h('div', { class: 'wrong-item' },
+            list.slice().sort((a, b) => String(a.q.section).localeCompare(String(b.q.section), 'zh-Hant', { numeric: true })).map((w) => h('div', { class: 'wrong-item' },
+              h('div', { class: 'wrong-tag' }, sectionLabel(w.q)),
               h('div', { class: 'wrong-q' }, w.q.prompt),
+              renderVisual(w.q.visual, 'small'),
               h('div', { class: 'wrong-a' }, '答案：', formatAnswer(w.q), w.streak ? `　（已連對 ${w.streak} 次）` : '')))) : null,
         );
       }),

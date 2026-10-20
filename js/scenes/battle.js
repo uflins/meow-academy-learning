@@ -1,9 +1,10 @@
 // 戰鬥：每一招都要答一題。答對貓咪攻擊；答錯糊塗怪反擊，並顯示正確答案和說明。
+// 怪物的血量撐到最後一題：累積傷害達 60% 就在最後一擊打倒它。
 import { h, wait, modal } from '../ui/dom.js';
 import { findRegion, BATTLE_SIZE } from '../engine/curriculum.js';
 import { loadRegionUnits, battleQuestions } from '../engine/pool.js';
 import { recordBattle, wrongFor, levelOf } from '../engine/progress.js';
-import { renderQuestion, formatAnswer } from '../engine/question-view.js';
+import { renderQuestion, formatAnswer, renderVisual } from '../engine/question-view.js';
 import { speak, stop as stopSpeech } from '../engine/speech.js';
 import { play } from '../engine/sfx.js';
 import { catSVG, monsterSVG, SUBJECT_CAT, CATS } from '../art/art.js';
@@ -11,6 +12,7 @@ import { sample } from '../gen/util.js';
 
 const PRAISE = ['答對了！', '好厲害！', '太棒了！', '漂亮！', '完全正確！'];
 const LOW_PRAISE = ['答對了！好棒！', '哇，你好厲害！', '太棒了！', '對了，耶！'];
+const DEFEAT_AT = 60; // 累積傷害達 60% 就能打倒
 
 function hpBar(kind) {
   const fill = h('div', { class: 'hp-fill' });
@@ -28,7 +30,9 @@ async function setup(player, params) {
       region: { id: 'wrongbook', subject, name: '錯題特訓', color: '#B39DDB' },
       node: { id: `drill-${subject}`, title: '錯題特訓', isBoss: false },
       questions,
+      isDrill: true,
       backTo: () => ['wrongbook', {}],
+      backLabel: '回錯題本',
     };
   }
   const region = findRegion(player.grade, params.regionId);
@@ -36,7 +40,7 @@ async function setup(player, params) {
   const node = units.flatMap((u) => u.nodes).find((n) => n.id === params.nodeId);
   const size = BATTLE_SIZE[player.grade] || BATTLE_SIZE[5];
   const questions = await battleQuestions(player, region, node, node.isBoss ? size.boss : size.normal);
-  return { region, node, questions, backTo: () => ['region', { regionId: region.id }] };
+  return { region, node, questions, backTo: () => ['region', { regionId: region.id }], backLabel: '回地圖' };
 }
 
 export default function battle(root, params, { go, app }) {
@@ -45,8 +49,7 @@ export default function battle(root, params, { go, app }) {
   const lowGrade = player.grade <= 2;
   let alive = true;
 
-  const loading = h('div', { class: 'loading' }, '糊塗怪出現中…');
-  root.append(loading);
+  root.append(h('div', { class: 'loading' }, '糊塗怪出現中…'));
 
   setup(player, params).then((ctx) => {
     if (!alive) return;
@@ -59,11 +62,11 @@ export default function battle(root, params, { go, app }) {
     root.replaceChildren(h('div', { class: 'warn' }, `載入失敗：${e.message}`), h('button', { class: 'btn', onclick: () => go('world') }, '回地圖'));
   });
 
-  async function run({ region, node, questions, backTo }) {
+  async function run({ region, node, questions, backTo, backLabel, isDrill }) {
     const catId = SUBJECT_CAT[region.subject] || 'abacus';
     const n = questions.length;
-    const hitsNeeded = Math.max(1, Math.ceil(n * 0.6));
-    const hitDamage = 100 / hitsNeeded;
+    const perHit = 100 / n;
+    const specialAt = lowGrade ? 2 : 3; // 連對幾題後，下一招變必殺技（一年級題數少，連對 2 題就好）
     let damage = 0;
     let catHp = 100;
     let combo = 0;
@@ -80,10 +83,14 @@ export default function battle(root, params, { go, app }) {
 
     const setCat = (mood) => { catBox.innerHTML = catSVG(catId, { mood }); };
     const setMon = (mood) => { monBox.innerHTML = monsterSVG(region.subject, { boss: node.isBoss, mood }); };
-    const updateHp = () => { catHpBar.set(catHp); monHpBar.set(100 - damage); };
+    // 最後一題答完前，怪物至少留 5% 血
+    const updateHp = (final = false) => {
+      catHpBar.set(catHp);
+      monHpBar.set(final ? 100 - damage : Math.max(5, 100 - damage));
+    };
     const updateCombo = () => {
-      comboEl.textContent = combo >= 3 ? '✨ 必殺技準備好了！' : combo >= 2 ? `🔥 連擊 ×${combo}` : '';
-      comboEl.classList.toggle('ready', combo >= 3);
+      comboEl.textContent = combo >= specialAt ? '✨ 必殺技準備好了！' : combo >= 2 ? `🔥 連擊 ×${combo}` : '';
+      comboEl.classList.toggle('ready', combo >= specialAt);
     };
 
     const quit = async () => {
@@ -93,7 +100,7 @@ export default function battle(root, params, { go, app }) {
       if (ok) go(...backTo());
     };
 
-    root.replaceChildren(h('div', { class: 'battle', style: { '--region': region.color } },
+    const battleEl = h('div', { class: 'battle', style: { '--region': region.color } },
       h('div', { class: 'battle-top' },
         h('button', { class: 'btn icon', 'aria-label': '離開', onclick: quit }, '✕'),
         h('div', { class: 'battle-title' }, node.title || region.name),
@@ -106,10 +113,10 @@ export default function battle(root, params, { go, app }) {
         fx,
       ),
       qwrap,
-    ));
+    );
+    root.replaceChildren(battleEl);
     updateHp();
     updateCombo();
-    if (node.isBoss) speak(lowGrade ? '大魔王出現了！加油！' : '');
 
     const burst = async (text, cls) => {
       const el = h('div', { class: `burst ${cls}` }, text);
@@ -117,6 +124,13 @@ export default function battle(root, params, { go, app }) {
       await wait(700);
       el.remove();
     };
+
+    if (node.isBoss) {
+      burst('👑 大魔王出現了！', 'special');
+      if (lowGrade) await speak('大魔王出現了！加油！');
+      else await wait(600);
+      if (!alive) return;
+    }
 
     const catAttack = async (special) => {
       play(special ? 'special' : 'attack');
@@ -142,7 +156,8 @@ export default function battle(root, params, { go, app }) {
       catBox.classList.remove('hit');
     };
 
-    const explain = (q) => new Promise((resolve) => {
+    // 說明放在作答區的位置，題目和附圖保持看得到
+    const explain = (view, q) => new Promise((resolve) => {
       const say = q.explainSpeak || q.explanation;
       const panel = h('div', { class: 'explain' },
         h('div', { class: 'explain-title' }, '正確答案'),
@@ -150,10 +165,10 @@ export default function battle(root, params, { go, app }) {
         q.explanation ? h('div', { class: 'explain-text' }, q.explanation) : null,
         h('div', { class: 'explain-actions' },
           lowGrade && say ? h('button', { class: 'btn', onclick: () => speak(say) }, '🔊 再聽一次') : null,
-          h('button', { class: 'btn primary', onclick: () => { stopSpeech(); panel.remove(); resolve(); } }, '我懂了'),
+          h('button', { class: 'btn primary', onclick: () => { stopSpeech(); resolve(); } }, '我懂了'),
         ),
       );
-      qwrap.append(panel);
+      view.showExplanation(panel);
       if (lowGrade && say) speak(say);
     });
 
@@ -171,12 +186,12 @@ export default function battle(root, params, { go, app }) {
 
       if (res.correct) {
         play('correct');
-        const special = combo >= 3;
+        const special = combo >= specialAt;
         combo = special ? 0 : combo + 1;
-        damage += special ? hitDamage * 2 : hitDamage;
+        damage += special ? perHit * 2 : perHit;
         setCat('happy');
         if (lowGrade) speak(LOW_PRAISE[i % LOW_PRAISE.length]);
-        else burst(PRAISE[i % PRAISE.length], 'praise');
+        burst(lowGrade ? '答對了！' : PRAISE[i % PRAISE.length], 'praise');
         await catAttack(special);
         results.push({ q, correct: true });
       } else {
@@ -186,8 +201,8 @@ export default function battle(root, params, { go, app }) {
         await monsterAttack();
         updateHp();
         let retried = false;
-        // 一年級：先再給一次機會（選項題）
-        if (lowGrade && (q.type === 'choice' || q.type === 'input') && !(q.type === 'choice' && q.options.length <= 2)) {
+        // 一年級：先再給一次機會（選項 3 個以上的選擇題、數字題）
+        if (lowGrade && (q.type === 'input' || (q.type === 'choice' && q.options.length > 2))) {
           speak('再想想看');
           setCat('normal');
           res = await view.retry(res.btn);
@@ -196,7 +211,7 @@ export default function battle(root, params, { go, app }) {
           if (res.correct) {
             play('correct');
             speak('對了！');
-            damage += hitDamage / 2;
+            damage += perHit / 2;
             setCat('happy');
             await catAttack(false);
           }
@@ -204,27 +219,40 @@ export default function battle(root, params, { go, app }) {
         if (!res.correct || !retried) {
           view.lock();
           view.highlightCorrect();
-          await explain(q);
+          await explain(view, q);
         }
         results.push({ q, correct: false });
       }
       updateHp();
       updateCombo();
-      if (damage >= 100) setMon('dizzy');
       await wait(250);
     }
     if (!alive) return;
 
-    const defeated = damage >= 100 - 1e-6;
+    combo = 0;
+    updateCombo();
+    const defeated = damage >= DEFEAT_AT - 1e-6;
     const rec = recordBattle(player, {
-      regionId: region.id, nodeId: node.id, subject: region.subject, catId, results, defeated, isBoss: node.isBoss,
+      regionId: region.id, nodeId: node.id, subject: region.subject, catId, results, defeated, isBoss: node.isBoss, isDrill,
     });
     if (defeated) {
+      // 最後一擊：把剩下的血打完
+      burst('最後一擊！', 'special');
+      play('attack');
+      catBox.classList.add('attack');
+      await wait(260);
+      damage = 100;
+      updateHp(true);
+      setMon('dizzy');
+      await wait(450);
+      catBox.classList.remove('attack');
       play('pop');
       monBox.classList.add('defeated');
       monBox.innerHTML = '<div class="fish-pop">🐟</div>';
       await wait(500);
       play('win');
+    } else {
+      updateHp();
     }
     showResult(rec, defeated);
 
@@ -234,24 +262,29 @@ export default function battle(root, params, { go, app }) {
       if (levelUp) setTimeout(() => play('levelup'), 600);
       const msg = won ? (node.isBoss ? '打倒大魔王了！' : '打倒糊塗怪了！') : `${CATS[catId].name}累了，休息一下再挑戰！`;
       if (lowGrade) speak(won ? `${msg}你答對了${r.correct}題` : msg);
+      battleEl.classList.add('done');
       qwrap.replaceChildren(h('div', { class: 'result' },
-        h('div', { class: 'result-cat', html: catSVG(catId, { mood: won ? 'happy' : 'sleep' }) }),
-        h('h2', { class: 'result-title' }, msg),
-        h('div', { class: 'result-stars' }, [0, 1, 2].map((k) => h('span', { class: k < r.stars ? 'on' : '', style: { animationDelay: `${k * 0.25}s` } }, '★'))),
-        h('div', { class: 'result-line' }, `答對 ${r.correct} / ${r.total} 題`),
-        h('div', { class: 'result-gains' },
-          h('span', { class: 'chip' }, `+${r.xp} 經驗值`),
-          h('span', { class: 'chip' }, `+${r.fish} 🐟`)),
-        levelUp ? h('div', { class: 'levelup' }, `🎉 ${CATS[catId].name}升到 Lv.${levelOf(player.cats[catId].xp)} 了！`) : null,
-        wrongs.length ? h('details', { class: 'result-wrongs' },
-          h('summary', {}, `看看答錯的題目（${wrongs.length}）`),
-          wrongs.map((w) => h('div', { class: 'wrong-item' },
-            h('div', { class: 'wrong-q' }, w.q.prompt),
-            h('div', { class: 'wrong-a' }, '答案：', formatAnswer(w.q)),
-            w.q.explanation ? h('div', { class: 'wrong-e' }, w.q.explanation) : null))) : null,
+        h('div', { class: 'result-scroll' },
+          h('div', { class: 'result-cat', html: catSVG(catId, { mood: won ? 'happy' : 'sleep' }) }),
+          h('h2', { class: 'result-title' }, msg),
+          h('div', { class: 'result-stars' }, [0, 1, 2].map((k) => h('span', { class: k < r.stars ? 'on' : '', style: { animationDelay: `${k * 0.25}s` } }, '★'))),
+          h('div', { class: 'result-line' }, `答對 ${r.correct} / ${r.total} 題`),
+          h('div', { class: 'result-gains' },
+            h('span', { class: 'chip' }, `+${r.xp} 經驗值`),
+            h('span', { class: 'chip' }, `+${r.fish} 🐟`)),
+          levelUp ? h('div', { class: 'levelup' }, `🎉 ${CATS[catId].name}升到 Lv.${levelOf(player.cats[catId].xp)} 了！`) : null,
+          r.graduated ? h('div', { class: 'levelup' }, `🎓 有 ${r.graduated} 題從錯題本畢業了！`) : null,
+          wrongs.length ? h('details', { class: 'result-wrongs' },
+            h('summary', {}, `看看答錯的題目（${wrongs.length}）`),
+            wrongs.map((w) => h('div', { class: 'wrong-item' },
+              h('div', { class: 'wrong-q' }, w.q.prompt),
+              renderVisual(w.q.visual, 'small'),
+              h('div', { class: 'wrong-a' }, '答案：', formatAnswer(w.q)),
+              w.q.explanation ? h('div', { class: 'wrong-e' }, w.q.explanation) : null))) : null,
+        ),
         h('div', { class: 'result-actions' },
-          h('button', { class: 'btn', onclick: () => go(...backTo()) }, '回地圖'),
-          h('button', { class: 'btn primary', onclick: () => go('battle', params) }, '再挑戰一次'),
+          h('button', { class: 'btn', onclick: () => go(...backTo()) }, backLabel),
+          h('button', { class: 'btn primary', onclick: () => go('battle', params) }, isDrill ? '再特訓一次' : '再挑戰一次'),
         ),
       ));
     }

@@ -40,20 +40,23 @@ export function wrongFor(player, subject, unit) {
 }
 
 // 一場戰鬥結束後寫入進度。results: [{ q, correct }]
-export function recordBattle(player, { regionId, nodeId, subject, catId, results, defeated, isBoss }) {
+export function recordBattle(player, { regionId, nodeId, subject, catId, results, defeated, isBoss, isDrill = false }) {
   const correct = results.filter((r) => r.correct).length;
   const total = results.length;
   const stars = starsFor(correct, total, defeated);
   const key = progressKey(regionId, nodeId);
 
+  // 錯題特訓不算關卡，不記星星
   const prev = player.progress[key] || { stars: 0, plays: 0, bestRate: 0 };
-  const firstThreeStars = stars === 3 && prev.stars < 3;
-  player.progress[key] = {
-    stars: Math.max(prev.stars, stars),
-    plays: prev.plays + 1,
-    bestRate: Math.max(prev.bestRate, total ? correct / total : 0),
-    lastAt: Date.now(),
-  };
+  const firstThreeStars = !isDrill && stars === 3 && prev.stars < 3;
+  if (!isDrill) {
+    player.progress[key] = {
+      stars: Math.max(prev.stars, stars),
+      plays: prev.plays + 1,
+      bestRate: Math.max(prev.bestRate, total ? correct / total : 0),
+      lastAt: Date.now(),
+    };
+  }
 
   // 統計：科目、節
   for (const r of results) {
@@ -71,13 +74,14 @@ export function recordBattle(player, { regionId, nodeId, subject, catId, results
   }
 
   // 錯題本
+  let graduated = 0;
   for (const r of results) {
     const idx = player.wrongBook.findIndex((w) => w.q.id === r.q.id);
     if (r.correct) {
       if (idx >= 0) {
         const w = player.wrongBook[idx];
         w.streak = (w.streak || 0) + 1;
-        if (w.streak >= WRONG_GRADUATE_STREAK) player.wrongBook.splice(idx, 1);
+        if (w.streak >= WRONG_GRADUATE_STREAK) { player.wrongBook.splice(idx, 1); graduated += 1; }
       }
     } else if (idx >= 0) {
       player.wrongBook[idx].streak = 0;
@@ -105,5 +109,5 @@ export function recordBattle(player, { regionId, nodeId, subject, catId, results
   if (player.history.length > 300) player.history.splice(0, player.history.length - 300);
 
   store.save();
-  return { correct, total, stars, xp, fish, levelBefore, levelAfter, firstThreeStars };
+  return { correct, total, stars, xp, fish, levelBefore, levelAfter, firstThreeStars, graduated };
 }

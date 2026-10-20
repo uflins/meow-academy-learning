@@ -58,12 +58,13 @@ function splitDiagramSVG({ total, parts }) {
   </svg>`;
 }
 
-function renderVisual(v) {
+// 題目附圖；size = 'small' 用在錯題回顧、錯題本
+export function renderVisual(v, size = '') {
   if (!v) return null;
-  if (v.svg) return h('div', { class: 'q-visual svg', html: v.svg });
-  if (v.splitDiagram) return h('div', { class: 'q-visual svg split', html: splitDiagramSVG(v.splitDiagram) });
+  if (v.svg) return h('div', { class: `q-visual svg ${size}`, html: v.svg });
+  if (v.splitDiagram) return h('div', { class: `q-visual svg split ${size}`, html: splitDiagramSVG(v.splitDiagram) });
   if (v.emojiGroups) {
-    return h('div', { class: 'q-visual groups' },
+    return h('div', { class: `q-visual groups ${size}` },
       v.emojiGroups.map((g) => h('div', { class: 'emoji-group' },
         g.label ? h('div', { class: 'emoji-group-label' }, g.label) : null,
         h('div', { class: `emoji-grid ${g.count > 6 ? 'dense' : ''} ${g.count === 1 ? 'single' : ''}` },
@@ -112,8 +113,17 @@ function multiArea(q, ctx, answer) {
     } }, optionContent(o));
     opts.append(btn);
   }
-  wrap.append(h('div', { class: 'q-hint' }, '可以選很多個，選好按「確定」'), opts,
-    h('button', { class: 'btn primary confirm', onclick: () => answer([...chosen]) }, '確定'));
+  const hint = h('div', { class: 'q-hint' }, '可以選很多個，選好按「確定」');
+  wrap.append(hint, opts,
+    h('button', { class: 'btn primary confirm', onclick: (e) => {
+      if (!chosen.size) {
+        hint.textContent = '還沒有選喔！先點選答案，再按「確定」';
+        hint.classList.add('shake');
+        setTimeout(() => hint.classList.remove('shake'), 400);
+        return;
+      }
+      answer([...chosen]);
+    } }, '確定'));
   return wrap;
 }
 
@@ -217,6 +227,11 @@ export function renderQuestion(q, ctx = {}) {
       return new Promise((r) => { resolveAnswer = r; });
     },
     lock() { locked = true; el.classList.add('locked'); },
+    // 答錯時把說明放在作答區的位置，題目和附圖保持看得到
+    showExplanation(panel) {
+      el.classList.add('explaining');
+      el.querySelector('.q-body').append(panel);
+    },
     highlightCorrect() {
       if (q.type === 'choice') {
         el.querySelectorAll('.opt').forEach((b) => { if (b.dataset.label === String(q.answer)) b.classList.add('right'); });

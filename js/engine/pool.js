@@ -137,6 +137,8 @@ export async function battleQuestions(player, region, node, n) {
   const k = Math.min(wrong.length, Math.max(n >= 5 ? 1 : 0, Math.round(n * 0.2)));
   if (!k) return fresh;
   const picked = sample(Math.random, wrong, k).map((w) => Object.assign({}, w.q, { fromWrongBook: true }));
-  const keep = fresh.slice(0, n - picked.length);
+  // 新題裡如果剛好有同一題，先拿掉，避免同一場出現兩次
+  const pickedIds = new Set(picked.map((q) => q.id));
+  const keep = fresh.filter((q) => !pickedIds.has(q.id)).slice(0, n - picked.length);
   return shuffle(Math.random, [...keep, ...picked]);
 }

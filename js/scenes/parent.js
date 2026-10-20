@@ -48,7 +48,7 @@ export default function parent(root, params, { go }) {
 
   const render = () => {
     renderTabs();
-    body.replaceChildren(...({ players, report, backup, settings })[tab]());
+    body.replaceChildren(...({ players, report, backup, settings })[tab]().filter(Boolean));
   };
 
   // ---------- 玩家 ----------
@@ -188,6 +188,7 @@ export default function parent(root, params, { go }) {
     try {
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
         await navigator.share({ files: [file], title: name });
+        store.markBackedUp();
         toast('已匯出');
         render();
         return;
@@ -201,6 +202,7 @@ export default function parent(root, params, { go }) {
     a.click();
     a.remove();
     setTimeout(() => URL.revokeObjectURL(url), 2000);
+    store.markBackedUp();
     toast('已匯出');
     render();
   }

@@ -1,7 +1,7 @@
 // 喵喵學園大冒險：主程式與換頁。
 import * as store from './save/store.js';
 import { unlock } from './engine/sfx.js';
-import { stop as stopSpeech } from './engine/speech.js';
+import { stop as stopSpeech, unlock as unlockSpeech } from './engine/speech.js';
 import home from './scenes/home.js';
 import world from './scenes/world.js';
 import region from './scenes/region.js';
@@ -36,7 +36,7 @@ function boot() {
   app.root = document.getElementById('app');
   store.load();
   // iPad 要在第一次觸控後才能播放聲音
-  window.addEventListener('pointerdown', unlock, { once: true });
+  window.addEventListener('pointerdown', () => { unlock(); unlockSpeech(); }, { once: true });
   // 防止 iPad 雙擊放大
   document.addEventListener('dblclick', (e) => e.preventDefault(), { passive: false });
   go('home');

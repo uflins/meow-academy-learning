@@ -26,7 +26,11 @@ function migrate(d) {
   d.family = Object.assign(emptyData().family, d.family || {});
   d.family.settings = Object.assign(emptyData().family.settings, d.family.settings || {});
   d.players = d.players || {};
-  for (const p of Object.values(d.players)) normalizePlayer(p);
+  for (const p of Object.values(d.players)) {
+    normalizePlayer(p);
+    // 清掉測試或特訓留下的非關卡紀錄
+    for (const k of Object.keys(p.progress)) if (/^(demo|wrongbook):/.test(k)) delete p.progress[k];
+  }
   return d;
 }
 
@@ -151,8 +155,6 @@ export function parentPinHash() {
 
 export function exportData() {
   const d = load();
-  d.family.lastBackupAt = Date.now();
-  save();
   return JSON.stringify({ app: 'meow-academy', exportedAt: new Date().toISOString(), data: d }, null, 0);
 }
 
@@ -164,6 +166,12 @@ export function importData(text) {
   data = migrate(parsed.data);
   save();
   return data;
+}
+
+// 真的匯出成功（分享或下載）之後才記錄
+export function markBackedUp() {
+  load().family.lastBackupAt = Date.now();
+  save();
 }
 
 export function lastBackupAt() {

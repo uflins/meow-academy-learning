@@ -19,6 +19,17 @@ if ('speechSynthesis' in window) {
   speechSynthesis.addEventListener?.('voiceschanged', () => { voice = chooseVoice(); });
 }
 
+// iPad Safari 要求第一次朗讀發生在手指點擊的當下；在第一次點擊時先念一句無聲的，之後就能自由朗讀
+export function unlock() {
+  if (!available()) return;
+  try {
+    const u = new SpeechSynthesisUtterance(' ');
+    u.volume = 0;
+    u.lang = 'zh-TW';
+    speechSynthesis.speak(u);
+  } catch (e) { /* 忽略 */ }
+}
+
 export function available() {
   return 'speechSynthesis' in window;
 }

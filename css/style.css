@@ -379,3 +379,32 @@ body.low-grade .question.has-visual .q-options.n3 .opt { min-height: 64px; }
 .question:not(.has-visual) .q-options.has-svg .opt-svg svg { max-height: 22vh; }
 .question.has-visual .q-options.has-svg.n3 { grid-template-columns: repeat(3, 1fr); }
 .question.has-visual .q-options.has-svg.n3 .opt { flex-direction: column; }
+
+/* ---------- v1.5 修正 ---------- */
+/* 答錯說明放在作答區的位置，題目附圖保持看得到 */
+.question.explaining .q-answer { display: none; }
+.q-body > .explain {
+  position: static; flex: 1 1 55%; align-self: center; box-shadow: none;
+  max-height: 100%; overflow: auto; animation: pop .25s ease-out;
+}
+.question:not(.has-visual) .q-body > .explain { flex-basis: 100%; }
+
+/* 結算：收起舞台，按鈕固定在卡片底部 */
+.battle.done .stage { display: none; }
+.result { padding: 0; overflow: hidden; }
+.result-scroll { flex: 1; min-height: 0; overflow: auto; width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 16px 16px 8px; }
+.result-actions { flex: none; width: 100%; justify-content: center; margin-top: 0; padding: 12px 16px 14px; border-top: 2px dashed var(--line); background: var(--card); }
+
+/* 錯題回顧、錯題本裡的小尺寸附圖 */
+.q-visual.small { justify-content: flex-start; max-height: 220px; margin: 6px 0; }
+.q-visual.small svg { width: auto; max-width: 100%; height: auto; max-height: 210px; }
+.q-visual.small .emoji-grid .emoji { font-size: 28px; }
+.q-visual.small .emoji-grid.single .emoji { font-size: 64px; }
+.wrong-tag { display: inline-block; font-size: .8em; font-weight: 700; color: #6B4BA1; background: #EFE6FA; border-radius: 99px; padding: 1px 10px; margin-bottom: 4px; }
+
+/* 一年級選項上的 🔊：放大到 48px，和作答區分開 */
+body.low-grade .opt-say {
+  top: 6px; right: 6px; width: 48px; height: 48px; padding: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; background: #FFF1E2; border: 2px solid var(--line); border-radius: 50%;
+}
