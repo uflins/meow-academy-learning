@@ -4,6 +4,8 @@ import { shuffle } from '../gen/util.js';
 import { speak } from './speech.js';
 import { play } from './sfx.js';
 import { playZhuyin } from './zhuyin-audio.js';
+import { mapSVG, COMPASS_LABELS } from '../gen/boss-special.js';
+import { monsterSVG } from '../art/art.js';
 
 export function optionLabel(o) {
   return typeof o === 'string' ? o : o.label;
@@ -99,6 +101,9 @@ function potSVG(partsText) {
   </svg>`;
 }
 
+// 修辭技能卡的圖示
+const RHETORIC_ICON = { 譬喻: '🪞', 轉化: '🎭', 設問: '❓', 排比: '📚', 摹寫: '👂', 類疊: '🔁', 引用: '💬' };
+
 // 依題型替選項加上圖
 function decorateOption(q, o, ctx) {
   const kind = q.tags && q.tags[0];
@@ -106,6 +111,8 @@ function decorateOption(q, o, ctx) {
   if (kind === 'tone' && TONE_NO[obj.label]) obj.svg = toneSVG(obj.label);
   if (kind === 'mouth' && ['ㄧ', 'ㄨ', 'ㄩ'].includes(obj.label)) obj.svg = mouthSVG(obj.label);
   if (kind === 'blend' && ctx.lowGrade && obj.image) obj.hideLabel = true; // 首冊沒教國字，只顯示圖
+  if (q.style === 'clones') obj.svg = monsterSVG(q.subject, { className: 'clone' }); // 分數大魔王的分身
+  if (kind === 'rhetoric' && RHETORIC_ICON[obj.label]) obj.image = RHETORIC_ICON[obj.label];
   return typeof o === 'string' && !obj.svg ? o : obj;
 }
 
@@ -148,10 +155,15 @@ function optionContent(o) {
 }
 
 function choiceArea(q, ctx, answer) {
-  const shownOpts = q.options.map((o) => decorateOption(q, o, ctx));
+  const kind = q.tags && q.tags[0];
+  const fixedOrder = kind === 'tone' || kind === 'mouth' || q.style === 'bubble' || q.keepOrder
+    || q.options.every((o) => /^[甲乙丙丁戊己]$/.test(optionLabel(o)));
+  const order = fixedOrder ? q.options.map((_, i) => i) : shuffle(Math.random, q.options.map((_, i) => i));
+  const ordered = order.map((i) => q.options[i]);
+  const shownOpts = ordered.map((o) => decorateOption(q, o, ctx));
   const wrap = h('div', { class: `q-options n${q.options.length} ${shownOpts.some((o) => o.svg) ? 'has-svg' : ''} ${q.style === 'bubble' ? 'bubbles' : ''} kind-${(q.tags && q.tags[0]) || ''}` });
-  for (let oi = 0; oi < q.options.length; oi++) {
-    const o = q.options[oi];
+  for (let oi = 0; oi < ordered.length; oi++) {
+    const o = ordered[oi];
     const label = optionLabel(o);
     const shown = shownOpts[oi];
     const btn = h('button', { class: `opt btn ${q.style === 'bubble' ? 'bubble' : ''}`, dataset: { label }, onclick: () => answer(label, btn) }, optionContent(shown));
@@ -164,6 +176,47 @@ function choiceArea(q, ctx, answer) {
     wrap.append(btn);
   }
   return wrap;
+}
+
+// 影子魔法師：點方位盤
+function compassArea(q, ctx, answer) {
+  const R = 150, C = 200;
+  const ANGLE = { 正北: 0, 東偏北: 70, 正東: 90, 東偏南: 110, 正南: 180, 西偏南: 250, 正西: 270, 西偏北: 290 };
+  const spots = q.options.filter((l) => l in ANGLE).map((l) => {
+    const a = (ANGLE[l] * Math.PI) / 180;
+    const x = C + R * Math.sin(a), y = C - R * Math.cos(a);
+    const tx = C + (R + 34) * Math.sin(a), ty = C - (R + 34) * Math.cos(a) + 7;
+    return `<g class="hot" data-label="${l}"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="22" fill="#FFF8EE" stroke="#E07B45" stroke-width="4"/>
+      <text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" font-size="19" font-weight="800" text-anchor="middle" fill="#4A3B32">${l}</text></g>`;
+  }).join('');
+  const center = q.options.includes('幾乎沒有影子')
+    ? `<g class="hot" data-label="幾乎沒有影子"><circle cx="${C}" cy="${C + 58}" r="30" fill="#FFF8EE" stroke="#E07B45" stroke-width="4"/>
+       <text x="${C}" y="${C + 54}" font-size="13" font-weight="800" text-anchor="middle" fill="#4A3B32">幾乎沒</text>
+       <text x="${C}" y="${C + 70}" font-size="13" font-weight="800" text-anchor="middle" fill="#4A3B32">有影子</text></g>`
+    : '';
+  const svg = `<svg viewBox="-40 -30 480 460">
+    <ellipse cx="${C}" cy="${C}" rx="${R + 10}" ry="${R + 10}" fill="#E8F5D9" stroke="#9CC98A" stroke-width="3"/>
+    <path d="M${C} ${C - R + 26} L ${C} ${C + R - 26} M${C - R + 26} ${C} L ${C + R - 26} ${C}" stroke="#9CC98A" stroke-width="3" stroke-dasharray="6 8"/>
+    <rect x="${C - 5}" y="${C - 46}" width="10" height="50" rx="4" fill="#8C6239"/>
+    <ellipse cx="${C}" cy="${C + 4}" rx="16" ry="6" fill="#8C6239" opacity=".5"/>
+    ${spots}${center}
+  </svg>`;
+  const el = h('div', { class: 'q-hot compass', html: svg });
+  el.addEventListener('click', (e) => {
+    const g = e.target.closest('.hot');
+    if (g) answer(g.dataset.label, g);
+  });
+  return el;
+}
+
+// 寶島航海王：點地圖上的位置
+function mapArea(q, ctx, answer) {
+  const el = h('div', { class: 'q-hot map', html: mapSVG(q.map.spots) });
+  el.addEventListener('click', (e) => {
+    const g = e.target.closest('.map-spot');
+    if (g) answer(g.dataset.label, g);
+  });
+  return el;
 }
 
 function multiArea(q, ctx, answer) {
@@ -267,7 +320,9 @@ export function renderQuestion(q, ctx = {}) {
   const prompt = h('div', { class: 'q-prompt' }, sayBtn, h('span', { class: 'q-text' }, q.prompt));
 
   let area;
-  switch (q.type) {
+  switch (q.style === 'compass' ? 'compass' : q.style === 'map' ? 'map' : q.type) {
+    case 'compass': area = compassArea(q, ctx, answer); break;
+    case 'map': area = mapArea(q, ctx, answer); break;
     case 'choice': area = choiceArea(q, ctx, answer); break;
     case 'multi': area = multiArea(q, ctx, answer); break;
     case 'truefalse': area = trueFalseArea(q, ctx, answer); break;
@@ -278,7 +333,7 @@ export function renderQuestion(q, ctx = {}) {
 
   const kind0 = q.tags && q.tags[0];
   const visual = renderVisual(!q.visual && kind0 === 'blend' ? { svg: potSVG(q.prompt.split('\n').pop()) } : q.visual);
-  const el = h('div', { class: `question type-${q.type} ${visual ? 'has-visual' : ''}` },
+  const el = h('div', { class: `question type-${q.type} ${q.style ? `style-${q.style}` : ''} ${visual ? 'has-visual' : ''}` },
     q.fromWrongBook ? h('div', { class: 'q-badge' }, '📒 錯題複習') : null,
     prompt,
     h('div', { class: 'q-body' }, visual, h('div', { class: 'q-answer' }, area)),
@@ -294,6 +349,12 @@ export function renderQuestion(q, ctx = {}) {
       return new Promise((r) => { resolveAnswer = r; });
     },
     lock() { locked = true; el.classList.add('locked'); },
+    // 限時挑戰：時間到算答錯
+    timeUp() {
+      if (locked) return;
+      locked = true;
+      resolveAnswer({ given: null, correct: false, timedOut: true });
+    },
     // 答錯時把說明放在作答區的位置，題目和附圖保持看得到
     showExplanation(panel) {
       el.classList.add('explaining');
@@ -313,6 +374,9 @@ export function renderQuestion(q, ctx = {}) {
       }
       if (q.type === 'truefalse') {
         el.querySelector(q.answer ? '.tf-true' : '.tf-false')?.classList.add('right');
+      }
+      if (q.style === 'compass' || q.style === 'map') {
+        el.querySelectorAll('[data-label]').forEach((g) => { if (g.dataset.label === String(q.answer)) g.classList.add('right'); });
       }
     },
   };

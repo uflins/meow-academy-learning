@@ -16,18 +16,18 @@ export const REGIONS = {
             { section: 'L2', title: '第2課 從空中看臺灣', file: 'g5/chinese/L2.json' },
             { section: 'L3', title: '第3課 攀岩高手', file: 'g5/chinese/L3.json' },
             { section: 'M1', title: '學習地圖一', file: 'g5/chinese/M1.json' },
-          ], boss: { title: '修辭大魔王（一）' } },
+          ], boss: { title: '修辭大魔王（一）', special: 'rhetoric' } },
           { unit: '二', title: '第二單元 生活中的藝術', sections: [
             { section: 'L4', title: '第4課 恆久的美', file: 'g5/chinese/L4.json' },
             { section: 'L5', title: '第5課 它抓得住你', file: 'g5/chinese/L5.json' },
             { section: 'L6', title: '第6課 故事「動」起來', file: 'g5/chinese/L6.json' },
             { section: 'M2', title: '學習地圖二', file: 'g5/chinese/M2.json' },
             { section: 'R1', title: '閱讀階梯一 畫家的天空', file: 'g5/chinese/R1.json' },
-          ], boss: { title: '修辭大魔王（二）' } },
+          ], boss: { title: '修辭大魔王（二）', special: 'rhetoric' } },
         ],
       } },
     { id: 'math', name: '數字火山', subject: 'math', color: '#F28C6B', icon: '🌋', status: 'open',
-      source: { kind: 'gen', module: '../gen/math5.js' } },
+      source: { kind: 'gen', module: '../gen/math5.js', bossSpecial: { '4': 'fraction-clones' } } },
     { id: 'science', name: '光之草原', subject: 'science', color: '#F2C14E', icon: '☀️', status: 'soon',
       source: {
         kind: 'bank',
@@ -38,7 +38,7 @@ export const REGIONS = {
             { section: '1-3', title: '1-3 光的折射', file: 'g5/science/1-3.json' },
             { section: '1-4', title: '1-4 美麗的彩虹', file: 'g5/science/1-4.json' },
             { section: '1-5', title: '1-5 放大鏡的聚光與成像', file: 'g5/science/1-5.json' },
-          ], boss: { title: '陰影怪' } },
+          ], boss: { title: '陰影怪', special: 'shadow' } },
           { unit: '2', title: '單元 2　植物世界', sections: [
             { section: '2-1', title: '2-1 根莖葉的功能', file: 'g5/science/2-1.json' },
             { section: '2-2', title: '2-2 花、果實和種子', file: 'g5/science/2-2.json' },
@@ -48,7 +48,7 @@ export const REGIONS = {
           ], boss: { title: '枯葉怪' } },
         ],
       } },
-    { id: 'social', name: '寶島群島', subject: 'social', color: '#5DADE2', icon: '🏝️', status: 'soon',
+    { id: 'social', name: '寶島群島', subject: 'social', color: '#5DADE2', icon: '🏝️', status: 'open',
       source: {
         kind: 'bank',
         units: [
@@ -56,7 +56,7 @@ export const REGIONS = {
             { section: '1-1', title: '第1課 從地圖探索位置與發展', file: 'g5/social/1-1.json' },
             { section: '1-2', title: '第2課 史前人們如何善用資源', file: 'g5/social/1-2.json' },
             { section: '1-3', title: '第3課 原住民族的文化與環境', file: 'g5/social/1-3.json' },
-          ], boss: { title: '迷路怪' } },
+          ], boss: { title: '迷路怪', special: 'map' } },
           { unit: '二', title: '單元二　臺灣登上國際舞臺', sections: [
             { section: '2-1', title: '第1課 大航海時代崛起', file: 'g5/social/2-1.json' },
             { section: '2-2', title: '第2課 大航海時代的影響', file: 'g5/social/2-2.json' },

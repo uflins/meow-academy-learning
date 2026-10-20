@@ -3,6 +3,19 @@ import { shuffle, sample } from '../gen/util.js';
 import { wrongFor } from './progress.js';
 import { zhuyinAudioReady } from './zhuyin-audio.js';
 import { makeBubble } from '../gen/zhuyin-bubbles.js';
+import { fractionClone, shadowQuestion, mapQuestion } from '../gen/boss-special.js';
+
+// 操作型大魔王：約六成題目換成特殊玩法
+const SPECIAL_GEN = { 'fraction-clones': fractionClone, shadow: shadowQuestion, map: mapQuestion };
+function withSpecial(list, special, n) {
+  if (!special) return list;
+  const k = Math.ceil(n * 0.6);
+  if (SPECIAL_GEN[special]) {
+    const extra = Array.from({ length: k }, () => SPECIAL_GEN[special](Math.random));
+    return shuffle(Math.random, [...list.slice(0, n - k), ...extra]);
+  }
+  return list;
+}
 
 const bankCache = new Map();
 const moduleCache = new Map();
@@ -43,10 +56,11 @@ export async function loadRegionUnits(region) {
         title: `${u.title} 大魔王`,
         isBoss: true,
         sections: u.sections.map((s) => String(s.section)),
+        special: src.bossSpecial?.[u.unit],
         draw: async (n) => {
           const out = [];
           for (let i = 0; i < n; i++) out.push(makeOne(u.sections[i % u.sections.length], i, n, true));
-          return shuffle(Math.random, out);
+          return withSpecial(shuffle(Math.random, out), src.bossSpecial?.[u.unit], n);
         },
       });
       return { unit: u.unit, title: `單元 ${u.unit}　${u.title}`, nodes };
@@ -82,7 +96,15 @@ export async function loadRegionUnits(region) {
         sections: [...u.sections.map((s) => String(s.section)), String(u.boss.section || '')],
         draw: async (n) => {
           const lessons = (await Promise.all(u.sections.map((s) => loadBank(s.file)))).flat();
-          if (!u.boss.file) return withBubbles(pickVaried(lessons, n), u.boss.section, 0);
+          if (u.boss.special === 'rhetoric') {
+            // 修辭大魔王：以修辭技能卡為主，再穿插讀音和成語題
+            const rh = lessons.filter((q) => q.tags && q.tags[0] === 'rhetoric');
+            const picked = pickVaried(rh, Math.ceil(n * 0.6));
+            const rest = pickVaried(lessons.filter((q) => !picked.includes(q) && q.tags && ['reading', 'polyphone', 'idiom'].includes(q.tags[0])), n - picked.length);
+            const all = [...picked, ...rest];
+            return shuffle(Math.random, all.length >= n ? all : [...all, ...pickVaried(lessons.filter((q) => !all.includes(q)), n - all.length)]);
+          }
+          if (!u.boss.file) return withSpecial(pickVaried(lessons, n), u.boss.special, n);
           const review = await loadBank(u.boss.file);
           const fromReview = pickVaried(review, Math.ceil(n * 0.6));
           const fromLessons = pickVaried(lessons.filter((q) => !fromReview.includes(q)), n - fromReview.length);

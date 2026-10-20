@@ -1,0 +1,852 @@
+[
+  {
+    "id": "g5soc-2-1-001",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "order",
+    "prompt": "時光列車：依照時間先後排好。",
+    "items": [
+      "荷蘭人來到臺灣",
+      "鄭成功逼荷蘭人離開",
+      "臺灣納入清帝國版圖"
+    ],
+    "explanation": "1624 年荷蘭人來臺 → 1662 年鄭成功逼荷蘭人離開 → 1684 年臺灣納入清帝國版圖。",
+    "difficulty": 1,
+    "tags": [
+      "timeline",
+      "年代"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-002",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "order",
+    "prompt": "時光列車：依照時間先後排好。",
+    "items": [
+      "荷蘭人占領南臺灣",
+      "西班牙人占領北臺灣",
+      "荷蘭人趕走西班牙人",
+      "鄭成功逼荷蘭人離開"
+    ],
+    "explanation": "1624 荷蘭人來 → 1626 西班牙人來 → 1642 荷蘭人趕走西班牙人 → 1662 鄭成功逼荷蘭人離開。",
+    "difficulty": 2,
+    "tags": [
+      "timeline",
+      "年代"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-003",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "order",
+    "prompt": "時光列車：五節車廂，依照時間先後接好。",
+    "items": [
+      "荷蘭人占領南臺灣",
+      "西班牙人占領北臺灣",
+      "荷蘭人趕走西班牙人",
+      "鄭成功逼荷蘭人離開",
+      "臺灣納入清帝國版圖"
+    ],
+    "explanation": "1624、1626、1642、1662、1684，記住這五個年代！",
+    "difficulty": 3,
+    "tags": [
+      "timeline",
+      "年代"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-004",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "order",
+    "prompt": "時光列車：從史前一路開到大航海時代，依照時間先後排好。",
+    "items": [
+      "舊石器時代",
+      "新石器時代",
+      "金屬器時代",
+      "大航海時代"
+    ],
+    "explanation": "史前的舊石器、新石器、金屬器時代之後，16 世紀東亞海域進入大航海時代。",
+    "difficulty": 2,
+    "tags": [
+      "timeline",
+      "年代"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-005",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "order",
+    "prompt": "時光列車：鄭氏政權的故事，依照時間先後排好。",
+    "items": [
+      "鄭成功設立承天府",
+      "鄭經在陳永華輔佐下經營臺灣",
+      "鄭經過世，內部爭權",
+      "施琅帶兵攻臺"
+    ],
+    "explanation": "鄭成功設承天府，鄭經接手經營；鄭經過世後內部爭權，清帝國就派施琅攻臺。",
+    "difficulty": 3,
+    "tags": [
+      "timeline",
+      "鄭氏"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-006",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "order",
+    "prompt": "時光列車：大航海時代是怎麼開始的？依序排好。",
+    "items": [
+      "歐洲人透過新航路來到亞洲",
+      "東亞海上貿易更加熱絡",
+      "各國來臺灣建立據點"
+    ],
+    "explanation": "16 世紀歐洲人來亞洲找商品，東亞貿易熱絡，各國也來臺灣建立據點。",
+    "difficulty": 2,
+    "tags": [
+      "timeline",
+      "大航海時代"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-007",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "order",
+    "prompt": "看地圖：鄭成功攻打荷蘭人的路線，依序點選。",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><circle cx=\"42\" cy=\"216\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><text x=\"42\" y=\"242\" font-size=\"15\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">金門</text><circle cx=\"175\" cy=\"308\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><text x=\"175\" y=\"294\" font-size=\"15\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">澎湖</text><circle cx=\"239\" cy=\"367\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><text x=\"209\" y=\"373\" font-size=\"15\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">鹿耳門</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "items": [
+      "金門",
+      "澎湖",
+      "鹿耳門"
+    ],
+    "explanation": "鄭成功從金門出兵，途經澎湖，最後在鹿耳門（今臺南）登陸。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "鄭氏",
+      "路線"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-008",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "看地圖：荷蘭人在 1624 年以哪裡為根據地？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M414 139L444 115\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"444\" cy=\"115\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"444\" y=\"121\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M378 136L336 122\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"378\" cy=\"136\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"336\" cy=\"122\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"336\" y=\"128\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M242 374L198 378\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"242\" cy=\"374\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"198\" cy=\"378\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"198\" y=\"384\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙"
+    ],
+    "answer": "丙",
+    "explanation": "荷蘭人占領南部，以臺南為根據地（丙）；西班牙人在北部的基隆（甲）、淡水（乙）建城。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "荷蘭",
+      "據點"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-009",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "看地圖：西班牙人蓋的第一座城堡「聖薩爾瓦多城」在哪裡？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M414 139L444 115\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"444\" cy=\"115\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"444\" y=\"121\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M378 136L336 122\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"378\" cy=\"136\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"336\" cy=\"122\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"336\" y=\"128\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M242 374L198 378\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"242\" cy=\"374\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"198\" cy=\"378\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"198\" y=\"384\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙"
+    ],
+    "answer": "甲",
+    "explanation": "聖薩爾瓦多城在基隆和平島（甲）；第二座聖多明哥城在淡水（乙）。",
+    "difficulty": 3,
+    "tags": [
+      "map",
+      "西班牙",
+      "據點"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-010",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "1624 年，荷蘭人占領的是臺灣的哪一部分？",
+    "options": [
+      "南部",
+      "北部",
+      "東部"
+    ],
+    "answer": "南部",
+    "explanation": "荷蘭人占領臺灣南部；1626 年西班牙人進入北部。",
+    "difficulty": 1,
+    "tags": [
+      "map",
+      "荷蘭"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-011",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "西班牙人在臺灣北部的哪兩個地方建城？",
+    "options": [
+      "臺南和高雄",
+      "基隆和淡水",
+      "澎湖和金門"
+    ],
+    "answer": "基隆和淡水",
+    "explanation": "西班牙人在基隆、淡水建城堡，作為統治中心和貿易據點。",
+    "difficulty": 1,
+    "tags": [
+      "map",
+      "西班牙"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-012",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "荷蘭人的船從歐洲到亞洲，要繞過非洲南端的哪裡？",
+    "options": [
+      "好望角",
+      "三貂角",
+      "鹿耳門"
+    ],
+    "answer": "好望角",
+    "explanation": "荷蘭人的航路：經大西洋、繞過好望角、橫越印度洋到印尼，再北上到臺灣、日本。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "新航路"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-013",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "西班牙人來臺灣以前，在東亞海域的主要據點是哪裡？",
+    "options": [
+      "菲律賓",
+      "印尼",
+      "日本"
+    ],
+    "answer": "菲律賓",
+    "explanation": "西班牙人以菲律賓為主要據點；荷蘭人先在印尼設據點。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "西班牙",
+      "新航路"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-014",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "西班牙人的航路：先往西橫越大西洋到美洲，再橫越哪一個大洋到菲律賓？",
+    "options": [
+      "太平洋",
+      "印度洋",
+      "大西洋"
+    ],
+    "answer": "太平洋",
+    "explanation": "西班牙人橫越大西洋到美洲，再橫越太平洋到菲律賓，然後到臺灣。",
+    "difficulty": 3,
+    "tags": [
+      "map",
+      "新航路"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-015",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "荷蘭人占領的「大員」，是今天的哪裡？",
+    "options": [
+      "淡水",
+      "臺南",
+      "基隆"
+    ],
+    "answer": "臺南",
+    "explanation": "大員就是今天的臺南，是荷蘭人的根據地。",
+    "difficulty": 1,
+    "tags": [
+      "map",
+      "荷蘭"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-016",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "鄭成功攻臺時，從金門出兵，中途經過哪一個群島？",
+    "options": [
+      "馬祖列島",
+      "南沙群島",
+      "澎湖群島"
+    ],
+    "answer": "澎湖群島",
+    "explanation": "鄭成功從金門出兵，途經澎湖，再到鹿耳門登陸。",
+    "difficulty": 2,
+    "tags": [
+      "island",
+      "鄭氏",
+      "路線"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-017",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①人們叫我「國姓爺」\n②我被封為延平郡王\n③1662 年，我逼荷蘭人離開臺灣",
+    "options": [
+      "鄭成功",
+      "施琅",
+      "鄭芝龍"
+    ],
+    "answer": "鄭成功",
+    "explanation": "鄭成功人稱國姓爺，死後被民間尊稱為開臺聖王。",
+    "difficulty": 1,
+    "tags": [
+      "who",
+      "人物"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-018",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我當過海盜、海商，也當過官員\n②我的兒子人稱國姓爺\n③傳說我招募漢人到雲林、嘉義一帶開墾",
+    "options": [
+      "顏思齊",
+      "鄭芝龍",
+      "鄭經"
+    ],
+    "answer": "鄭芝龍",
+    "explanation": "鄭芝龍是鄭成功的父親，活躍在四百多年前的東亞海域。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "人物"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-019",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是清帝國派來的將領\n②我趁鄭氏內部爭權時帶兵攻臺\n③之後臺灣在 1684 年納入清帝國版圖",
+    "options": [
+      "鄭經",
+      "施琅",
+      "陳永華"
+    ],
+    "answer": "施琅",
+    "explanation": "施琅攻臺後，臺灣在 1684 年正式納入清帝國版圖。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "人物"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-020",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①傳說我覺得臺灣值得開發，就招募漢人來開墾\n②傳說我從今天的雲林縣北港鎮登陸\n③雲林縣水林鄉的顏厝寮，傳說和我有關",
+    "options": [
+      "顏思齊",
+      "鄭芝龍",
+      "陳永華"
+    ],
+    "answer": "顏思齊",
+    "explanation": "傳說顏思齊招募漢人來臺開墾，顏厝寮因此成為漢人最早的開墾地之一。",
+    "difficulty": 3,
+    "tags": [
+      "who",
+      "人物"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-021",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是鄭成功的兒子\n②陳永華輔佐我經營臺灣將近二十年\n③我過世以後，內部為了爭權紛爭不斷",
+    "options": [
+      "施琅",
+      "鄭經",
+      "鄭芝龍"
+    ],
+    "answer": "鄭經",
+    "explanation": "鄭經過世後內部爭權，清帝國趁機派施琅攻臺。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "人物"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-022",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是荷蘭人在臺南蓋的城\n②今天的名稱是安平古堡\n③到現在還保留一部分當年的磚牆",
+    "options": [
+      "熱蘭遮城",
+      "聖多明哥城",
+      "普羅民遮城"
+    ],
+    "answer": "熱蘭遮城",
+    "explanation": "熱蘭遮城就是今天的安平古堡。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "據點"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-023",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是荷蘭人在臺南赤崁一帶蓋的城\n②鄭成功把我當成承天府的辦公地點\n③經過改建，今天叫赤崁樓",
+    "options": [
+      "熱蘭遮城",
+      "聖薩爾瓦多城",
+      "普羅民遮城"
+    ],
+    "answer": "普羅民遮城",
+    "explanation": "普羅民遮城就是今天的赤崁樓。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "據點"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-024",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是西班牙人在淡水蓋的第二座城堡\n②荷蘭人趕走西班牙人後，在我附近重建\n③重建後的城就是今天的紅毛城",
+    "options": [
+      "聖薩爾瓦多城",
+      "熱蘭遮城",
+      "聖多明哥城"
+    ],
+    "answer": "聖多明哥城",
+    "explanation": "聖多明哥城在淡水，附近重建的就是紅毛城。",
+    "difficulty": 3,
+    "tags": [
+      "who",
+      "據點"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-025",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是哪一年？\n①荷蘭人在這一年退出臺灣\n②是鄭成功逼他們離開的",
+    "options": [
+      "1624 年",
+      "1642 年",
+      "1662 年",
+      "1684 年"
+    ],
+    "answer": "1662 年",
+    "explanation": "1662 年，鄭成功逼荷蘭人退出臺灣。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "年代"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-026",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是哪一年？\n①西班牙人在這一年撤離臺灣\n②荷蘭人接管了北部的據點",
+    "options": [
+      "1624 年",
+      "1626 年",
+      "1642 年",
+      "1662 年"
+    ],
+    "answer": "1642 年",
+    "explanation": "1642 年荷蘭人趕走西班牙人，控制臺灣北部。",
+    "difficulty": 3,
+    "tags": [
+      "who",
+      "年代"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-027",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "猜猜我是哪一年？\n①施琅帶兵攻打臺灣\n②臺灣在這一年正式納入清帝國版圖",
+    "options": [
+      "1626 年",
+      "1642 年",
+      "1662 年",
+      "1684 年"
+    ],
+    "answer": "1684 年",
+    "explanation": "1684 年，臺灣正式納入清帝國版圖。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "年代"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-028",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "大航海時代，為什麼各國都想在臺灣建立據點？",
+    "options": [
+      "臺灣是香料的產地",
+      "臺灣位在東亞航運的中途要道",
+      "臺灣有很多煉鐵作坊"
+    ],
+    "answer": "臺灣位在東亞航運的中途要道",
+    "explanation": "臺灣在東亞航運要道上，所以各國來建據點，臺灣登上國際舞臺。",
+    "difficulty": 1,
+    "tags": [
+      "cause",
+      "大航海時代"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-029",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "歐洲人來亞洲尋找的商品中，瓷器和絲綢產在哪裡？",
+    "options": [
+      "印度和東南亞",
+      "日本",
+      "中國"
+    ],
+    "answer": "中國",
+    "explanation": "瓷器和絲綢產在中國；香料產在印度和東南亞。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "大航海時代",
+      "商品"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-030",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "荷蘭人把收購的鹿皮大量賣到日本。鹿皮是做什麼的重要材料？",
+    "options": [
+      "書本",
+      "武士服裝",
+      "船帆"
+    ],
+    "answer": "武士服裝",
+    "explanation": "鹿皮透氣、柔軟又耐磨，是做武士服裝的重要材料。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "荷蘭",
+      "商品"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-031",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "荷蘭人把蔗糖、鹿皮轉賣到其他國家，也交易絲織品、銀、香料。臺灣因此成為什麼？",
+    "options": [
+      "煉鐵中心",
+      "史前遺址",
+      "商品貿易轉運站"
+    ],
+    "answer": "商品貿易轉運站",
+    "explanation": "荷蘭時期，臺灣成為當時的商品貿易轉運站。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "荷蘭",
+      "商品"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-032",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "multi",
+    "prompt": "西班牙人為什麼在 1642 年離開臺灣？（可以選很多個）",
+    "options": [
+      "鄭成功帶兵攻打",
+      "對中國和日本的貿易成長有限",
+      "荷蘭人派兵攻打",
+      "維持據點要花大筆經費"
+    ],
+    "answer": [
+      "對中國和日本的貿易成長有限",
+      "維持據點要花大筆經費",
+      "荷蘭人派兵攻打"
+    ],
+    "explanation": "西班牙人貿易不順、花費又高，荷蘭人趁機攻打；鄭成功趕走的是荷蘭人。",
+    "difficulty": 3,
+    "tags": [
+      "cause",
+      "西班牙"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-033",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "鄭成功為什麼把軍隊移到臺灣？",
+    "options": [
+      "反抗清帝國的戰爭接連失利，想以臺灣為根據地",
+      "想要尋找香料",
+      "被西班牙人邀請來臺灣"
+    ],
+    "answer": "反抗清帝國的戰爭接連失利，想以臺灣為根據地",
+    "explanation": "明帝國滅亡後，鄭成功反抗清帝國，作戰失利，就轉往臺灣攻打荷蘭人。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "鄭氏"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-034",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "清帝國為什麼能趁機派施琅攻臺？",
+    "options": [
+      "鄭經過世後，鄭氏內部爭權紛爭不斷",
+      "西班牙人邀請清帝國",
+      "荷蘭人回來幫忙清帝國"
+    ],
+    "answer": "鄭經過世後，鄭氏內部爭權紛爭不斷",
+    "explanation": "鄭氏內部紛爭，清帝國趁機攻臺，1684 年臺灣納入清帝國版圖。",
+    "difficulty": 3,
+    "tags": [
+      "cause",
+      "鄭氏"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-035",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "荷蘭人在 1624 年來到臺灣，占領的是臺灣北部。",
+    "answer": false,
+    "explanation": "荷蘭人占領的是臺灣「南部」；占領北部的是西班牙人。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "荷蘭"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-036",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "鄭氏政權是第一個在臺灣的漢人政權。",
+    "answer": true,
+    "explanation": "對！鄭成功在臺南設承天府作為行政中心。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "鄭氏"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-037",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "西班牙人一直待到 1662 年，才被鄭成功趕走。",
+    "answer": false,
+    "explanation": "西班牙人在 1642 年被荷蘭人趕走；1662 年鄭成功趕走的是荷蘭人。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "西班牙",
+      "年代"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-038",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "荷蘭人戰敗後訂了條約，鄭成功允許他們帶走糧食和財產。",
+    "answer": true,
+    "explanation": "對！荷蘭人答應退出臺灣，也帶走了糧食和財產。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "鄭氏"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-039",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "鄭成功被民間尊稱為開臺聖王，臺南的延平郡王祠就是祭祀他的地方。",
+    "answer": true,
+    "explanation": "對！延平郡王祠在臺南市中西區。",
+    "difficulty": 3,
+    "tags": [
+      "truefalse",
+      "人物"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-040",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "熱蘭遮城就是今天的赤崁樓。",
+    "answer": false,
+    "explanation": "熱蘭遮城是今天的安平古堡；普羅民遮城才是赤崁樓。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "據點"
+    ]
+  },
+  {
+    "id": "g5soc-2-1-041",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "大航海時代以前，臺灣島上已經有原住民族、漁民、海商和海盜在活動。",
+    "answer": true,
+    "explanation": "對！海商、海盜還把臺灣當成交易的據點。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "大航海時代"
+    ]
+  }
+]

@@ -1,0 +1,763 @@
+[
+  {
+    "id": "g5soc-1-3-001",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "input",
+    "prompt": "政府認定的臺灣原住民族，一共有幾族？（只要填數字）",
+    "keypad": "digits",
+    "answer": "16",
+    "explanation": "政府認定的臺灣原住民族共有 16 族。",
+    "difficulty": 1,
+    "tags": [
+      "culture",
+      "16族"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-002",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "祖先追著一隻白鹿，發現了日月潭，全族就搬到那裡定居。這是哪一族的傳說？",
+    "options": [
+      "邵族",
+      "達悟族（雅美族）",
+      "泰雅族"
+    ],
+    "answer": "邵族",
+    "explanation": "邵族的白鹿傳說，說明先民依照自然資源遷徙和定居。",
+    "difficulty": 1,
+    "tags": [
+      "culture",
+      "神話傳說"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-003",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "邵族的白鹿傳說中，祖先追著白鹿發現了什麼地方？",
+    "options": [
+      "有飛魚的蘭嶼",
+      "臺東海邊的洞穴",
+      "魚蝦很多的日月潭"
+    ],
+    "answer": "魚蝦很多的日月潭",
+    "explanation": "祖先發現魚蝦豐富的日月潭，就全族搬過去定居。",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "神話傳說"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-004",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "飛魚之神托夢給長老，教族人正確吃飛魚的方法和禮儀。這是哪一族的傳說？",
+    "options": [
+      "邵族",
+      "達悟族（雅美族）",
+      "泰雅族"
+    ],
+    "answer": "達悟族（雅美族）",
+    "explanation": "住在蘭嶼的達悟族（雅美族）有飛魚的傳說。",
+    "difficulty": 1,
+    "tags": [
+      "culture",
+      "神話傳說",
+      "飛魚"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-005",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "達悟族只在每年的哪段時間吃飛魚？",
+    "options": [
+      "3～10 月",
+      "11 月～隔年 4 月",
+      "5～9 月"
+    ],
+    "answer": "3～10 月",
+    "explanation": "達悟族只在 3～10 月吃飛魚；11 月～隔年 4 月是泰雅族打獵的時間。",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "飛魚",
+      "月份"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-006",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "泰雅族只在每年的哪段時間打獵？",
+    "options": [
+      "3～10 月",
+      "11 月～隔年 4 月",
+      "5～9 月"
+    ],
+    "answer": "11 月～隔年 4 月",
+    "explanation": "泰雅族只在 11 月～隔年 4 月打獵，不是 5～9 月喔！",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "狩獵禁忌",
+      "月份"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-007",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "泰雅族舉行「小米祈福祭儀」時，由誰為族人祈福？",
+    "options": [
+      "部落會議",
+      "祭司",
+      "頭目"
+    ],
+    "answer": "頭目",
+    "explanation": "小米祈福祭儀是由「頭目」為族人祈福，不是祭司，要記住喔！",
+    "difficulty": 3,
+    "tags": [
+      "culture",
+      "頭目祭司",
+      "歲時祭儀"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-008",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "「共食團體」是做什麼的？",
+    "options": [
+      "一起決定祭典",
+      "互相幫忙蓋房子",
+      "一起分享獵物"
+    ],
+    "answer": "一起分享獵物",
+    "explanation": "共食團體一起分享獵物；共勞團體互相幫忙蓋房子。",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "共食共勞"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-009",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "族人互相幫忙蓋房子，這種團體叫做什麼？",
+    "options": [
+      "部落會議",
+      "共勞團體",
+      "共食團體"
+    ],
+    "answer": "共勞團體",
+    "explanation": "共勞團體互相幫忙蓋房子；共食團體一起分享獵物。",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "共食共勞"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-010",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "multi",
+    "prompt": "下面哪些是泰雅族的狩獵禁忌？（可以選很多個）",
+    "options": [
+      "不可以獵殺幼小的動物",
+      "只在 11 月到隔年 4 月打獵",
+      "看到動物就全部抓光",
+      "一年四季都可以打獵"
+    ],
+    "answer": [
+      "不可以獵殺幼小的動物",
+      "只在 11 月到隔年 4 月打獵"
+    ],
+    "explanation": "不獵幼小的動物、只在 11 月到隔年 4 月打獵，讓動物有時間繁殖、長大。",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "狩獵禁忌"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-011",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "部落是早期原住民族生活的中心。部落是由什麼組成的？",
+    "options": [
+      "許多學校",
+      "許多商店",
+      "許多家族"
+    ],
+    "answer": "許多家族",
+    "explanation": "部落由許多家族組成。",
+    "difficulty": 1,
+    "tags": [
+      "culture",
+      "部落"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-012",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "multi",
+    "prompt": "部落的祭典、狩獵、禁忌等大事，可能由誰來決定？（可以選很多個）",
+    "options": [
+      "祭司",
+      "頭目",
+      "外地來的商人",
+      "部落會議"
+    ],
+    "answer": [
+      "頭目",
+      "祭司",
+      "部落會議"
+    ],
+    "explanation": "有些由頭目或祭司決定，有些由部落會議決議；決定後全部落都要遵守。",
+    "difficulty": 3,
+    "tags": [
+      "culture",
+      "頭目祭司",
+      "部落"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-013",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "multi",
+    "prompt": "泰雅族怎麼利用竹子？（可以選很多個）",
+    "options": [
+      "取水、引水",
+      "蓋房子",
+      "煉成鐵器",
+      "做竹器當食器"
+    ],
+    "answer": [
+      "取水、引水",
+      "做竹器當食器",
+      "蓋房子"
+    ],
+    "explanation": "泰雅族用竹子取水、引水、做食器，也用竹子或木頭蓋房子。",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "順應自然"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-014",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "「歲時祭儀」是和什麼有關的祭祀活動？",
+    "options": [
+      "煉鐵和做陶器",
+      "航海和貿易",
+      "狩獵和農業生產"
+    ],
+    "answer": "狩獵和農業生產",
+    "explanation": "歲時祭儀是和狩獵、農業生產有關的祭祀活動。",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "歲時祭儀"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-015",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "泰雅族主要分布在哪裡？",
+    "options": [
+      "北部山區",
+      "蘭嶼",
+      "日月潭"
+    ],
+    "answer": "北部山區",
+    "explanation": "泰雅族分布在北部的山區；達悟族在蘭嶼；邵族在日月潭。",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "分布"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-016",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "看地圖：達悟族（雅美族）住在哪裡？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><ellipse cx=\"435\" cy=\"172\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"384\" cy=\"411\" rx=\"6\" ry=\"5\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"390\" cy=\"478\" rx=\"9\" ry=\"6\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"261\" cy=\"447\" rx=\"5\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><text x=\"303\" y=\"341\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M390 478L426 472\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"390\" cy=\"478\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"426\" cy=\"472\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"426\" y=\"478\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M320 279L276 285\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"279\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"276\" cy=\"285\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"276\" y=\"291\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M363 196L409 176\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"363\" cy=\"196\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"409\" cy=\"176\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"409\" y=\"182\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙"
+    ],
+    "answer": "甲",
+    "explanation": "達悟族（雅美族）住在臺東外海的蘭嶼（甲）。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "分布"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-017",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "看地圖：邵族白鹿傳說中的日月潭在哪裡？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><ellipse cx=\"435\" cy=\"172\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"384\" cy=\"411\" rx=\"6\" ry=\"5\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"390\" cy=\"478\" rx=\"9\" ry=\"6\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"261\" cy=\"447\" rx=\"5\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><text x=\"303\" y=\"341\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M390 478L426 472\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"390\" cy=\"478\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"426\" cy=\"472\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"426\" y=\"478\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M320 279L276 285\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"279\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"276\" cy=\"285\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"276\" y=\"291\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M363 196L409 176\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"363\" cy=\"196\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"409\" cy=\"176\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"409\" y=\"182\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙"
+    ],
+    "answer": "乙",
+    "explanation": "日月潭在臺灣中部（乙），是邵族生活的地方。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "分布",
+      "神話傳說"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-018",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是部落首領的稱呼\n②各部落產生我的方式不一樣\n③泰雅族舉行小米祈福祭儀時，由我為族人祈福",
+    "options": [
+      "祭司",
+      "頭目",
+      "長老"
+    ],
+    "answer": "頭目",
+    "explanation": "頭目是部落的首領，小米祈福祭儀由頭目為族人祈福。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "頭目祭司"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-019",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是泰雅族用竹子搭成、半開放式的建築\n②打獵時，族人三五成群住在我這裡\n③在我這裡用火烤的方式保存獵物",
+    "options": [
+      "騎樓",
+      "獵寮",
+      "地下屋"
+    ],
+    "answer": "獵寮",
+    "explanation": "獵寮是泰雅族打獵期間住的地方。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "獵寮"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-020",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是卑南遺址出土的國寶\n②我刻著兩個站著的人，頭上一起頂著一隻動物\n③我象徵兩人合作和資源豐富",
+    "options": [
+      "人面陶罐",
+      "人獸形耳飾",
+      "琉璃珠"
+    ],
+    "answer": "人獸形耳飾",
+    "explanation": "人獸形耳飾是卑南遺址出土的臺灣玉國寶。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "臺灣玉"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-021",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我們住在蘭嶼\n②我們把飛魚看成上天賜的神聖物品\n③捕飛魚時不一網打盡，讓飛魚繼續繁殖",
+    "options": [
+      "邵族",
+      "達悟族（雅美族）",
+      "卑南族"
+    ],
+    "answer": "達悟族（雅美族）",
+    "explanation": "蘭嶼的達悟族（雅美族）早就懂得保護海洋資源。",
+    "difficulty": 3,
+    "tags": [
+      "who",
+      "飛魚"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-022",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "卑南遺址出土了大約多少座石板棺？",
+    "options": [
+      "約兩百座",
+      "約兩千座",
+      "約兩萬座"
+    ],
+    "answer": "約兩千座",
+    "explanation": "卑南遺址出土約兩千座石板棺，是太平洋沿岸規模最大的石板棺墓葬群。",
+    "difficulty": 2,
+    "tags": [
+      "dig",
+      "卑南"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-023",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "民國 69 年，卑南遺址是在什麼工程施工時被發現的？",
+    "options": [
+      "水庫",
+      "高速公路",
+      "南迴鐵路"
+    ],
+    "answer": "南迴鐵路",
+    "explanation": "民國 69 年南迴鐵路施工時，發現了卑南遺址的史前文物。",
+    "difficulty": 3,
+    "tags": [
+      "dig",
+      "卑南"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-024",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "multi",
+    "prompt": "臺灣玉做的飾品，出現在哪些國家的考古遺址？（可以選很多個）",
+    "options": [
+      "荷蘭",
+      "菲律賓",
+      "泰國",
+      "西班牙",
+      "越南"
+    ],
+    "answer": [
+      "菲律賓",
+      "越南",
+      "泰國"
+    ],
+    "explanation": "臺灣玉飾品出現在菲律賓、越南、泰國等地，很受南海、東南亞的人喜愛。",
+    "difficulty": 3,
+    "tags": [
+      "dig",
+      "臺灣玉",
+      "交流"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-025",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "新石器時代晚期，卑南聚落有人專門做玉器、有人專門做狩獵武器。這叫做什麼？",
+    "options": [
+      "共食團體",
+      "專業分工",
+      "部落會議"
+    ],
+    "answer": "專業分工",
+    "explanation": "農業生產力提高、食物穩定，卑南聚落已經有專業分工。",
+    "difficulty": 3,
+    "tags": [
+      "dig",
+      "臺灣玉"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-026",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "類似卑南的玉器，也在臺北、宜蘭、花蓮出土。這表示什麼？",
+    "options": [
+      "當時已經會煉鐵",
+      "玉器是荷蘭人帶來的",
+      "當時本島各區之間已經有貿易"
+    ],
+    "answer": "當時本島各區之間已經有貿易",
+    "explanation": "玉器透過海路或陸路傳到各地，表示本島各區之間已經有貿易。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "臺灣玉",
+      "交流"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-027",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "臺灣玉在南海一帶分布很廣。這說明對史前人來說，海洋是什麼？",
+    "options": [
+      "不是阻隔，而是道路",
+      "只能用來捕魚的地方",
+      "無法越過的高牆"
+    ],
+    "answer": "不是阻隔，而是道路",
+    "explanation": "史前人能跨海交流，海洋對他們來說是道路。",
+    "difficulty": 3,
+    "tags": [
+      "cause",
+      "臺灣玉",
+      "交流"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-028",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "達悟族規定吃飛魚的季節，捕魚也不一網打盡，這是為了什麼？",
+    "options": [
+      "因為飛魚不好吃",
+      "讓飛魚賣得更貴",
+      "避免飛魚滅絕，維持海洋生態平衡"
+    ],
+    "answer": "避免飛魚滅絕，維持海洋生態平衡",
+    "explanation": "這是原住民族祖先的生態保育智慧。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "飛魚",
+      "生態智慧"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-029",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "泰雅族只在 11 月到隔年 4 月打獵，這是為了什麼？",
+    "options": [
+      "因為只有冬天可以蓋房子",
+      "因為其他月份要出海捕飛魚",
+      "讓動物有時間繁殖、長大"
+    ],
+    "answer": "讓動物有時間繁殖、長大",
+    "explanation": "保留狩獵傳統，也維持生態平衡。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "狩獵禁忌",
+      "生態智慧"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-030",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "共食、共勞這種「共享及互助」的文化，對部落有什麼幫助？",
+    "options": [
+      "讓部落分成兩半",
+      "穩定部落、凝聚族群",
+      "讓獵物越來越少"
+    ],
+    "answer": "穩定部落、凝聚族群",
+    "explanation": "共享及互助的文化，是穩定部落、凝聚族群的力量。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "共食共勞"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-031",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "truefalse",
+    "prompt": "泰雅族舉行小米祈福祭儀時，是由「祭司」為族人祈福。",
+    "answer": false,
+    "explanation": "錯！是由「頭目」為族人祈福，不是祭司。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "頭目祭司",
+      "歲時祭儀"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-032",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "truefalse",
+    "prompt": "原住民族的祖先大約一百年前才搬到臺灣。",
+    "answer": false,
+    "explanation": "根據考古研究，原住民族的祖先很可能在史前時代就來到臺灣。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "16族"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-033",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "truefalse",
+    "prompt": "原住民族透過神話傳說、歌謠、祭典，把傳統文化傳下去。",
+    "answer": true,
+    "explanation": "對！神話傳說、歌謠、祭典都是傳承文化的方式。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "神話傳說"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-034",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "truefalse",
+    "prompt": "泰雅族打獵的時間是每年 5～9 月。",
+    "answer": false,
+    "explanation": "泰雅族只在 11 月～隔年 4 月打獵。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "狩獵禁忌",
+      "月份"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-035",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "truefalse",
+    "prompt": "泰雅族的歲時祭儀，主要和狩獵、農業有關。",
+    "answer": true,
+    "explanation": "對！例如小米祈福祭儀就和農業有關。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "歲時祭儀"
+    ]
+  },
+  {
+    "id": "g5soc-1-3-036",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-3",
+    "type": "truefalse",
+    "prompt": "部落會議做出決定以後，部落所有成員都要共同遵守。",
+    "answer": true,
+    "explanation": "對！決定之後，大家要共同承擔、遵守。",
+    "difficulty": 3,
+    "tags": [
+      "truefalse",
+      "部落"
+    ]
+  }
+]

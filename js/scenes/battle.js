@@ -131,6 +131,21 @@ export default function battle(root, params, { go, app }) {
       el.remove();
     };
 
+    // 五年級的大魔王可以選限時挑戰（一年級不限時）
+    let timed = false;
+    const TIME_LIMIT = 40;
+    if (node.isBoss && !lowGrade && !isDrill) {
+      timed = await modal({
+        title: '👑 大魔王出現了！',
+        body: '要用哪一種方式挑戰？限時挑戰每題 40 秒，打贏多拿 5 條小魚乾。',
+        actions: [{ label: '一般挑戰', value: false }, { label: '⏱️ 限時挑戰', value: true, kind: 'primary' }],
+        dismissible: false,
+      });
+      if (!alive) return;
+    }
+    const timerBar = h('div', { class: 'timer' }, h('div', { class: 'timer-fill' }));
+    if (timed) battleEl.querySelector('.battle-top').after(timerBar);
+
     if (node.isBoss) {
       burst('👑 大魔王出現了！', 'special');
       if (lowGrade) await speak('大魔王出現了！加油！');
@@ -222,7 +237,20 @@ export default function battle(root, params, { go, app }) {
       qwrap.replaceChildren(view.el);
       if (lowGrade) sayQuestion(q);
 
+      let timer = null;
+      if (timed) {
+        const fill = timerBar.firstChild;
+        fill.style.transition = 'none';
+        fill.style.width = '100%';
+        void fill.offsetWidth;
+        fill.style.transition = `width ${TIME_LIMIT}s linear`;
+        fill.style.width = '0%';
+        timer = setTimeout(() => view.timeUp(), TIME_LIMIT * 1000);
+      }
       let res = await view.waitAnswer();
+      clearTimeout(timer);
+      if (timed) { const fill = timerBar.firstChild; fill.style.width = getComputedStyle(fill).width; fill.style.transition = 'none'; }
+      if (res.timedOut) burst('⏰ 時間到！', 'oops');
       if (!alive) return;
       stopSpeech();
 
@@ -276,6 +304,7 @@ export default function battle(root, params, { go, app }) {
     const rec = recordBattle(player, {
       regionId: region.id, nodeId: node.id, subject: region.subject, catId, results, defeated, isBoss: node.isBoss, isDrill,
     });
+    if (timed && defeated) { player.fish += 5; rec.fish += 5; }
     const gifts = afterBattle(player, { subject: region.subject, catId, rec, defeated, isBoss: node.isBoss, unitNodeKeys });
     trackDaily(player, { rec, results });
     if (defeated) {

@@ -504,3 +504,19 @@ body.low-grade .opt.bubble { font-size: clamp(56px, 7.5vw, 80px); min-height: 0;
 .q-options.kind-mouth .opt-svg svg { max-height: 90px; }
 body.low-grade .q-options.has-svg .opt-label { font-size: 1.15em; }
 body.low-grade .q-options.kind-tone .opt-svg svg { max-height: 70px; }
+
+/* 操作型大魔王 */
+.q-hot { display: flex; justify-content: center; align-items: center; height: 100%; min-height: 0; }
+.q-hot svg { width: 100%; height: 100%; max-height: 52vh; }
+.q-hot .hot, .q-hot .map-spot { cursor: pointer; }
+.q-hot .hot:active circle, .q-hot .map-spot:active circle { fill: #FFE9D6; }
+.q-hot .right circle { fill: #DFF5DF; stroke: var(--good-dark); }
+.q-hot .wrong circle { fill: #FDE6E6; stroke: var(--bad); }
+.question.style-compass .q-answer, .question.style-map .q-answer { flex-basis: 100%; }
+.q-options .opt-svg svg.clone { max-height: 13vh; }
+.q-options.kind-rhetoric .opt { background: linear-gradient(160deg, #FFF8EE, #F3E6FF); border-color: #CDB8F0; box-shadow: 0 5px 0 #A98BD8; }
+
+/* 限時挑戰 */
+.timer { height: 10px; background: #F1E4D3; border-radius: 99px; overflow: hidden; border: 2px solid var(--line-dark); }
+.timer-fill { height: 100%; width: 100%; background: linear-gradient(90deg, #F07C7C, #FFC93C, #5DBB6A); }
+.question.style-clones .opt-label { font-size: 1.5em; font-weight: 900; }

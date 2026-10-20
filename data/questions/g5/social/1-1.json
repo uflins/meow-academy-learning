@@ -1,0 +1,890 @@
+[
+  {
+    "id": "g5soc-1-1-001",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看地圖：臺灣和中國之間的「甲」，是哪一個海峽？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 560\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"640\" height=\"560\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-45 -45L315 -45L315 0L311 18L297 45L288 72L266 95L252 113L234 130L216 153L207 175L207 194L193 207L176 225L162 243L139 250L122 265L103 284L81 301L58 317L27 324L-45 333Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><path d=\"M252 518L270 512L297 515L324 520L328 531L322 576L243 576L245 540Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><path d=\"M569 176L581 162L599 142L594 139L574 158L571 171Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"360\" cy=\"250\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"397\" cy=\"256\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"413\" cy=\"251\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"463\" cy=\"235\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"531\" cy=\"164\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"553\" cy=\"171\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"604\" cy=\"133\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"612\" cy=\"118\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"628\" cy=\"99\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M288 217L294 211L301 216L304 218L311 219L315 225L308 231L307 239L309 243L306 250L304 257L301 263L298 271L293 288L293 295L291 301L287 310L283 316L277 326L270 333L266 345L265 351L265 360L263 365L257 363L257 357L256 351L252 343L245 339L242 338L237 333L237 329L233 320L232 315L229 309L229 306L230 303L231 298L231 294L232 289L234 280L238 274L239 270L243 267L248 258L251 253L255 248L259 242L263 239L266 233L270 230L274 223L281 220L288 218Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"268\" y=\"296\" font-size=\"16\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><text x=\"90\" y=\"150\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><circle cx=\"182\" cy=\"263\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"182\" y=\"269\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M605 62L605 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M598 40L605 28L612 40Z\" fill=\"#4A3B32\"/><text x=\"605\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "巴士海峽",
+      "臺灣海峽",
+      "東海"
+    ],
+    "answer": "臺灣海峽",
+    "explanation": "臺灣西邊隔著臺灣海峽，對面就是中國。",
+    "difficulty": 1,
+    "tags": [
+      "map",
+      "海峽"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-002",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看地圖：臺灣南邊的「乙」，是哪一個海峽？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 560\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"640\" height=\"560\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-45 -45L315 -45L315 0L311 18L297 45L288 72L266 95L252 113L234 130L216 153L207 175L207 194L193 207L176 225L162 243L139 250L122 265L103 284L81 301L58 317L27 324L-45 333Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><path d=\"M252 518L270 512L297 515L324 520L328 531L322 576L243 576L245 540Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><path d=\"M569 176L581 162L599 142L594 139L574 158L571 171Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"360\" cy=\"250\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"397\" cy=\"256\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"413\" cy=\"251\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"463\" cy=\"235\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"531\" cy=\"164\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"553\" cy=\"171\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"604\" cy=\"133\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"612\" cy=\"118\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"628\" cy=\"99\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M288 217L294 211L301 216L304 218L311 219L315 225L308 231L307 239L309 243L306 250L304 257L301 263L298 271L293 288L293 295L291 301L287 310L283 316L277 326L270 333L266 345L265 351L265 360L263 365L257 363L257 357L256 351L252 343L245 339L242 338L237 333L237 329L233 320L232 315L229 309L229 306L230 303L231 298L231 294L232 289L234 280L238 274L239 270L243 267L248 258L251 253L255 248L259 242L263 239L266 233L270 230L274 223L281 220L288 218Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"268\" y=\"296\" font-size=\"16\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><text x=\"286\" y=\"547\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">菲律賓</text><circle cx=\"266\" cy=\"423\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"266\" y=\"429\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M605 62L605 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M598 40L605 28L612 40Z\" fill=\"#4A3B32\"/><text x=\"605\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "南海",
+      "巴士海峽",
+      "臺灣海峽"
+    ],
+    "answer": "巴士海峽",
+    "explanation": "臺灣和南邊的菲律賓之間，隔著巴士海峽。",
+    "difficulty": 1,
+    "tags": [
+      "map",
+      "海峽"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-003",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看地圖：臺灣東邊的「丙」，是哪一個大洋？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 560\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"640\" height=\"560\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-45 -45L315 -45L315 0L311 18L297 45L288 72L266 95L252 113L234 130L216 153L207 175L207 194L193 207L176 225L162 243L139 250L122 265L103 284L81 301L58 317L27 324L-45 333Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><path d=\"M252 518L270 512L297 515L324 520L328 531L322 576L243 576L245 540Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><path d=\"M569 176L581 162L599 142L594 139L574 158L571 171Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"360\" cy=\"250\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"397\" cy=\"256\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"413\" cy=\"251\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"463\" cy=\"235\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"531\" cy=\"164\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"553\" cy=\"171\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"604\" cy=\"133\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"612\" cy=\"118\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"628\" cy=\"99\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M288 217L294 211L301 216L304 218L311 219L315 225L308 231L307 239L309 243L306 250L304 257L301 263L298 271L293 288L293 295L291 301L287 310L283 316L277 326L270 333L266 345L265 351L265 360L263 365L257 363L257 357L256 351L252 343L245 339L242 338L237 333L237 329L233 320L232 315L229 309L229 306L230 303L231 298L231 294L232 289L234 280L238 274L239 270L243 267L248 258L251 253L255 248L259 242L263 239L266 233L270 230L274 223L281 220L288 218Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"268\" y=\"296\" font-size=\"16\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><text x=\"90\" y=\"150\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><text x=\"286\" y=\"547\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">菲律賓</text><circle cx=\"441\" cy=\"346\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"441\" y=\"352\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M605 62L605 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M598 40L605 28L612 40Z\" fill=\"#4A3B32\"/><text x=\"605\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "大西洋",
+      "印度洋",
+      "太平洋"
+    ],
+    "answer": "太平洋",
+    "explanation": "臺灣的東邊是太平洋，它是世界上面積最大的海洋。",
+    "difficulty": 1,
+    "tags": [
+      "map",
+      "海洋"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-004",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看地圖：「甲」和「乙」哪一個是東海？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 560\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"640\" height=\"560\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-45 -45L315 -45L315 0L311 18L297 45L288 72L266 95L252 113L234 130L216 153L207 175L207 194L193 207L176 225L162 243L139 250L122 265L103 284L81 301L58 317L27 324L-45 333Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><path d=\"M252 518L270 512L297 515L324 520L328 531L322 576L243 576L245 540Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><path d=\"M569 176L581 162L599 142L594 139L574 158L571 171Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"360\" cy=\"250\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"397\" cy=\"256\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"413\" cy=\"251\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"463\" cy=\"235\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"531\" cy=\"164\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"553\" cy=\"171\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"604\" cy=\"133\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"612\" cy=\"118\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"628\" cy=\"99\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M288 217L294 211L301 216L304 218L311 219L315 225L308 231L307 239L309 243L306 250L304 257L301 263L298 271L293 288L293 295L291 301L287 310L283 316L277 326L270 333L266 345L265 351L265 360L263 365L257 363L257 357L256 351L252 343L245 339L242 338L237 333L237 329L233 320L232 315L229 309L229 306L230 303L231 298L231 294L232 289L234 280L238 274L239 270L243 267L248 258L251 253L255 248L259 242L263 239L266 233L270 230L274 223L281 220L288 218Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"268\" y=\"296\" font-size=\"16\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><text x=\"90\" y=\"150\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><text x=\"286\" y=\"547\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">菲律賓</text><circle cx=\"387\" cy=\"95\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"387\" y=\"101\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><circle cx=\"86\" cy=\"450\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"86\" y=\"456\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M605 62L605 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M598 40L605 28L612 40Z\" fill=\"#4A3B32\"/><text x=\"605\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙"
+    ],
+    "answer": "甲",
+    "explanation": "東海在臺灣的北邊（甲）；南海在臺灣的西南邊（乙）。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "海洋",
+      "方位"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-005",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看地圖：在臺灣東北方的「乙」，是哪一個國家？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 560\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"640\" height=\"560\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-45 -45L315 -45L315 0L311 18L297 45L288 72L266 95L252 113L234 130L216 153L207 175L207 194L193 207L176 225L162 243L139 250L122 265L103 284L81 301L58 317L27 324L-45 333Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><path d=\"M252 518L270 512L297 515L324 520L328 531L322 576L243 576L245 540Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><path d=\"M569 176L581 162L599 142L594 139L574 158L571 171Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"360\" cy=\"250\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"397\" cy=\"256\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"413\" cy=\"251\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"463\" cy=\"235\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"531\" cy=\"164\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"553\" cy=\"171\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"604\" cy=\"133\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"612\" cy=\"118\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"628\" cy=\"99\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M288 217L294 211L301 216L304 218L311 219L315 225L308 231L307 239L309 243L306 250L304 257L301 263L298 271L293 288L293 295L291 301L287 310L283 316L277 326L270 333L266 345L265 351L265 360L263 365L257 363L257 357L256 351L252 343L245 339L242 338L237 333L237 329L233 320L232 315L229 309L229 306L230 303L231 298L231 294L232 289L234 280L238 274L239 270L243 267L248 258L251 253L255 248L259 242L263 239L266 233L270 230L274 223L281 220L288 218Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"268\" y=\"296\" font-size=\"16\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><circle cx=\"90\" cy=\"144\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"90\" y=\"150\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M544 203L583 158\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"544\" cy=\"203\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"544\" y=\"209\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><circle cx=\"286\" cy=\"541\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"286\" y=\"547\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M605 62L605 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M598 40L605 28L612 40Z\" fill=\"#4A3B32\"/><text x=\"605\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "中國",
+      "日本",
+      "菲律賓"
+    ],
+    "answer": "日本",
+    "explanation": "日本在臺灣的東北方（乙）；中國在西邊（甲），菲律賓在南邊（丙）。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "鄰國",
+      "方位"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-006",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "隔著臺灣海峽，在臺灣西邊的是哪一個國家？",
+    "options": [
+      "日本",
+      "中國",
+      "菲律賓"
+    ],
+    "answer": "中國",
+    "explanation": "臺灣和中國隔著臺灣海峽；和菲律賓隔著巴士海峽。",
+    "difficulty": 1,
+    "tags": [
+      "map",
+      "鄰國"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-007",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "multi",
+    "prompt": "下面哪些國家屬於東南亞？（可以選很多個）",
+    "options": [
+      "菲律賓",
+      "越南",
+      "南韓",
+      "泰國",
+      "日本"
+    ],
+    "answer": [
+      "菲律賓",
+      "越南",
+      "泰國"
+    ],
+    "explanation": "菲律賓、越南、泰國在東南亞；日本、南韓在東北亞。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "鄰國"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-008",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "臺灣島位在哪裡？",
+    "options": [
+      "亞洲大陸北側、太平洋南側",
+      "亞洲大陸東側、太平洋西側",
+      "亞洲大陸西側、太平洋東側"
+    ],
+    "answer": "亞洲大陸東側、太平洋西側",
+    "explanation": "臺灣正好在最大的陸地（亞洲大陸）和最大的海洋（太平洋）交會的地方。",
+    "difficulty": 1,
+    "tags": [
+      "map",
+      "位置"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-009",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "multi",
+    "prompt": "下面哪些是「三大洋」？（可以選很多個）",
+    "options": [
+      "東海",
+      "印度洋",
+      "臺灣海峽",
+      "太平洋",
+      "大西洋"
+    ],
+    "answer": [
+      "太平洋",
+      "大西洋",
+      "印度洋"
+    ],
+    "explanation": "三大洋是太平洋、大西洋、印度洋，它們環繞五大洲，而且彼此相通。",
+    "difficulty": 1,
+    "tags": [
+      "map",
+      "五大洲三大洋"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-010",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "multi",
+    "prompt": "下面哪些是「五大洲」裡的洲？（可以選很多個）",
+    "options": [
+      "大洋洲",
+      "太平洋",
+      "非洲",
+      "東海",
+      "亞洲"
+    ],
+    "answer": [
+      "亞洲",
+      "非洲",
+      "大洋洲"
+    ],
+    "explanation": "五大洲是亞洲、美洲、歐洲、非洲、大洋洲；太平洋和東海是海洋。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "五大洲三大洋"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-011",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看圖：地球上畫了三條緯線，通過臺灣附近的「甲」是哪一條？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 360\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"600\" height=\"360\" rx=\"12\" fill=\"#FFFFFF\"/><circle cx=\"280\" cy=\"185\" r=\"150\" fill=\"#D4ECFA\" stroke=\"#2B5D85\" stroke-width=\"3\"/><path d=\"M142 125L418 125\" stroke=\"#D9442F\" stroke-width=\"3\" stroke-dasharray=\"9 6\"/><path d=\"M130 185L430 185\" stroke=\"#2B5D85\" stroke-width=\"3\"/><path d=\"M142 245L418 245\" stroke=\"#D9442F\" stroke-width=\"3\" stroke-dasharray=\"9 6\"/><path d=\"M418 125L475 125\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"490\" cy=\"125\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"490\" y=\"131\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M430 185L475 185\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"490\" cy=\"185\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"490\" y=\"191\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M418 245L475 245\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"490\" cy=\"245\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"490\" y=\"251\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><circle cx=\"320\" cy=\"125\" r=\"7\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"320\" y=\"111\" font-size=\"16\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><text x=\"280\" y=\"26\" font-size=\"16\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text><text x=\"280\" y=\"354\" font-size=\"16\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">南</text></svg>"
+    },
+    "options": [
+      "北回歸線",
+      "赤道",
+      "南回歸線"
+    ],
+    "answer": "北回歸線",
+    "explanation": "臺灣在北回歸線（甲）附近；中間的乙是赤道，最下面的丙是南回歸線。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "緯線"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-012",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "input",
+    "prompt": "北回歸線在北緯幾度？（只要填數字）",
+    "keypad": "decimal",
+    "answer": "23.5",
+    "explanation": "北回歸線是北緯 23.5 度；南回歸線是南緯 23.5 度；赤道是 0 度。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "緯線"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-013",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看地圖：紅色虛線是北回歸線。「甲」在線的南邊，屬於哪一種氣候？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M0 324L550 324\" stroke=\"#D9442F\" stroke-width=\"3\" stroke-dasharray=\"10 7\"/><text x=\"12\" y=\"314\" font-size=\"16\" font-weight=\"700\" fill=\"#D9442F\" text-anchor=\"start\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">北回歸線</text><path d=\"M288 416L244 426\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"288\" cy=\"416\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"244\" cy=\"426\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"244\" y=\"432\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "熱帶",
+      "副熱帶",
+      "寒帶"
+    ],
+    "answer": "熱帶",
+    "explanation": "北回歸線通過臺灣：以北是副熱帶氣候，以南是熱帶氣候。",
+    "difficulty": 3,
+    "tags": [
+      "map",
+      "緯線",
+      "氣候"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-014",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看地圖：在臺灣海峽中間的「丙」，是哪一個群島？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><ellipse cx=\"435\" cy=\"172\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"384\" cy=\"411\" rx=\"6\" ry=\"5\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"390\" cy=\"478\" rx=\"9\" ry=\"6\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"261\" cy=\"447\" rx=\"5\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M215 25L249 33\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"215\" cy=\"25\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"249\" cy=\"33\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"249\" y=\"39\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M42 216L42 252\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"42\" cy=\"216\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"42\" cy=\"252\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"42\" y=\"258\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M175 308L137 324\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"175\" cy=\"308\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"137\" cy=\"324\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"137\" y=\"330\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "馬祖列島",
+      "金門群島",
+      "澎湖群島"
+    ],
+    "answer": "澎湖群島",
+    "explanation": "澎湖群島在臺灣海峽中間；馬祖（甲）、金門（乙）靠近中國沿岸。",
+    "difficulty": 1,
+    "tags": [
+      "island",
+      "離島"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-015",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看地圖：在最北邊、靠近中國沿岸的「甲」是哪裡？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><ellipse cx=\"435\" cy=\"172\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"384\" cy=\"411\" rx=\"6\" ry=\"5\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"390\" cy=\"478\" rx=\"9\" ry=\"6\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"261\" cy=\"447\" rx=\"5\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M215 25L249 33\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"215\" cy=\"25\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"249\" cy=\"33\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"249\" y=\"39\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M42 216L42 252\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"42\" cy=\"216\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"42\" cy=\"252\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"42\" y=\"258\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M175 308L137 324\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"175\" cy=\"308\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"137\" cy=\"324\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"137\" y=\"330\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "馬祖列島",
+      "金門群島",
+      "澎湖群島"
+    ],
+    "answer": "馬祖列島",
+    "explanation": "馬祖列島在最北邊；金門群島（乙）在西邊，也靠近中國沿岸。",
+    "difficulty": 2,
+    "tags": [
+      "island",
+      "離島"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-016",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看地圖：哪一個是蘭嶼？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><ellipse cx=\"435\" cy=\"172\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"384\" cy=\"411\" rx=\"6\" ry=\"5\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"390\" cy=\"478\" rx=\"9\" ry=\"6\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"261\" cy=\"447\" rx=\"5\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M435 172L471 172\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"172\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"471\" cy=\"172\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"471\" y=\"178\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M384 411L420 407\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"384\" cy=\"411\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"420\" cy=\"407\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"420\" y=\"413\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M390 478L426 478\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"390\" cy=\"478\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"426\" cy=\"478\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"426\" y=\"484\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M261 447L223 453\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"261\" cy=\"447\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"223\" cy=\"453\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"223\" y=\"459\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丁</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+    ],
+    "answer": "丙",
+    "explanation": "蘭嶼在臺東的東南方外海（丙），比綠島（乙）更南邊。",
+    "difficulty": 2,
+    "tags": [
+      "island",
+      "離島"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-017",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "看地圖：在高雄、屏東外海的「丁」，是哪一座島？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><ellipse cx=\"435\" cy=\"172\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"384\" cy=\"411\" rx=\"6\" ry=\"5\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"390\" cy=\"478\" rx=\"9\" ry=\"6\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"261\" cy=\"447\" rx=\"5\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M435 172L471 172\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"172\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"471\" cy=\"172\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"471\" y=\"178\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M384 411L420 407\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"384\" cy=\"411\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"420\" cy=\"407\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"420\" y=\"413\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M390 478L426 478\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"390\" cy=\"478\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"426\" cy=\"478\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"426\" y=\"484\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M261 447L223 453\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"261\" cy=\"447\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"223\" cy=\"453\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"223\" y=\"459\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丁</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "綠島",
+      "龜山島",
+      "琉球嶼（小琉球）"
+    ],
+    "answer": "琉球嶼（小琉球）",
+    "explanation": "琉球嶼（小琉球）在臺灣西南方的高雄、屏東外海。",
+    "difficulty": 2,
+    "tags": [
+      "island",
+      "離島"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-018",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "「箱網養殖漁業」和哪一個群島最有關係？",
+    "options": [
+      "馬祖列島",
+      "澎湖群島",
+      "金門群島"
+    ],
+    "answer": "澎湖群島",
+    "explanation": "澎湖群島在臺灣海峽中間，發展箱網養殖漁業。",
+    "difficulty": 1,
+    "tags": [
+      "island",
+      "離島"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-019",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "想去賞鯨豚，可以搭船到宜蘭外海的哪一座島附近？",
+    "options": [
+      "綠島",
+      "蘭嶼",
+      "龜山島"
+    ],
+    "answer": "龜山島",
+    "explanation": "龜山島在宜蘭外海，是賞鯨豚的好地方。",
+    "difficulty": 1,
+    "tags": [
+      "island",
+      "離島"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-020",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "在臺東外海、以「國際級潛水」出名的是哪一座島？",
+    "options": [
+      "綠島",
+      "琉球嶼（小琉球）",
+      "龜山島"
+    ],
+    "answer": "綠島",
+    "explanation": "綠島在臺東外海，是國際級的潛水地點。",
+    "difficulty": 1,
+    "tags": [
+      "island",
+      "離島"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-021",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "蘭嶼野銀部落保留一種傳統房屋，主屋蓋在比地面低 1～2 公尺的地穴裡。這是什麼？",
+    "options": [
+      "地下屋",
+      "騎樓",
+      "竹屋"
+    ],
+    "answer": "地下屋",
+    "explanation": "蘭嶼的地下屋蓋在比地面低的地穴裡，用來適應當地的氣候。",
+    "difficulty": 2,
+    "tags": [
+      "island",
+      "離島",
+      "氣候"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-022",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "order",
+    "prompt": "把這些島嶼從「最北」排到「最南」：",
+    "items": [
+      "馬祖列島",
+      "金門群島",
+      "澎湖群島",
+      "蘭嶼"
+    ],
+    "explanation": "馬祖最北，接著是金門、澎湖，蘭嶼在臺東東南方外海，最南邊。",
+    "difficulty": 3,
+    "tags": [
+      "island",
+      "離島",
+      "方位"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-023",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "multi",
+    "prompt": "下面哪些屬於我國的範圍？（可以選很多個）",
+    "options": [
+      "澎湖群島",
+      "釣魚臺列嶼",
+      "金門群島",
+      "菲律賓",
+      "日本"
+    ],
+    "answer": [
+      "澎湖群島",
+      "金門群島",
+      "釣魚臺列嶼"
+    ],
+    "explanation": "我國範圍包括臺灣島、澎湖、金門、馬祖、釣魚臺列嶼、南海諸島等；菲律賓、日本是鄰國。",
+    "difficulty": 2,
+    "tags": [
+      "island",
+      "我國範圍"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-024",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "太平島在南海的哪一個群島一帶？",
+    "options": [
+      "南沙群島",
+      "澎湖群島",
+      "東沙群島"
+    ],
+    "answer": "南沙群島",
+    "explanation": "南海諸島有東沙、西沙、中沙、南沙群島，太平島在南沙群島一帶。",
+    "difficulty": 3,
+    "tags": [
+      "island",
+      "我國範圍"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-025",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "我國的總面積大約是多少？",
+    "options": [
+      "約 3,600 平方公里",
+      "約 36,000 平方公里",
+      "約 360,000 平方公里"
+    ],
+    "answer": "約 36,000 平方公里",
+    "explanation": "我國範圍包括臺灣島和四周許多島嶼，總面積約 36,000 平方公里。",
+    "difficulty": 2,
+    "tags": [
+      "island",
+      "我國範圍"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-026",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "冬天吹東北季風時，臺灣北部和東北部常常是什麼天氣？",
+    "options": [
+      "又乾又熱，很少下雨",
+      "又濕又冷，容易下雨",
+      "晴朗溫暖，適合晾衣服"
+    ],
+    "answer": "又濕又冷，容易下雨",
+    "explanation": "東北季風帶來寒冷的空氣，經過海洋帶了水氣，所以北部、東北部濕冷多雨。",
+    "difficulty": 1,
+    "tags": [
+      "cause",
+      "季風"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-027",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "夏天從西南方海洋帶來溫暖潮濕氣流、讓全臺濕熱多雨的，是哪一種季風？",
+    "options": [
+      "西南季風",
+      "東北季風"
+    ],
+    "answer": "西南季風",
+    "explanation": "西南季風大約在 5 月中～9 月中吹，讓全臺濕熱多雨。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "季風"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-028",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "新竹縣新埔鎮的居民，利用冬天的什麼把柿子做成柿餅？",
+    "options": [
+      "大雷雨",
+      "強風和日曬",
+      "南下的寒流"
+    ],
+    "answer": "強風和日曬",
+    "explanation": "柿子秋天成熟、容易爛，居民利用冬季的強風和日曬做成柿餅，可以保存比較久。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "季風",
+      "因應氣候"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-029",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "雲林有許多一樓設「騎樓」的房屋。騎樓可以幫忙因應什麼樣的氣候？",
+    "options": [
+      "乾燥、寒冷",
+      "多雨、炎熱",
+      "常常下雪"
+    ],
+    "answer": "多雨、炎熱",
+    "explanation": "騎樓可以遮雨、遮太陽，下雨天或大熱天，人們也能在騎樓下通行、購物。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "因應氣候"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-030",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "冬天南下的寒流，帶來哪一種魚到臺灣西南沿海產卵？",
+    "options": [
+      "黑鮪魚",
+      "飛魚",
+      "烏魚"
+    ],
+    "answer": "烏魚",
+    "explanation": "冬季寒流帶來烏魚，烏魚卵可以做成烏魚子，是西南沿海的重要物產。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "洋流"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-031",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "春天、夏天，黑鮪魚跟著哪一種洋流游經臺灣東部？",
+    "options": [
+      "北上的暖流",
+      "南下的寒流"
+    ],
+    "answer": "北上的暖流",
+    "explanation": "黑鮪魚跟著北上的暖流游經臺灣東部，屏東還舉辦黑鮪魚文化觀光季。",
+    "difficulty": 3,
+    "tags": [
+      "cause",
+      "洋流"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-032",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "黑面琵鷺大約在每年幾月，從北方飛來臺灣過冬？",
+    "options": [
+      "9～10 月",
+      "3～5 月",
+      "5～9 月"
+    ],
+    "answer": "9～10 月",
+    "explanation": "天氣變冷的 9～10 月南飛到臺灣過冬，隔年 3～5 月再陸續飛回北方。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "候鳥"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-033",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "truefalse",
+    "prompt": "寒流是從高緯度流向低緯度的洋流，水溫比四周低。",
+    "answer": true,
+    "explanation": "對！寒流從高緯度流向低緯度，水溫比四周低。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "洋流"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-034",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "truefalse",
+    "prompt": "暖流是從低緯度流向高緯度的洋流，水溫比四周低。",
+    "answer": false,
+    "explanation": "暖流的水溫比四周「高」；水溫比四周低的是寒流。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "洋流"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-035",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "truefalse",
+    "prompt": "西南季風在冬天吹，會帶來寒冷乾燥的空氣。",
+    "answer": false,
+    "explanation": "冬天吹的是東北季風；西南季風在夏天吹，帶來溫暖潮濕的氣流。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "季風"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-036",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "truefalse",
+    "prompt": "臺灣四面環海、位置適中，船隻可以方便的開往東亞各國。",
+    "answer": true,
+    "explanation": "對！所以臺灣方便和各國交流、貿易。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "位置"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-037",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "truefalse",
+    "prompt": "黑面琵鷺一年四季都住在臺南七股，不會飛走。",
+    "answer": false,
+    "explanation": "黑面琵鷺是候鳥：秋天天氣變冷時飛來過冬，隔年春天再飛回北方。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "候鳥"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-038",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "truefalse",
+    "prompt": "東北季風大約從 10 月初吹到隔年 4 月中。",
+    "answer": true,
+    "explanation": "對！東北季風在冬季吹，大約 10 月初～隔年 4 月中；西南季風大約 5 月中～9 月中。",
+    "difficulty": 3,
+    "tags": [
+      "truefalse",
+      "季風"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-039",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①四百多年前，航行經過的歐洲人覺得這座島風景美麗\n②就在地圖上用我來稱呼臺灣\n③到今天我仍是臺灣重要的代稱",
+    "options": [
+      "福爾摩沙",
+      "聖地牙哥",
+      "大員"
+    ],
+    "answer": "福爾摩沙",
+    "explanation": "歐洲人稱臺灣為福爾摩沙（Formosa），這個名稱一直用到今天。",
+    "difficulty": 1,
+    "tags": [
+      "who",
+      "福爾摩沙"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-040",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是面積最大的海洋，比地球上所有陸地加起來還大\n②我的西側有亞洲和大洋洲，東側是美洲\n③臺灣就在我的西側",
+    "options": [
+      "太平洋",
+      "大西洋",
+      "印度洋"
+    ],
+    "answer": "太平洋",
+    "explanation": "太平洋是最大的海洋，臺灣在太平洋的西側。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "五大洲三大洋"
+    ]
+  },
+  {
+    "id": "g5soc-1-1-041",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是瀕臨絕種的候鳥\n②我用扁扁長長的嘴，在水裡左右擺動找食物\n③我在臺南七股的魚塭、潟湖和鹽田濕地過冬",
+    "options": [
+      "黑面琵鷺",
+      "黑鮪魚",
+      "烏魚"
+    ],
+    "answer": "黑面琵鷺",
+    "explanation": "黑面琵鷺每年秋天從北方飛到臺南七股過冬。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "候鳥"
+    ]
+  }
+]

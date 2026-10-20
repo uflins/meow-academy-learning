@@ -1,0 +1,752 @@
+[
+  {
+    "id": "g5soc-1-2-001",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "考古挖寶！在臺東海邊的洞穴裡，挖到用石頭互相敲打做成的石器。這是哪一個遺址？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🪨",
+          "count": 1,
+          "label": "敲打出來的石器"
+        }
+      ]
+    },
+    "options": [
+      "卑南遺址",
+      "長濱遺址",
+      "十三行遺址"
+    ],
+    "answer": "長濱遺址",
+    "explanation": "長濱遺址在臺東八仙洞，屬於舊石器時代，人們敲擊石頭做成打製石器。",
+    "difficulty": 1,
+    "tags": [
+      "dig",
+      "長濱"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-002",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "考古挖寶！挖到用石板組成的棺材，一共出土兩千多具。這是哪一個遺址？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "⚰️",
+          "count": 1,
+          "label": "石板棺"
+        }
+      ]
+    },
+    "options": [
+      "卑南遺址",
+      "長濱遺址",
+      "十三行遺址"
+    ],
+    "answer": "卑南遺址",
+    "explanation": "卑南遺址出土兩千多具石板棺，可見當時已經有大型聚落。",
+    "difficulty": 1,
+    "tags": [
+      "dig",
+      "卑南"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-003",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "考古挖寶！在臺灣北部挖到鐵器，還發現了煉鐵作坊。這是哪一個遺址？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "⚒️",
+          "count": 1,
+          "label": "鐵器"
+        }
+      ]
+    },
+    "options": [
+      "卑南遺址",
+      "十三行遺址",
+      "長濱遺址"
+    ],
+    "answer": "十三行遺址",
+    "explanation": "十三行遺址屬於金屬器時代，人們學會從海外傳入的煉鐵技術。",
+    "difficulty": 1,
+    "tags": [
+      "dig",
+      "十三行"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-004",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "考古挖寶！挖到來自東南亞的琉璃珠。這是哪一個遺址？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "📿",
+          "count": 1,
+          "label": "琉璃珠"
+        }
+      ]
+    },
+    "options": [
+      "十三行遺址",
+      "長濱遺址",
+      "卑南遺址"
+    ],
+    "answer": "十三行遺址",
+    "explanation": "十三行遺址出土來自東南亞的琉璃珠，表示當時已經有跨海交易。",
+    "difficulty": 2,
+    "tags": [
+      "dig",
+      "十三行",
+      "交流"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-005",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "考古挖寶！挖到有兩個把手的陶罐，旁邊還有磨製的石刀。這是哪一個遺址？",
+    "visual": {
+      "emojiGroups": [
+        {
+          "emoji": "🏺",
+          "count": 1,
+          "label": "有兩個把手的陶罐"
+        }
+      ]
+    },
+    "options": [
+      "十三行遺址",
+      "卑南遺址",
+      "長濱遺址"
+    ],
+    "answer": "卑南遺址",
+    "explanation": "卑南遺址的人用陶土做陶器、用石刀收割，屬於新石器時代。",
+    "difficulty": 2,
+    "tags": [
+      "dig",
+      "卑南"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-006",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "長濱遺址屬於哪一個時代？",
+    "options": [
+      "舊石器時代",
+      "新石器時代",
+      "金屬器時代"
+    ],
+    "answer": "舊石器時代",
+    "explanation": "長濱遺址的人打製石器、會用火，屬於舊石器時代。",
+    "difficulty": 1,
+    "tags": [
+      "dig",
+      "長濱",
+      "史前分期"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-007",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "十三行遺址屬於哪一個時代？",
+    "options": [
+      "舊石器時代",
+      "新石器時代",
+      "金屬器時代"
+    ],
+    "answer": "金屬器時代",
+    "explanation": "十三行遺址的人會煉鐵、做鐵器，屬於金屬器時代。",
+    "difficulty": 1,
+    "tags": [
+      "dig",
+      "十三行",
+      "史前分期"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-008",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "把石頭「磨製」成好用的石器，還開始種芋頭和稻米，這是哪一個時代的生活？",
+    "options": [
+      "舊石器時代",
+      "新石器時代",
+      "金屬器時代"
+    ],
+    "answer": "新石器時代",
+    "explanation": "新石器時代會磨製石器、發展農業和聚落，卑南遺址就是代表。",
+    "difficulty": 2,
+    "tags": [
+      "dig",
+      "卑南",
+      "史前分期"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-009",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "multi",
+    "prompt": "下面哪些是卑南遺址出土的東西？（可以選很多個）",
+    "options": [
+      "煉鐵作坊",
+      "石刀",
+      "琉璃珠",
+      "石板棺",
+      "玉器"
+    ],
+    "answer": [
+      "石板棺",
+      "石刀",
+      "玉器"
+    ],
+    "explanation": "石板棺、石刀、玉器出自卑南遺址；煉鐵作坊和東南亞琉璃珠出自十三行遺址。",
+    "difficulty": 2,
+    "tags": [
+      "dig",
+      "卑南"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-010",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "卑南遺址位在今天的哪裡？",
+    "options": [
+      "臺灣北部",
+      "臺東市南王里",
+      "臺東縣長濱鄉八仙洞"
+    ],
+    "answer": "臺東市南王里",
+    "explanation": "卑南遺址在臺東市南王里；長濱遺址在長濱鄉八仙洞；十三行遺址在臺灣北部。",
+    "difficulty": 2,
+    "tags": [
+      "dig",
+      "卑南",
+      "遺址位置"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-011",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "長濱遺址的人住在哪裡？",
+    "options": [
+      "海邊的洞穴",
+      "有煉鐵作坊的村落",
+      "有豬圈的高腳屋"
+    ],
+    "answer": "海邊的洞穴",
+    "explanation": "長濱遺址的人住在海邊洞穴，捕捉海中生物，也採集植物、打獵維生。",
+    "difficulty": 2,
+    "tags": [
+      "dig",
+      "長濱"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-012",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "花蓮出產的臺灣玉，在哪一個遺址大量出現？",
+    "options": [
+      "卑南遺址",
+      "十三行遺址",
+      "長濱遺址"
+    ],
+    "answer": "卑南遺址",
+    "explanation": "花蓮的臺灣玉在臺東卑南遺址大量出現，可見新石器時代島內已經有玉器交換。",
+    "difficulty": 3,
+    "tags": [
+      "dig",
+      "臺灣玉",
+      "交流"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-013",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "「人面陶罐」是哪一座博物館的代表文物？",
+    "options": [
+      "蘭陽博物館",
+      "國立臺灣史前文化博物館",
+      "十三行文化博物館"
+    ],
+    "answer": "十三行文化博物館",
+    "explanation": "十三行文化博物館的代表文物是人面陶罐；史前文化博物館（臺東）有人獸形耳飾。",
+    "difficulty": 3,
+    "tags": [
+      "dig",
+      "博物館"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-014",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "看地圖：卑南遺址大約在哪裡？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M370 143L330 131\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"370\" cy=\"143\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"131\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"330\" y=\"137\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M377 332L417 332\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"377\" cy=\"332\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"417\" cy=\"332\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"417\" y=\"338\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M340 397L380 407\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"397\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"407\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"380\" y=\"413\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙"
+    ],
+    "answer": "丙",
+    "explanation": "卑南遺址在臺灣東南部的臺東市（丙）；長濱在東部海邊（乙）；十三行在北部（甲）。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "遺址位置"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-015",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "看地圖：十三行遺址大約在哪裡？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M370 143L330 131\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"370\" cy=\"143\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"131\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"330\" y=\"137\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M377 332L417 332\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"377\" cy=\"332\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"417\" cy=\"332\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"417\" y=\"338\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M340 397L380 407\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"397\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"407\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"380\" y=\"413\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙"
+    ],
+    "answer": "甲",
+    "explanation": "十三行遺址在臺灣北部（甲）；長濱（乙）、卑南（丙）都在臺東。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "遺址位置"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-016",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "order",
+    "prompt": "時光列車：把史前時代從「最早」排到「最晚」。",
+    "items": [
+      "舊石器時代",
+      "新石器時代",
+      "金屬器時代"
+    ],
+    "explanation": "舊石器時代最早，接著是新石器時代，再來是金屬器時代。",
+    "difficulty": 1,
+    "tags": [
+      "timeline",
+      "史前分期"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-017",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "order",
+    "prompt": "時光列車：把三個遺址從「最早」排到「最晚」。",
+    "items": [
+      "長濱遺址",
+      "卑南遺址",
+      "十三行遺址"
+    ],
+    "explanation": "長濱是舊石器時代，卑南是新石器時代，十三行是金屬器時代。",
+    "difficulty": 2,
+    "tags": [
+      "timeline",
+      "史前分期"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-018",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "order",
+    "prompt": "時光列車：三個史前時代「開始的時間」，從最早排到最晚。",
+    "items": [
+      "約 5 萬年前",
+      "約 7,000 年前",
+      "約 2,500 年前"
+    ],
+    "explanation": "舊石器時代約 5 萬年前開始，新石器時代約 7,000 年前，金屬器時代約 2,500 年前。",
+    "difficulty": 2,
+    "tags": [
+      "timeline",
+      "史前分期"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-019",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "order",
+    "prompt": "考古學家往下挖，越下面的地層年代越早。從「最下面」排到「最上面」：",
+    "items": [
+      "打製石器",
+      "磨製石器和陶器",
+      "鐵器"
+    ],
+    "explanation": "文化層由下往上是舊石器、新石器、金屬器時代。",
+    "difficulty": 3,
+    "tags": [
+      "timeline",
+      "文化層"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-020",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "order",
+    "prompt": "探究社會問題的四個步驟，依序排好：",
+    "items": [
+      "發現問題",
+      "蒐集資料",
+      "提出做法",
+      "行動省思"
+    ],
+    "explanation": "先發現問題，再蒐集資料、提出做法，最後行動省思。",
+    "difficulty": 2,
+    "tags": [
+      "timeline",
+      "探究"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-021",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是古代人類活動的地方\n②考古學家會在我這裡挖出古物和化石\n③研究我，可以了解人類發展的歷史",
+    "options": [
+      "部落",
+      "博物館",
+      "遺址"
+    ],
+    "answer": "遺址",
+    "explanation": "遺址是古代人類活動的地方，出土的古物和化石能幫助研究歷史。",
+    "difficulty": 1,
+    "tags": [
+      "who",
+      "遺址"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-022",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我在臺灣北部\n②這裡的人學會從海外傳入的煉鐵技術\n③這裡出土了來自東南亞的琉璃珠",
+    "options": [
+      "十三行遺址",
+      "長濱遺址",
+      "卑南遺址"
+    ],
+    "answer": "十三行遺址",
+    "explanation": "十三行遺址在臺灣北部，屬於金屬器時代。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "十三行"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-023",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是整理資料的好方法\n②我會問：何人、何事、何時、何地、為何、如何",
+    "options": [
+      "部落會議",
+      "六何法",
+      "文化層"
+    ],
+    "answer": "六何法",
+    "explanation": "六何法用六個問題整理資料，例如用來探究長濱遺址。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "探究"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-024",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是臺灣東海岸第一座國家級博物館\n②我結合了博物館、考古遺址和自然生態公園\n③我的本館在臺東市",
+    "options": [
+      "十三行文化博物館",
+      "國立臺灣史前文化博物館",
+      "蘭陽博物館"
+    ],
+    "answer": "國立臺灣史前文化博物館",
+    "explanation": "國立臺灣史前文化博物館包括臺東的康樂本館、卑南遺址公園和臺南的南科考古館。",
+    "difficulty": 3,
+    "tags": [
+      "who",
+      "博物館"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-025",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "truefalse",
+    "prompt": "史前時代是指沒有文字紀錄的年代。",
+    "answer": true,
+    "explanation": "對！沒有文字紀錄，所以要靠出土文物了解史前人的生活。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "史前時代"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-026",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "truefalse",
+    "prompt": "舊石器時代的人已經會用火烤食物、取暖。",
+    "answer": true,
+    "explanation": "對！長濱遺址的人就會用火烤食物和取暖。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "長濱"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-027",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "truefalse",
+    "prompt": "新石器時代的人已經會煉鐵、做鐵器。",
+    "answer": false,
+    "explanation": "煉鐵是金屬器時代才有的；新石器時代用的是磨製石器。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "史前分期"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-028",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "truefalse",
+    "prompt": "史前時代的臺灣玉只在島內流通，沒有傳到海外。",
+    "answer": false,
+    "explanation": "臺灣的史前玉器也在東南亞出現，可見當時就有跨海交流。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "臺灣玉",
+      "交流"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-029",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "truefalse",
+    "prompt": "考古學家可以從出土的文物，推測史前人的生活方式。",
+    "answer": true,
+    "explanation": "對！挖出的器物能告訴我們史前人怎麼生活。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "史前時代"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-030",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "卑南遺址的人用石器農耕、養家畜，食物來源漸漸穩定。結果發生什麼事？",
+    "options": [
+      "開始煉鐵、做鐵器",
+      "搬回海邊的洞穴住",
+      "人口成長，形成聚落"
+    ],
+    "answer": "人口成長，形成聚落",
+    "explanation": "食物穩定後人口增加，就形成了聚落。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "卑南"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-031",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "十三行的人用鐵鋤頭種田、用鐮刀收割，帶來什麼好處？",
+    "options": [
+      "不必再交換物品",
+      "開始會用火取暖",
+      "提高農作物的產量"
+    ],
+    "answer": "提高農作物的產量",
+    "explanation": "鐵製農具比石器好用，讓農作物的產量提高。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "十三行"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-032",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "用六何法整理：長濱遺址的人，生活用品為什麼多半「就地取材」？",
+    "options": [
+      "已經會從海外買鐵器",
+      "陸地被自然環境阻隔",
+      "附近有很多煉鐵作坊"
+    ],
+    "answer": "陸地被自然環境阻隔",
+    "explanation": "因為陸地被自然環境阻隔，所以生活用品多半就地取材。",
+    "difficulty": 3,
+    "tags": [
+      "cause",
+      "長濱",
+      "探究"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-033",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "十三行出土東南亞的琉璃珠，東南亞也找到臺灣的史前玉器。這說明了什麼？",
+    "options": [
+      "史前的人已經有航海技術，和外地交流",
+      "臺灣玉都是從東南亞買來的",
+      "史前時代已經有文字紀錄"
+    ],
+    "answer": "史前的人已經有航海技術，和外地交流",
+    "explanation": "跨海交易需要航海技術，證明史前臺灣就和世界有交流。",
+    "difficulty": 3,
+    "tags": [
+      "cause",
+      "交流"
+    ]
+  },
+  {
+    "id": "g5soc-1-2-034",
+    "grade": 5,
+    "subject": "social",
+    "unit": "一",
+    "section": "1-2",
+    "type": "choice",
+    "prompt": "新石器時代以後，農業生產力提高，各聚落之間常常做什麼？",
+    "options": [
+      "用文字寫信",
+      "一起煉鐵",
+      "交換物品"
+    ],
+    "answer": "交換物品",
+    "explanation": "農業生產力提高後，聚落之間常常交換物品，例如玉器。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "交流"
+    ]
+  }
+]

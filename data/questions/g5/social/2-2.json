@@ -1,0 +1,793 @@
+[
+  {
+    "id": "g5soc-2-2-001",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①西班牙人把臺灣東北角的海岸取名為「聖地牙哥」\n②後來發音慢慢轉變\n③變成了今天的我",
+    "options": [
+      "鹿耳門",
+      "和平島",
+      "三貂角"
+    ],
+    "answer": "三貂角",
+    "explanation": "三貂角的名稱，來自西班牙語「聖地牙哥」的發音。",
+    "difficulty": 1,
+    "tags": [
+      "who",
+      "地名"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-002",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是鄭經的老師\n②我在臺南建了全臺第一座孔廟\n③我設立學校，推廣漢人的傳統文化",
+    "options": [
+      "鄭芝龍",
+      "陳永華",
+      "施琅"
+    ],
+    "answer": "陳永華",
+    "explanation": "陳永華負責內政、辦學校，後人用他的名字為寺廟和道路命名。",
+    "difficulty": 1,
+    "tags": [
+      "who",
+      "人物",
+      "教育"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-003",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①陳永華在臺南蓋了我\n②我是全臺第一座這樣的建築\n③清帝國時期我被當作學校，後人稱我「全臺首學」",
+    "options": [
+      "赤崁樓",
+      "北極殿",
+      "孔廟"
+    ],
+    "answer": "孔廟",
+    "explanation": "臺南孔廟是全臺第一座孔廟，被稱為「全臺首學」。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "教育"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-004",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①漢人移民從中國把我的信仰帶來臺灣\n②臺南北極殿供奉的就是我",
+    "options": [
+      "開臺聖王",
+      "玄天上帝",
+      "媽祖"
+    ],
+    "answer": "玄天上帝",
+    "explanation": "臺南北極殿供奉玄天上帝。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "信仰"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-005",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①現在我被用來驅邪祈福\n②據說我的樣子，來自鄭氏軍隊盾牌上畫的獅子臉",
+    "options": [
+      "劍獅",
+      "梅花鹿",
+      "人獸形耳飾"
+    ],
+    "answer": "劍獅",
+    "explanation": "劍獅據說來自鄭氏軍隊的盾牌，現在用來驅邪祈福。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "信仰"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-006",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我帶領族人抵抗荷蘭人\n②雙方簽了和平條約後，我仍是王國真正的統治者\n③我規定王國境內不准傳基督教",
+    "options": [
+      "顏思齊",
+      "大肚王",
+      "鄭經"
+    ],
+    "answer": "大肚王",
+    "explanation": "大肚王雖然歸順荷蘭人，仍然自己管理王國。",
+    "difficulty": 3,
+    "tags": [
+      "who",
+      "大肚王國"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-007",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是一個詞語\n②意思是向敵對勢力投降、順從對方\n③大肚王國和荷蘭人簽了和平條約後，就是這樣",
+    "options": [
+      "屯墾",
+      "走私",
+      "歸順"
+    ],
+    "answer": "歸順",
+    "explanation": "歸順就是向敵對勢力投降、順從對方。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "大肚王國",
+      "名詞"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-008",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①我是戰爭用的槍砲、彈藥等武器\n②鄭氏時期，臺灣從東南亞輸入我",
+    "options": [
+      "軍火",
+      "絲綢",
+      "鹿皮"
+    ],
+    "answer": "軍火",
+    "explanation": "軍火是戰爭用的武器，鄭氏時期從東南亞輸入。",
+    "difficulty": 3,
+    "tags": [
+      "who",
+      "貿易",
+      "名詞"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-009",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "猜猜我是誰？\n①荷蘭傳教士用我來拼寫原住民族的語言\n②聖經上同時寫著荷蘭文，和用我拼寫的原住民族語言",
+    "options": [
+      "羅馬字母",
+      "注音符號",
+      "日文"
+    ],
+    "answer": "羅馬字母",
+    "explanation": "荷蘭傳教士學原住民族語言，並用羅馬字母拼寫。",
+    "difficulty": 2,
+    "tags": [
+      "who",
+      "羅馬字"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-010",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "荷蘭人在臺灣傳播的是什麼宗教？",
+    "options": [
+      "基督教",
+      "天主教",
+      "媽祖信仰"
+    ],
+    "answer": "基督教",
+    "explanation": "荷蘭人傳基督教；西班牙人傳天主教。",
+    "difficulty": 1,
+    "tags": [
+      "cause",
+      "宗教"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-011",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "西班牙傳教士在基隆和平島蓋教堂，傳的是什麼宗教？",
+    "options": [
+      "基督教",
+      "天主教",
+      "玄天上帝信仰"
+    ],
+    "answer": "天主教",
+    "explanation": "西班牙人傳天主教，教堂遺址還出土過西班牙的十字架。",
+    "difficulty": 1,
+    "tags": [
+      "cause",
+      "宗教"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-012",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "multi",
+    "prompt": "下面哪些是荷蘭人引進臺灣的動植物？（可以選很多個）",
+    "options": [
+      {
+        "label": "豌豆"
+      },
+      {
+        "label": "黃牛",
+        "image": "🐂"
+      },
+      {
+        "label": "土芒果",
+        "image": "🥭"
+      },
+      {
+        "label": "梅花鹿",
+        "image": "🦌"
+      }
+    ],
+    "answer": [
+      "黃牛",
+      "豌豆",
+      "土芒果"
+    ],
+    "explanation": "黃牛、豌豆（荷蘭豆）、土芒果是荷蘭人引進的；梅花鹿是臺灣原野本來就有的。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "引進動植物"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-013",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "荷蘭人在 17 世紀引進黃牛，主要用來做什麼？",
+    "options": [
+      "耕田",
+      "擠牛奶",
+      "打仗"
+    ],
+    "answer": "耕田",
+    "explanation": "黃牛在 17 世紀被引進臺灣，用來耕田。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "引進動植物"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-014",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "新營、林鳳營、左營、前鎮這些地名，和什麼有關？",
+    "options": [
+      "荷蘭人蓋的城堡",
+      "西班牙語的發音",
+      "鄭氏軍隊駐守、屯墾"
+    ],
+    "answer": "鄭氏軍隊駐守、屯墾",
+    "explanation": "鄭氏派軍隊到各地種田，留下和軍隊駐守有關的地名。",
+    "difficulty": 1,
+    "tags": [
+      "cause",
+      "地名",
+      "屯墾"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-015",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "鄭氏為什麼派軍隊到各地種田？",
+    "options": [
+      "解決糧食需求",
+      "尋找香料",
+      "傳播天主教"
+    ],
+    "answer": "解決糧食需求",
+    "explanation": "為了解決糧食需求，鄭氏派軍隊到各地從事農業。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "屯墾"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-016",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "鄭氏時期，為什麼只能靠走私做貿易？",
+    "options": [
+      "因為和清帝國處於戰爭狀態",
+      "因為臺灣沒有港口",
+      "因為荷蘭人不准"
+    ],
+    "answer": "因為和清帝國處於戰爭狀態",
+    "explanation": "鄭氏和清帝國在打仗，所以只能靠走私貿易。",
+    "difficulty": 2,
+    "tags": [
+      "cause",
+      "貿易"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-017",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "鄭氏時期，臺灣把蔗糖、鹿皮賣到日本，從日本換回什麼？",
+    "options": [
+      "軍火",
+      "銀",
+      "絲綢"
+    ],
+    "answer": "銀",
+    "explanation": "賣給日本蔗糖、鹿皮，換回銀；軍火物資是從東南亞輸入的。",
+    "difficulty": 3,
+    "tags": [
+      "cause",
+      "貿易"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-018",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "multi",
+    "prompt": "下面哪些是鄭氏時期和漢人移民留下的影響？（可以選很多個）",
+    "options": [
+      "媽祖信仰",
+      "三貂角這個地名",
+      "「營」「鎮」這類地名",
+      "全臺第一座孔廟",
+      "黃牛"
+    ],
+    "answer": [
+      "全臺第一座孔廟",
+      "「營」「鎮」這類地名",
+      "媽祖信仰"
+    ],
+    "explanation": "孔廟、屯墾地名、媽祖信仰和鄭氏、漢人有關；三貂角來自西班牙人，黃牛是荷蘭人引進的。",
+    "difficulty": 3,
+    "tags": [
+      "cause",
+      "影響"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-019",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "multi",
+    "prompt": "下面哪些和西班牙人有關？（可以選很多個）",
+    "options": [
+      "三貂角這個地名",
+      "熱蘭遮城",
+      "用羅馬字母拼寫原住民族語言的聖經",
+      "聖多明哥城",
+      "天主教"
+    ],
+    "answer": [
+      "天主教",
+      "三貂角這個地名",
+      "聖多明哥城"
+    ],
+    "explanation": "天主教、三貂角、聖多明哥城和西班牙人有關；羅馬字聖經、熱蘭遮城和荷蘭人有關。",
+    "difficulty": 3,
+    "tags": [
+      "cause",
+      "影響",
+      "西班牙"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-020",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "鄭氏派兵進入大肚王國，是為了什麼？",
+    "options": [
+      "取得更多耕地和糧食",
+      "傳播基督教",
+      "尋找臺灣玉"
+    ],
+    "answer": "取得更多耕地和糧食",
+    "explanation": "鄭氏要養活大批來臺軍民，需要更多耕地和糧食。",
+    "difficulty": 3,
+    "tags": [
+      "cause",
+      "大肚王國"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-021",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "大肚王國是誰建立的？",
+    "options": [
+      "平埔族群一起建立的部落聯盟",
+      "荷蘭人",
+      "鄭氏政權"
+    ],
+    "answer": "平埔族群一起建立的部落聯盟",
+    "explanation": "大肚王國是平埔族群一起建立的部落聯盟。",
+    "difficulty": 1,
+    "tags": [
+      "culture",
+      "大肚王國"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-022",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "大肚王國在臺灣的哪裡？",
+    "options": [
+      "臺灣南部的臺南",
+      "臺灣北部的基隆和平島",
+      "臺灣中部的清水平原和大肚台地之間"
+    ],
+    "answer": "臺灣中部的清水平原和大肚台地之間",
+    "explanation": "大肚王國在臺灣中部，清水平原和大肚台地之間。",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "大肚王國"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-023",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "multi",
+    "prompt": "大肚王國所在的地方，為什麼適合生活？（可以選很多個）",
+    "options": [
+      "地形平坦",
+      "有很多煉鐵作坊",
+      "有很多梅花鹿可以打獵",
+      "水源充足"
+    ],
+    "answer": [
+      "地形平坦",
+      "水源充足",
+      "有很多梅花鹿可以打獵"
+    ],
+    "explanation": "那裡地形平坦、水源充足、適合耕種，還有很多梅花鹿。",
+    "difficulty": 2,
+    "tags": [
+      "culture",
+      "大肚王國"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-024",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "鄭氏派兵進入以後，大肚王國後來怎麼了？",
+    "options": [
+      "各部落反抗，許多族人喪生，王國從歷史上消失",
+      "王國搬到了菲律賓",
+      "王國一直延續到今天"
+    ],
+    "answer": "各部落反抗，許多族人喪生，王國從歷史上消失",
+    "explanation": "少數倖存的族人逃到中部山區，大肚王國就此消失。近年來它的故事重新被看見。",
+    "difficulty": 3,
+    "tags": [
+      "culture",
+      "大肚王國"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-025",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "order",
+    "prompt": "時光列車：大肚王國的故事，依照時間先後排好。",
+    "items": [
+      "荷蘭人進入大員",
+      "大肚王國歸順荷蘭人",
+      "鄭氏派兵進入大肚王國",
+      "大肚王國從歷史上消失"
+    ],
+    "explanation": "荷蘭人先來，大肚王國歸順荷蘭；後來鄭氏派兵進入，王國就消失了。",
+    "difficulty": 2,
+    "tags": [
+      "timeline",
+      "大肚王國"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-026",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "order",
+    "prompt": "時光列車：梅花鹿為什麼漸漸消失？依照先後排好。",
+    "items": [
+      "荷蘭人用日常用品換鹿皮",
+      "原住民族大量獵鹿",
+      "漢人用更有效率的方法獵鹿",
+      "梅花鹿漸漸消失"
+    ],
+    "explanation": "荷蘭人收購鹿皮、原住民族大量獵鹿，漢人又更有效率的獵鹿，加上開墾，梅花鹿漸漸消失。",
+    "difficulty": 3,
+    "tags": [
+      "timeline",
+      "梅花鹿"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-027",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "order",
+    "prompt": "時光列車：依照時間先後排好。",
+    "items": [
+      "荷蘭人來到臺灣",
+      "鄭成功設立承天府",
+      "陳永華建孔廟"
+    ],
+    "explanation": "荷蘭人 1624 年來臺；鄭成功趕走荷蘭人、設承天府；後來陳永華在鄭經時期建孔廟。",
+    "difficulty": 2,
+    "tags": [
+      "timeline",
+      "年代"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-028",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "看地圖：大肚王國大約在哪裡？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M439 153L473 171\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"439\" cy=\"153\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"473\" cy=\"171\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"473\" y=\"177\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M284 244L240 248\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"284\" cy=\"244\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"248\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"240\" y=\"254\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M253 408L211 416\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"253\" cy=\"408\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"211\" cy=\"416\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"211\" y=\"422\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙"
+    ],
+    "answer": "乙",
+    "explanation": "大肚王國在臺灣中部（乙），清水平原和大肚台地之間。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "大肚王國",
+      "地名"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-029",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "看地圖：由西班牙語「聖地牙哥」轉變而來的地名在哪裡？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M439 153L473 171\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"439\" cy=\"153\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"473\" cy=\"171\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"473\" y=\"177\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M284 244L240 248\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"284\" cy=\"244\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"248\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"240\" y=\"254\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M253 408L211 416\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"253\" cy=\"408\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"211\" cy=\"416\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"211\" y=\"422\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙"
+    ],
+    "answer": "甲",
+    "explanation": "三貂角在臺灣的東北角（甲）。",
+    "difficulty": 2,
+    "tags": [
+      "map",
+      "地名"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-030",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "看地圖：「左營」是鄭氏屯墾留下的地名，它大約在哪裡？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 550 520\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect width=\"550\" height=\"520\" rx=\"12\" fill=\"#D4ECFA\"/><path d=\"M-22 -22L207 -22L196 5L178 28L185 49L170 77L193 99L160 110L127 126L105 148L83 165L68 185L60 198L42 198L22 206L9 214L-22 222Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"2\"/><text x=\"83\" y=\"71\" font-size=\"17\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">中國</text><path d=\"M31 218L38 212L50 211L52 218L42 222L35 221Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"217\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"26\" rx=\"6\" ry=\"4\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"219\" cy=\"19\" rx=\"5\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"47\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M167 299L178 301L185 310L178 317L170 313L165 308Z\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"176\" cy=\"291\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"165\" cy=\"333\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><ellipse cx=\"156\" cy=\"351\" rx=\"4\" ry=\"3\" fill=\"#F1E2B8\" stroke=\"#B8955A\" stroke-width=\"1.5\"/><path d=\"M375 134L389 121L406 131L413 138L431 140L440 153L422 169L421 187L426 199L418 214L413 233L405 246L398 266L387 308L385 324L381 339L372 363L363 377L348 400L331 417L319 447L317 462L317 484L313 495L299 492L298 476L295 463L285 443L270 433L262 429L250 418L250 408L240 387L237 375L229 360L231 352L232 344L235 332L235 323L237 310L242 288L253 273L255 264L264 256L275 234L284 223L293 209L303 196L313 187L321 174L330 165L341 150L356 141L373 138Z\" fill=\"#A5D88E\" stroke=\"#4F8A3A\" stroke-width=\"2\"/><text x=\"313\" y=\"346\" font-size=\"18\" font-weight=\"700\" fill=\"#4A3B32\" text-anchor=\"middle\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">臺灣</text><path d=\"M439 153L473 171\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"439\" cy=\"153\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"473\" cy=\"171\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"473\" y=\"177\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">甲</text><path d=\"M284 244L240 248\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"284\" cy=\"244\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"248\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"240\" y=\"254\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">乙</text><path d=\"M253 408L211 416\" stroke=\"#D9442F\" stroke-width=\"2\"/><circle cx=\"253\" cy=\"408\" r=\"5\" fill=\"#D9442F\" stroke=\"#FFFFFF\" stroke-width=\"2\"/><circle cx=\"211\" cy=\"416\" r=\"15\" fill=\"#FFFFFF\" stroke=\"#D9442F\" stroke-width=\"3\"/><text x=\"211\" y=\"422\" font-size=\"18\" font-weight=\"800\" fill=\"#D9442F\" text-anchor=\"middle\">丙</text><path d=\"M515 62L515 32\" stroke=\"#4A3B32\" stroke-width=\"3\"/><path d=\"M508 40L515 28L522 40Z\" fill=\"#4A3B32\"/><text x=\"515\" y=\"24\" font-size=\"15\" font-weight=\"800\" fill=\"#4A3B32\" text-anchor=\"middle\">北</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙"
+    ],
+    "answer": "丙",
+    "explanation": "左營在高雄（丙），和前鎮一樣是鄭氏屯墾留下的地名。",
+    "difficulty": 3,
+    "tags": [
+      "map",
+      "地名",
+      "屯墾"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-031",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "truefalse",
+    "prompt": "豌豆又叫做「荷蘭豆」。",
+    "answer": true,
+    "explanation": "對！豌豆是荷蘭人引進的，所以又叫荷蘭豆。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "引進動植物"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-032",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "truefalse",
+    "prompt": "西班牙人在臺灣傳播的是基督教。",
+    "answer": false,
+    "explanation": "西班牙人傳的是「天主教」；荷蘭人傳的才是基督教。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "宗教"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-033",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "truefalse",
+    "prompt": "荷蘭人離開臺灣一百多年後，原住民族和漢人簽土地契約時，還會用羅馬字母書寫。",
+    "answer": true,
+    "explanation": "對！可見羅馬字母的影響很長久。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "羅馬字"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-034",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "truefalse",
+    "prompt": "大肚王國歸順荷蘭人以後，王國裡就開始傳基督教。",
+    "answer": false,
+    "explanation": "大肚王規定王國境內不准傳基督教。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "大肚王國"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-035",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "truefalse",
+    "prompt": "媽祖、玄天上帝的信仰，是荷蘭人帶來臺灣的。",
+    "answer": false,
+    "explanation": "是從中國來的漢人移民，把家鄉的信仰帶來臺灣。",
+    "difficulty": 2,
+    "tags": [
+      "truefalse",
+      "信仰"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-036",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "truefalse",
+    "prompt": "地名裡的「營」和「鎮」，原本是鄭氏的軍事單位名稱。",
+    "answer": true,
+    "explanation": "對！新營、林鳳營、左營、前鎮都和鄭氏駐兵屯墾有關。",
+    "difficulty": 3,
+    "tags": [
+      "truefalse",
+      "地名",
+      "屯墾"
+    ]
+  },
+  {
+    "id": "g5soc-2-2-037",
+    "grade": 5,
+    "subject": "social",
+    "unit": "二",
+    "section": "2-2",
+    "type": "truefalse",
+    "prompt": "鄭氏政權推行漢人的教育和文化，為臺灣的漢人社會打下基礎。",
+    "answer": true,
+    "explanation": "對！例如陳永華建孔廟、設學校。",
+    "difficulty": 1,
+    "tags": [
+      "truefalse",
+      "教育"
+    ]
+  }
+]
