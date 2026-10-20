@@ -1,0 +1,764 @@
+[
+  {
+    "id": "g5sci-2-1-001",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "order",
+    "prompt": "水分在植物體內的路線，依先後順序排好。",
+    "visual": null,
+    "items": [
+      "根從土壤吸收水分",
+      "莖把水往上運送",
+      "水送到葉子",
+      "從葉子散到空氣中"
+    ],
+    "explanation": "根吸水，莖往上運送到葉，再從葉子以水蒸氣散到空氣中。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "水的運輸"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-002",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "圖中哪一個部位從土壤吸收水分？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 440\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"440\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"300\" width=\"420\" height=\"140\" fill=\"#E9D6B4\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0\" y1=\"300\" x2=\"420\" y2=\"300\" stroke=\"#9C7A45\" stroke-width=\"3\"/><polyline points=\"190,300 182,360 150,410\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"190,300 200,370 240,415\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"190,300 192,420\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"184,350 135,370\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"196,345 250,360\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"170,385 120,405\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"190\" y1=\"300\" x2=\"190\" y2=\"112\" stroke=\"#3F8F3F\" stroke-width=\"9\" stroke-linecap=\"round\"/><ellipse cx=\"144\" cy=\"222\" rx=\"46\" ry=\"17\" transform=\"rotate(160 144 222)\" fill=\"#5DBB63\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><line x1=\"181.6\" y1=\"208.3\" x2=\"106.4\" y2=\"235.7\" stroke=\"#2E7D32\" stroke-width=\"1.8\"/><ellipse cx=\"236\" cy=\"182\" rx=\"46\" ry=\"17\" transform=\"rotate(20 236 182)\" fill=\"#5DBB63\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><line x1=\"198.4\" y1=\"168.3\" x2=\"273.6\" y2=\"195.7\" stroke=\"#2E7D32\" stroke-width=\"1.8\"/><ellipse cx=\"148\" cy=\"160\" rx=\"40\" ry=\"15\" transform=\"rotate(200 148 160)\" fill=\"#5DBB63\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><line x1=\"179.9\" y1=\"171.6\" x2=\"116.1\" y2=\"148.4\" stroke=\"#2E7D32\" stroke-width=\"1.8\"/><circle cx=\"212\" cy=\"92\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"201\" cy=\"111.1\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"179\" cy=\"111.1\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"168\" cy=\"92\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"179\" cy=\"72.9\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"201\" cy=\"72.9\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"92\" r=\"13\" fill=\"#FFD54F\" stroke=\"#F9A825\" stroke-width=\"2\"/><line x1=\"312\" y1=\"80\" x2=\"230\" y2=\"92\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"92\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"66\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"80\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">甲</text><line x1=\"312\" y1=\"175\" x2=\"270\" y2=\"172\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"172\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"161\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"175\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">乙</text><line x1=\"312\" y1=\"255\" x2=\"196\" y2=\"262\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"196\" cy=\"262\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"241\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"255\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丙</text><line x1=\"312\" y1=\"370\" x2=\"236\" y2=\"398\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"236\" cy=\"398\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"356\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"370\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丁</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+    ],
+    "answer": "丁",
+    "explanation": "根（丁）深入土壤，吸收水分和礦物質，也能固定植物。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "根的功能"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-003",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "圖中哪一個部位主要負責行光合作用、製造養分？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 440\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"440\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"300\" width=\"420\" height=\"140\" fill=\"#E9D6B4\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0\" y1=\"300\" x2=\"420\" y2=\"300\" stroke=\"#9C7A45\" stroke-width=\"3\"/><polyline points=\"190,300 182,360 150,410\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"190,300 200,370 240,415\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"190,300 192,420\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"184,350 135,370\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"196,345 250,360\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"170,385 120,405\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"190\" y1=\"300\" x2=\"190\" y2=\"112\" stroke=\"#3F8F3F\" stroke-width=\"9\" stroke-linecap=\"round\"/><ellipse cx=\"144\" cy=\"222\" rx=\"46\" ry=\"17\" transform=\"rotate(160 144 222)\" fill=\"#5DBB63\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><line x1=\"181.6\" y1=\"208.3\" x2=\"106.4\" y2=\"235.7\" stroke=\"#2E7D32\" stroke-width=\"1.8\"/><ellipse cx=\"236\" cy=\"182\" rx=\"46\" ry=\"17\" transform=\"rotate(20 236 182)\" fill=\"#5DBB63\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><line x1=\"198.4\" y1=\"168.3\" x2=\"273.6\" y2=\"195.7\" stroke=\"#2E7D32\" stroke-width=\"1.8\"/><ellipse cx=\"148\" cy=\"160\" rx=\"40\" ry=\"15\" transform=\"rotate(200 148 160)\" fill=\"#5DBB63\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><line x1=\"179.9\" y1=\"171.6\" x2=\"116.1\" y2=\"148.4\" stroke=\"#2E7D32\" stroke-width=\"1.8\"/><circle cx=\"212\" cy=\"92\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"201\" cy=\"111.1\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"179\" cy=\"111.1\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"168\" cy=\"92\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"179\" cy=\"72.9\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"201\" cy=\"72.9\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"92\" r=\"13\" fill=\"#FFD54F\" stroke=\"#F9A825\" stroke-width=\"2\"/><line x1=\"312\" y1=\"80\" x2=\"230\" y2=\"92\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"92\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"66\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"80\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">甲</text><line x1=\"312\" y1=\"175\" x2=\"270\" y2=\"172\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"172\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"161\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"175\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">乙</text><line x1=\"312\" y1=\"255\" x2=\"196\" y2=\"262\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"196\" cy=\"262\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"241\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"255\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丙</text><line x1=\"312\" y1=\"370\" x2=\"236\" y2=\"398\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"236\" cy=\"398\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"356\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"370\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丁</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+    ],
+    "answer": "乙",
+    "explanation": "葉（乙）吸收陽光，行光合作用製造養分。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "葉的功能"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-004",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "圖中「丙」的功能是什麼？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 440\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"440\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"300\" width=\"420\" height=\"140\" fill=\"#E9D6B4\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0\" y1=\"300\" x2=\"420\" y2=\"300\" stroke=\"#9C7A45\" stroke-width=\"3\"/><polyline points=\"190,300 182,360 150,410\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"190,300 200,370 240,415\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"190,300 192,420\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"184,350 135,370\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"196,345 250,360\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"170,385 120,405\" fill=\"none\" stroke=\"#9A6B3A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"190\" y1=\"300\" x2=\"190\" y2=\"112\" stroke=\"#3F8F3F\" stroke-width=\"9\" stroke-linecap=\"round\"/><ellipse cx=\"144\" cy=\"222\" rx=\"46\" ry=\"17\" transform=\"rotate(160 144 222)\" fill=\"#5DBB63\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><line x1=\"181.6\" y1=\"208.3\" x2=\"106.4\" y2=\"235.7\" stroke=\"#2E7D32\" stroke-width=\"1.8\"/><ellipse cx=\"236\" cy=\"182\" rx=\"46\" ry=\"17\" transform=\"rotate(20 236 182)\" fill=\"#5DBB63\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><line x1=\"198.4\" y1=\"168.3\" x2=\"273.6\" y2=\"195.7\" stroke=\"#2E7D32\" stroke-width=\"1.8\"/><ellipse cx=\"148\" cy=\"160\" rx=\"40\" ry=\"15\" transform=\"rotate(200 148 160)\" fill=\"#5DBB63\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><line x1=\"179.9\" y1=\"171.6\" x2=\"116.1\" y2=\"148.4\" stroke=\"#2E7D32\" stroke-width=\"1.8\"/><circle cx=\"212\" cy=\"92\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"201\" cy=\"111.1\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"179\" cy=\"111.1\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"168\" cy=\"92\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"179\" cy=\"72.9\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"201\" cy=\"72.9\" r=\"17\" fill=\"#F48FB1\" stroke=\"#C2185B\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"92\" r=\"13\" fill=\"#FFD54F\" stroke=\"#F9A825\" stroke-width=\"2\"/><line x1=\"312\" y1=\"80\" x2=\"230\" y2=\"92\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"92\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"66\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"80\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">甲</text><line x1=\"312\" y1=\"175\" x2=\"270\" y2=\"172\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"172\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"161\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"175\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">乙</text><line x1=\"312\" y1=\"255\" x2=\"196\" y2=\"262\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"196\" cy=\"262\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"241\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"255\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丙</text><line x1=\"312\" y1=\"370\" x2=\"236\" y2=\"398\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"236\" cy=\"398\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"315\" y=\"356\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"330\" y=\"370\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丁</text></svg>"
+    },
+    "options": [
+      "從土壤吸收水分",
+      "產生花粉和種子",
+      "支撐植物體，運送水分和養分",
+      "捕捉昆蟲"
+    ],
+    "answer": "支撐植物體，運送水分和養分",
+    "explanation": "丙是莖，能支撐植物，把根吸的水往上送，也把葉做的養分送到全身。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "莖的功能"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-005",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "水分以水蒸氣的形態，從葉子散到空氣中，叫做什麼？",
+    "visual": null,
+    "options": [
+      "光合作用",
+      "蒸散作用",
+      "授粉"
+    ],
+    "answer": "蒸散作用",
+    "explanation": "水分變成水蒸氣從葉子散出去，叫做蒸散作用。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "蒸散作用"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-006",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "葉子行光合作用，要用哪些東西當原料？",
+    "visual": null,
+    "options": [
+      "二氧化碳和水",
+      "氧氣和水",
+      "氧氣和養分"
+    ],
+    "answer": "二氧化碳和水",
+    "explanation": "光合作用：葉子吸收陽光，用二氧化碳和水當原料，製造氧氣和養分。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "光合作用"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-007",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "葉子行光合作用，會產生哪些東西？",
+    "visual": null,
+    "options": [
+      "二氧化碳和養分",
+      "二氧化碳和水",
+      "氧氣和養分"
+    ],
+    "answer": "氧氣和養分",
+    "explanation": "光合作用用二氧化碳和水當原料，產生氧氣和養分。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "光合作用"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-008",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "植物主要是用葉子喝水。",
+    "visual": null,
+    "answer": false,
+    "explanation": "植物是用根從土壤吸收水分，再由莖送到葉子。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "水的運輸"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-009",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "根可以行光合作用，製造養分。",
+    "visual": null,
+    "answer": false,
+    "explanation": "養分是葉子行光合作用做出來的，再由莖送到全身；根負責吸水和固定植物。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "光合作用"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-010",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "做植物水分運輸實驗時，為什麼要把水染成紅色？",
+    "visual": null,
+    "options": [
+      "讓植物長得比較快",
+      "水是透明的，染色才看得出水跑到哪裡",
+      "讓葉子變得比較漂亮"
+    ],
+    "answer": "水是透明的，染色才看得出水跑到哪裡",
+    "explanation": "水沒有顏色，加了紅色色素，才看得出水在植物體內走到哪裡。",
+    "difficulty": 2,
+    "tags": [
+      "experiment",
+      "水分運輸實驗"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-011",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "用夾鏈袋套住一片葉子並封緊，過一段時間，袋子裡出現小水滴。這些水是從哪裡來的？",
+    "visual": null,
+    "options": [
+      "從袋子外面滲進去的",
+      "夾鏈袋自己產生的",
+      "葉子蒸散的水蒸氣遇冷凝結而成"
+    ],
+    "answer": "葉子蒸散的水蒸氣遇冷凝結而成",
+    "explanation": "葉子蒸散出水蒸氣，碰到比較冷的袋子凝結成小水滴。",
+    "difficulty": 2,
+    "tags": [
+      "experiment",
+      "蒸散作用"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-012",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "水分運輸實驗的結果，哪些部位要切開才看得到紅色？",
+    "visual": null,
+    "options": [
+      "只有花瓣",
+      "葉和花",
+      "根和莖"
+    ],
+    "answer": "根和莖",
+    "explanation": "葉子和花從外面就看得到紅色，根和莖要切成橫切面、縱切面才看得到。",
+    "difficulty": 3,
+    "tags": [
+      "experiment",
+      "水分運輸實驗"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-013",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "做水分運輸實驗時，把植物放在哪裡比較容易成功？",
+    "visual": null,
+    "options": [
+      "冰箱裡",
+      "密封的箱子裡",
+      "通風的地方"
+    ],
+    "answer": "通風的地方",
+    "explanation": "放在通風的地方，蒸散比較快，水分運輸比較明顯。",
+    "difficulty": 2,
+    "tags": [
+      "experiment",
+      "水分運輸實驗"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-014",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "order",
+    "prompt": "組成植物體的層次，由小到大排好。",
+    "visual": null,
+    "items": [
+      "細胞",
+      "器官",
+      "個體"
+    ],
+    "explanation": "細胞組成器官（根、莖、葉、花、果實、種子），器官組成整株植物（個體）。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "植物體的層次"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-015",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "組成植物體的基本單位是什麼？",
+    "visual": null,
+    "options": [
+      "細胞",
+      "器官",
+      "個體"
+    ],
+    "answer": "細胞",
+    "explanation": "細胞是植物體的基本單位，許多細胞組成器官。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "植物體的層次"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-016",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "multi",
+    "prompt": "下面哪些是植物的營養器官？（全部選出來）",
+    "visual": null,
+    "options": [
+      "果實",
+      "根",
+      "種子",
+      "莖",
+      "花",
+      "葉"
+    ],
+    "answer": [
+      "根",
+      "莖",
+      "葉"
+    ],
+    "explanation": "根、莖、葉是營養器官；花、果實、種子是繁殖器官。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "營養器官"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-017",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "花、果實和種子是植物的營養器官。",
+    "visual": null,
+    "answer": false,
+    "explanation": "花、果實、種子是繁殖器官；根、莖、葉才是營養器官。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "營養器官"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-018",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "下面哪一個「不是」根的功能？",
+    "visual": null,
+    "options": [
+      "固定植物體",
+      "吸收水分和礦物質",
+      "製造養分",
+      "儲藏養分"
+    ],
+    "answer": "製造養分",
+    "explanation": "養分是葉子製造的；根負責固定、吸收水分和礦物質，有些根還能儲藏養分。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "根的功能"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-019",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "銀葉樹的根長得像一片片板子，突出地面，這種根叫做什麼？",
+    "visual": null,
+    "options": [
+      "板根",
+      "氣生根",
+      "呼吸根",
+      "塊根"
+    ],
+    "answer": "板根",
+    "explanation": "板根能增加抓地的面積，適應表土淺薄的環境。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "特殊的根"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-020",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "常春藤靠什麼爬上牆壁或樹幹？",
+    "visual": null,
+    "options": [
+      "塊莖",
+      "吸盤狀的不定根",
+      "卷鬚"
+    ],
+    "answer": "吸盤狀的不定根",
+    "explanation": "常春藤的莖柔軟，長出前端像吸盤的不定根，附著在牆上往上長。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "特殊的根"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-021",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "海茄苳長在河口的泥地，有些根往上長出地面，主要是為了什麼？",
+    "visual": null,
+    "options": [
+      "儲存種子",
+      "呼吸",
+      "吸引昆蟲"
+    ],
+    "answer": "呼吸",
+    "explanation": "河口泥地裡缺少空氣，有些根往上長出地面幫助呼吸。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "特殊的根"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-022",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "絲瓜的莖很軟，靠什麼攀附別的東西往上長？",
+    "visual": null,
+    "options": [
+      "卷鬚",
+      "針狀葉",
+      "板根"
+    ],
+    "answer": "卷鬚",
+    "explanation": "絲瓜是攀緣莖，用卷鬚攀附往上長，爭取陽光。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "特殊的莖"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-023",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "聖誕紅紅色的部分是什麼？",
+    "visual": null,
+    "options": [
+      "花瓣",
+      "葉子",
+      "果實"
+    ],
+    "answer": "葉子",
+    "explanation": "聖誕紅紅色的部分是葉子，常被誤以為是花瓣，可以吸引昆蟲來傳粉。",
+    "difficulty": 3,
+    "tags": [
+      "plantpart",
+      "特殊的葉"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-024",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "書上說，仙人掌的刺是什麼？",
+    "visual": null,
+    "options": [
+      "根",
+      "花",
+      "針狀葉"
+    ],
+    "answer": "針狀葉",
+    "explanation": "仙人掌的刺是針狀葉，能減少水分散失，也能防止動物吃；仙人掌的莖能儲存水分。",
+    "difficulty": 3,
+    "tags": [
+      "plantpart",
+      "特殊的葉"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-025",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "含羞草被碰到時，葉片很快合起來、葉柄下垂，有什麼好處？",
+    "visual": null,
+    "options": [
+      "減少風雨或蟲子造成的傷害",
+      "吸引蜜蜂來傳粉",
+      "吸收更多陽光"
+    ],
+    "answer": "減少風雨或蟲子造成的傷害",
+    "explanation": "葉子合起來可以減少受損，也讓蟲子沒地方站；過一陣子再打開。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "葉的反應"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-026",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "捕蠅草用什麼部位捉昆蟲？",
+    "visual": null,
+    "options": [
+      "像夾子一樣的葉子",
+      "花瓣",
+      "根"
+    ],
+    "answer": "像夾子一樣的葉子",
+    "explanation": "捕蠅草的葉子像一對夾子，昆蟲碰到感覺毛，夾子就迅速合起來。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "葉的反應"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-027",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "姑婆芋長在陰暗的樹林下，葉子很大。大葉子有什麼好處？",
+    "visual": null,
+    "options": [
+      "能接收更多陽光",
+      "能吸更多水",
+      "能捉昆蟲"
+    ],
+    "answer": "能接收更多陽光",
+    "explanation": "樹林下光線少，大葉子可以接收更多陽光來行光合作用。",
+    "difficulty": 3,
+    "tags": [
+      "plantpart",
+      "特殊的葉"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-028",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "馬鈴薯是塊根，番薯是塊莖。",
+    "visual": null,
+    "answer": false,
+    "explanation": "剛好相反：馬鈴薯有節和芽，會長出葉，是塊莖；番薯是塊根。",
+    "difficulty": 3,
+    "tags": [
+      "plantpart",
+      "塊根和塊莖"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-029",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "為什麼說馬鈴薯是莖，不是根？",
+    "visual": null,
+    "options": [
+      "它長在土裡",
+      "它可以吃",
+      "它有節和芽，會長出葉和芽"
+    ],
+    "answer": "它有節和芽，會長出葉和芽",
+    "explanation": "莖上有節，節上長葉，葉腋有芽。馬鈴薯會長出葉和芽，所以是莖。",
+    "difficulty": 3,
+    "tags": [
+      "plantpart",
+      "塊根和塊莖"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-030",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "臺灣欒樹、小葉欖仁冬天會落葉，主要是為了什麼？",
+    "visual": null,
+    "options": [
+      "讓陽光照到地上",
+      "把葉子送給動物吃",
+      "減少養分和水分散失，度過不好的季節"
+    ],
+    "answer": "減少養分和水分散失，度過不好的季節",
+    "explanation": "冬天落葉可以減少養分和水分散失，幫助植物度過不好的季節。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "葉的反應"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-031",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "放在窗邊的植物，莖會朝哪個方向長？",
+    "visual": null,
+    "options": [
+      "朝向地面",
+      "背對陽光",
+      "朝向陽光"
+    ],
+    "answer": "朝向陽光",
+    "explanation": "植物會向光生長，得到更多陽光來行光合作用。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "葉的反應"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-032",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "植物體內運送水分的細細管子，叫做什麼？",
+    "visual": null,
+    "options": [
+      "血管",
+      "導管",
+      "氣管"
+    ],
+    "answer": "導管",
+    "explanation": "植物體內有許多導管，水像細小的水柱一樣由下往上送。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "水的運輸"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-033",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "氣溫比較高的時候，葉子的蒸散作用會怎樣？",
+    "visual": null,
+    "options": [
+      "變快",
+      "變慢",
+      "停止"
+    ],
+    "answer": "變快",
+    "explanation": "氣溫愈高，蒸散愈快，植物運水也愈快。",
+    "difficulty": 3,
+    "tags": [
+      "plantpart",
+      "蒸散作用"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-034",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "choice",
+    "prompt": "葉子製造的養分，經過哪一個部位運送到植物全身？",
+    "visual": null,
+    "options": [
+      "種子",
+      "花",
+      "莖"
+    ],
+    "answer": "莖",
+    "explanation": "養分在葉子製造，經過莖運送到植物的各部位。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "莖的功能"
+    ]
+  },
+  {
+    "id": "g5sci-2-1-035",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-1",
+    "type": "truefalse",
+    "prompt": "葉子行光合作用時，會吸進氧氣、放出二氧化碳。",
+    "visual": null,
+    "answer": false,
+    "explanation": "剛好相反：光合作用用二氧化碳和水當原料，產生氧氣和養分。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "光合作用"
+    ]
+  }
+]

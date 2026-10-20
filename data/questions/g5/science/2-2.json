@@ -1,0 +1,512 @@
+[
+  {
+    "id": "g5sci-2-2-001",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "圖是花的構造。哪一個構造裡面有花粉？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 420\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"460\" height=\"420\" rx=\"12\" fill=\"#FFFFFF\"/><line x1=\"230\" y1=\"410\" x2=\"230\" y2=\"330\" stroke=\"#3F8F3F\" stroke-width=\"10\" stroke-linecap=\"round\"/><path d=\"M210 330C160 320 80 250 90 150C130 170 170 230 208 300Z\" fill=\"#F8BBD0\" stroke=\"#C2185B\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M250 330C300 320 380 250 370 150C330 170 290 230 252 300Z\" fill=\"#F8BBD0\" stroke=\"#C2185B\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M222 338C190 345 150 330 132 308C170 312 200 322 222 326Z\" fill=\"#7CC576\" stroke=\"#2E7D32\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M238 338C270 345 310 330 328 308C290 312 260 322 238 326Z\" fill=\"#7CC576\" stroke=\"#2E7D32\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><line x1=\"210\" y1=\"325\" x2=\"168\" y2=\"185\" stroke=\"#C9A227\" stroke-width=\"4\"/><line x1=\"250\" y1=\"325\" x2=\"292\" y2=\"185\" stroke=\"#C9A227\" stroke-width=\"4\"/><ellipse cx=\"166\" cy=\"176\" rx=\"11\" ry=\"17\" fill=\"#FFB300\" stroke=\"#B26A00\" stroke-width=\"2.5\"/><ellipse cx=\"294\" cy=\"176\" rx=\"11\" ry=\"17\" fill=\"#FFB300\" stroke=\"#B26A00\" stroke-width=\"2.5\"/><ellipse cx=\"230\" cy=\"296\" rx=\"27\" ry=\"33\" fill=\"#C5E1A5\" stroke=\"#558B2F\" stroke-width=\"2.5\"/><circle cx=\"230\" cy=\"282\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><circle cx=\"221\" cy=\"302\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><circle cx=\"239\" cy=\"302\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><rect x=\"225\" y=\"160\" width=\"10\" height=\"106\" fill=\"#C5E1A5\" stroke=\"#558B2F\" stroke-width=\"2\"/><ellipse cx=\"230\" cy=\"156\" rx=\"20\" ry=\"9\" fill=\"#AED581\" stroke=\"#558B2F\" stroke-width=\"2.5\"/><line x1=\"40\" y1=\"210\" x2=\"112\" y2=\"210\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"112\" cy=\"210\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"196\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"210\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">甲</text><line x1=\"40\" y1=\"120\" x2=\"164\" y2=\"162\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"164\" cy=\"162\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"106\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"120\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">乙</text><line x1=\"40\" y1=\"330\" x2=\"160\" y2=\"326\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"326\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"316\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"330\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">戊</text><line x1=\"420\" y1=\"110\" x2=\"244\" y2=\"152\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"244\" cy=\"152\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"405\" y=\"96\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"420\" y=\"110\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丙</text><line x1=\"420\" y1=\"300\" x2=\"254\" y2=\"296\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"254\" cy=\"296\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"405\" y=\"286\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"420\" y=\"300\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丁</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+    ],
+    "answer": "乙",
+    "explanation": "乙是雄蕊的花藥，裡面有花粉。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "花的構造"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-002",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "圖是花的構造。哪一個構造在授粉後，會發育成果實？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 420\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"460\" height=\"420\" rx=\"12\" fill=\"#FFFFFF\"/><line x1=\"230\" y1=\"410\" x2=\"230\" y2=\"330\" stroke=\"#3F8F3F\" stroke-width=\"10\" stroke-linecap=\"round\"/><path d=\"M210 330C160 320 80 250 90 150C130 170 170 230 208 300Z\" fill=\"#F8BBD0\" stroke=\"#C2185B\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M250 330C300 320 380 250 370 150C330 170 290 230 252 300Z\" fill=\"#F8BBD0\" stroke=\"#C2185B\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M222 338C190 345 150 330 132 308C170 312 200 322 222 326Z\" fill=\"#7CC576\" stroke=\"#2E7D32\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M238 338C270 345 310 330 328 308C290 312 260 322 238 326Z\" fill=\"#7CC576\" stroke=\"#2E7D32\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><line x1=\"210\" y1=\"325\" x2=\"168\" y2=\"185\" stroke=\"#C9A227\" stroke-width=\"4\"/><line x1=\"250\" y1=\"325\" x2=\"292\" y2=\"185\" stroke=\"#C9A227\" stroke-width=\"4\"/><ellipse cx=\"166\" cy=\"176\" rx=\"11\" ry=\"17\" fill=\"#FFB300\" stroke=\"#B26A00\" stroke-width=\"2.5\"/><ellipse cx=\"294\" cy=\"176\" rx=\"11\" ry=\"17\" fill=\"#FFB300\" stroke=\"#B26A00\" stroke-width=\"2.5\"/><ellipse cx=\"230\" cy=\"296\" rx=\"27\" ry=\"33\" fill=\"#C5E1A5\" stroke=\"#558B2F\" stroke-width=\"2.5\"/><circle cx=\"230\" cy=\"282\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><circle cx=\"221\" cy=\"302\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><circle cx=\"239\" cy=\"302\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><rect x=\"225\" y=\"160\" width=\"10\" height=\"106\" fill=\"#C5E1A5\" stroke=\"#558B2F\" stroke-width=\"2\"/><ellipse cx=\"230\" cy=\"156\" rx=\"20\" ry=\"9\" fill=\"#AED581\" stroke=\"#558B2F\" stroke-width=\"2.5\"/><line x1=\"40\" y1=\"210\" x2=\"112\" y2=\"210\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"112\" cy=\"210\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"196\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"210\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">甲</text><line x1=\"40\" y1=\"120\" x2=\"164\" y2=\"162\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"164\" cy=\"162\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"106\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"120\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">乙</text><line x1=\"40\" y1=\"330\" x2=\"160\" y2=\"326\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"326\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"316\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"330\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">戊</text><line x1=\"420\" y1=\"110\" x2=\"244\" y2=\"152\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"244\" cy=\"152\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"405\" y=\"96\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"420\" y=\"110\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丙</text><line x1=\"420\" y1=\"300\" x2=\"254\" y2=\"296\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"254\" cy=\"296\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"405\" y=\"286\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"420\" y=\"300\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丁</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+    ],
+    "answer": "丁",
+    "explanation": "丁是子房，授粉後慢慢發育成果實；子房裡的胚珠發育成種子。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "子房變果實"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-003",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "圖是花的構造。授粉時，花粉要落在哪一個構造上？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 420\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"460\" height=\"420\" rx=\"12\" fill=\"#FFFFFF\"/><line x1=\"230\" y1=\"410\" x2=\"230\" y2=\"330\" stroke=\"#3F8F3F\" stroke-width=\"10\" stroke-linecap=\"round\"/><path d=\"M210 330C160 320 80 250 90 150C130 170 170 230 208 300Z\" fill=\"#F8BBD0\" stroke=\"#C2185B\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M250 330C300 320 380 250 370 150C330 170 290 230 252 300Z\" fill=\"#F8BBD0\" stroke=\"#C2185B\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M222 338C190 345 150 330 132 308C170 312 200 322 222 326Z\" fill=\"#7CC576\" stroke=\"#2E7D32\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M238 338C270 345 310 330 328 308C290 312 260 322 238 326Z\" fill=\"#7CC576\" stroke=\"#2E7D32\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><line x1=\"210\" y1=\"325\" x2=\"168\" y2=\"185\" stroke=\"#C9A227\" stroke-width=\"4\"/><line x1=\"250\" y1=\"325\" x2=\"292\" y2=\"185\" stroke=\"#C9A227\" stroke-width=\"4\"/><ellipse cx=\"166\" cy=\"176\" rx=\"11\" ry=\"17\" fill=\"#FFB300\" stroke=\"#B26A00\" stroke-width=\"2.5\"/><ellipse cx=\"294\" cy=\"176\" rx=\"11\" ry=\"17\" fill=\"#FFB300\" stroke=\"#B26A00\" stroke-width=\"2.5\"/><ellipse cx=\"230\" cy=\"296\" rx=\"27\" ry=\"33\" fill=\"#C5E1A5\" stroke=\"#558B2F\" stroke-width=\"2.5\"/><circle cx=\"230\" cy=\"282\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><circle cx=\"221\" cy=\"302\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><circle cx=\"239\" cy=\"302\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><rect x=\"225\" y=\"160\" width=\"10\" height=\"106\" fill=\"#C5E1A5\" stroke=\"#558B2F\" stroke-width=\"2\"/><ellipse cx=\"230\" cy=\"156\" rx=\"20\" ry=\"9\" fill=\"#AED581\" stroke=\"#558B2F\" stroke-width=\"2.5\"/><line x1=\"40\" y1=\"210\" x2=\"112\" y2=\"210\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"112\" cy=\"210\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"196\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"210\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">甲</text><line x1=\"40\" y1=\"120\" x2=\"164\" y2=\"162\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"164\" cy=\"162\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"106\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"120\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">乙</text><line x1=\"40\" y1=\"330\" x2=\"160\" y2=\"326\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"326\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"316\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"330\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">戊</text><line x1=\"420\" y1=\"110\" x2=\"244\" y2=\"152\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"244\" cy=\"152\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"405\" y=\"96\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"420\" y=\"110\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丙</text><line x1=\"420\" y1=\"300\" x2=\"254\" y2=\"296\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"254\" cy=\"296\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"405\" y=\"286\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"420\" y=\"300\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丁</text></svg>"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+    ],
+    "answer": "丙",
+    "explanation": "丙是雌蕊的柱頭，花粉落在柱頭上就是授粉。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "授粉"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-004",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "圖是花的構造。「戊」是什麼？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 420\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"460\" height=\"420\" rx=\"12\" fill=\"#FFFFFF\"/><line x1=\"230\" y1=\"410\" x2=\"230\" y2=\"330\" stroke=\"#3F8F3F\" stroke-width=\"10\" stroke-linecap=\"round\"/><path d=\"M210 330C160 320 80 250 90 150C130 170 170 230 208 300Z\" fill=\"#F8BBD0\" stroke=\"#C2185B\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M250 330C300 320 380 250 370 150C330 170 290 230 252 300Z\" fill=\"#F8BBD0\" stroke=\"#C2185B\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M222 338C190 345 150 330 132 308C170 312 200 322 222 326Z\" fill=\"#7CC576\" stroke=\"#2E7D32\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M238 338C270 345 310 330 328 308C290 312 260 322 238 326Z\" fill=\"#7CC576\" stroke=\"#2E7D32\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><line x1=\"210\" y1=\"325\" x2=\"168\" y2=\"185\" stroke=\"#C9A227\" stroke-width=\"4\"/><line x1=\"250\" y1=\"325\" x2=\"292\" y2=\"185\" stroke=\"#C9A227\" stroke-width=\"4\"/><ellipse cx=\"166\" cy=\"176\" rx=\"11\" ry=\"17\" fill=\"#FFB300\" stroke=\"#B26A00\" stroke-width=\"2.5\"/><ellipse cx=\"294\" cy=\"176\" rx=\"11\" ry=\"17\" fill=\"#FFB300\" stroke=\"#B26A00\" stroke-width=\"2.5\"/><ellipse cx=\"230\" cy=\"296\" rx=\"27\" ry=\"33\" fill=\"#C5E1A5\" stroke=\"#558B2F\" stroke-width=\"2.5\"/><circle cx=\"230\" cy=\"282\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><circle cx=\"221\" cy=\"302\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><circle cx=\"239\" cy=\"302\" r=\"6\" fill=\"#FFFFFF\" stroke=\"#558B2F\" stroke-width=\"2\"/><rect x=\"225\" y=\"160\" width=\"10\" height=\"106\" fill=\"#C5E1A5\" stroke=\"#558B2F\" stroke-width=\"2\"/><ellipse cx=\"230\" cy=\"156\" rx=\"20\" ry=\"9\" fill=\"#AED581\" stroke=\"#558B2F\" stroke-width=\"2.5\"/><line x1=\"40\" y1=\"210\" x2=\"112\" y2=\"210\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"112\" cy=\"210\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"196\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"210\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">甲</text><line x1=\"40\" y1=\"120\" x2=\"164\" y2=\"162\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"164\" cy=\"162\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"106\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"120\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">乙</text><line x1=\"40\" y1=\"330\" x2=\"160\" y2=\"326\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"326\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"25\" y=\"316\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"40\" y=\"330\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">戊</text><line x1=\"420\" y1=\"110\" x2=\"244\" y2=\"152\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"244\" cy=\"152\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"405\" y=\"96\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"420\" y=\"110\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丙</text><line x1=\"420\" y1=\"300\" x2=\"254\" y2=\"296\" stroke=\"#555555\" stroke-width=\"2\"/><circle cx=\"254\" cy=\"296\" r=\"4\" fill=\"#555555\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"405\" y=\"286\" width=\"30\" height=\"28\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"420\" y=\"300\" font-size=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">丁</text></svg>"
+    },
+    "options": [
+      "花萼",
+      "花瓣",
+      "雄蕊",
+      "子房"
+    ],
+    "answer": "花萼",
+    "explanation": "戊在花的最外面、最下面，是花萼，可以保護花。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "花的構造"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-005",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "花瓣鮮豔的顏色有什麼功用？",
+    "visual": null,
+    "options": [
+      "吸引動物來幫忙傳粉",
+      "吸收水分",
+      "製造種子"
+    ],
+    "answer": "吸引動物來幫忙傳粉",
+    "explanation": "花瓣保護雄蕊和雌蕊，鮮豔的顏色能吸引動物來傳粉。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "花的構造"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-006",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "雄蕊由哪兩個部分組成？",
+    "visual": null,
+    "options": [
+      "花藥和花絲",
+      "花瓣和花萼",
+      "柱頭和花柱"
+    ],
+    "answer": "花藥和花絲",
+    "explanation": "雄蕊有花藥和花絲，花藥裡面有花粉。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "花的構造"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-007",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "雌蕊由哪些部分組成？",
+    "visual": null,
+    "options": [
+      "花萼、花瓣",
+      "花藥、花絲",
+      "柱頭、花柱、子房"
+    ],
+    "answer": "柱頭、花柱、子房",
+    "explanation": "雌蕊有柱頭、花柱和子房，子房裡有胚珠。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "花的構造"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-008",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "雄蕊的花粉傳到雌蕊的柱頭上，這叫做什麼？",
+    "visual": null,
+    "options": [
+      "蒸散",
+      "授粉",
+      "光合作用"
+    ],
+    "answer": "授粉",
+    "explanation": "花粉傳到柱頭上，叫做授粉。",
+    "difficulty": 1,
+    "tags": [
+      "reproduce",
+      "授粉"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-009",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "授粉以後，子房會慢慢發育成什麼？",
+    "visual": null,
+    "options": [
+      "果實",
+      "種子",
+      "花瓣"
+    ],
+    "answer": "果實",
+    "explanation": "子房發育成果實，子房裡的胚珠發育成種子。",
+    "difficulty": 1,
+    "tags": [
+      "reproduce",
+      "子房變果實"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-010",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "授粉以後，子房裡的胚珠會發育成什麼？",
+    "visual": null,
+    "options": [
+      "果實",
+      "種子",
+      "花粉"
+    ],
+    "answer": "種子",
+    "explanation": "胚珠發育成種子，外面的子房發育成果實。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "胚珠變種子"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-011",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "truefalse",
+    "prompt": "果實是由花瓣變成的。",
+    "visual": null,
+    "answer": false,
+    "explanation": "果實是子房發育成的；花瓣在授粉後會慢慢枯萎、掉落。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "子房變果實"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-012",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "truefalse",
+    "prompt": "種子是由花粉直接變成的。",
+    "visual": null,
+    "answer": false,
+    "explanation": "花粉和胚珠結合以後，是胚珠發育成種子。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "胚珠變種子"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-013",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "花萼有什麼功用？",
+    "visual": null,
+    "options": [
+      "產生花粉",
+      "發育成種子",
+      "保護花"
+    ],
+    "answer": "保護花",
+    "explanation": "花萼由許多萼片組成，在花的最外面，可以保護花。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "花的構造"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-014",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "order",
+    "prompt": "開花植物用種子繁殖的過程，依先後順序排好。",
+    "visual": null,
+    "items": [
+      "開花",
+      "授粉",
+      "結出果實和種子",
+      "種子長成新植物"
+    ],
+    "explanation": "開花後要先授粉，子房和胚珠才會發育成果實和種子，種子再長成新植物。",
+    "difficulty": 1,
+    "tags": [
+      "reproduce",
+      "種子繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-015",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "玉米的花粉主要靠什麼傳到別的花上？",
+    "visual": null,
+    "options": [
+      "水",
+      "蜜蜂",
+      "風"
+    ],
+    "answer": "風",
+    "explanation": "玉米靠風把雄花的花粉吹到雌花上。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "花粉傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-016",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "蜜蜂到花裡吸花蜜，對花有什麼幫助？",
+    "visual": null,
+    "options": [
+      "幫花吃掉葉子上的蟲",
+      "身上沾到花粉，順便幫花傳粉",
+      "幫花澆水"
+    ],
+    "answer": "身上沾到花粉，順便幫花傳粉",
+    "explanation": "蜜蜂吸花蜜時沾到花粉，飛到別的花上，就幫忙傳粉了。",
+    "difficulty": 1,
+    "tags": [
+      "reproduce",
+      "花粉傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-017",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "紅色的蘆薈花沒有香味，但是花蜜很多。它主要吸引哪一類動物來傳粉？",
+    "visual": null,
+    "options": [
+      "鳥類",
+      "蜂類",
+      "蛾類"
+    ],
+    "answer": "鳥類",
+    "explanation": "鳥類喜歡紅色，嗅覺不靈敏，所以紅色、花蜜多的蘆薈花能吸引鳥類。",
+    "difficulty": 3,
+    "tags": [
+      "reproduce",
+      "花粉傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-018",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "multi",
+    "prompt": "下面哪些是植物的繁殖器官？（全部選出來）",
+    "visual": null,
+    "options": [
+      "種子",
+      "果實",
+      "根",
+      "莖",
+      "葉",
+      "花"
+    ],
+    "answer": [
+      "種子",
+      "果實",
+      "花"
+    ],
+    "explanation": "花、果實、種子負責繁衍後代，是繁殖器官；根、莖、葉是營養器官。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "繁殖器官"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-019",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "果實對種子有什麼功用？",
+    "visual": null,
+    "options": [
+      "讓種子不能發芽",
+      "保護種子，有些還能幫助種子傳播",
+      "製造花粉"
+    ],
+    "answer": "保護種子，有些還能幫助種子傳播",
+    "explanation": "果實包住種子保護它，有些果實的形狀構造還能幫種子傳到遠方。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "果實的功能"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-020",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "授粉以後，花的哪些部分會慢慢枯萎、掉落？",
+    "visual": null,
+    "options": [
+      "子房和胚珠",
+      "花瓣和雄蕊",
+      "整株植物"
+    ],
+    "answer": "花瓣和雄蕊",
+    "explanation": "授粉後，花瓣和雄蕊慢慢枯萎掉落，子房和胚珠繼續發育成果實和種子。",
+    "difficulty": 3,
+    "tags": [
+      "reproduce",
+      "子房變果實"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-021",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "choice",
+    "prompt": "雌蕊的子房裡面有什麼？",
+    "visual": null,
+    "options": [
+      "花蜜",
+      "花粉",
+      "胚珠"
+    ],
+    "answer": "胚珠",
+    "explanation": "子房裡有胚珠，授粉後胚珠發育成種子。",
+    "difficulty": 2,
+    "tags": [
+      "plantpart",
+      "花的構造"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-022",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "truefalse",
+    "prompt": "用種子繁殖的植物，一定要先授粉，才能結出種子。",
+    "visual": null,
+    "answer": true,
+    "explanation": "花粉要先傳到柱頭上（授粉），胚珠才能發育成種子。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "種子繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-2-023",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-2",
+    "type": "order",
+    "prompt": "花的構造，由外到內排好。",
+    "visual": null,
+    "items": [
+      "花萼",
+      "花瓣",
+      "雄蕊",
+      "雌蕊"
+    ],
+    "explanation": "花由外到內是花萼、花瓣、雄蕊、雌蕊。",
+    "difficulty": 1,
+    "tags": [
+      "plantpart",
+      "花的構造"
+    ]
+  }
+]

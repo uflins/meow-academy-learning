@@ -1,0 +1,465 @@
+[
+  {
+    "id": "g5sci-2-5-001",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "什麼是經濟植物？",
+    "visual": null,
+    "options": [
+      "只長在高山上的植物",
+      "可以當工業原料，或是能賣錢的農作物",
+      "不能吃也不能用的植物"
+    ],
+    "answer": "可以當工業原料，或是能賣錢的農作物",
+    "explanation": "經濟植物是能當工業原料，或能賣錢的農作物，人們會大量種植來販售。",
+    "difficulty": 1,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-002",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "書上說，臺灣最有國際競爭力的經濟植物是哪一種？",
+    "visual": null,
+    "options": [
+      "玫瑰",
+      "香蕉",
+      "葡萄",
+      "蘭花"
+    ],
+    "answer": "蘭花",
+    "explanation": "蘭花是臺灣最有國際競爭力的經濟植物，花農用技術快速繁殖、改良品種。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-003",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "哪一種經濟植物的葉子可以加工成各種茶，還外銷到世界各地？",
+    "visual": null,
+    "options": [
+      "玫瑰",
+      "香蕉",
+      "茶樹"
+    ],
+    "answer": "茶樹",
+    "explanation": "臺灣種了很多種茶樹，葉子加工成各種茶，外銷到世界各地。",
+    "difficulty": 1,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-004",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "下面哪一種是外銷產值高、屬於高經濟價值的水果？",
+    "visual": null,
+    "options": [
+      "鳳梨釋迦",
+      "大花咸豐草",
+      "林投"
+    ],
+    "answer": "鳳梨釋迦",
+    "explanation": "鳳梨釋迦香甜、果肉扎實，外銷產值高，是高經濟價值的水果。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-005",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "書上說，芒果的年產值僅次於哪一種水果？",
+    "visual": null,
+    "options": [
+      "香蕉",
+      "葡萄",
+      "鳳梨"
+    ],
+    "answer": "鳳梨",
+    "explanation": "芒果品種很多，年產值僅次於鳳梨，是臺灣重要的出口水果。",
+    "difficulty": 3,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-006",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "葡萄可以分成哪兩大類？",
+    "visual": null,
+    "options": [
+      "長在水裡和長在土裡的葡萄",
+      "鮮食葡萄和釀酒葡萄",
+      "會開花和不會開花的葡萄"
+    ],
+    "answer": "鮮食葡萄和釀酒葡萄",
+    "explanation": "葡萄分成直接吃的鮮食葡萄，和拿來釀酒的釀酒葡萄。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-007",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "multi",
+    "prompt": "玫瑰除了觀賞，還可以拿來做什麼？（全部選出來）",
+    "visual": null,
+    "options": [
+      "做香水",
+      "泡花茶",
+      "當蓋房子的木材",
+      "做魔鬼氈",
+      "做美容保養品"
+    ],
+    "answer": [
+      "做香水",
+      "泡花茶",
+      "做美容保養品"
+    ],
+    "explanation": "玫瑰可以觀賞、泡花茶、做香水和美容保養品，經濟價值很高。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-008",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "農業研究人員常用什麼方法培育新品種？",
+    "visual": null,
+    "options": [
+      "讓植物多蒸散",
+      "人工授粉",
+      "把葉子全部剪掉"
+    ],
+    "answer": "人工授粉",
+    "explanation": "用人工授粉改良品種，例如番茄、南瓜、玉米、彩椒、芒果。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "品種改良"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-009",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "truefalse",
+    "prompt": "經濟植物只有書上介紹的蘭花、茶、芒果這幾種。",
+    "visual": null,
+    "answer": false,
+    "explanation": "經濟植物還有很多，例如香蕉、葡萄、玫瑰，書上只是舉幾個例子。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-010",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "魔鬼氈是模仿哪一種植物發明的？",
+    "visual": null,
+    "options": [
+      "常春藤",
+      "捕蠅草",
+      "大花咸豐草",
+      "仙人掌"
+    ],
+    "answer": "大花咸豐草",
+    "explanation": "魔鬼氈模仿大花咸豐草果實上許多細小的倒鉤。",
+    "difficulty": 1,
+    "tags": [
+      "life",
+      "仿生學"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-011",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "魔鬼氈模仿的是大花咸豐草果實上的什麼構造？",
+    "visual": null,
+    "options": [
+      "許多細小的倒鉤",
+      "薄薄的翅膀",
+      "白色的細毛"
+    ],
+    "answer": "許多細小的倒鉤",
+    "explanation": "大花咸豐草的果實有細小的倒鉤，能黏在衣服或動物身上，魔鬼氈就是模仿它。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "仿生學"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-012",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "向植物學習，模仿它們的構造做出新的發明，叫做什麼？",
+    "visual": null,
+    "options": [
+      "光合作用",
+      "仿生學",
+      "品種改良"
+    ],
+    "answer": "仿生學",
+    "explanation": "模仿生物的構造或特性來發明東西，叫做仿生學，例如魔鬼氈。",
+    "difficulty": 1,
+    "tags": [
+      "life",
+      "仿生學"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-013",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "「蓮葉效應」指的是蓮葉的哪一種特性？",
+    "visual": null,
+    "options": [
+      "會捉昆蟲",
+      "不吸水、防水，還會自我清潔",
+      "被碰到就會合起來"
+    ],
+    "answer": "不吸水、防水，還會自我清潔",
+    "explanation": "蓮葉表面有凸起和非常細小的細毛，水珠會滾落並帶走灰塵，所以能防水、自我清潔。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "蓮葉效應"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-014",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "truefalse",
+    "prompt": "蓮葉表面有許多凸起和非常細小的細毛，所以水珠會在葉面上滾動，不會被吸進去。",
+    "visual": null,
+    "answer": true,
+    "explanation": "這就是蓮葉效應：不吸水、防水，水珠滾落時還會帶走灰塵。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "蓮葉效應"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-015",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "人們模仿蓮葉效應，做出什麼樣的產品？",
+    "visual": null,
+    "options": [
+      "會黏東西的膠帶",
+      "會發光的燈",
+      "防水、防塵的產品"
+    ],
+    "answer": "防水、防塵的產品",
+    "explanation": "模仿蓮葉不吸水、自我清潔的特性，可以做出防水、防塵的產品。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "蓮葉效應"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-016",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "truefalse",
+    "prompt": "魔鬼氈的靈感來自捕蠅草夾住昆蟲的葉子。",
+    "visual": null,
+    "answer": false,
+    "explanation": "魔鬼氈模仿的是大花咸豐草果實上的倒鉤，不是捕蠅草。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "仿生學"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-017",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "大花咸豐草果實上的倒鉤，對它自己有什麼好處？",
+    "visual": null,
+    "options": [
+      "保護葉子不被曬傷",
+      "幫忙吸收水分",
+      "鉤在動物身上，把種子帶到遠方"
+    ],
+    "answer": "鉤在動物身上，把種子帶到遠方",
+    "explanation": "倒鉤鉤在動物或人的衣服上，幫助種子傳播到遠方。",
+    "difficulty": 3,
+    "tags": [
+      "life",
+      "仿生學"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-018",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "花農用技術快速繁殖蘭花，有什麼好處？",
+    "visual": null,
+    "options": [
+      "讓蘭花不會開花",
+      "能大量生產，每株花都一樣漂亮",
+      "讓蘭花變成水果"
+    ],
+    "answer": "能大量生產，每株花都一樣漂亮",
+    "explanation": "快速繁殖讓每株花都一樣漂亮，又能大量生產來販售。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-019",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "香蕉在臺灣有什麼特色？",
+    "visual": null,
+    "options": [
+      "只能觀賞不能吃",
+      "各地全年都能生產，也能外銷",
+      "只有冬天才能生產"
+    ],
+    "answer": "各地全年都能生產，也能外銷",
+    "explanation": "臺灣各地全年都能生產香蕉，也是外銷作物。",
+    "difficulty": 1,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-020",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "choice",
+    "prompt": "要用什麼工具，才看得到蓮葉表面的凸起和非常細小的細毛？",
+    "visual": null,
+    "options": [
+      "指北針",
+      "放大鏡",
+      "電子顯微鏡"
+    ],
+    "answer": "電子顯微鏡",
+    "explanation": "蓮葉表面的細毛非常小，要用電子顯微鏡才看得到。",
+    "difficulty": 3,
+    "tags": [
+      "life",
+      "蓮葉效應"
+    ]
+  },
+  {
+    "id": "g5sci-2-5-021",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-5",
+    "type": "multi",
+    "prompt": "下面哪些是書上介紹的經濟植物？（全部選出來）",
+    "visual": null,
+    "options": [
+      "大花咸豐草",
+      "茶樹",
+      "芒果",
+      "海茄苳",
+      "香蕉",
+      "蘭花"
+    ],
+    "answer": [
+      "茶樹",
+      "芒果",
+      "香蕉",
+      "蘭花"
+    ],
+    "explanation": "蘭花、茶樹、芒果、香蕉都是書上介紹的經濟植物；大花咸豐草和海茄苳不是。",
+    "difficulty": 2,
+    "tags": [
+      "life",
+      "經濟植物"
+    ]
+  }
+]

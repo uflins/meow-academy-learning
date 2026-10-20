@@ -1,0 +1,494 @@
+[
+  {
+    "id": "g5sci-2-4-001",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "落地生根可以用哪一個部位繁殖？",
+    "visual": null,
+    "options": [
+      "根",
+      "莖",
+      "葉"
+    ],
+    "answer": "葉",
+    "explanation": "落地生根的葉子放在溼土上，葉緣的缺刻處會長出新芽。",
+    "difficulty": 1,
+    "tags": [
+      "reproduce",
+      "用葉繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-002",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "馬鈴薯可以用哪一個部位繁殖？",
+    "visual": null,
+    "options": [
+      "根",
+      "莖",
+      "葉"
+    ],
+    "answer": "莖",
+    "explanation": "馬鈴薯是塊莖，上面的芽會長成新植株。",
+    "difficulty": 1,
+    "tags": [
+      "reproduce",
+      "用莖繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-003",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "番薯可以用哪一個部位繁殖？",
+    "visual": null,
+    "options": [
+      "根",
+      "莖",
+      "葉"
+    ],
+    "answer": "根",
+    "explanation": "番薯是塊根，放進水裡會長出根和新芽。",
+    "difficulty": 1,
+    "tags": [
+      "reproduce",
+      "用根繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-004",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "萬年青可以用哪一個部位繁殖？",
+    "visual": null,
+    "options": [
+      "根",
+      "莖",
+      "葉"
+    ],
+    "answer": "莖",
+    "explanation": "萬年青的莖放在水裡，節上會長出新芽。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用莖繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-005",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "吊蘭可以用哪一個部位繁殖？",
+    "visual": null,
+    "options": [
+      "根",
+      "莖",
+      "葉"
+    ],
+    "answer": "莖",
+    "explanation": "吊蘭的走莖前端會長出新的幼苗。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用莖繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-006",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "石蓮可以用哪一個部位繁殖？",
+    "visual": null,
+    "options": [
+      "根",
+      "莖",
+      "葉"
+    ],
+    "answer": "葉",
+    "explanation": "石蓮肥厚的葉子會長出新芽，可以用葉繁殖。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用葉繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-007",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "黃金葛剪下一段放進水裡，節上會長出根和葉。黃金葛是用哪一個部位繁殖？",
+    "visual": null,
+    "options": [
+      "根",
+      "莖",
+      "葉"
+    ],
+    "answer": "莖",
+    "explanation": "剪下的是黃金葛的莖，節上長出根和葉，是用莖繁殖。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用莖繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-008",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "空心菜可以用哪一個部位繁殖？",
+    "visual": null,
+    "options": [
+      "根",
+      "莖",
+      "葉"
+    ],
+    "answer": "莖",
+    "explanation": "把空心菜的莖插進土裡，節上會長出新芽。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用莖繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-009",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "草莓的莖貼著地面橫著長，節上長出根和新芽。草莓可以用哪一個部位繁殖？",
+    "visual": null,
+    "options": [
+      "根",
+      "莖",
+      "葉"
+    ],
+    "answer": "莖",
+    "explanation": "草莓的走莖在節上長出不定根和新芽，是用莖繁殖。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用莖繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-010",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "multi",
+    "prompt": "下面哪些植物可以用莖繁殖？（全部選出來）",
+    "visual": null,
+    "options": [
+      "落地生根",
+      "石蓮",
+      "萬年青",
+      "吊蘭",
+      "番薯",
+      "馬鈴薯"
+    ],
+    "answer": [
+      "萬年青",
+      "吊蘭",
+      "馬鈴薯"
+    ],
+    "explanation": "馬鈴薯、萬年青、吊蘭用莖；番薯用根；落地生根、石蓮用葉。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用莖繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-011",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "multi",
+    "prompt": "下面哪些植物可以用葉繁殖？（全部選出來）",
+    "visual": null,
+    "options": [
+      "石蓮",
+      "落地生根",
+      "萬年青",
+      "番薯",
+      "馬鈴薯"
+    ],
+    "answer": [
+      "石蓮",
+      "落地生根"
+    ],
+    "explanation": "落地生根和石蓮用葉繁殖；馬鈴薯、萬年青用莖，番薯用根。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用葉繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-012",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "truefalse",
+    "prompt": "開花植物只能用種子繁殖。",
+    "visual": null,
+    "answer": false,
+    "explanation": "有些開花植物也能用根、莖、葉繁殖，例如番薯、馬鈴薯、落地生根。",
+    "difficulty": 1,
+    "tags": [
+      "reproduce",
+      "營養器官繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-013",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "truefalse",
+    "prompt": "番薯的塊根可以長出新芽，用來繁殖。",
+    "visual": null,
+    "answer": true,
+    "explanation": "番薯的塊根能長出根和新芽，可以用來繁殖。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用根繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-014",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "把落地生根的葉子放在溼的土上，新芽會從哪裡長出來？",
+    "visual": null,
+    "options": [
+      "葉柄的切口",
+      "葉子的正中間",
+      "葉子邊緣的缺刻處"
+    ],
+    "answer": "葉子邊緣的缺刻處",
+    "explanation": "落地生根葉緣的缺刻處會長出新芽和根。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用葉繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-015",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "把番薯放在裝水的盤子裡，過幾天會看到什麼？",
+    "visual": null,
+    "options": [
+      "長出花和果實",
+      "往下長出根，往上長出新芽",
+      "慢慢變成馬鈴薯"
+    ],
+    "answer": "往下長出根，往上長出新芽",
+    "explanation": "番薯的塊根泡水後，往下長出根，往上長出新芽。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用根繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-016",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "把萬年青的莖放在水裡，新芽會從哪裡長出來？",
+    "visual": null,
+    "options": [
+      "莖的切口",
+      "莖的節上",
+      "根的尖端"
+    ],
+    "answer": "莖的節上",
+    "explanation": "莖上有節，萬年青的新芽從節上長出來。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用莖繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-017",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "大部分的植物用什麼繁殖？",
+    "visual": null,
+    "options": [
+      "種子",
+      "根",
+      "葉"
+    ],
+    "answer": "種子",
+    "explanation": "大部分植物用種子繁殖，有些植物也能用根、莖、葉繁殖。",
+    "difficulty": 1,
+    "tags": [
+      "reproduce",
+      "種子繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-018",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "烏來杜鵑在野外一度消失，後來人們剪下它的枝條插進土裡，讓它長成新植株。這種方法叫做什麼？",
+    "visual": null,
+    "options": [
+      "扦插",
+      "蒸散",
+      "授粉"
+    ],
+    "answer": "扦插",
+    "explanation": "剪下枝條插進土裡讓它長成新植株，叫做扦插，烏來杜鵑就是這樣復育的。",
+    "difficulty": 3,
+    "tags": [
+      "reproduce",
+      "用莖繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-019",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "吊蘭的走莖前端會長出什麼？",
+    "visual": null,
+    "options": [
+      "果實",
+      "新的幼苗",
+      "花粉"
+    ],
+    "answer": "新的幼苗",
+    "explanation": "吊蘭的走莖前端長出新幼苗，可以剪下來種成新植株。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用莖繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-020",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "番薯和馬鈴薯都會長新芽。為什麼番薯算是根，馬鈴薯算是莖？",
+    "visual": null,
+    "options": [
+      "莖上有節、節上長葉、葉腋有芽，馬鈴薯有這些特徵",
+      "番薯比較大",
+      "馬鈴薯長在比較深的土裡"
+    ],
+    "answer": "莖上有節、節上長葉、葉腋有芽，馬鈴薯有這些特徵",
+    "explanation": "馬鈴薯有節和芽，會長出葉，是塊莖；番薯長的是根毛，不會直接長葉，是塊根。",
+    "difficulty": 3,
+    "tags": [
+      "reproduce",
+      "塊根和塊莖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-021",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "choice",
+    "prompt": "番薯的塊根除了可以繁殖，還有什麼功能？",
+    "visual": null,
+    "options": [
+      "行光合作用",
+      "儲藏水分和養分",
+      "製造花粉"
+    ],
+    "answer": "儲藏水分和養分",
+    "explanation": "番薯的塊根膨大，可以儲藏水分和養分，也可以繁殖下一代。",
+    "difficulty": 2,
+    "tags": [
+      "reproduce",
+      "用根繁殖"
+    ]
+  },
+  {
+    "id": "g5sci-2-4-022",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-4",
+    "type": "multi",
+    "prompt": "下面哪些配對是正確的？（全部選出來）",
+    "visual": null,
+    "options": [
+      "馬鈴薯－莖",
+      "石蓮－根",
+      "番薯－根",
+      "吊蘭－葉",
+      "落地生根－葉"
+    ],
+    "answer": [
+      "馬鈴薯－莖",
+      "番薯－根",
+      "落地生根－葉"
+    ],
+    "explanation": "番薯用根、馬鈴薯用莖、落地生根用葉；吊蘭用莖（走莖）、石蓮用葉。",
+    "difficulty": 3,
+    "tags": [
+      "reproduce",
+      "營養器官繁殖"
+    ]
+  }
+]

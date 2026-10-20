@@ -28,7 +28,7 @@ export const REGIONS = {
       } },
     { id: 'math', name: '數字火山', subject: 'math', color: '#F28C6B', icon: '🌋', status: 'open',
       source: { kind: 'gen', module: '../gen/math5.js', bossSpecial: { '4': 'fraction-clones' } } },
-    { id: 'science', name: '光之草原', subject: 'science', color: '#F2C14E', icon: '☀️', status: 'soon',
+    { id: 'science', name: '光之草原', subject: 'science', color: '#F2C14E', icon: '☀️', status: 'open',
       source: {
         kind: 'bank',
         units: [

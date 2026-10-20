@@ -1,0 +1,492 @@
+[
+  {
+    "id": "g5sci-1-1-001",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "上午，太陽在東方（如圖）。竿子的影子會在哪一個方位？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 470\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"440\" height=\"470\" rx=\"12\" fill=\"#FFFFFF\"/><text x=\"14\" y=\"24\" font-size=\"17\" text-anchor=\"start\" dominant-baseline=\"central\" fill=\"#666666\">從天空往下看</text><rect x=\"100\" y=\"125\" width=\"240\" height=\"240\" fill=\"#DDF0C6\" stroke=\"#93BE6E\" stroke-width=\"3\" rx=\"18\"/><circle cx=\"220\" cy=\"103\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"104\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">北</text><circle cx=\"220\" cy=\"387\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"388\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">南</text><circle cx=\"78\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"78\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">西</text><circle cx=\"362\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"362\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">東</text><circle cx=\"220\" cy=\"245\" r=\"11\" fill=\"#9A6233\" stroke=\"#5C3A1A\" stroke-width=\"2.5\"/><circle cx=\"217\" cy=\"242\" r=\"3.5\" fill=\"#C8915E\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"429.4\" y1=\"253\" x2=\"435.9\" y2=\"255.7\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"418\" y1=\"264.4\" x2=\"420.7\" y2=\"270.9\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"402\" y1=\"264.4\" x2=\"399.3\" y2=\"270.9\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"390.6\" y1=\"253\" x2=\"384.1\" y2=\"255.7\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"390.6\" y1=\"237\" x2=\"384.1\" y2=\"234.3\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"402\" y1=\"225.6\" x2=\"399.3\" y2=\"219.1\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"418\" y1=\"225.6\" x2=\"420.7\" y2=\"219.1\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"429.4\" y1=\"237\" x2=\"435.9\" y2=\"234.3\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"410\" cy=\"245\" r=\"17\" fill=\"#FFC83D\" stroke=\"#E8901A\" stroke-width=\"2.5\"/></svg>"
+    },
+    "options": [
+      "北方",
+      "東方",
+      "西方",
+      "南方"
+    ],
+    "answer": "西方",
+    "explanation": "影子在太陽的反方向。太陽在東方，影子就在西方。",
+    "difficulty": 1,
+    "tags": [
+      "shadow",
+      "影子在太陽反方向"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-002",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "下午，太陽在西方（如圖）。貓咪的影子會在哪一個方位？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 470\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"440\" height=\"470\" rx=\"12\" fill=\"#FFFFFF\"/><text x=\"14\" y=\"24\" font-size=\"17\" text-anchor=\"start\" dominant-baseline=\"central\" fill=\"#666666\">從天空往下看</text><rect x=\"100\" y=\"125\" width=\"240\" height=\"240\" fill=\"#DDF0C6\" stroke=\"#93BE6E\" stroke-width=\"3\" rx=\"18\"/><circle cx=\"220\" cy=\"103\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"104\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">北</text><circle cx=\"220\" cy=\"387\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"388\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">南</text><circle cx=\"78\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"78\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">西</text><circle cx=\"362\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"362\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">東</text><polygon points=\"203.9,239.1 205.6,222.9 216.6,230.6\" fill=\"#F5A44A\" stroke=\"#A95F17\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"236.2,239.1 234.5,222.9 223.4,230.6\" fill=\"#F5A44A\" stroke=\"#A95F17\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"220\" cy=\"245\" r=\"17\" fill=\"#F5A44A\" stroke=\"#A95F17\" stroke-width=\"2\"/><circle cx=\"213.5\" cy=\"243.3\" r=\"2.2\" fill=\"#3B2A1E\" stroke=\"none\" stroke-width=\"0\"/><circle cx=\"226.5\" cy=\"243.3\" r=\"2.2\" fill=\"#3B2A1E\" stroke=\"none\" stroke-width=\"0\"/><path d=\"M216.3 250.4Q220 254.4 223.7 250.4\" fill=\"none\" stroke=\"#3B2A1E\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"49.4\" y1=\"253\" x2=\"55.9\" y2=\"255.7\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"38\" y1=\"264.4\" x2=\"40.7\" y2=\"270.9\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"22\" y1=\"264.4\" x2=\"19.3\" y2=\"270.9\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"10.6\" y1=\"253\" x2=\"4.1\" y2=\"255.7\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"10.6\" y1=\"237\" x2=\"4.1\" y2=\"234.3\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"22\" y1=\"225.6\" x2=\"19.3\" y2=\"219.1\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"38\" y1=\"225.6\" x2=\"40.7\" y2=\"219.1\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"49.4\" y1=\"237\" x2=\"55.9\" y2=\"234.3\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"30\" cy=\"245\" r=\"17\" fill=\"#FFC83D\" stroke=\"#E8901A\" stroke-width=\"2.5\"/></svg>"
+    },
+    "options": [
+      "西方",
+      "南方",
+      "東方",
+      "北方"
+    ],
+    "answer": "東方",
+    "explanation": "太陽在西方，影子在反方向的東方。",
+    "difficulty": 1,
+    "tags": [
+      "shadow",
+      "影子在太陽反方向"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-003",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "秋分中午，在嘉義（北回歸線上），太陽在南方（如圖）。竿子的影子在哪一個方位？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 470\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"440\" height=\"470\" rx=\"12\" fill=\"#FFFFFF\"/><text x=\"14\" y=\"24\" font-size=\"17\" text-anchor=\"start\" dominant-baseline=\"central\" fill=\"#666666\">從天空往下看</text><rect x=\"100\" y=\"125\" width=\"240\" height=\"240\" fill=\"#DDF0C6\" stroke=\"#93BE6E\" stroke-width=\"3\" rx=\"18\"/><circle cx=\"220\" cy=\"103\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"104\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">北</text><circle cx=\"220\" cy=\"387\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"388\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">南</text><circle cx=\"78\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"78\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">西</text><circle cx=\"362\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"362\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">東</text><circle cx=\"220\" cy=\"245\" r=\"11\" fill=\"#9A6233\" stroke=\"#5C3A1A\" stroke-width=\"2.5\"/><circle cx=\"217\" cy=\"242\" r=\"3.5\" fill=\"#C8915E\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"239.4\" y1=\"443\" x2=\"245.9\" y2=\"445.7\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"228\" y1=\"454.4\" x2=\"230.7\" y2=\"460.9\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"212\" y1=\"454.4\" x2=\"209.3\" y2=\"460.9\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"200.6\" y1=\"443\" x2=\"194.1\" y2=\"445.7\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"200.6\" y1=\"427\" x2=\"194.1\" y2=\"424.3\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"212\" y1=\"415.6\" x2=\"209.3\" y2=\"409.1\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"228\" y1=\"415.6\" x2=\"230.7\" y2=\"409.1\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"239.4\" y1=\"427\" x2=\"245.9\" y2=\"424.3\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"220\" cy=\"435\" r=\"17\" fill=\"#FFC83D\" stroke=\"#E8901A\" stroke-width=\"2.5\"/></svg>"
+    },
+    "options": [
+      "西方",
+      "北方",
+      "東方",
+      "南方"
+    ],
+    "answer": "北方",
+    "explanation": "太陽在南方，影子在反方向的北方。",
+    "difficulty": 1,
+    "tags": [
+      "shadow",
+      "影子在太陽反方向"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-004",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "貓咪的影子朝向東方（如圖）。這時候太陽在哪一個方位？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 470\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"440\" height=\"470\" rx=\"12\" fill=\"#FFFFFF\"/><text x=\"14\" y=\"24\" font-size=\"17\" text-anchor=\"start\" dominant-baseline=\"central\" fill=\"#666666\">從天空往下看</text><rect x=\"100\" y=\"125\" width=\"240\" height=\"240\" fill=\"#DDF0C6\" stroke=\"#93BE6E\" stroke-width=\"3\" rx=\"18\"/><circle cx=\"220\" cy=\"103\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"104\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">北</text><circle cx=\"220\" cy=\"387\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"388\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">南</text><circle cx=\"78\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"78\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">西</text><circle cx=\"362\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"362\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">東</text><polygon points=\"220,254 312,249.5 312,240.5 220,236\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\" fill-opacity=\"0.6\"/><circle cx=\"312\" cy=\"245\" r=\"4.5\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" fill-opacity=\"0.6\"/><polygon points=\"203.9,239.1 205.6,222.9 216.6,230.6\" fill=\"#F5A44A\" stroke=\"#A95F17\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"236.2,239.1 234.5,222.9 223.4,230.6\" fill=\"#F5A44A\" stroke=\"#A95F17\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"220\" cy=\"245\" r=\"17\" fill=\"#F5A44A\" stroke=\"#A95F17\" stroke-width=\"2\"/><circle cx=\"213.5\" cy=\"243.3\" r=\"2.2\" fill=\"#3B2A1E\" stroke=\"none\" stroke-width=\"0\"/><circle cx=\"226.5\" cy=\"243.3\" r=\"2.2\" fill=\"#3B2A1E\" stroke=\"none\" stroke-width=\"0\"/><path d=\"M216.3 250.4Q220 254.4 223.7 250.4\" fill=\"none\" stroke=\"#3B2A1E\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+    },
+    "options": [
+      "南方",
+      "東方",
+      "北方",
+      "西方"
+    ],
+    "answer": "西方",
+    "explanation": "影子的反方向就是太陽的方位。影子在東方，太陽在西方。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "由影子找太陽"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-005",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "竿子的影子朝向西方（如圖）。這時候最可能是一天中的什麼時候？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 470\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"440\" height=\"470\" rx=\"12\" fill=\"#FFFFFF\"/><text x=\"14\" y=\"24\" font-size=\"17\" text-anchor=\"start\" dominant-baseline=\"central\" fill=\"#666666\">從天空往下看</text><rect x=\"100\" y=\"125\" width=\"240\" height=\"240\" fill=\"#DDF0C6\" stroke=\"#93BE6E\" stroke-width=\"3\" rx=\"18\"/><circle cx=\"220\" cy=\"103\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"104\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">北</text><circle cx=\"220\" cy=\"387\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"388\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">南</text><circle cx=\"78\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"78\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">西</text><circle cx=\"362\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"362\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">東</text><polygon points=\"220,236 128,240.5 128,249.5 220,254\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\" fill-opacity=\"0.6\"/><circle cx=\"128\" cy=\"245\" r=\"4.5\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" fill-opacity=\"0.6\"/><circle cx=\"220\" cy=\"245\" r=\"11\" fill=\"#9A6233\" stroke=\"#5C3A1A\" stroke-width=\"2.5\"/><circle cx=\"217\" cy=\"242\" r=\"3.5\" fill=\"#C8915E\" stroke=\"none\" stroke-width=\"0\"/></svg>"
+    },
+    "options": [
+      "上午",
+      "中午",
+      "下午"
+    ],
+    "answer": "上午",
+    "explanation": "影子在西方，太陽就在東方；太陽在東方的天空是上午。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "由影子找太陽"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-006",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "竿子的影子朝向東方。這時候最可能是一天中的什麼時候？",
+    "visual": null,
+    "options": [
+      "上午",
+      "中午",
+      "下午"
+    ],
+    "answer": "下午",
+    "explanation": "影子在東方，太陽就在西方；太陽在西方的天空是下午。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "由影子找太陽"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-007",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "truefalse",
+    "prompt": "影子和太陽會在同一邊。",
+    "visual": null,
+    "answer": false,
+    "explanation": "影子永遠在太陽的反方向：太陽在東，影子在西；太陽在西，影子在東。",
+    "difficulty": 1,
+    "tags": [
+      "shadow",
+      "影子在太陽反方向"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-008",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "晴天時，一天之中竿子的影子什麼時候最短？",
+    "visual": null,
+    "options": [
+      "早上",
+      "中午",
+      "傍晚"
+    ],
+    "answer": "中午",
+    "explanation": "中午太陽最高（高度角最大），所以影子最短。",
+    "difficulty": 1,
+    "tags": [
+      "shadow",
+      "一天中影子長短"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-009",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "從早上到傍晚，同一根竿子的影子長度怎麼變化？",
+    "visual": null,
+    "options": [
+      "一直變長",
+      "一直變短",
+      "短→長→短",
+      "長→短→長"
+    ],
+    "answer": "長→短→長",
+    "explanation": "早上太陽低，影子長；中午太陽最高，影子最短；傍晚太陽又變低，影子又變長。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "一天中影子長短"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-010",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "truefalse",
+    "prompt": "中午的影子最長。",
+    "visual": null,
+    "answer": false,
+    "explanation": "中午太陽最高，影子最短；早上和傍晚太陽低，影子才比較長。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "一天中影子長短"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-011",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "下面三張圖是同一根竿子在不同時間的影子。哪一張圖的太陽高度角最大？",
+    "visual": null,
+    "options": [
+      {
+        "label": "甲",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 170\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"170\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"128\" width=\"300\" height=\"42\" fill=\"#EADBC0\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"6\" y1=\"128\" x2=\"294\" y2=\"128\" stroke=\"#B89A6A\" stroke-width=\"2\"/><path d=\"M36 122L207.6 125Q213.6 128 207.6 131L36 134Z\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\" fill-opacity=\"0.75\"/><line x1=\"36\" y1=\"128\" x2=\"36\" y2=\"48\" stroke=\"#8B5A2B\" stroke-width=\"9\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "label": "乙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 170\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"170\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"128\" width=\"300\" height=\"42\" fill=\"#EADBC0\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"6\" y1=\"128\" x2=\"294\" y2=\"128\" stroke=\"#B89A6A\" stroke-width=\"2\"/><path d=\"M36 122L65.1 125Q71.1 128 65.1 131L36 134Z\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\" fill-opacity=\"0.75\"/><line x1=\"36\" y1=\"128\" x2=\"36\" y2=\"48\" stroke=\"#8B5A2B\" stroke-width=\"9\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "label": "丙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 170\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"170\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"128\" width=\"300\" height=\"42\" fill=\"#EADBC0\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"6\" y1=\"128\" x2=\"294\" y2=\"128\" stroke=\"#B89A6A\" stroke-width=\"2\"/><path d=\"M36 122L116 125Q122 128 116 131L36 134Z\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\" fill-opacity=\"0.75\"/><line x1=\"36\" y1=\"128\" x2=\"36\" y2=\"48\" stroke=\"#8B5A2B\" stroke-width=\"9\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "answer": "乙",
+    "explanation": "太陽高度角愈大（太陽愈高），影子愈短。乙的影子最短，太陽最高。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "高度角和影長"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-012",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "下面三張圖是同一根竿子的影子。哪一張最可能是傍晚太陽快下山時的影子？",
+    "visual": null,
+    "options": [
+      {
+        "label": "甲",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 170\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"170\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"128\" width=\"300\" height=\"42\" fill=\"#EADBC0\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"6\" y1=\"128\" x2=\"294\" y2=\"128\" stroke=\"#B89A6A\" stroke-width=\"2\"/><path d=\"M36 122L65.1 125Q71.1 128 65.1 131L36 134Z\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\" fill-opacity=\"0.75\"/><line x1=\"36\" y1=\"128\" x2=\"36\" y2=\"48\" stroke=\"#8B5A2B\" stroke-width=\"9\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "label": "乙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 170\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"170\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"128\" width=\"300\" height=\"42\" fill=\"#EADBC0\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"6\" y1=\"128\" x2=\"294\" y2=\"128\" stroke=\"#B89A6A\" stroke-width=\"2\"/><path d=\"M36 122L131.3 125Q137.3 128 131.3 131L36 134Z\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\" fill-opacity=\"0.75\"/><line x1=\"36\" y1=\"128\" x2=\"36\" y2=\"48\" stroke=\"#8B5A2B\" stroke-width=\"9\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "label": "丙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 170\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"170\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"128\" width=\"300\" height=\"42\" fill=\"#EADBC0\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"6\" y1=\"128\" x2=\"294\" y2=\"128\" stroke=\"#B89A6A\" stroke-width=\"2\"/><path d=\"M36 122L282.2 125Q288.2 128 282.2 131L36 134Z\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\" fill-opacity=\"0.75\"/><line x1=\"36\" y1=\"128\" x2=\"36\" y2=\"48\" stroke=\"#8B5A2B\" stroke-width=\"9\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "answer": "丙",
+    "explanation": "傍晚太陽很低，高度角很小，影子最長，所以是丙。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "高度角和影長"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-013",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "truefalse",
+    "prompt": "影子的長短只和物體的高矮有關，和太陽的高度角沒有關係。",
+    "visual": null,
+    "answer": false,
+    "explanation": "同一根竿子，太陽高度角愈大影子愈短，所以影子長短也和太陽的高度角有關。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "高度角和影長"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-014",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "太陽的高度角變大時，竿子的影子會怎樣？",
+    "visual": null,
+    "options": [
+      "變長",
+      "變短",
+      "不會改變"
+    ],
+    "answer": "變短",
+    "explanation": "高度角愈大，影子愈短；高度角愈小，影子愈長。",
+    "difficulty": 1,
+    "tags": [
+      "shadow",
+      "高度角和影長"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-015",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "同一根竿子，上午 8 點和上午 10 點，哪一個時間的影子比較長？",
+    "visual": null,
+    "options": [
+      "上午 8 點",
+      "上午 10 點",
+      "一樣長"
+    ],
+    "answer": "上午 8 點",
+    "explanation": "上午 8 點太陽比較低，高度角比較小，影子比較長。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "高度角和影長"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-016",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "同一個時間，空地上有兩根竿子（如圖）。甲的影子朝向北方，乙的影子會朝向哪一個方位？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 470\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"440\" height=\"470\" rx=\"12\" fill=\"#FFFFFF\"/><text x=\"14\" y=\"24\" font-size=\"17\" text-anchor=\"start\" dominant-baseline=\"central\" fill=\"#666666\">從天空往下看</text><rect x=\"100\" y=\"125\" width=\"240\" height=\"240\" fill=\"#DDF0C6\" stroke=\"#93BE6E\" stroke-width=\"3\" rx=\"18\"/><circle cx=\"220\" cy=\"103\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"104\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">北</text><circle cx=\"220\" cy=\"387\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"388\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">南</text><circle cx=\"78\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"78\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">西</text><circle cx=\"362\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"362\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">東</text><polygon points=\"174,285 169.5,200 160.5,200 156,285\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\" fill-opacity=\"0.6\"/><circle cx=\"165\" cy=\"200\" r=\"4.5\" fill=\"#3F3F46\" stroke=\"none\" stroke-width=\"0\" fill-opacity=\"0.6\"/><circle cx=\"165\" cy=\"285\" r=\"11\" fill=\"#9A6233\" stroke=\"#5C3A1A\" stroke-width=\"2.5\"/><circle cx=\"162\" cy=\"282\" r=\"3.5\" fill=\"#C8915E\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"152.5\" y=\"301.5\" width=\"25\" height=\"23\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"165\" y=\"313\" font-size=\"17\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">甲</text><circle cx=\"275\" cy=\"285\" r=\"11\" fill=\"#9A6233\" stroke=\"#5C3A1A\" stroke-width=\"2.5\"/><circle cx=\"272\" cy=\"282\" r=\"3.5\" fill=\"#C8915E\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"262.5\" y=\"301.5\" width=\"25\" height=\"23\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"275\" y=\"313\" font-size=\"17\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#333333\" font-weight=\"bold\">乙</text></svg>"
+    },
+    "options": [
+      "西方",
+      "東方",
+      "南方",
+      "北方"
+    ],
+    "answer": "北方",
+    "explanation": "同一個時間，太陽在同一個位置，所有物體的影子都朝同一個方向。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "同時間影子同方向"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-017",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "下午 3 點，小美背對太陽站著，看到自己的影子在正前方。小美面向哪一個方位？",
+    "visual": null,
+    "options": [
+      "南方",
+      "北方",
+      "東方",
+      "西方"
+    ],
+    "answer": "東方",
+    "explanation": "下午太陽在西方。背對太陽就是面向東方，影子也在東方，剛好在她前面。",
+    "difficulty": 3,
+    "tags": [
+      "shadow",
+      "由影子判斷方位"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-018",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "早上走路上學時，小明發現自己的影子在右手邊。小明大概面向哪一個方位？",
+    "visual": null,
+    "options": [
+      "西方",
+      "北方",
+      "東方",
+      "南方"
+    ],
+    "answer": "南方",
+    "explanation": "早上太陽在東方，影子在西方。面向南方時，右手邊是西方。",
+    "difficulty": 3,
+    "tags": [
+      "shadow",
+      "由影子判斷方位"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-019",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "order",
+    "prompt": "晴天時，把一天中竿子影子的變化，依時間先後排好。",
+    "visual": null,
+    "items": [
+      "早上：影子長，在西邊",
+      "中午：影子最短",
+      "傍晚：影子長，在東邊"
+    ],
+    "explanation": "上午太陽在東、影子在西；中午太陽最高、影子最短；下午太陽在西、影子在東。",
+    "difficulty": 1,
+    "tags": [
+      "shadow",
+      "一天中影子長短"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-020",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "choice",
+    "prompt": "玩手影戲時，手電筒和牆壁都不動，把手移到離手電筒更近的地方，牆上的影子會怎樣？",
+    "visual": null,
+    "options": [
+      "變大",
+      "變小",
+      "不會改變"
+    ],
+    "answer": "變大",
+    "explanation": "光源和牆壁不動時，物體離光源愈近，影子愈大。",
+    "difficulty": 2,
+    "tags": [
+      "shadow",
+      "手影大小"
+    ]
+  },
+  {
+    "id": "g5sci-1-1-021",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-1",
+    "type": "multi",
+    "prompt": "下面哪些說法是對的？（全部選出來）",
+    "visual": null,
+    "options": [
+      "上午的影子在西邊",
+      "太陽愈低，影子愈短",
+      "下午的影子在西邊",
+      "影子在太陽的反方向",
+      "中午的影子最短"
+    ],
+    "answer": [
+      "上午的影子在西邊",
+      "影子在太陽的反方向",
+      "中午的影子最短"
+    ],
+    "explanation": "影子和太陽方向相反；上午影子在西、下午在東；太陽愈低影子愈長，中午最短。",
+    "difficulty": 3,
+    "tags": [
+      "shadow",
+      "影子綜合"
+    ]
+  }
+]

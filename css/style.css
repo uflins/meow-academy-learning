@@ -507,7 +507,7 @@ body.low-grade .q-options.kind-tone .opt-svg svg { max-height: 70px; }
 
 /* 操作型大魔王 */
 .q-hot { display: flex; justify-content: center; align-items: center; height: 100%; min-height: 0; }
-.q-hot svg { width: 100%; height: 100%; max-height: 52vh; }
+.q-hot svg { width: 100%; height: 100%; max-height: 58vh; }
 .q-hot .hot, .q-hot .map-spot { cursor: pointer; }
 .q-hot .hot:active circle, .q-hot .map-spot:active circle { fill: #FFE9D6; }
 .q-hot .right circle { fill: #DFF5DF; stroke: var(--good-dark); }
@@ -520,3 +520,10 @@ body.low-grade .q-options.kind-tone .opt-svg svg { max-height: 70px; }
 .timer { height: 10px; background: #F1E4D3; border-radius: 99px; overflow: hidden; border: 2px solid var(--line-dark); }
 .timer-fill { height: 100%; width: 100%; background: linear-gradient(90deg, #F07C7C, #FFC93C, #5DBB6A); }
 .question.style-clones .opt-label { font-size: 1.5em; font-weight: 900; }
+
+/* 一年級：注音與「念給我聽」 */
+ruby { ruby-position: inter-character; }
+.zy ruby rt { font-size: .45em; font-weight: 500; }
+.mini-say { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; margin-left: 6px; border-radius: 50%; border: 2px solid var(--line); background: #FFF1E2; font-size: 20px; cursor: pointer; vertical-align: middle; }
+.node { position: relative; }
+.node-say { position: absolute; top: 4px; right: 4px; margin: 0; width: 40px; height: 40px; font-size: 18px; }

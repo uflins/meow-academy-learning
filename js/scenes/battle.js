@@ -11,6 +11,7 @@ import { playZhuyin, preloadZhuyin } from '../engine/zhuyin-audio.js';
 import { play } from '../engine/sfx.js';
 import { catSVG, monsterSVG, SUBJECT_CAT, catName } from '../art/art.js';
 import { sample } from '../gen/util.js';
+import { zy } from '../ui/zhuyin.js';
 
 const PRAISE = ['答對了！', '好厲害！', '太棒了！', '漂亮！', '完全正確！'];
 const LOW_PRAISE = ['答對了！好棒！', '哇，你好厲害！', '太棒了！', '對了，耶！'];
@@ -146,6 +147,7 @@ export default function battle(root, params, { go, app }) {
     const timerBar = h('div', { class: 'timer' }, h('div', { class: 'timer-fill' }));
     if (timed) battleEl.querySelector('.battle-top').after(timerBar);
 
+    if (lowGrade && !node.isBoss && node.title) { await speak(node.title.replace(/^\d+-\d+\s*/, '')); if (!alive) return; }
     if (node.isBoss) {
       burst('👑 大魔王出現了！', 'special');
       if (lowGrade) await speak('大魔王出現了！加油！');
@@ -220,8 +222,8 @@ export default function battle(root, params, { go, app }) {
         h('div', { class: 'explain-answer' }, formatAnswer(q)),
         q.explanation ? h('div', { class: 'explain-text' }, q.explanation) : null,
         h('div', { class: 'explain-actions' },
-          lowGrade && (say || q.audio) ? h('button', { class: 'btn', onclick: () => (q.audio ? playZhuyin(q.audio) : speak(say)) }, '🔊 再聽一次') : null,
-          h('button', { class: 'btn primary', onclick: () => { stopSpeech(); resolve(); } }, '我懂了'),
+          lowGrade && (say || q.audio) ? h('button', { class: 'btn', onclick: () => (q.audio ? playZhuyin(q.audio) : speak(say)) }, '🔊 ', zy('再聽一次')) : null,
+          h('button', { class: 'btn primary', onclick: () => { stopSpeech(); resolve(); } }, lowGrade ? ['👍 ', zy('我懂了')] : '我懂了'),
         ),
       );
       view.showExplanation(panel);
@@ -366,8 +368,8 @@ export default function battle(root, params, { go, app }) {
               w.q.explanation ? h('div', { class: 'wrong-e' }, w.q.explanation) : null))) : null,
         ),
         h('div', { class: 'result-actions' },
-          h('button', { class: 'btn', onclick: () => go(...backTo()) }, backLabel),
-          h('button', { class: 'btn primary', onclick: () => go('battle', params) }, isDrill ? '再特訓一次' : '再挑戰一次'),
+          h('button', { class: 'btn', onclick: () => go(...backTo()) }, lowGrade ? ['🗺️ ', zy(backLabel)] : backLabel),
+          h('button', { class: 'btn primary', onclick: () => go('battle', params) }, lowGrade ? ['🔁 ', zy(isDrill ? '再特訓一次' : '再挑戰一次')] : (isDrill ? '再特訓一次' : '再挑戰一次')),
         ),
       ));
     }

@@ -6,6 +6,8 @@ import { levelOf, catOf } from '../engine/progress.js';
 import { battleCatFor, catLook, dailyTasks, claimDaily, FURNITURE } from '../engine/rewards.js';
 import { catName } from '../art/art.js';
 import { play } from '../engine/sfx.js';
+import { speak } from '../engine/speech.js';
+import { zy } from '../ui/zhuyin.js';
 
 export function playerBar(player, { go, back }) {
   return h('div', { class: 'topbar' },
@@ -20,8 +22,10 @@ export function playerBar(player, { go, back }) {
 // 今天的任務
 function dailyPanel(player, refresh) {
   const d = dailyTasks(player);
+  const low = player.grade <= 2;
   return h('div', { class: 'daily' },
-    h('div', { class: 'daily-title' }, '📅 今天的任務', d.bonus ? h('span', { class: 'muted' }, '　全部完成，明天再來！') : h('span', { class: 'muted' }, '　三個都完成送一件「軟綿綿小日子」家具')),
+    h('div', { class: 'daily-title' }, '📅 ', low ? zy('今天的任務') : '今天的任務',
+      low ? h('button', { class: 'mini-say', 'aria-label': '念給我聽', onclick: () => speak(`今天的任務：${d.tasks.map((t) => t.label).join('，')}`) }, '🔊') : null, d.bonus ? h('span', { class: 'muted' }, '　全部完成，明天再來！') : h('span', { class: 'muted' }, '　三個都完成送一件「軟綿綿小日子」家具')),
     h('div', { class: 'daily-list' }, d.tasks.map((t) => h('div', { class: `daily-task ${t.claimed ? 'claimed' : ''}` },
       h('div', { class: 'daily-label' }, t.label),
       h('div', { class: 'xpbar' }, h('div', { class: 'xpfill', style: { width: `${Math.round((t.n / t.goal) * 100)}%` } })),
@@ -44,6 +48,7 @@ export default function world(root, params, { go, app }) {
   const player = app.player;
   if (!player) return go('home');
   const regions = regionsFor(player.grade);
+  const low = player.grade <= 2;
   const wrongCount = player.wrongBook.filter((w) => w.q.grade === player.grade).length;
 
   root.append(
@@ -65,15 +70,15 @@ export default function world(root, params, { go, app }) {
           },
         },
         h('div', { class: 'region-icon' }, r.icon),
-        h('div', { class: 'region-name' }, r.name),
+        h('div', { class: 'region-name' }, r.name, low ? h('span', { class: 'mini-say', role: 'button', 'aria-label': '念給我聽', onclick: (e) => { e.stopPropagation(); speak(r.name); } }, '🔊') : null),
         h('div', { class: 'region-cat', html: catSVG(catId, Object.assign({ mood: open ? 'normal' : 'sleep' }, open ? look : {})) }),
         h('div', { class: 'region-meta' }, open ? `${catName(catId, look.evolved)} Lv.${levelOf(cat.xp)}` : '🚧 建造中'));
       })),
       dailyPanel(player, () => go('world')),
       h('div', { class: 'world-actions' },
-        h('button', { class: 'btn', onclick: () => go('cats') }, '🐱 我的貓咪'),
-        h('button', { class: 'btn', onclick: () => go('house') }, '🏠 我的喵屋'),
-        h('button', { class: 'btn', onclick: () => go('wrongbook') }, `📒 錯題本（${wrongCount}）`),
+        h('button', { class: 'btn', onclick: () => go('cats') }, '🐱 ', low ? zy('我的貓咪') : '我的貓咪'),
+        h('button', { class: 'btn', onclick: () => go('house') }, '🏠 ', low ? zy('我的喵屋') : '我的喵屋'),
+        h('button', { class: 'btn', onclick: () => go('wrongbook') }, '📒 ', low ? zy('錯題本') : '錯題本', `（${wrongCount}）`),
       ),
     ),
   );

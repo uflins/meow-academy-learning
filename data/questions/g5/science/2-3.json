@@ -1,0 +1,557 @@
+[
+  {
+    "id": "g5sci-2-3-001",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "蒲公英的果實靠什麼傳播？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "風力",
+    "explanation": "蒲公英的果實有蓬鬆的白色細毛，可以隨風飄走。",
+    "difficulty": 1,
+    "tags": [
+      "disperse",
+      "風力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-002",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "青楓的果實有薄薄的翅膀，靠什麼傳播？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "風力",
+    "explanation": "有薄翅的果實可以隨風飄到遠方。",
+    "difficulty": 1,
+    "tags": [
+      "disperse",
+      "風力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-003",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "黃花酢漿草的果實成熟後裂開，把種子彈出去。這是靠什麼傳播？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "自身彈力",
+    "explanation": "果實成熟後自己裂開，把種子彈出去，是靠自身彈力。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "彈力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-004",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "非洲鳳仙花的果實靠什麼傳播種子？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "自身彈力",
+    "explanation": "非洲鳳仙花的果實成熟後會裂開，把種子彈出去，不是靠水。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "彈力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-005",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "大花咸豐草的果實有倒鉤，可以鉤在動物的毛或人的衣服上。這是靠什麼傳播？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "動物力",
+    "explanation": "倒鉤鉤在動物身上，被帶到遠方，是靠動物傳播。",
+    "difficulty": 1,
+    "tags": [
+      "disperse",
+      "動物傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-006",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "鳥吃了雀榕的果實，種子會怎麼被散播？",
+    "visual": null,
+    "options": [
+      "果實自己裂開彈出",
+      "隨著鳥的糞便排出",
+      "被風吹到海上"
+    ],
+    "answer": "隨著鳥的糞便排出",
+    "explanation": "雀榕的果實被動物吃掉，種子隨著糞便散播到別的地方。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "動物傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-007",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "木瓜的果實多肉、香甜，主要靠什麼傳播種子？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "動物力",
+    "explanation": "多肉香甜的果實會吸引動物來吃，種子隨著糞便散播。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "動物傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-008",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "椰子的果實靠什麼傳播？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "水力",
+    "explanation": "椰子的果實有很多纖維，裡面有空氣，可以在海上漂流。",
+    "difficulty": 1,
+    "tags": [
+      "disperse",
+      "水力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-009",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "棋盤腳的果實靠什麼傳播？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "水力",
+    "explanation": "棋盤腳的果實能浮在水上，隨水漂流。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "水力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-010",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "林投的果實靠什麼傳播？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "水力",
+    "explanation": "林投的果實可以浮在水上，隨水漂流。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "水力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-011",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "multi",
+    "prompt": "哪些植物的果實主要靠風力傳播？（全部選出來）",
+    "visual": null,
+    "options": [
+      "大花咸豐草",
+      "木瓜",
+      "青楓",
+      "椰子",
+      "蒲公英"
+    ],
+    "answer": [
+      "青楓",
+      "蒲公英"
+    ],
+    "explanation": "蒲公英有細毛、青楓有薄翅，靠風力；椰子靠水，木瓜和大花咸豐草靠動物。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "風力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-012",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "multi",
+    "prompt": "哪些植物主要靠動物傳播種子？（全部選出來）",
+    "visual": null,
+    "options": [
+      "蒲公英",
+      "大花咸豐草",
+      "木瓜",
+      "椰子",
+      "非洲鳳仙花",
+      "雀榕"
+    ],
+    "answer": [
+      "大花咸豐草",
+      "木瓜",
+      "雀榕"
+    ],
+    "explanation": "大花咸豐草用倒鉤、雀榕和木瓜被動物吃，都靠動物；蒲公英靠風、椰子靠水、非洲鳳仙花靠彈力。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "動物傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-013",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "果實有很多纖維，裡面有空氣，可以浮在水上。這種果實靠什麼傳播？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "水力",
+    "explanation": "能浮在水上的果實，會隨著水漂到遠方。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "水力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-014",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "果實多肉、顏色鮮豔又香甜，通常靠什麼傳播？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "動物力",
+    "explanation": "鮮豔香甜的果實吸引動物來吃，種子再隨糞便散播。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "動物傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-015",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "像圖中這樣有薄翅的果實，最可能靠什麼傳播？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"200\" rx=\"12\" fill=\"#FFFFFF\"/><path d=\"M70 140C60 100 95 45 170 40C185 60 160 110 100 140Z\" fill=\"#E7D3A1\" stroke=\"#9C7A2E\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><line x1=\"84\" y1=\"132\" x2=\"160\" y2=\"52\" stroke=\"#B89A55\" stroke-width=\"1.5\"/><line x1=\"92\" y1=\"132\" x2=\"168\" y2=\"70\" stroke=\"#B89A55\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"130\" x2=\"145\" y2=\"48\" stroke=\"#B89A55\" stroke-width=\"1.5\"/><ellipse cx=\"72\" cy=\"146\" rx=\"20\" ry=\"15\" fill=\"#B5793A\" stroke=\"#7A4E1E\" stroke-width=\"2.5\"/></svg>"
+    },
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "風力",
+    "explanation": "薄翅能讓果實在空中旋轉、飄到遠方，是靠風力。",
+    "difficulty": 1,
+    "tags": [
+      "disperse",
+      "風力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-016",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "圖中的果實有許多倒鉤，最可能靠什麼傳播？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"200\" rx=\"12\" fill=\"#FFFFFF\"/><path d=\"M104 175L98 70L122 70L116 175Z\" fill=\"#3E3A36\" stroke=\"#1E1B18\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"102\" y1=\"70\" x2=\"80\" y2=\"22\" stroke=\"#3E3A36\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"94.3\" y1=\"53.2\" x2=\"87.3\" y2=\"62.2\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"94.3\" y1=\"53.2\" x2=\"101.3\" y2=\"62.2\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"87.7\" y1=\"38.8\" x2=\"80.7\" y2=\"47.8\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"87.7\" y1=\"38.8\" x2=\"94.7\" y2=\"47.8\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"81.1\" y1=\"24.4\" x2=\"74.1\" y2=\"33.4\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"81.1\" y1=\"24.4\" x2=\"88.1\" y2=\"33.4\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"118\" y1=\"70\" x2=\"140\" y2=\"22\" stroke=\"#3E3A36\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"125.7\" y1=\"53.2\" x2=\"118.7\" y2=\"62.2\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"125.7\" y1=\"53.2\" x2=\"132.7\" y2=\"62.2\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"132.3\" y1=\"38.8\" x2=\"125.3\" y2=\"47.8\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"132.3\" y1=\"38.8\" x2=\"139.3\" y2=\"47.8\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"138.9\" y1=\"24.4\" x2=\"131.9\" y2=\"33.4\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"138.9\" y1=\"24.4\" x2=\"145.9\" y2=\"33.4\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"70\" x2=\"110\" y2=\"16\" stroke=\"#3E3A36\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"110\" y1=\"51.1\" x2=\"103\" y2=\"60.1\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"51.1\" x2=\"117\" y2=\"60.1\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"34.9\" x2=\"103\" y2=\"43.9\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"34.9\" x2=\"117\" y2=\"43.9\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"18.7\" x2=\"103\" y2=\"27.7\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"18.7\" x2=\"117\" y2=\"27.7\" stroke=\"#3E3A36\" stroke-width=\"2\"/></svg>"
+    },
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "動物力",
+    "explanation": "倒鉤能鉤在動物的毛上，被帶到遠方。",
+    "difficulty": 1,
+    "tags": [
+      "disperse",
+      "動物傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-017",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "圖中的果實外殼有很多纖維，能浮在水面上，最可能靠什麼傳播？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"200\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"130\" width=\"220\" height=\"70\" fill=\"#BFE3F7\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0\" y1=\"130\" x2=\"220\" y2=\"130\" stroke=\"#4A9CC9\" stroke-width=\"3\"/><ellipse cx=\"110\" cy=\"118\" rx=\"58\" ry=\"44\" fill=\"#8D6E63\" stroke=\"#5D4037\" stroke-width=\"3\"/><path d=\"M70 100Q110 80 150 100\" fill=\"none\" stroke=\"#5D4037\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M64 122Q110 104 156 122\" fill=\"none\" stroke=\"#5D4037\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"0\" y=\"130\" width=\"220\" height=\"70\" fill=\"#BFE3F7\" stroke=\"none\" stroke-width=\"0\" fill-opacity=\"0.55\"/><line x1=\"0\" y1=\"130\" x2=\"220\" y2=\"130\" stroke=\"#4A9CC9\" stroke-width=\"3\"/></svg>"
+    },
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "水力",
+    "explanation": "能浮在水上的果實，會隨水漂流到遠方。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "水力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-018",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "哪一種果實的構造，最適合讓種子隨風飄到遠方？",
+    "visual": null,
+    "options": [
+      {
+        "label": "甲",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"200\" rx=\"12\" fill=\"#FFFFFF\"/><circle cx=\"110\" cy=\"115\" r=\"52\" fill=\"#E53935\" stroke=\"#9A1B1B\" stroke-width=\"3\"/><circle cx=\"92\" cy=\"96\" r=\"12\" fill=\"#FF8A80\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"63\" x2=\"116\" y2=\"38\" stroke=\"#5D4037\" stroke-width=\"5\" stroke-linecap=\"round\"/><ellipse cx=\"136\" cy=\"44\" rx=\"22\" ry=\"9\" transform=\"rotate(-20 136 44)\" fill=\"#5DBB63\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><line x1=\"121\" y1=\"49.5\" x2=\"151\" y2=\"38.5\" stroke=\"#2E7D32\" stroke-width=\"1.8\"/></svg>"
+      },
+      {
+        "label": "乙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"200\" rx=\"12\" fill=\"#FFFFFF\"/><ellipse cx=\"110\" cy=\"168\" rx=\"7\" ry=\"14\" fill=\"#9C6B3A\" stroke=\"#6D4520\" stroke-width=\"2\"/><line x1=\"110\" y1=\"154\" x2=\"110\" y2=\"80\" stroke=\"#B0A080\" stroke-width=\"2\"/><line x1=\"110\" y1=\"80\" x2=\"48.9\" y2=\"71.3\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"48.9\" cy=\"71.3\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"53.1\" y2=\"60.2\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"53.1\" cy=\"60.2\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"60.3\" y2=\"50.1\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"60.3\" cy=\"50.1\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"70.1\" y2=\"41.7\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"70.1\" cy=\"41.7\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"82.2\" y2=\"35.3\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"82.2\" cy=\"35.3\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"95.7\" y2=\"31.3\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"95.7\" cy=\"31.3\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"110\" y2=\"30\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"110\" cy=\"30\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"124.3\" y2=\"31.3\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"124.3\" cy=\"31.3\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"137.8\" y2=\"35.3\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"137.8\" cy=\"35.3\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"149.9\" y2=\"41.7\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"149.9\" cy=\"41.7\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"159.7\" y2=\"50.1\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"159.7\" cy=\"50.1\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"166.9\" y2=\"60.2\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"166.9\" cy=\"60.2\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"110\" y1=\"80\" x2=\"171.1\" y2=\"71.3\" stroke=\"#9E9E9E\" stroke-width=\"1.8\"/><circle cx=\"171.1\" cy=\"71.3\" r=\"2.2\" fill=\"#BDBDBD\" stroke=\"none\" stroke-width=\"0\"/></svg>"
+      },
+      {
+        "label": "丙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"200\" rx=\"12\" fill=\"#FFFFFF\"/><path d=\"M104 175L98 70L122 70L116 175Z\" fill=\"#3E3A36\" stroke=\"#1E1B18\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"102\" y1=\"70\" x2=\"80\" y2=\"22\" stroke=\"#3E3A36\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"94.3\" y1=\"53.2\" x2=\"87.3\" y2=\"62.2\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"94.3\" y1=\"53.2\" x2=\"101.3\" y2=\"62.2\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"87.7\" y1=\"38.8\" x2=\"80.7\" y2=\"47.8\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"87.7\" y1=\"38.8\" x2=\"94.7\" y2=\"47.8\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"81.1\" y1=\"24.4\" x2=\"74.1\" y2=\"33.4\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"81.1\" y1=\"24.4\" x2=\"88.1\" y2=\"33.4\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"118\" y1=\"70\" x2=\"140\" y2=\"22\" stroke=\"#3E3A36\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"125.7\" y1=\"53.2\" x2=\"118.7\" y2=\"62.2\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"125.7\" y1=\"53.2\" x2=\"132.7\" y2=\"62.2\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"132.3\" y1=\"38.8\" x2=\"125.3\" y2=\"47.8\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"132.3\" y1=\"38.8\" x2=\"139.3\" y2=\"47.8\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"138.9\" y1=\"24.4\" x2=\"131.9\" y2=\"33.4\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"138.9\" y1=\"24.4\" x2=\"145.9\" y2=\"33.4\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"70\" x2=\"110\" y2=\"16\" stroke=\"#3E3A36\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"110\" y1=\"51.1\" x2=\"103\" y2=\"60.1\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"51.1\" x2=\"117\" y2=\"60.1\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"34.9\" x2=\"103\" y2=\"43.9\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"34.9\" x2=\"117\" y2=\"43.9\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"18.7\" x2=\"103\" y2=\"27.7\" stroke=\"#3E3A36\" stroke-width=\"2\"/><line x1=\"110\" y1=\"18.7\" x2=\"117\" y2=\"27.7\" stroke=\"#3E3A36\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "乙",
+    "explanation": "乙有蓬鬆的白色細毛（像蒲公英），很輕，可以隨風飄走。甲靠動物吃，丙靠倒鉤鉤在動物身上。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "風力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-019",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "為什麼植物要把種子傳到遠方？",
+    "visual": null,
+    "options": [
+      "讓母株長出更多花",
+      "讓種子不會發芽",
+      "避免和母株搶陽光、養分和生長空間"
+    ],
+    "answer": "避免和母株搶陽光、養分和生長空間",
+    "explanation": "種子如果都長在母株旁邊，會互相搶陽光、養分和生長的空間。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "傳到遠方的原因"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-020",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "truefalse",
+    "prompt": "椰子的果實靠風力傳播。",
+    "visual": null,
+    "answer": false,
+    "explanation": "椰子的果實有很多纖維、裡面有空氣，能浮在海上漂流，是靠水力傳播。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "水力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-021",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "truefalse",
+    "prompt": "番茄的果實成熟後，會靠自身彈力把種子彈出去。",
+    "visual": null,
+    "answer": false,
+    "explanation": "番茄的果實不會裂開把種子彈出去；靠自身彈力的是黃花酢漿草、非洲鳳仙花。",
+    "difficulty": 3,
+    "tags": [
+      "disperse",
+      "彈力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-022",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "松鼠把種子搬走、藏起來準備過冬，有些種子沒被吃掉就發芽了。這是靠什麼傳播？",
+    "visual": null,
+    "options": [
+      "風力",
+      "自身彈力",
+      "動物力",
+      "水力"
+    ],
+    "answer": "動物力",
+    "explanation": "松鼠搬運、儲存種子，也是靠動物傳播。",
+    "difficulty": 3,
+    "tags": [
+      "disperse",
+      "動物傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-023",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "choice",
+    "prompt": "林投長在海邊，它的果實外形像什麼水果？",
+    "visual": null,
+    "options": [
+      "香蕉",
+      "葡萄",
+      "鳳梨"
+    ],
+    "answer": "鳳梨",
+    "explanation": "林投的果實外形像鳳梨；林投耐鹽，可以防風定沙。",
+    "difficulty": 3,
+    "tags": [
+      "disperse",
+      "水力傳播"
+    ]
+  },
+  {
+    "id": "g5sci-2-3-024",
+    "grade": 5,
+    "subject": "science",
+    "unit": "2",
+    "section": "2-3",
+    "type": "truefalse",
+    "prompt": "非洲鳳仙花的果實靠流水傳播種子。",
+    "visual": null,
+    "answer": false,
+    "explanation": "非洲鳳仙花的果實成熟後會裂開，把種子彈出去，是靠自身彈力。",
+    "difficulty": 2,
+    "tags": [
+      "disperse",
+      "彈力傳播"
+    ]
+  }
+]

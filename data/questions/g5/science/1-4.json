@@ -1,0 +1,453 @@
+[
+  {
+    "id": "g5sci-1-4-001",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "order",
+    "prompt": "把彩虹的七種顏色，依書上的順序排好（從紅色開始）。",
+    "visual": null,
+    "items": [
+      "紅",
+      "橙",
+      "黃",
+      "綠",
+      "藍",
+      "靛",
+      "紫"
+    ],
+    "explanation": "彩虹的顏色依序是紅、橙、黃、綠、藍、靛、紫。",
+    "difficulty": 1,
+    "tags": [
+      "rainbow",
+      "彩虹顏色"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-002",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "彩虹是陽光照到什麼東西形成的？",
+    "visual": null,
+    "options": [
+      "飄在空氣中的小水滴",
+      "天上的星星",
+      "地上的沙子"
+    ],
+    "answer": "飄在空氣中的小水滴",
+    "explanation": "陽光以適當的角度照到空氣中的小水滴，分出多種顏色的光，就是彩虹。",
+    "difficulty": 1,
+    "tags": [
+      "rainbow",
+      "彩虹成因"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-003",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "陽光進入小水滴形成彩虹，光在水滴裡經過了什麼？",
+    "visual": null,
+    "options": [
+      "一次折射",
+      "兩次反射",
+      "沒有改變方向",
+      "兩次折射、一次反射"
+    ],
+    "answer": "兩次折射、一次反射",
+    "explanation": "光進出水滴時各折射一次，在水滴裡反射一次，就分散成多種顏色。",
+    "difficulty": 3,
+    "tags": [
+      "rainbow",
+      "彩虹成因"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-004",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "下午，太陽在西方（如圖）。雨剛停，彩虹最可能出現在哪一個方位的天空？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 470\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"440\" height=\"470\" rx=\"12\" fill=\"#FFFFFF\"/><text x=\"14\" y=\"24\" font-size=\"17\" text-anchor=\"start\" dominant-baseline=\"central\" fill=\"#666666\">從天空往下看</text><rect x=\"100\" y=\"125\" width=\"240\" height=\"240\" fill=\"#DDF0C6\" stroke=\"#93BE6E\" stroke-width=\"3\" rx=\"18\"/><circle cx=\"220\" cy=\"103\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"104\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">北</text><circle cx=\"220\" cy=\"387\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"220\" y=\"388\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">南</text><circle cx=\"78\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"78\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">西</text><circle cx=\"362\" cy=\"245\" r=\"17\" fill=\"#FFF4DC\" stroke=\"#C98A4B\" stroke-width=\"2.5\"/><text x=\"362\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A4A1E\" font-weight=\"bold\">東</text><polygon points=\"203.9,239.1 205.6,222.9 216.6,230.6\" fill=\"#F5A44A\" stroke=\"#A95F17\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"236.2,239.1 234.5,222.9 223.4,230.6\" fill=\"#F5A44A\" stroke=\"#A95F17\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"220\" cy=\"245\" r=\"17\" fill=\"#F5A44A\" stroke=\"#A95F17\" stroke-width=\"2\"/><circle cx=\"213.5\" cy=\"243.3\" r=\"2.2\" fill=\"#3B2A1E\" stroke=\"none\" stroke-width=\"0\"/><circle cx=\"226.5\" cy=\"243.3\" r=\"2.2\" fill=\"#3B2A1E\" stroke=\"none\" stroke-width=\"0\"/><path d=\"M216.3 250.4Q220 254.4 223.7 250.4\" fill=\"none\" stroke=\"#3B2A1E\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"49.4\" y1=\"253\" x2=\"55.9\" y2=\"255.7\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"38\" y1=\"264.4\" x2=\"40.7\" y2=\"270.9\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"22\" y1=\"264.4\" x2=\"19.3\" y2=\"270.9\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"10.6\" y1=\"253\" x2=\"4.1\" y2=\"255.7\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"10.6\" y1=\"237\" x2=\"4.1\" y2=\"234.3\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"22\" y1=\"225.6\" x2=\"19.3\" y2=\"219.1\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"38\" y1=\"225.6\" x2=\"40.7\" y2=\"219.1\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"49.4\" y1=\"237\" x2=\"55.9\" y2=\"234.3\" stroke=\"#E8901A\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"30\" cy=\"245\" r=\"17\" fill=\"#FFC83D\" stroke=\"#E8901A\" stroke-width=\"2.5\"/></svg>"
+    },
+    "options": [
+      "北方",
+      "西方",
+      "南方",
+      "東方"
+    ],
+    "answer": "東方",
+    "explanation": "彩虹出現在和太陽相反的方向。太陽在西方，彩虹在東方。",
+    "difficulty": 2,
+    "tags": [
+      "rainbow",
+      "彩虹方向"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-005",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "早上太陽在東邊，這時候如果出現彩虹，最可能在哪一邊的天空？",
+    "visual": null,
+    "options": [
+      "東邊",
+      "太陽的旁邊",
+      "西邊"
+    ],
+    "answer": "西邊",
+    "explanation": "彩虹出現在太陽的反方向，早上太陽在東邊，彩虹就在西邊。",
+    "difficulty": 2,
+    "tags": [
+      "rainbow",
+      "彩虹方向"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-006",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "truefalse",
+    "prompt": "要看到彩虹，人要面向太陽。",
+    "visual": null,
+    "answer": false,
+    "explanation": "要背對太陽，看向有小水滴的方向，才看得到彩虹。",
+    "difficulty": 1,
+    "tags": [
+      "rainbow",
+      "背對太陽"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-007",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "truefalse",
+    "prompt": "用鏡子把陽光反射到牆上，就能做出彩虹。",
+    "visual": null,
+    "answer": false,
+    "explanation": "彩虹要靠陽光照進小水滴，經過折射分出顏色；用鏡子反射陽光不會形成彩虹。",
+    "difficulty": 2,
+    "tags": [
+      "rainbow",
+      "彩虹成因"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-008",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "用噴霧器做彩虹時，觀察的人要怎麼站？",
+    "visual": null,
+    "options": [
+      "躲在屋子裡",
+      "面對太陽",
+      "背對太陽"
+    ],
+    "answer": "背對太陽",
+    "explanation": "一定要背對陽光，看向水霧的方向，才看得到色光。",
+    "difficulty": 1,
+    "tags": [
+      "experiment",
+      "背對太陽"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-009",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "用噴霧器做彩虹時，為什麼要朝陰影的地方噴水霧？",
+    "visual": null,
+    "options": [
+      "色光比較容易看清楚",
+      "水霧比較不會乾掉",
+      "陰影會產生顏色"
+    ],
+    "answer": "色光比較容易看清楚",
+    "explanation": "背景暗一點，色光比較明顯，看得更清楚。",
+    "difficulty": 2,
+    "tags": [
+      "experiment",
+      "彩虹實驗"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-010",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "用噴霧器做彩虹，最適合在什麼天氣做？",
+    "visual": null,
+    "options": [
+      "晚上",
+      "有陽光的晴天",
+      "沒有陽光的陰天"
+    ],
+    "answer": "有陽光的晴天",
+    "explanation": "彩虹是陽光照進水滴形成的，一定要有陽光。",
+    "difficulty": 1,
+    "tags": [
+      "experiment",
+      "彩虹實驗"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-011",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "multi",
+    "prompt": "哪些地方比較有機會看到彩虹？（全部選出來）",
+    "visual": null,
+    "options": [
+      "沒有燈的夜晚",
+      "有陽光照著的瀑布旁邊",
+      "雨停後出太陽時的天空",
+      "有陽光照著的噴泉前面",
+      "關了燈的房間"
+    ],
+    "answer": [
+      "有陽光照著的瀑布旁邊",
+      "雨停後出太陽時的天空",
+      "有陽光照著的噴泉前面"
+    ],
+    "explanation": "要有陽光和空氣中的小水滴才會有彩虹，噴泉、瀑布、雨後的天空都有。",
+    "difficulty": 1,
+    "tags": [
+      "rainbow",
+      "彩虹成因"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-012",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "彩虹的顏色中，紅色和黃色中間是什麼顏色？",
+    "visual": null,
+    "options": [
+      "綠色",
+      "紫色",
+      "橙色"
+    ],
+    "answer": "橙色",
+    "explanation": "彩虹的顏色依序是紅、橙、黃、綠、藍、靛、紫。",
+    "difficulty": 1,
+    "tags": [
+      "rainbow",
+      "彩虹顏色"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-013",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "彩虹的顏色中，綠色和靛色中間是什麼顏色？",
+    "visual": null,
+    "options": [
+      "藍色",
+      "紫色",
+      "黃色"
+    ],
+    "answer": "藍色",
+    "explanation": "綠的後面是藍，藍的後面才是靛。",
+    "difficulty": 2,
+    "tags": [
+      "rainbow",
+      "彩虹顏色"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-014",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "truefalse",
+    "prompt": "改變噴霧的方向和角度，可能會影響彩虹能不能出現。",
+    "visual": null,
+    "answer": true,
+    "explanation": "噴霧的角度改變，陽光照進水滴的角度也跟著改變，彩虹可能出現，也可能不見。",
+    "difficulty": 2,
+    "tags": [
+      "experiment",
+      "彩虹實驗"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-015",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "彩虹的形成，主要和下面哪一種光的現象有關？",
+    "visual": null,
+    "options": [
+      "光的折射",
+      "影子",
+      "光合作用"
+    ],
+    "answer": "光的折射",
+    "explanation": "陽光進出小水滴時發生折射，才會分出多種顏色。",
+    "difficulty": 2,
+    "tags": [
+      "rainbow",
+      "彩虹成因"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-016",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "下午 4 點，太陽在西方。小明想用水管噴水霧看彩虹，他應該怎麼做？",
+    "visual": null,
+    "options": [
+      "面向西方，往太陽的方向噴水霧",
+      "面向西方，往地上噴水霧",
+      "面向東方，往東方噴水霧"
+    ],
+    "answer": "面向東方，往東方噴水霧",
+    "explanation": "要背對太陽、看向水霧。太陽在西方，就面向東方，往東方噴水霧。",
+    "difficulty": 3,
+    "tags": [
+      "rainbow",
+      "背對太陽"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-017",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "陰天完全沒有陽光時，用噴霧器噴出水霧，能看到彩虹嗎？",
+    "visual": null,
+    "options": [
+      "能，只要有水霧就可以",
+      "不能，因為沒有陽光照進水滴",
+      "能，水霧自己會發出色光"
+    ],
+    "answer": "不能，因為沒有陽光照進水滴",
+    "explanation": "彩虹是陽光經過水滴折射形成的，沒有陽光就沒有彩虹。",
+    "difficulty": 3,
+    "tags": [
+      "rainbow",
+      "彩虹成因"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-018",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "truefalse",
+    "prompt": "彩虹會出現在和太陽相反方向的天空。",
+    "visual": null,
+    "answer": true,
+    "explanation": "彩虹在太陽的反方向，所以要背對太陽才看得到。",
+    "difficulty": 2,
+    "tags": [
+      "rainbow",
+      "彩虹方向"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-019",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "input",
+    "prompt": "書上說，彩虹有幾種顏色？",
+    "visual": null,
+    "keypad": "digits",
+    "answer": "7",
+    "explanation": "彩虹有紅、橙、黃、綠、藍、靛、紫七種顏色。",
+    "difficulty": 1,
+    "tags": [
+      "rainbow",
+      "彩虹顏色"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-020",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "order",
+    "prompt": "用噴霧器做出彩虹的步驟，依先後順序排好。",
+    "visual": null,
+    "items": [
+      "找一個有陽光、也有陰影的地方",
+      "背對太陽站好",
+      "朝陰影處噴出水霧",
+      "調整噴霧和觀察的角度"
+    ],
+    "explanation": "先找有陽光也有陰影的地方，背對太陽朝陰影噴水霧，再慢慢調整角度觀察。",
+    "difficulty": 2,
+    "tags": [
+      "experiment",
+      "彩虹實驗"
+    ]
+  },
+  {
+    "id": "g5sci-1-4-021",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-4",
+    "type": "choice",
+    "prompt": "用噴霧器做出的色光，和天上的彩虹比起來，顏色怎麼樣？",
+    "visual": null,
+    "options": [
+      "完全不一樣",
+      "差不多",
+      "只有紅色"
+    ],
+    "answer": "差不多",
+    "explanation": "噴霧做出的色光和天然彩虹的顏色差不多，因為都是陽光經過水滴折射分出來的。",
+    "difficulty": 3,
+    "tags": [
+      "experiment",
+      "彩虹實驗"
+    ]
+  }
+]

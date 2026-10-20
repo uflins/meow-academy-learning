@@ -1,0 +1,450 @@
+[
+  {
+    "id": "g5sci-1-3-001",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "光經過的物質，例如空氣、水，叫做什麼？",
+    "visual": null,
+    "options": [
+      "介質",
+      "果實",
+      "透鏡",
+      "導管"
+    ],
+    "answer": "介質",
+    "explanation": "光經過的物質叫做介質，例如空氣、水、玻璃。",
+    "difficulty": 1,
+    "tags": [
+      "refraction",
+      "介質"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-002",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "光斜斜地從空氣進入水中，在兩種介質的交界處偏折，這種現象叫做什麼？",
+    "visual": null,
+    "options": [
+      "蒸散作用",
+      "光合作用",
+      "光的折射"
+    ],
+    "answer": "光的折射",
+    "explanation": "光斜斜地進入不同的介質，在交界處偏折，叫做光的折射。",
+    "difficulty": 1,
+    "tags": [
+      "refraction",
+      "折射的意思"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-003",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "truefalse",
+    "prompt": "光從空氣垂直射進水中，前進的路線不會偏折。",
+    "visual": null,
+    "answer": true,
+    "explanation": "垂直射入時，光直直地前進，不會偏折。",
+    "difficulty": 1,
+    "tags": [
+      "refraction",
+      "垂直不偏折"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-004",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "truefalse",
+    "prompt": "光只要從空氣進入水中，就一定會偏折。",
+    "visual": null,
+    "answer": false,
+    "explanation": "垂直射入時不會偏折；要斜斜地射入，才會在交界處偏折。",
+    "difficulty": 2,
+    "tags": [
+      "refraction",
+      "垂直不偏折"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-005",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "truefalse",
+    "prompt": "光在同一種介質裡前進，路線不會偏折。",
+    "visual": null,
+    "answer": true,
+    "explanation": "光在空氣中或在水中直直前進，只有斜斜地進入另一種介質時才會偏折。",
+    "difficulty": 2,
+    "tags": [
+      "refraction",
+      "同一介質不偏折"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-006",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "雷射光垂直照向水面，哪一張圖畫出的光線路線是對的？",
+    "visual": null,
+    "options": [
+      {
+        "label": "甲",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"250\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"0\" width=\"300\" height=\"115\" fill=\"#F7FBFF\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"0\" y=\"115\" width=\"300\" height=\"135\" fill=\"#BFE3F7\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0\" y1=\"115\" x2=\"300\" y2=\"115\" stroke=\"#4A9CC9\" stroke-width=\"3\"/><text x=\"286\" y=\"22\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#555555\">空氣</text><text x=\"286\" y=\"139\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#1F5F86\">水</text><polygon points=\"133,62 133,16 147,16 147,62\" fill=\"#555B66\" stroke=\"#2E3138\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polyline points=\"140,62 140,115 200.9,212.5\" fill=\"none\" stroke=\"#E53935\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"200.9,212.5 185.8,203.8 199.8,195.1\" fill=\"#E53935\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "label": "乙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"250\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"0\" width=\"300\" height=\"115\" fill=\"#F7FBFF\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"0\" y=\"115\" width=\"300\" height=\"135\" fill=\"#BFE3F7\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0\" y1=\"115\" x2=\"300\" y2=\"115\" stroke=\"#4A9CC9\" stroke-width=\"3\"/><text x=\"286\" y=\"22\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#555555\">空氣</text><text x=\"286\" y=\"139\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#1F5F86\">水</text><polygon points=\"133,62 133,16 147,16 147,62\" fill=\"#555B66\" stroke=\"#2E3138\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polyline points=\"140,62 140,115 140,230\" fill=\"none\" stroke=\"#E53935\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"140,230 131.8,214.6 148.3,214.6\" fill=\"#E53935\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "label": "丙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"250\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"0\" width=\"300\" height=\"115\" fill=\"#F7FBFF\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"0\" y=\"115\" width=\"300\" height=\"135\" fill=\"#BFE3F7\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0\" y1=\"115\" x2=\"300\" y2=\"115\" stroke=\"#4A9CC9\" stroke-width=\"3\"/><text x=\"286\" y=\"22\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#555555\">空氣</text><text x=\"286\" y=\"139\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#1F5F86\">水</text><polygon points=\"133,62 133,16 147,16 147,62\" fill=\"#555B66\" stroke=\"#2E3138\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polyline points=\"140,62 140,115 79.1,212.5\" fill=\"none\" stroke=\"#E53935\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"79.1,212.5 80.2,195.1 94.2,203.8\" fill=\"#E53935\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "answer": "乙",
+    "explanation": "光垂直射進水中，路線不會偏折，會直直地往下走。",
+    "difficulty": 2,
+    "tags": [
+      "refraction",
+      "垂直不偏折"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-007",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "雷射光斜斜地從空氣射進水中，哪一張圖畫出的光線路線是對的？",
+    "visual": null,
+    "options": [
+      {
+        "label": "甲",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"250\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"0\" width=\"300\" height=\"115\" fill=\"#F7FBFF\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"0\" y=\"115\" width=\"300\" height=\"135\" fill=\"#BFE3F7\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0\" y1=\"115\" x2=\"300\" y2=\"115\" stroke=\"#4A9CC9\" stroke-width=\"3\"/><text x=\"286\" y=\"22\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#555555\">空氣</text><text x=\"286\" y=\"139\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#1F5F86\">水</text><polygon points=\"62.7,59.3 27.5,29.7 36.5,19 71.7,48.6\" fill=\"#555B66\" stroke=\"#2E3138\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polyline points=\"67.2,53.9 140,115 231.9,192.1\" fill=\"none\" stroke=\"#E53935\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"231.9,192.1 214.8,188.6 225.4,175.9\" fill=\"#E53935\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "label": "乙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"250\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"0\" width=\"300\" height=\"115\" fill=\"#F7FBFF\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"0\" y=\"115\" width=\"300\" height=\"135\" fill=\"#BFE3F7\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0\" y1=\"115\" x2=\"300\" y2=\"115\" stroke=\"#4A9CC9\" stroke-width=\"3\"/><text x=\"286\" y=\"22\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#555555\">空氣</text><text x=\"286\" y=\"139\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#1F5F86\">水</text><polygon points=\"62.7,59.3 27.5,29.7 36.5,19 71.7,48.6\" fill=\"#555B66\" stroke=\"#2E3138\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polyline points=\"67.2,53.9 140,115 187.5,154.9 223.2,205.5\" fill=\"none\" stroke=\"#E53935\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"223.2,205.5 207.6,197.7 221.1,188.2\" fill=\"#E53935\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "label": "丙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"250\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"0\" y=\"0\" width=\"300\" height=\"115\" fill=\"#F7FBFF\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"0\" y=\"115\" width=\"300\" height=\"135\" fill=\"#BFE3F7\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0\" y1=\"115\" x2=\"300\" y2=\"115\" stroke=\"#4A9CC9\" stroke-width=\"3\"/><text x=\"286\" y=\"22\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#555555\">空氣</text><text x=\"286\" y=\"139\" font-size=\"17\" text-anchor=\"end\" dominant-baseline=\"central\" fill=\"#1F5F86\">水</text><polygon points=\"62.7,59.3 27.5,29.7 36.5,19 71.7,48.6\" fill=\"#555B66\" stroke=\"#2E3138\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polyline points=\"67.2,53.9 140,115 209.1,213.1\" fill=\"none\" stroke=\"#E53935\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"209.1,213.1 193.5,205.3 207,195.8\" fill=\"#E53935\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "answer": "丙",
+    "explanation": "光斜射進入水中，會在空氣和水的交界處偏折。甲沒有偏折，乙在水中間才偏折，都不對。",
+    "difficulty": 2,
+    "tags": [
+      "refraction",
+      "斜射會偏折"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-008",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "雷射光平行水面，在水中前進，光的路線會怎樣？",
+    "visual": null,
+    "options": [
+      "直直地前進，不會偏折",
+      "往下彎",
+      "往上彎"
+    ],
+    "answer": "直直地前進，不會偏折",
+    "explanation": "光在同一種介質（水）裡前進，不會偏折。",
+    "difficulty": 1,
+    "tags": [
+      "refraction",
+      "同一介質不偏折"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-009",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "把吸管斜斜地插在裝水的杯子裡，從旁邊看，吸管看起來怎麼樣？",
+    "visual": null,
+    "options": [
+      "變成兩根一樣的吸管",
+      "在水面附近好像折斷了",
+      "完全看不見"
+    ],
+    "answer": "在水面附近好像折斷了",
+    "explanation": "光從水進入空氣時發生折射，吸管在水面附近看起來好像折斷了。",
+    "difficulty": 1,
+    "tags": [
+      "refraction",
+      "生活中的折射"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-010",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "truefalse",
+    "prompt": "吸管插進水裡看起來彎折，是因為吸管真的被水折彎了。",
+    "visual": null,
+    "answer": false,
+    "explanation": "吸管沒有真的彎，是光從水進入空氣時發生折射，看起來才像折斷。",
+    "difficulty": 2,
+    "tags": [
+      "refraction",
+      "生活中的折射"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-011",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "從斜上方看水杯底部的錢幣（如圖），看到的錢幣位置，和真正的位置比起來怎麼樣？",
+    "visual": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 320\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"320\" rx=\"12\" fill=\"#FFFFFF\"/><rect x=\"150\" y=\"130\" width=\"200\" height=\"160\" fill=\"#BFE3F7\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"150\" y1=\"130\" x2=\"350\" y2=\"130\" stroke=\"#4A9CC9\" stroke-width=\"3\"/><polyline points=\"150,80 150,290 350,290 350,80\" fill=\"none\" stroke=\"#7A8A99\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"270\" cy=\"281\" rx=\"28\" ry=\"7\" fill=\"#F4C542\" stroke=\"#B8860B\" stroke-width=\"2.5\"/><rect x=\"250\" y=\"247\" width=\"40\" height=\"22\" rx=\"4\" fill=\"#FFFFFF\" fill-opacity=\"0.92\"/><text x=\"270\" y=\"258\" font-size=\"16\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7A5A00\">錢幣</text><ellipse cx=\"62\" cy=\"52\" rx=\"26\" ry=\"14\" fill=\"#FFFFFF\" stroke=\"#333333\" stroke-width=\"2.5\"/><circle cx=\"68\" cy=\"55\" r=\"8\" fill=\"#4A3B32\" stroke=\"none\" stroke-width=\"0\"/><circle cx=\"70\" cy=\"53\" r=\"2.5\" fill=\"#FFFFFF\" stroke=\"none\" stroke-width=\"0\"/><text x=\"62\" y=\"86\" font-size=\"16\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#555555\">眼睛</text><line x1=\"92\" y1=\"62\" x2=\"196\" y2=\"118\" stroke=\"#999999\" stroke-width=\"2\" stroke-dasharray=\"4 6\"/><text x=\"380\" y=\"150\" font-size=\"17\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#1F5F86\">水</text></svg>"
+    },
+    "options": [
+      "比較高（比較淺）",
+      "完全一樣",
+      "比較低（比較深）"
+    ],
+    "answer": "比較高（比較淺）",
+    "explanation": "光從水斜斜地進入空氣時折射，錢幣看起來比真正的位置高。",
+    "difficulty": 2,
+    "tags": [
+      "refraction",
+      "水中物體變淺"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-012",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "從岸邊斜斜地看游泳池，池底看起來會怎樣？",
+    "visual": null,
+    "options": [
+      "比實際淺",
+      "比實際深",
+      "和實際一樣深"
+    ],
+    "answer": "比實際淺",
+    "explanation": "因為光的折射，從斜上方看水裡，池底看起來比實際淺、比較近。",
+    "difficulty": 2,
+    "tags": [
+      "refraction",
+      "水中物體變淺"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-013",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "從岸上看站在泳池裡的人，他在水裡的腳看起來會怎樣？",
+    "visual": null,
+    "options": [
+      "好像變長了",
+      "好像變短了",
+      "消失不見"
+    ],
+    "answer": "好像變短了",
+    "explanation": "水中的部分看起來變淺，所以腳看起來好像變短了。",
+    "difficulty": 2,
+    "tags": [
+      "refraction",
+      "生活中的折射"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-014",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "把直尺直直地立在水盆裡，從斜上方看，水裡那一段的刻度看起來怎樣？",
+    "visual": null,
+    "options": [
+      "變寬了",
+      "變窄了",
+      "和水外面一樣"
+    ],
+    "answer": "變窄了",
+    "explanation": "光的折射讓水中的東西看起來變淺，水裡那一段的刻度看起來就比較窄。",
+    "difficulty": 2,
+    "tags": [
+      "refraction",
+      "生活中的折射"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-015",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "到溪邊玩水時，為什麼要特別注意水的深度？",
+    "visual": null,
+    "options": [
+      "水看起來比實際淺，真正的水可能更深",
+      "溪水會把光吸走",
+      "水看起來比實際深，其實很淺"
+    ],
+    "answer": "水看起來比實際淺，真正的水可能更深",
+    "explanation": "光的折射讓水看起來比實際淺，以為很淺就走下去可能會有危險。",
+    "difficulty": 3,
+    "tags": [
+      "refraction",
+      "水中物體變淺"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-016",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "做光的折射實驗時，在盒子裡放線香的煙，是為了什麼？",
+    "visual": null,
+    "options": [
+      "讓光的路線看得見",
+      "讓雷射光變顏色",
+      "讓水變熱"
+    ],
+    "answer": "讓光的路線看得見",
+    "explanation": "煙霧會把光散開，我們才看得到雷射光在空氣中走的路線。",
+    "difficulty": 2,
+    "tags": [
+      "experiment",
+      "折射實驗"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-017",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "做折射實驗時，想確認雷射光有沒有垂直照向水面，可以用什麼工具比對？",
+    "visual": null,
+    "options": [
+      "指北針",
+      "量角器",
+      "溫度計"
+    ],
+    "answer": "量角器",
+    "explanation": "把量角器放在盒子外面比對，可以知道光是不是垂直照射。",
+    "difficulty": 2,
+    "tags": [
+      "experiment",
+      "折射實驗"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-018",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "multi",
+    "prompt": "下面哪些情況，光的路線「不會」偏折？（全部選出來）",
+    "visual": null,
+    "options": [
+      "斜斜地從水中射進空氣",
+      "斜斜地從空氣射進水中",
+      "垂直水面，從水中射進空氣",
+      "平行水面，在水中前進",
+      "垂直水面，從空氣射進水中"
+    ],
+    "answer": [
+      "垂直水面，從水中射進空氣",
+      "平行水面，在水中前進",
+      "垂直水面，從空氣射進水中"
+    ],
+    "explanation": "光在同一種介質裡、或垂直進入另一種介質時不會偏折；斜斜地進入另一種介質才會偏折。",
+    "difficulty": 3,
+    "tags": [
+      "experiment",
+      "垂直不偏折"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-019",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "光斜斜地從水中射到空氣中，會在哪裡偏折？",
+    "visual": null,
+    "options": [
+      "不會偏折",
+      "空氣中",
+      "水和空氣的交界處",
+      "水的正中間"
+    ],
+    "answer": "水和空氣的交界處",
+    "explanation": "不論從空氣進水、或從水進空氣，只要是斜射，都在兩種介質的交界處偏折。",
+    "difficulty": 3,
+    "tags": [
+      "refraction",
+      "斜射會偏折"
+    ]
+  },
+  {
+    "id": "g5sci-1-3-020",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-3",
+    "type": "choice",
+    "prompt": "下面哪一個現象和光的折射有關？",
+    "visual": null,
+    "options": [
+      "窗邊的植物朝陽光生長",
+      "中午的影子最短",
+      "游泳池的水看起來比實際淺"
+    ],
+    "answer": "游泳池的水看起來比實際淺",
+    "explanation": "水看起來變淺是光的折射；影子長短和太陽高度有關；植物向光生長是植物的反應。",
+    "difficulty": 2,
+    "tags": [
+      "refraction",
+      "生活中的折射"
+    ]
+  }
+]

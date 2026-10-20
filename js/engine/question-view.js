@@ -181,20 +181,24 @@ function choiceArea(q, ctx, answer) {
 // 影子魔法師：點方位盤
 function compassArea(q, ctx, answer) {
   const R = 150, C = 200;
-  const ANGLE = { 正北: 0, 東偏北: 70, 正東: 90, 東偏南: 110, 正南: 180, 西偏南: 250, 正西: 270, 西偏北: 290 };
+  const ANGLE = { 正北: 0, 東偏北: 58, 正東: 90, 東偏南: 122, 正南: 180, 西偏南: 238, 正西: 270, 西偏北: 302 };
   const spots = q.options.filter((l) => l in ANGLE).map((l) => {
     const a = (ANGLE[l] * Math.PI) / 180;
     const x = C + R * Math.sin(a), y = C - R * Math.cos(a);
-    const tx = C + (R + 34) * Math.sin(a), ty = C - (R + 34) * Math.cos(a) + 7;
+    // 文字放在圓圈外側：左右兩邊靠外對齊，上下兩個放在圓圈的上方或下方
+    const side = Math.abs(Math.sin(a)) < 0.2 ? 0 : Math.sign(Math.sin(a));
+    const tx = side ? x + side * 30 : x;
+    const ty = side ? y + 8 : y + (Math.cos(a) > 0 ? -32 : 46);
+    const anchor = side > 0 ? 'start' : side < 0 ? 'end' : 'middle';
     return `<g class="hot" data-label="${l}"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="22" fill="#FFF8EE" stroke="#E07B45" stroke-width="4"/>
-      <text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" font-size="19" font-weight="800" text-anchor="middle" fill="#4A3B32">${l}</text></g>`;
+      <text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" font-size="23" font-weight="800" text-anchor="${anchor}" fill="#4A3B32">${l}</text></g>`;
   }).join('');
   const center = q.options.includes('幾乎沒有影子')
     ? `<g class="hot" data-label="幾乎沒有影子"><circle cx="${C}" cy="${C + 58}" r="30" fill="#FFF8EE" stroke="#E07B45" stroke-width="4"/>
        <text x="${C}" y="${C + 54}" font-size="13" font-weight="800" text-anchor="middle" fill="#4A3B32">幾乎沒</text>
        <text x="${C}" y="${C + 70}" font-size="13" font-weight="800" text-anchor="middle" fill="#4A3B32">有影子</text></g>`
     : '';
-  const svg = `<svg viewBox="-40 -30 480 460">
+  const svg = `<svg viewBox="-60 -40 520 480">
     <ellipse cx="${C}" cy="${C}" rx="${R + 10}" ry="${R + 10}" fill="#E8F5D9" stroke="#9CC98A" stroke-width="3"/>
     <path d="M${C} ${C - R + 26} L ${C} ${C + R - 26} M${C - R + 26} ${C} L ${C + R - 26} ${C}" stroke="#9CC98A" stroke-width="3" stroke-dasharray="6 8"/>
     <rect x="${C - 5}" y="${C - 46}" width="10" height="50" rx="4" fill="#8C6239"/>

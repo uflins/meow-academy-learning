@@ -4,6 +4,7 @@ import { askPin } from '../ui/pinpad.js';
 import * as store from '../save/store.js';
 import { catSVG } from '../art/art.js';
 import { play } from '../engine/sfx.js';
+import { speak } from '../engine/speech.js';
 
 export default function home(root, params, { go, app }) {
   app.playerId = null;
@@ -12,6 +13,7 @@ export default function home(root, params, { go, app }) {
 
   const enter = async (p) => {
     play('tap');
+    if (p.pinKind === 'pictures') speak(`${p.name}，依序點你的三張圖`);
     const pin = await askPin({
       title: `${p.avatar} ${p.name}`,
       subtitle: p.pinKind === 'pictures' ? '依序點你的 3 張圖' : '輸入你的 4 位數密碼',

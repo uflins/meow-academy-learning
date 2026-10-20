@@ -1,0 +1,446 @@
+[
+  {
+    "id": "g5sci-1-5-001",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "從側面看，哪一個是放大鏡鏡片的形狀？",
+    "visual": null,
+    "options": [
+      {
+        "label": "甲",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"200\" rx=\"12\" fill=\"#FFFFFF\"/><path d=\"M86.6 20L133.4 20Q105.64 100 133.4 180L86.6 180Q114.36 100 86.6 20Z\" fill=\"#CFEFFF\" stroke=\"#3C8DBC\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "label": "乙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"200\" rx=\"12\" fill=\"#FFFFFF\"/><path d=\"M98.3 20L121.7 20L121.7 180L98.3 180Z\" fill=\"#CFEFFF\" stroke=\"#3C8DBC\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "label": "丙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"200\" rx=\"12\" fill=\"#FFFFFF\"/><path d=\"M110 20Q162 100 110 180Q58 100 110 20Z\" fill=\"#CFEFFF\" stroke=\"#3C8DBC\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "answer": "丙",
+    "explanation": "放大鏡是中間厚、兩邊薄的透鏡，就是丙。",
+    "difficulty": 1,
+    "tags": [
+      "lens",
+      "放大鏡構造"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-002",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "放大鏡的鏡片是什麼樣子？",
+    "visual": null,
+    "options": [
+      "中間厚、兩邊薄",
+      "中間薄、兩邊厚",
+      "每個地方都一樣厚"
+    ],
+    "answer": "中間厚、兩邊薄",
+    "explanation": "放大鏡是中間厚、兩邊薄的透鏡（凸透鏡）。",
+    "difficulty": 1,
+    "tags": [
+      "lens",
+      "放大鏡構造"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-003",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "truefalse",
+    "prompt": "可以用放大鏡看太陽。",
+    "visual": null,
+    "answer": false,
+    "explanation": "絕對不可以用放大鏡看太陽，眼睛會嚴重受傷。",
+    "difficulty": 1,
+    "tags": [
+      "lens",
+      "安全"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-004",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "用放大鏡看書上的字，字看起來怎樣？",
+    "visual": null,
+    "options": [
+      "變大了",
+      "變小了",
+      "一樣大"
+    ],
+    "answer": "變大了",
+    "explanation": "用放大鏡看東西，看起來比原本大。",
+    "difficulty": 1,
+    "tags": [
+      "lens",
+      "成像"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-005",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "平行的陽光經過放大鏡，哪一張圖畫出的光線是對的？",
+    "visual": null,
+    "options": [
+      {
+        "label": "甲",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"340\" height=\"220\" rx=\"12\" fill=\"#FFFFFF\"/><path d=\"M130 25Q174 110 130 195Q86 110 130 25Z\" fill=\"#CFEFFF\" stroke=\"#3C8DBC\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"14\" y1=\"55\" x2=\"130\" y2=\"55\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"55\" x2=\"299\" y2=\"-7\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"85\" x2=\"130\" y2=\"85\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"85\" x2=\"307.6\" y2=\"55.4\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"110\" x2=\"130\" y2=\"110\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"110\" x2=\"310\" y2=\"110\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"135\" x2=\"130\" y2=\"135\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"135\" x2=\"307.6\" y2=\"164.6\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"165\" x2=\"130\" y2=\"165\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"165\" x2=\"299\" y2=\"227\" stroke=\"#F2A900\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "乙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"340\" height=\"220\" rx=\"12\" fill=\"#FFFFFF\"/><path d=\"M130 25Q174 110 130 195Q86 110 130 25Z\" fill=\"#CFEFFF\" stroke=\"#3C8DBC\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"14\" y1=\"55\" x2=\"130\" y2=\"55\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"55\" x2=\"317.6\" y2=\"123.8\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"85\" x2=\"130\" y2=\"85\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"85\" x2=\"319.5\" y2=\"116.6\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"110\" x2=\"130\" y2=\"110\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"110\" x2=\"320\" y2=\"110\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"135\" x2=\"130\" y2=\"135\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"135\" x2=\"319.5\" y2=\"103.4\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"165\" x2=\"130\" y2=\"165\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"165\" x2=\"317.6\" y2=\"96.2\" stroke=\"#F2A900\" stroke-width=\"3\"/><circle cx=\"280\" cy=\"110\" r=\"7\" fill=\"#FFF59D\" stroke=\"#F2A900\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "丙",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\" font-family=\"-apple-system,'PingFang TC','Heiti TC','Noto Sans TC',sans-serif\"><rect x=\"0\" y=\"0\" width=\"340\" height=\"220\" rx=\"12\" fill=\"#FFFFFF\"/><path d=\"M130 25Q174 110 130 195Q86 110 130 25Z\" fill=\"#CFEFFF\" stroke=\"#3C8DBC\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"14\" y1=\"55\" x2=\"130\" y2=\"55\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"55\" x2=\"320\" y2=\"55\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"85\" x2=\"130\" y2=\"85\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"85\" x2=\"320\" y2=\"85\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"110\" x2=\"130\" y2=\"110\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"110\" x2=\"320\" y2=\"110\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"135\" x2=\"130\" y2=\"135\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"135\" x2=\"320\" y2=\"135\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"14\" y1=\"165\" x2=\"130\" y2=\"165\" stroke=\"#F2A900\" stroke-width=\"3\"/><line x1=\"130\" y1=\"165\" x2=\"320\" y2=\"165\" stroke=\"#F2A900\" stroke-width=\"3\"/></svg>"
+      }
+    ],
+    "answer": "乙",
+    "explanation": "光經過放大鏡會偏折，集中到一個點，那一點特別亮，這就是聚光。",
+    "difficulty": 2,
+    "tags": [
+      "lens",
+      "聚光"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-006",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "放大鏡把陽光集中在一個點上，這叫做什麼？",
+    "visual": null,
+    "options": [
+      "聚光",
+      "蒸散",
+      "授粉"
+    ],
+    "answer": "聚光",
+    "explanation": "放大鏡能把光集中到一點，叫做聚光。",
+    "difficulty": 1,
+    "tags": [
+      "lens",
+      "聚光"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-007",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "truefalse",
+    "prompt": "放大鏡能聚光，和光的折射沒有關係。",
+    "visual": null,
+    "answer": false,
+    "explanation": "光經過放大鏡時偏折，才會集中到一點，所以聚光也是光的折射。",
+    "difficulty": 2,
+    "tags": [
+      "lens",
+      "聚光是折射"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-008",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "陽光透過放大鏡，長時間照在紙上最亮的那一點，紙可能會怎樣？",
+    "visual": null,
+    "options": [
+      "冒出白煙",
+      "結冰",
+      "變得溼溼的"
+    ],
+    "answer": "冒出白煙",
+    "explanation": "光集中在一點，那裡會變得很熱，紙可能冒白煙，所以要小心起火。",
+    "difficulty": 2,
+    "tags": [
+      "lens",
+      "聚光"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-009",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "做放大鏡聚光實驗時，下面哪一個做法是對的？",
+    "visual": null,
+    "options": [
+      "只對準實驗用的紙，小心起火",
+      "對準同學的手臂",
+      "用放大鏡看太陽找亮點"
+    ],
+    "answer": "只對準實驗用的紙，小心起火",
+    "explanation": "聚光的地方很熱，只能對準實驗用紙；也絕對不能用放大鏡看太陽。",
+    "difficulty": 2,
+    "tags": [
+      "lens",
+      "安全"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-010",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "truefalse",
+    "prompt": "用放大鏡看東西，看到的像一定是正立的。",
+    "visual": null,
+    "answer": false,
+    "explanation": "改變物體、眼睛和放大鏡的距離，可能看到放大正立，也可能看到放大倒立的像。",
+    "difficulty": 2,
+    "tags": [
+      "lens",
+      "成像"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-011",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "用放大鏡看廣告紙上的字，改變放大鏡和字的距離，可能看到哪兩種像？",
+    "visual": null,
+    "options": [
+      "只有放大正立",
+      "放大正立和放大倒立",
+      "只有縮小正立"
+    ],
+    "answer": "放大正立和放大倒立",
+    "explanation": "距離不同，看到的像也不同，可能是放大正立，也可能是放大倒立。",
+    "difficulty": 2,
+    "tags": [
+      "lens",
+      "成像"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-012",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "把放大鏡靠近書本看字，看到的字是哪一種像？",
+    "visual": null,
+    "options": [
+      "放大正立",
+      "放大倒立",
+      "縮小正立"
+    ],
+    "answer": "放大正立",
+    "explanation": "放大鏡靠近物體時，看到的是放大、正立的像。",
+    "difficulty": 2,
+    "tags": [
+      "lens",
+      "成像"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-013",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "用放大鏡觀察時，改變哪兩個距離，看到的像可能會不一樣？",
+    "visual": null,
+    "options": [
+      "物體到放大鏡、眼睛到放大鏡的距離",
+      "放大鏡到太陽、桌子到牆壁的距離",
+      "鉛筆到橡皮擦、書包到桌子的距離"
+    ],
+    "answer": "物體到放大鏡、眼睛到放大鏡的距離",
+    "explanation": "「物體到放大鏡」和「眼睛到放大鏡」的距離改變，可能看到放大正立或放大倒立的像。",
+    "difficulty": 3,
+    "tags": [
+      "experiment",
+      "成像實驗"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-014",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "投影機的鏡頭裝了什麼，所以能投出放大的影像？",
+    "visual": null,
+    "options": [
+      "平面玻璃",
+      "指北針",
+      "凸透鏡"
+    ],
+    "answer": "凸透鏡",
+    "explanation": "投影機的鏡頭有凸透鏡，可以投出放大的影像。",
+    "difficulty": 2,
+    "tags": [
+      "lens",
+      "生活應用"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-015",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "有些手電筒加裝凸透鏡，是為了什麼？",
+    "visual": null,
+    "options": [
+      "讓光線集中",
+      "讓光變成彩虹",
+      "讓手電筒變輕"
+    ],
+    "answer": "讓光線集中",
+    "explanation": "凸透鏡能讓光線偏折、集中，手電筒照出的光就比較集中。",
+    "difficulty": 2,
+    "tags": [
+      "lens",
+      "生活應用"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-016",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "multi",
+    "prompt": "下面哪些東西應用了凸透鏡？（全部選出來）",
+    "visual": null,
+    "options": [
+      "筷子",
+      "投影機的鏡頭",
+      "塑膠尺",
+      "放大鏡",
+      "加裝凸透鏡的手電筒"
+    ],
+    "answer": [
+      "投影機的鏡頭",
+      "放大鏡",
+      "加裝凸透鏡的手電筒"
+    ],
+    "explanation": "放大鏡、投影機鏡頭、有些手電筒都用到中間厚、兩邊薄的凸透鏡。",
+    "difficulty": 2,
+    "tags": [
+      "lens",
+      "生活應用"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-017",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "truefalse",
+    "prompt": "放大鏡是一種中間厚、兩邊薄的透鏡。",
+    "visual": null,
+    "answer": true,
+    "explanation": "放大鏡的鏡片中間厚、兩邊薄，是凸透鏡。",
+    "difficulty": 1,
+    "tags": [
+      "lens",
+      "放大鏡構造"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-018",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "放大鏡聚光的那一點為什麼特別亮？",
+    "visual": null,
+    "options": [
+      "很多光線被集中到那一點",
+      "放大鏡自己會發光",
+      "那一點的紙特別白"
+    ],
+    "answer": "很多光線被集中到那一點",
+    "explanation": "光經過放大鏡偏折，集中到一點，所以那一點特別亮、也特別熱。",
+    "difficulty": 3,
+    "tags": [
+      "lens",
+      "聚光"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-019",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "小華用放大鏡聚光，紙上的亮點又大又不太亮。他應該怎麼做，才能讓亮點變小、變亮？",
+    "visual": null,
+    "options": [
+      "把放大鏡塗黑",
+      "慢慢調整放大鏡和紙的距離",
+      "換到陰影下做"
+    ],
+    "answer": "慢慢調整放大鏡和紙的距離",
+    "explanation": "調整放大鏡和紙的距離，可以讓光集中成最小、最亮的點。",
+    "difficulty": 3,
+    "tags": [
+      "lens",
+      "聚光"
+    ]
+  },
+  {
+    "id": "g5sci-1-5-020",
+    "grade": 5,
+    "subject": "science",
+    "unit": "1",
+    "section": "1-5",
+    "type": "choice",
+    "prompt": "實驗時「物體不動，改變放大鏡和物體的距離」，主要是想知道什麼？",
+    "visual": null,
+    "options": [
+      "放大鏡會不會變熱",
+      "紙會不會冒煙",
+      "距離不同時，看到的像會不會不同"
+    ],
+    "answer": "距離不同時，看到的像會不會不同",
+    "explanation": "這個實驗是觀察距離改變時，看到的像（正立或倒立）有沒有改變。",
+    "difficulty": 3,
+    "tags": [
+      "experiment",
+      "成像實驗"
+    ]
+  }
+]
