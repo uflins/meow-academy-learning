@@ -5,7 +5,7 @@ import { findRegion, BATTLE_SIZE } from '../engine/curriculum.js';
 import { loadRegionUnits, battleQuestions } from '../engine/pool.js';
 import { recordBattle, wrongFor, levelOf, progressKey } from '../engine/progress.js';
 import { afterBattle, battleCatFor, catLook, EVOLVE_LEVEL, FURNITURE, trackDaily } from '../engine/rewards.js';
-import { renderQuestion, formatAnswer, renderVisual, TONE_NO } from '../engine/question-view.js';
+import { renderQuestion, formatAnswer, renderVisual, TONE_NO, richText } from '../engine/question-view.js';
 import { speak, stop as stopSpeech } from '../engine/speech.js';
 import { playZhuyin, preloadZhuyin } from '../engine/zhuyin-audio.js';
 import { play } from '../engine/sfx.js';
@@ -219,8 +219,8 @@ export default function battle(root, params, { go, app }) {
       const say = q.explainSpeak || q.explanation;
       const panel = h('div', { class: 'explain' },
         h('div', { class: 'explain-title' }, '正確答案'),
-        h('div', { class: 'explain-answer' }, formatAnswer(q)),
-        q.explanation ? h('div', { class: 'explain-text' }, q.explanation) : null,
+        h('div', { class: 'explain-answer' }, richText(q, formatAnswer(q))),
+        q.explanation ? h('div', { class: 'explain-text' }, richText(q, q.explanation)) : null,
         h('div', { class: 'explain-actions' },
           lowGrade && (say || q.audio) ? h('button', { class: 'btn', onclick: () => (q.audio ? playZhuyin(q.audio) : speak(say)) }, '🔊 ', zy('再聽一次')) : null,
           h('button', { class: 'btn primary', onclick: () => { stopSpeech(); resolve(); } }, lowGrade ? ['👍 ', zy('我懂了')] : '我懂了'),
@@ -362,10 +362,10 @@ export default function battle(root, params, { go, app }) {
           wrongs.length ? h('details', { class: 'result-wrongs' },
             h('summary', {}, `看看答錯的題目（${wrongs.length}）`),
             wrongs.map((w) => h('div', { class: 'wrong-item' },
-              h('div', { class: 'wrong-q' }, w.q.prompt),
+              h('div', { class: 'wrong-q' }, richText(w.q, w.q.prompt)),
               renderVisual(w.q.visual, 'small'),
-              h('div', { class: 'wrong-a' }, '答案：', formatAnswer(w.q)),
-              w.q.explanation ? h('div', { class: 'wrong-e' }, w.q.explanation) : null))) : null,
+              h('div', { class: 'wrong-a' }, '答案：', richText(w.q, formatAnswer(w.q))),
+              w.q.explanation ? h('div', { class: 'wrong-e' }, richText(w.q, w.q.explanation)) : null))) : null,
         ),
         h('div', { class: 'result-actions' },
           h('button', { class: 'btn', onclick: () => go(...backTo()) }, lowGrade ? ['🗺️ ', zy(backLabel)] : backLabel),

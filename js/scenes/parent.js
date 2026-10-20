@@ -6,6 +6,8 @@ import { AVATARS, CATS, SUBJECT_CAT } from '../art/art.js';
 import { regionsFor } from '../engine/curriculum.js';
 import { levelOf } from '../engine/progress.js';
 import { speak, voiceInfo, available as speechAvailable } from '../engine/speech.js';
+import { loadRegionUnits } from '../engine/pool.js';
+import { formatAnswer, richText } from '../engine/question-view.js';
 
 const SUBJECT_NAME = { chinese: '國語', math: '數學', science: '自然', social: '社會', english: '英語' };
 const SUPPORTED_GRADES = [1, 5];
@@ -130,13 +132,54 @@ export default function parent(root, params, { go }) {
   }
 
   // ---------- 成績 ----------
+  // 關卡標題（例如「2-4 倍數」「第三課 河馬和河狸」），依年級載入一次
+  const titleCache = {};
+  async function sectionTitles(grade) {
+    if (!titleCache[grade]) {
+      titleCache[grade] = (async () => {
+        const map = {};
+        for (const r of regionsFor(grade).filter((x) => x.status === 'open')) {
+          try {
+            for (const u of await loadRegionUnits(r)) {
+              for (const n of u.nodes) if (!n.isBoss && n.sections) map[`${r.subject}:${n.sections[0]}`] = n.title;
+            }
+          } catch (e) { /* 載入失敗就用節的代號 */ }
+        }
+        return map;
+      })();
+    }
+    return titleCache[grade];
+  }
+
   function report() {
     const list = store.listPlayers();
     if (!list.length) return [h('p', { class: 'muted' }, '還沒有玩家。')];
     return list.map((p) => {
       const subjects = [...new Set(regionsFor(p.grade).map((r) => r.subject))];
-      const tagStats = Object.entries(p.stats).filter(([k]) => k.startsWith('tag:')).sort((a, b) => b[1] - a[1]).slice(0, 5);
-      const recentWrong = p.wrongBook.slice(-10).reverse();
+      const weak = h('div', { class: 'muted' }, '載入中…');
+      const recent = h('div');
+      sectionTitles(p.grade).then((titles) => {
+        const label = (q) => `${SUBJECT_NAME[q.subject]} ${titles[`${q.subject}:${q.section}`] || q.section}`;
+        // 錯題最多的關卡
+        const count = {};
+        for (const w of p.wrongBook) {
+          if (w.q.grade !== p.grade) continue;
+          const k = `${w.q.subject}:${w.q.section}`;
+          count[k] = count[k] || { n: 0, q: w.q };
+          count[k].n += 1;
+        }
+        const top = Object.entries(count).sort((x, y) => y[1].n - x[1].n).slice(0, 5);
+        weak.replaceChildren(top.length
+          ? h('div', {}, h('b', {}, '最需要加強的關卡：'), h('ul', { class: 'weak-list' }, top.map(([k, v]) =>
+              h('li', {}, `${label(v.q)}：錯題 ${v.n} 題（答對率 ${pct(p.stats[k])}）`))))
+          : '目前沒有錯題。');
+        const recentWrong = p.wrongBook.slice(-10).reverse();
+        recent.replaceChildren(recentWrong.length ? h('details', {}, h('summary', {}, '最近答錯的題目'),
+          recentWrong.map((w) => h('div', { class: 'wrong-item' },
+            h('div', { class: 'wrong-tag' }, label(w.q)),
+            h('div', { class: 'wrong-q' }, richText(w.q, w.q.prompt)),
+            h('div', { class: 'wrong-a' }, '答案：', richText(w.q, formatAnswer(w.q)))))) : '');
+      });
       return h('div', { class: 'report-card' },
         h('h3', {}, `${p.avatar} ${p.name}（${p.grade} 年級）`),
         h('table', { class: 'report-table' },
@@ -145,10 +188,9 @@ export default function parent(root, params, { go }) {
             h('td', {}, SUBJECT_NAME[s]),
             h('td', {}, pct(p.stats[s])),
             h('td', {}, `${CATS[SUBJECT_CAT[s]].name} Lv.${levelOf(p.cats[SUBJECT_CAT[s]]?.xp || 0)}`)))),
-        tagStats.length ? h('div', { class: 'muted' }, '最常錯的觀念：', tagStats.map(([k, v]) => `${k.split(':').pop()}（${v}）`).join('、')) : null,
+        weak,
         h('div', { class: 'muted' }, `錯題本：${p.wrongBook.length} 題`),
-        recentWrong.length ? h('details', {}, h('summary', {}, '最近答錯的題目'),
-          recentWrong.map((w) => h('div', { class: 'wrong-item' }, h('div', { class: 'wrong-q' }, `[${SUBJECT_NAME[w.q.subject]} ${w.q.section}] ${w.q.prompt}`)))) : null,
+        recent,
       );
     });
   }

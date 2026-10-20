@@ -7,6 +7,23 @@ import { playZhuyin } from './zhuyin-audio.js';
 import { mapSVG, COMPASS_LABELS } from '../gen/boss-special.js';
 import { monsterSVG } from '../art/art.js';
 
+// 數學的分數排成上下式（和課本一樣）：「12/18」「2又3/4」
+const FRAC_RE = /(\d+又)?(\d{1,4})\/(\d{1,4})/g;
+export function richText(q, text) {
+  const str = String(text ?? '');
+  if (!q || q.subject !== 'math' || q.grade < 3 || !str.includes('/')) return str;
+  const out = [];
+  let last = 0;
+  for (const m of str.matchAll(FRAC_RE)) {
+    if (m.index > last) out.push(str.slice(last, m.index));
+    if (m[1]) out.push(m[1].replace('又', ''), h('span', { class: 'frac-and' }, ''));
+    out.push(h('span', { class: 'frac' }, h('span', { class: 'num' }, m[2]), h('span', { class: 'den' }, m[3])));
+    last = m.index + m[0].length;
+  }
+  if (last < str.length) out.push(str.slice(last));
+  return out;
+}
+
 export function optionLabel(o) {
   return typeof o === 'string' ? o : o.label;
 }
@@ -145,12 +162,12 @@ export function renderVisual(v, size = '') {
 
 // ---------- 作答區 ----------
 
-function optionContent(o) {
-  if (typeof o === 'string') return [h('span', { class: 'opt-label' }, o)];
+function optionContent(o, q) {
+  if (typeof o === 'string') return [h('span', { class: 'opt-label' }, richText(q, o))];
   const parts = [];
   if (o.image) parts.push(h('span', { class: 'opt-image' }, o.image));
   if (o.svg) parts.push(h('span', { class: 'opt-svg', html: o.svg }));
-  if (o.label && !(o.image && o.hideLabel)) parts.push(h('span', { class: 'opt-label' }, o.label));
+  if (o.label && !(o.image && o.hideLabel)) parts.push(h('span', { class: 'opt-label' }, richText(q, o.label)));
   return parts;
 }
 
@@ -166,7 +183,7 @@ function choiceArea(q, ctx, answer) {
     const o = ordered[oi];
     const label = optionLabel(o);
     const shown = shownOpts[oi];
-    const btn = h('button', { class: `opt btn ${q.style === 'bubble' ? 'bubble' : ''}`, dataset: { label }, onclick: () => answer(label, btn) }, optionContent(shown));
+    const btn = h('button', { class: `opt btn ${q.style === 'bubble' ? 'bubble' : ''}`, dataset: { label }, onclick: () => answer(label, btn) }, optionContent(shown, q));
     if (ctx.lowGrade && typeof o === 'object' && o.speak) {
       btn.append(h('span', {
         class: 'opt-say', role: 'button', 'aria-label': '聽一聽',
@@ -233,7 +250,7 @@ function multiArea(q, ctx, answer) {
       play('tap');
       if (chosen.has(label)) chosen.delete(label); else chosen.add(label);
       btn.classList.toggle('on', chosen.has(label));
-    } }, optionContent(o));
+    } }, optionContent(o, q));
     opts.append(btn);
   }
   const hint = h('div', { class: 'q-hint' }, '可以選很多個，選好按「確定」');
@@ -285,25 +302,31 @@ function inputArea(q, ctx, answer) {
     pad);
 }
 
+// 排序：依序點卡片放進格子。卡片留在原位（變淡），點格子裡的卡片可以拿回來；排好後按「確定」
 function orderArea(q, ctx, answer) {
-  const placed = [];
   const pool = shuffle(Math.random, q.items.map((x, i) => ({ x: String(x), i })));
+  const placed = [];
   const row = h('div', { class: 'order-row' });
   const bank = h('div', { class: 'order-bank' });
+  const confirm = h('button', { class: 'btn primary confirm', disabled: true, onclick: () => answer(placed.map((p) => p.x)) }, '確定');
   const render = () => {
-    row.replaceChildren(...q.items.map((_, i) => h('div', { class: 'order-slot' },
-      placed[i] ? h('button', { class: 'btn card', onclick: () => { play('tap'); placed.splice(i, 1); render(); } }, placed[i].x) : String(i + 1))));
-    bank.replaceChildren(...pool.filter((p) => !placed.includes(p)).map((p) => h('button', {
-      class: 'btn card', onclick: () => {
-        play('tap');
-        placed.push(p);
-        render();
-        if (placed.length === q.items.length) setTimeout(() => answer(placed.map((p2) => p2.x)), 250);
-      },
-    }, p.x)));
+    row.replaceChildren(...q.items.map((_, i) => h('div', { class: `order-slot ${placed[i] ? 'filled' : ''}` },
+      placed[i]
+        ? h('button', { class: 'btn card placed', onclick: () => { play('tap'); placed.splice(i, 1); render(); } }, richText(q, placed[i].x))
+        : h('span', { class: 'slot-no' }, String(i + 1)))));
+    bank.replaceChildren(...pool.map((p) => {
+      const used = placed.includes(p);
+      return h('button', {
+        class: `btn card ${used ? 'used' : ''}`, disabled: used,
+        onclick: () => { play('tap'); placed.push(p); render(); },
+      }, richText(q, p.x));
+    }));
+    confirm.disabled = placed.length !== q.items.length;
   };
   render();
-  return h('div', { class: 'q-order' }, h('div', { class: 'q-hint' }, '依序點選排好'), row, bank);
+  return h('div', { class: 'q-order' },
+    h('div', { class: 'q-hint' }, '依序點卡片排好；點上面的卡片可以拿回來，排好按「確定」'),
+    row, bank, confirm);
 }
 
 // 畫出一題。回傳 { el, waitAnswer() }；waitAnswer 在孩子作答時 resolve({ given, correct })。
@@ -321,7 +344,7 @@ export function renderQuestion(q, ctx = {}) {
   };
 
   const sayBtn = h('button', { class: 'say-btn', 'aria-label': '再聽一次', onclick: () => (q.audio ? playZhuyin(q.audio) : speak(q.speak || q.prompt)) }, '🔊');
-  const prompt = h('div', { class: 'q-prompt' }, sayBtn, h('span', { class: 'q-text' }, q.prompt));
+  const prompt = h('div', { class: 'q-prompt' }, sayBtn, h('span', { class: 'q-text' }, richText(q, q.prompt)));
 
   let area;
   switch (q.style === 'compass' ? 'compass' : q.style === 'map' ? 'map' : q.type) {

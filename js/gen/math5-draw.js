@@ -283,7 +283,7 @@ export function doubleBarChart({ title, cats, groups, yMax, unit }) {
   const yOf = (v) => B - (v / yMax) * (B - T);
   body += linesPath(range1(yMax).filter((v) => v % 2).map((v) => [L, yOf(v), R, yOf(v)]), C.grid);
   body += linesPath(range1(yMax).filter((v) => v % 2 === 0).map((v) => [L, yOf(v), R, yOf(v)]), C.gridDark);
-  for (let v = 0; v <= yMax; v += 2) body += text(L - 10, yOf(v), String(v), { size: 16, anchor: 'end' });
+  for (let v = 0; v <= yMax; v += 2) body += text(L - 10, yOf(v), String(v), { size: 17, anchor: 'end' });
   const slot = (R - L) / cats.length;
   const bw = Math.min(36, slot * 0.32);
   cats.forEach((c, i) => {
@@ -312,7 +312,7 @@ export function stackedBarChart({ title, cats, stack, legendOrder, max, unit, ho
     const yOf = (v) => B - (v / max) * (B - T);
     body += linesPath(range1(max).filter((v) => v % 2).map((v) => [L, yOf(v), R, yOf(v)]), C.grid);
     body += linesPath(range1(max).filter((v) => v % 2 === 0).map((v) => [L, yOf(v), R, yOf(v)]), C.gridDark);
-    for (let v = 0; v <= max; v += 2) body += text(L - 10, yOf(v), String(v), { size: 15, anchor: 'end' });
+    for (let v = 0; v <= max; v += 2) body += text(L - 10, yOf(v), String(v), { size: 17, anchor: 'end' });
     const slot = (R - L) / cats.length;
     const bw = Math.min(56, slot * 0.5);
     cats.forEach((c, i) => {
@@ -336,7 +336,7 @@ export function stackedBarChart({ title, cats, stack, legendOrder, max, unit, ho
   const xOf = (v) => L + (v / max) * (R - L);
   body += linesPath(range1(max).filter((v) => v % 2).map((v) => [xOf(v), T, xOf(v), B]), C.grid);
   body += linesPath(range1(max).filter((v) => v % 2 === 0).map((v) => [xOf(v), T, xOf(v), B]), C.gridDark);
-  for (let v = 0; v <= max; v += 2) body += text(xOf(v), B + 18, String(v), { size: 15 });
+  for (let v = 0; v <= max; v += 2) body += text(xOf(v), B + 18, String(v), { size: 17 });
   body += text(R, B + 46, `(${unit})`, { size: 17, anchor: 'end' });
   cats.forEach((c, i) => {
     const cy = T + rowH * (i + 0.5);
@@ -388,7 +388,7 @@ export function lineChart(o) {
     if (o.blanks && o.blanks[k]) {
       body += circle(L - 20, y, 13, '#FFFFFF', C.mark, 2) + text(L - 20, y, o.blanks[k], { size: 15, fill: C.mark, bold: true });
     } else if (o.labelAt && o.labelAt(k)) {
-      body += text(L - 8, y, fmt(o.y0 + o.step * k), { size: compact ? 15 : 16, anchor: 'end' });
+      body += text(L - 8, y, fmt(o.y0 + o.step * k), { size: compact ? 15 : 17, anchor: 'end' });
     }
   }
   // 縱軸、橫軸、省略符號
