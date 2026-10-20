@@ -47,6 +47,68 @@ export function formatAnswer(q) {
   }
 }
 
+// ---------- 一年級注音玩法的圖 ----------
+
+export const TONE_NO = { '一聲': 1, '二聲': 2, '三聲': 3, '四聲': 4, '輕聲': 5 };
+
+// 聲調跳跳貓：貓咪跳法的路線（一聲平走、二聲往上、三聲先蹲再跳、四聲往下溜、輕聲輕輕點）
+function toneSVG(label) {
+  const paths = {
+    1: 'M10 26 H 70',
+    2: 'M10 38 L 70 10',
+    3: 'M10 12 Q 30 44 42 38 T 72 8',
+    4: 'M10 10 L 70 38',
+  };
+  const n = TONE_NO[label];
+  const body = n === 5
+    ? '<circle cx="40" cy="26" r="7" fill="#E07B45"/>'
+    : `<path d="${paths[n]}" fill="none" stroke="#E07B45" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 9"/>
+       <circle cx="${n === 1 ? 70 : 72}" cy="${n === 1 ? 26 : n === 2 || n === 3 ? 9 : 38}" r="6" fill="#E07B45"/>`;
+  return `<svg viewBox="0 0 80 48"><text x="4" y="46" font-size="11" fill="#B08968">🐾</text>${body}</svg>`;
+}
+
+// 嘴形猜猜看：ㄧ 扁扁的、ㄨ 圓圓的、ㄩ 嘟起來
+function mouthSVG(sym) {
+  const mouth = {
+    'ㄧ': '<ellipse cx="50" cy="66" rx="20" ry="5" fill="#B85C5C" stroke="#7A3B3B" stroke-width="2"/>',
+    'ㄨ': '<ellipse cx="50" cy="66" rx="9" ry="10" fill="#B85C5C" stroke="#7A3B3B" stroke-width="2"/>',
+    'ㄩ': '<ellipse cx="50" cy="66" rx="12" ry="9" fill="#E9868F" stroke="#7A3B3B" stroke-width="2.5"/><ellipse cx="50" cy="66" rx="5" ry="4.5" fill="#7A3B3B"/>',
+  }[sym] || '';
+  return `<svg viewBox="0 0 100 90">
+    <path d="M20 34 L 24 6 L 40 22 Z M80 34 L 76 6 L 60 22 Z" fill="#F6B26B" stroke="#9C5426" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="50" cy="50" r="34" fill="#F6B26B" stroke="#9C5426" stroke-width="2.5"/>
+    <circle cx="38" cy="44" r="4" fill="#3A2A22"/><circle cx="62" cy="44" r="4" fill="#3A2A22"/>
+    ${mouth}</svg>`;
+}
+
+// 拼音魔法鍋：注音符號泡泡飄進冒泡的鍋子
+function potSVG(partsText) {
+  const parts = partsText.split(/[＋+]/).map((x) => x.trim()).filter(Boolean);
+  const gap = 260 / (parts.length + 1);
+  const bubbles = parts.map((p, i) => {
+    const x = 20 + gap * (i + 1);
+    return `<circle cx="${x}" cy="44" r="27" fill="#E8F4FF" stroke="#8CC8EE" stroke-width="3"/>
+            <text x="${x}" y="58" font-size="36" font-weight="800" text-anchor="middle" fill="#4A3B32">${p}</text>`;
+  }).join('');
+  return `<svg viewBox="0 0 300 230">
+    ${bubbles}
+    <path d="M70 120 h160 q -6 84 -80 92 q -74 -8 -80 -92 Z" fill="#7E57C2" stroke="#4A2F7A" stroke-width="4"/>
+    <ellipse cx="150" cy="120" rx="86" ry="16" fill="#B39DDB" stroke="#4A2F7A" stroke-width="4"/>
+    <circle cx="120" cy="114" r="7" fill="#E1D5F5"/><circle cx="150" cy="108" r="9" fill="#E1D5F5"/><circle cx="180" cy="114" r="6" fill="#E1D5F5"/>
+    <path d="M60 128 q -16 0 -16 14 M240 128 q 16 0 16 14" fill="none" stroke="#4A2F7A" stroke-width="5" stroke-linecap="round"/>
+  </svg>`;
+}
+
+// 依題型替選項加上圖
+function decorateOption(q, o, ctx) {
+  const kind = q.tags && q.tags[0];
+  const obj = typeof o === 'string' ? { label: o } : Object.assign({}, o);
+  if (kind === 'tone' && TONE_NO[obj.label]) obj.svg = toneSVG(obj.label);
+  if (kind === 'mouth' && ['ㄧ', 'ㄨ', 'ㄩ'].includes(obj.label)) obj.svg = mouthSVG(obj.label);
+  if (kind === 'blend' && ctx.lowGrade && obj.image) obj.hideLabel = true; // 首冊沒教國字，只顯示圖
+  return typeof o === 'string' && !obj.svg ? o : obj;
+}
+
 // ---------- 附圖 ----------
 
 function splitDiagramSVG({ total, parts }) {
@@ -86,10 +148,13 @@ function optionContent(o) {
 }
 
 function choiceArea(q, ctx, answer) {
-  const wrap = h('div', { class: `q-options n${q.options.length} ${q.options.some((o) => o.svg) ? 'has-svg' : ''} ${q.style === 'bubble' ? 'bubbles' : ''}` });
-  for (const o of q.options) {
+  const shownOpts = q.options.map((o) => decorateOption(q, o, ctx));
+  const wrap = h('div', { class: `q-options n${q.options.length} ${shownOpts.some((o) => o.svg) ? 'has-svg' : ''} ${q.style === 'bubble' ? 'bubbles' : ''} kind-${(q.tags && q.tags[0]) || ''}` });
+  for (let oi = 0; oi < q.options.length; oi++) {
+    const o = q.options[oi];
     const label = optionLabel(o);
-    const btn = h('button', { class: `opt btn ${q.style === 'bubble' ? 'bubble' : ''}`, dataset: { label }, onclick: () => answer(label, btn) }, optionContent(o));
+    const shown = shownOpts[oi];
+    const btn = h('button', { class: `opt btn ${q.style === 'bubble' ? 'bubble' : ''}`, dataset: { label }, onclick: () => answer(label, btn) }, optionContent(shown));
     if (ctx.lowGrade && typeof o === 'object' && o.speak) {
       btn.append(h('span', {
         class: 'opt-say', role: 'button', 'aria-label': '聽一聽',
@@ -211,7 +276,8 @@ export function renderQuestion(q, ctx = {}) {
     default: area = h('div', {}, `（不支援的題型：${q.type}）`);
   }
 
-  const visual = renderVisual(q.visual);
+  const kind0 = q.tags && q.tags[0];
+  const visual = renderVisual(!q.visual && kind0 === 'blend' ? { svg: potSVG(q.prompt.split('\n').pop()) } : q.visual);
   const el = h('div', { class: `question type-${q.type} ${visual ? 'has-visual' : ''}` },
     q.fromWrongBook ? h('div', { class: 'q-badge' }, '📒 錯題複習') : null,
     prompt,

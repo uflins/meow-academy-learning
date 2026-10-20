@@ -5,7 +5,7 @@ import { findRegion, BATTLE_SIZE } from '../engine/curriculum.js';
 import { loadRegionUnits, battleQuestions } from '../engine/pool.js';
 import { recordBattle, wrongFor, levelOf, progressKey } from '../engine/progress.js';
 import { afterBattle, battleCatFor, catLook, EVOLVE_LEVEL, FURNITURE, trackDaily } from '../engine/rewards.js';
-import { renderQuestion, formatAnswer, renderVisual } from '../engine/question-view.js';
+import { renderQuestion, formatAnswer, renderVisual, TONE_NO } from '../engine/question-view.js';
 import { speak, stop as stopSpeech } from '../engine/speech.js';
 import { playZhuyin, preloadZhuyin } from '../engine/zhuyin-audio.js';
 import { play } from '../engine/sfx.js';
@@ -138,6 +138,21 @@ export default function battle(root, params, { go, app }) {
       if (!alive) return;
     }
 
+    // 一年級答對：貓咪跳一下、星星飛出來、大字「答對了」
+    const cheer = () => {
+      catBox.classList.remove('jump');
+      void catBox.offsetWidth;
+      catBox.classList.add('jump');
+      const big = h('div', { class: 'cheer' }, '答對了！');
+      fx.append(big);
+      for (let k = 0; k < 6; k++) {
+        const s = h('div', { class: 'star-pop', style: { '--dx': `${Math.cos(k * 1.05) * 90}px`, '--dy': `${Math.sin(k * 1.05) * 60 - 30}px` } }, '⭐');
+        fx.append(s);
+        setTimeout(() => s.remove(), 900);
+      }
+      setTimeout(() => big.remove(), 1000);
+    };
+
     const catAttack = async (special) => {
       play(special ? 'special' : 'attack');
       catBox.classList.add('attack');
@@ -170,8 +185,20 @@ export default function battle(root, params, { go, app }) {
       if (alive) playZhuyin(q.audio);
     };
 
+    // 聲調題：貓咪照聲調的路線跳一次（答對時、說明時都會跳，當作動畫示範）
+    const toneJump = (q) => {
+      const n = q.tags && q.tags[0] === 'tone' ? TONE_NO[q.answer] : 0;
+      if (!n) return false;
+      catBox.classList.remove('tone1', 'tone2', 'tone3', 'tone4', 'tone5');
+      void catBox.offsetWidth;
+      catBox.classList.add(`tone${n}`);
+      setTimeout(() => catBox.classList.remove(`tone${n}`), 1400);
+      return true;
+    };
+
     // 說明放在作答區的位置，題目和附圖保持看得到
     const explain = (view, q) => new Promise((resolve) => {
+      toneJump(q);
       const say = q.explainSpeak || q.explanation;
       const panel = h('div', { class: 'explain' },
         h('div', { class: 'explain-title' }, '正確答案'),
@@ -205,8 +232,8 @@ export default function battle(root, params, { go, app }) {
         combo = special ? 0 : combo + 1;
         damage += special ? perHit * 2 : perHit;
         setCat('happy');
-        if (lowGrade) speak(LOW_PRAISE[i % LOW_PRAISE.length]);
-        burst(lowGrade ? '答對了！' : PRAISE[i % PRAISE.length], 'praise');
+        if (lowGrade) { speak(LOW_PRAISE[i % LOW_PRAISE.length]); cheer(); toneJump(q); }
+        else burst(PRAISE[i % PRAISE.length], 'praise');
         await catAttack(special);
         results.push({ q, correct: true });
       } else {
@@ -217,7 +244,7 @@ export default function battle(root, params, { go, app }) {
         updateHp();
         let retried = false;
         // 一年級：先再給一次機會（選項 3 個以上的選擇題、數字題）
-        if (lowGrade && (q.type === 'input' || (q.type === 'choice' && q.options.length > 2))) {
+        if (lowGrade && (q.type === 'input' || q.type === 'choice' || q.type === 'truefalse')) {
           speak('再想想看');
           setCat('normal');
           res = await view.retry(res.btn);
@@ -225,17 +252,16 @@ export default function battle(root, params, { go, app }) {
           retried = true;
           if (res.correct) {
             play('correct');
-            speak('對了！');
             damage += perHit / 2;
             setCat('happy');
+            cheer();
             await catAttack(false);
           }
         }
-        if (!res.correct || !retried) {
-          view.lock();
-          view.highlightCorrect();
-          await explain(view, q);
-        }
+        // 一年級重答之後也說明一次，知道第一次為什麼錯
+        view.lock();
+        view.highlightCorrect();
+        await explain(view, q);
         results.push({ q, correct: false });
       }
       updateHp();
@@ -288,9 +314,11 @@ export default function battle(root, params, { go, app }) {
           h('h2', { class: 'result-title' }, msg),
           h('div', { class: 'result-stars' }, [0, 1, 2].map((k) => h('span', { class: k < r.stars ? 'on' : '', style: { animationDelay: `${k * 0.25}s` } }, '★'))),
           h('div', { class: 'result-line' }, `答對 ${r.correct} / ${r.total} 題`),
-          h('div', { class: 'result-gains' },
-            h('span', { class: 'chip' }, `+${r.xp} 經驗值`),
-            h('span', { class: 'chip' }, `+${r.fish} 🐟`)),
+          lowGrade
+            ? h('div', { class: 'result-gains low' }, '🐟'.repeat(Math.min(r.fish, 12)))
+            : h('div', { class: 'result-gains' },
+                h('span', { class: 'chip' }, `+${r.xp} 經驗值`),
+                h('span', { class: 'chip' }, `+${r.fish} 🐟`)),
           evolvedNow ? h('div', { class: 'levelup big' }, `✨ ${catName(catId)}進化成「${catName(catId, true)}」了！`) : null,
           levelUp && !evolvedNow ? h('div', { class: 'levelup' }, `🎉 ${catName(catId, nowLook.evolved)}升到 Lv.${levelOf(player.cats[catId].xp)} 了！`) : null,
           g.newCats.length ? h('div', { class: 'gift-row' }, g.newCats.map((id) => h('div', { class: 'gift' },

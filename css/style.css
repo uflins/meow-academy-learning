@@ -479,3 +479,28 @@ body.low-grade .opt.bubble { font-size: clamp(56px, 7.5vw, 80px); min-height: 0;
 .daily-label { font-weight: 700; }
 .daily-n { font-size: .85em; color: var(--muted); }
 .daily-done { color: var(--good-dark); font-weight: 700; }
+
+/* 一年級答對的小獎勵 */
+.fighter.cat.jump { animation: catjump .6s ease-out; }
+@keyframes catjump { 0% { transform: translateY(0); } 35% { transform: translateY(-38%); } 60% { transform: translateY(0); } 75% { transform: translateY(-10%); } 100% { transform: translateY(0); } }
+.cheer { position: absolute; top: 18%; font-size: 3em; font-weight: 900; color: var(--good-dark); text-shadow: 0 3px 0 #fff, 0 5px 0 rgba(0,0,0,.08); animation: burst 1s ease-out both; }
+.star-pop { position: absolute; left: 24%; top: 45%; font-size: 2em; animation: starpop .9s ease-out both; }
+@keyframes starpop { 0% { transform: translate(0, 0) scale(.3); opacity: 0; } 30% { opacity: 1; } 100% { transform: translate(var(--dx), var(--dy)) scale(1.1); opacity: 0; } }
+.result-gains.low { font-size: 1.8em; letter-spacing: 2px; }
+
+/* 聲調跳跳貓：貓咪照聲調路線跳 */
+.fighter.cat.tone1 { animation: tone1 1.3s ease-in-out; }
+.fighter.cat.tone2 { animation: tone2 1.3s ease-in-out; }
+.fighter.cat.tone3 { animation: tone3 1.3s ease-in-out; }
+.fighter.cat.tone4 { animation: tone4 1.3s ease-in-out; }
+.fighter.cat.tone5 { animation: tone5 .8s ease-out; }
+@keyframes tone1 { 0% { transform: translate(0, 0); } 50% { transform: translate(40%, 0); } 100% { transform: translate(0, 0); } }
+@keyframes tone2 { 0% { transform: translate(0, 0); } 50% { transform: translate(40%, -35%); } 100% { transform: translate(0, 0); } }
+@keyframes tone3 { 0% { transform: translate(0, 0); } 25% { transform: translate(15%, 12%) scaleY(.85); } 55% { transform: translate(40%, -35%); } 100% { transform: translate(0, 0); } }
+@keyframes tone4 { 0% { transform: translate(0, -30%); } 50% { transform: translate(40%, 8%); } 100% { transform: translate(0, 0); } }
+@keyframes tone5 { 0% { transform: translateY(0); } 40% { transform: translateY(-8%); } 100% { transform: translateY(0); } }
+.q-options.kind-tone .opt, .q-options.kind-mouth .opt { flex-direction: column; gap: 2px; }
+.q-options.kind-tone .opt-svg svg { max-height: 60px; }
+.q-options.kind-mouth .opt-svg svg { max-height: 90px; }
+body.low-grade .q-options.has-svg .opt-label { font-size: 1.15em; }
+body.low-grade .q-options.kind-tone .opt-svg svg { max-height: 70px; }
