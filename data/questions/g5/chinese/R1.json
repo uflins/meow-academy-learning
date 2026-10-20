@@ -1,0 +1,347 @@
+[
+  {
+    "id": "g5zh-R1-001",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "〈畫家的天空〉是哪一種文體？",
+    "options": [
+      "說明文",
+      "書信",
+      "記敘文",
+      "詩歌"
+    ],
+    "answer": "說明文",
+    "explanation": "這篇文章舉畫家的例子，說明天空在畫裡的作用，是說明文。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "文體"
+    ]
+  },
+  {
+    "id": "g5zh-R1-002",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "〈畫家的天空〉的結構是哪一種？",
+    "options": [
+      "總說 → 分說 → 總結",
+      "分說 → 總結",
+      "總說 → 分說",
+      "只有分說"
+    ],
+    "answer": "總說 → 分說 → 總結",
+    "explanation": "文章先總說天空的重要，再分別介紹幾位畫家，最後總結，是「總分總」。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "結構"
+    ]
+  },
+  {
+    "id": "g5zh-R1-003",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "文章說，天空在風景畫裡可以有什麼作用？",
+    "options": [
+      "交代天氣，讓畫面和諧",
+      "讓畫賣得比較便宜",
+      "讓畫框變得更大",
+      "寫出畫家的名字"
+    ],
+    "answer": "交代天氣，讓畫面和諧",
+    "explanation": "天空能告訴我們當時的天氣，也能讓整幅畫看起來和諧。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-R1-004",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "哪一位畫家用漩渦般的雲來表達自己的情感？",
+    "options": [
+      "米勒",
+      "盧梭",
+      "梵谷",
+      "馬格利特"
+    ],
+    "answer": "梵谷",
+    "explanation": "梵谷在〈星空〉等作品裡畫出漩渦般的雲，表達強烈的情感。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-R1-005",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "馬格利特的〈庇里牛斯山城〉畫了一塊大石頭浮在海上，這表現了什麼？",
+    "options": [
+      "超現實的想像",
+      "颱風的威力",
+      "農夫的生活",
+      "真實的天氣"
+    ],
+    "answer": "超現實的想像",
+    "explanation": "大石頭不可能浮在海上，馬格利特用這種畫面表現超現實的想像。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-R1-006",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "文章介紹的超現實畫家馬格利特，是哪一國人？",
+    "options": [
+      "德國",
+      "法國",
+      "荷蘭",
+      "比利時"
+    ],
+    "answer": "比利時",
+    "explanation": "馬格利特是比利時的超現實畫家。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-R1-007",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "米勒的〈黃昏的牧羊人〉中，天空有什麼作用？",
+    "options": [
+      "表達超現實的想像",
+      "畫出漩渦般的雲",
+      "襯托畫面",
+      "交代畫家的名字"
+    ],
+    "answer": "襯托畫面",
+    "explanation": "米勒用天空來襯托畫面，讓畫中的主角更突出。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-R1-008",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "盧梭的〈楓丹白露森林外的夕陽〉，用天空來做什麼？",
+    "options": [
+      "交代畫家的名字",
+      "畫出漩渦般的雲",
+      "讓石頭浮起來",
+      "營造氣氛"
+    ],
+    "answer": "營造氣氛",
+    "explanation": "盧梭用夕陽下的天空營造出畫面的氣氛。",
+    "difficulty": 3,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-R1-009",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "米勒也出現在第4課。他在第4課被介紹的畫作是哪一幅？",
+    "options": [
+      "〈拾穗〉",
+      "〈星空〉",
+      "〈庇里牛斯山城〉",
+      "〈奧維爾教堂〉"
+    ],
+    "answer": "〈拾穗〉",
+    "explanation": "第4課〈恆久的美〉介紹的是米勒的〈拾穗〉。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "跨課"
+    ]
+  },
+  {
+    "id": "g5zh-R1-010",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "order",
+    "prompt": "依照文章介紹的先後，把畫家排好。",
+    "items": [
+      "米勒",
+      "盧梭",
+      "梵谷",
+      "馬格利特"
+    ],
+    "explanation": "文章依序介紹米勒、盧梭、梵谷，最後是超現實畫家馬格利特。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "結構"
+    ]
+  },
+  {
+    "id": "g5zh-R1-011",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "摘取大意時，把不重要的例子和重複的話拿掉，這是哪一種方法？",
+    "options": [
+      "找主題句",
+      "歸納",
+      "刪除",
+      "倒敘"
+    ],
+    "answer": "刪除",
+    "explanation": "先把不重要、重複的內容刪掉，留下重點，這叫刪除。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "摘大意"
+    ]
+  },
+  {
+    "id": "g5zh-R1-012",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "把「米勒、盧梭、梵谷都用天空表現不同的效果」合成一句話來說，這是哪一種摘大意的方法？",
+    "options": [
+      "倒敘",
+      "刪除",
+      "歸納",
+      "找主題句"
+    ],
+    "answer": "歸納",
+    "explanation": "把幾個相似的內容合起來用一句話說，叫做歸納。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "摘大意"
+    ]
+  },
+  {
+    "id": "g5zh-R1-013",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "一段文字中，最能說出這段重點的句子叫做什麼？",
+    "options": [
+      "主題句",
+      "喻依",
+      "對話",
+      "標點"
+    ],
+    "answer": "主題句",
+    "explanation": "能說出一段重點的句子叫做主題句，摘大意時可以先把它找出來。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "摘大意"
+    ]
+  },
+  {
+    "id": "g5zh-R1-014",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "「超現實」的畫，最可能是哪一種樣子？",
+    "options": [
+      "只用黑白線條畫畫",
+      "和照片拍得一模一樣",
+      "畫面裡只有天空",
+      "畫出現實中不可能發生的奇妙畫面"
+    ],
+    "answer": "畫出現實中不可能發生的奇妙畫面",
+    "explanation": "「超現實」是超越現實，畫出真實世界不會發生的奇妙景象。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-R1-015",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「晚霞像一匹彩色的綢緞，鋪滿了西邊的天空。」\n要打出哪一張修辭卡？",
+    "options": [
+      "引用",
+      "設問",
+      "譬喻",
+      "排比"
+    ],
+    "answer": "譬喻",
+    "explanation": "用「像」把晚霞比成彩色的綢緞，這是譬喻。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-R1-016",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "R1",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「天空為什麼這麼重要？因為它決定了整幅畫的心情。」\n要打出哪一張修辭卡？",
+    "options": [
+      "類疊",
+      "設問",
+      "譬喻",
+      "排比"
+    ],
+    "answer": "設問",
+    "explanation": "先提出問題，再自己回答，這是設問。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "設問"
+    ]
+  }
+]

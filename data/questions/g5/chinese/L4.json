@@ -1,0 +1,1023 @@
+[
+  {
+    "id": "g5zh-L4-001",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「稻穗」的「穗」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄙㄨㄟˊ",
+      "ㄙㄨㄟˋ",
+      "ㄕㄨㄟˋ",
+      "ㄏㄨㄟˋ"
+    ],
+    "answer": "ㄙㄨㄟˋ",
+    "explanation": "「穗」念ㄙㄨㄟˋ；右邊的「惠」念ㄏㄨㄟˋ，但「穗」不這樣念。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "穗"
+    ]
+  },
+  {
+    "id": "g5zh-L4-002",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「澄清」的「澄」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄔㄥˇ",
+      "ㄔㄥˊ",
+      "ㄘㄥˊ",
+      "ㄓㄥˋ"
+    ],
+    "answer": "ㄔㄥˊ",
+    "explanation": "「澄」念ㄔㄥˊ，和「柳橙」的「橙」同音。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "澄"
+    ]
+  },
+  {
+    "id": "g5zh-L4-003",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「感慨」的「慨」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄍㄞˋ",
+      "ㄎㄞˇ",
+      "ㄎㄞ",
+      "ㄏㄞˇ"
+    ],
+    "answer": "ㄎㄞˇ",
+    "explanation": "「慨」念三聲ㄎㄞˇ；長得像的「概」「溉」才念ㄍㄞˋ。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "慨"
+    ]
+  },
+  {
+    "id": "g5zh-L4-004",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「樸素」的「樸」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄅㄨˊ",
+      "ㄆㄨˊ",
+      "ㄆㄨ",
+      "ㄆㄨˋ"
+    ],
+    "answer": "ㄆㄨˊ",
+    "explanation": "「樸」念二聲ㄆㄨˊ，和「僕人」的「僕」同音。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "樸"
+    ]
+  },
+  {
+    "id": "g5zh-L4-005",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「滋潤」的「滋」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄘˊ",
+      "ㄗ",
+      "ㄙ",
+      "ㄗˇ"
+    ],
+    "answer": "ㄗ",
+    "explanation": "「滋」念一聲ㄗ；長得像的「磁」念ㄘˊ。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "滋"
+    ]
+  },
+  {
+    "id": "g5zh-L4-006",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「腰痠背痛」的「痠」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄙㄨㄢ",
+      "ㄘㄨㄢ",
+      "ㄕㄡˋ",
+      "ㄙㄨㄢˋ"
+    ],
+    "answer": "ㄙㄨㄢ",
+    "explanation": "「痠」念ㄙㄨㄢ；長得像的「瘦」念ㄕㄡˋ，意思完全不同。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "痠",
+      "痠／瘦"
+    ]
+  },
+  {
+    "id": "g5zh-L4-007",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「養活」和「奉養」的「養」，讀音依序是哪一組？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "ㄧㄤˇ／ㄧㄤˇ",
+      "ㄧㄤˋ／ㄧㄤˋ",
+      "ㄧㄤˋ／ㄧㄤˇ",
+      "ㄧㄤˇ／ㄧㄤˋ"
+    ],
+    "answer": "ㄧㄤˇ／ㄧㄤˋ",
+    "explanation": "「養活」念三聲ㄧㄤˇ；照顧長輩的「奉養」念四聲ㄧㄤˋ。",
+    "difficulty": 2,
+    "tags": [
+      "polyphone",
+      "養"
+    ]
+  },
+  {
+    "id": "g5zh-L4-008",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「辛勞」和「慰勞」的「勞」，讀音依序是哪一組？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "ㄌㄠˊ／ㄌㄠˊ",
+      "ㄌㄠˋ／ㄌㄠˊ",
+      "ㄌㄠˋ／ㄌㄠˋ",
+      "ㄌㄠˊ／ㄌㄠˋ"
+    ],
+    "answer": "ㄌㄠˊ／ㄌㄠˋ",
+    "explanation": "「辛勞」念二聲ㄌㄠˊ；感謝別人辛苦的「慰勞」念四聲ㄌㄠˋ。",
+    "difficulty": 2,
+    "tags": [
+      "polyphone",
+      "勞"
+    ]
+  },
+  {
+    "id": "g5zh-L4-009",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "下面哪一組詞語，相同的那個字讀音也相同？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "行經、行業",
+      "要是、要求",
+      "養活、奉養",
+      "路得、得到"
+    ],
+    "answer": "路得、得到",
+    "explanation": "路得、得到的「得」都念ㄉㄜˊ；行經ㄒㄧㄥˊ和行業ㄏㄤˊ、要是ㄧㄠˋ和要求ㄧㄠ、養活ㄧㄤˇ和奉養ㄧㄤˋ都不同。",
+    "difficulty": 3,
+    "tags": [
+      "polyphone",
+      "得",
+      "行",
+      "要"
+    ]
+  },
+  {
+    "id": "g5zh-L4-010",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n媽媽買了一袋柳（　），準備打果汁。",
+    "options": [
+      "燈",
+      "澄",
+      "登",
+      "橙"
+    ],
+    "answer": "橙",
+    "explanation": "水果「柳橙」用木部的「橙」；水部的「澄」用在「澄清」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "澄／橙"
+    ]
+  },
+  {
+    "id": "g5zh-L4-011",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n寫完考卷，記得再（　）查一次。",
+    "options": [
+      "劍",
+      "撿",
+      "儉",
+      "檢"
+    ],
+    "answer": "檢",
+    "explanation": "「檢查」用木部的「檢」；用手拾起是提手旁的「撿」，「節儉」是人部的「儉」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "撿／檢"
+    ]
+  },
+  {
+    "id": "g5zh-L4-012",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n下課後，大家一起把地上的紙屑（　）起來。",
+    "options": [
+      "儉",
+      "檢",
+      "撿",
+      "臉"
+    ],
+    "answer": "撿",
+    "explanation": "用手拾起東西是提手旁的「撿」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "撿／檢"
+    ]
+  },
+  {
+    "id": "g5zh-L4-013",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n爸爸搬了一整天的貨，累得腰（　）背痛。",
+    "options": [
+      "唆",
+      "痠",
+      "瘦",
+      "梭"
+    ],
+    "answer": "痠",
+    "explanation": "「腰痠背痛」的「痠」是肌肉又痠又痛的感覺；「瘦」是不胖。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "痠／瘦"
+    ]
+  },
+  {
+    "id": "g5zh-L4-014",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n老爺爺（　）慨解囊，捐錢幫學校蓋圖書館。",
+    "options": [
+      "糠",
+      "糖",
+      "康",
+      "慷"
+    ],
+    "answer": "慷",
+    "explanation": "「慷慨」和心意有關，用豎心旁的「慷」。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "慷／康"
+    ]
+  },
+  {
+    "id": "g5zh-L4-015",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n這幅畫的顏色很（　）素，沒有華麗的裝飾。",
+    "options": [
+      "僕",
+      "樸",
+      "璞",
+      "撲"
+    ],
+    "answer": "樸",
+    "explanation": "「樸素」是木部的「樸」；「僕」是人部（僕人），「撲」是手部（飛蛾撲火）。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "樸／僕"
+    ]
+  },
+  {
+    "id": "g5zh-L4-016",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n這次失敗沒關係，下次（　）試一次！",
+    "options": [
+      "在",
+      "再",
+      "載"
+    ],
+    "answer": "再",
+    "explanation": "表示又一次、重新來過，要用「再」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "再／在"
+    ]
+  },
+  {
+    "id": "g5zh-L4-017",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，找出錯字和正確的寫法：\n「外公在田裡忙了一天，覺得腰瘦背痛。」",
+    "options": [
+      "腰→要",
+      "背→北",
+      "瘦→痠",
+      "痛→通"
+    ],
+    "answer": "瘦→痠",
+    "explanation": "「腰痠背痛」要用「痠」（ㄙㄨㄢ）；「瘦」是不胖的意思。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "痠／瘦"
+    ]
+  },
+  {
+    "id": "g5zh-L4-018",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「這位清潔員每天任勞任願地打掃街道。」",
+    "options": [
+      "街",
+      "掃",
+      "願",
+      "勞"
+    ],
+    "answer": "願",
+    "explanation": "「任勞任怨」是不怕辛苦、也不抱怨，要用心部的「怨」。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "怨／願"
+    ]
+  },
+  {
+    "id": "g5zh-L4-019",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「感冒好了以後，他覺得身體健糠多了。」",
+    "options": [
+      "健",
+      "糠",
+      "冒",
+      "感"
+    ],
+    "answer": "糠",
+    "explanation": "「健康」的「康」沒有米字旁；米部的「糠」是米糠。",
+    "difficulty": 1,
+    "tags": [
+      "wrongchar",
+      "康／糠"
+    ]
+  },
+  {
+    "id": "g5zh-L4-020",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「穗」的部首是什麼？",
+    "options": [
+      "木",
+      "心",
+      "田",
+      "禾"
+    ],
+    "answer": "禾",
+    "explanation": "「穗」是稻、麥長出穀粒的部分，所以是禾部。",
+    "difficulty": 1,
+    "tags": [
+      "radical",
+      "部首",
+      "穗"
+    ]
+  },
+  {
+    "id": "g5zh-L4-021",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「養」的部首是什麼？",
+    "options": [
+      "人",
+      "食",
+      "艮",
+      "羊"
+    ],
+    "answer": "食",
+    "explanation": "「養」的下面是「食」，部首是食部。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "養"
+    ]
+  },
+  {
+    "id": "g5zh-L4-022",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「尊」的部首是什麼？",
+    "options": [
+      "八",
+      "酉",
+      "寸",
+      "大"
+    ],
+    "answer": "寸",
+    "explanation": "「尊」的下面是「寸」，部首是寸部。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "尊"
+    ]
+  },
+  {
+    "id": "g5zh-L4-023",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「嚴」的部首是什麼？",
+    "options": [
+      "口",
+      "厂",
+      "攴",
+      "耳"
+    ],
+    "answer": "口",
+    "explanation": "「嚴」上面有兩個「口」，部首是口部。",
+    "difficulty": 3,
+    "tags": [
+      "radical",
+      "部首",
+      "嚴"
+    ]
+  },
+  {
+    "id": "g5zh-L4-024",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "input",
+    "prompt": "「恆」一共有幾畫？",
+    "keypad": "digits",
+    "answer": "9",
+    "explanation": "豎心旁 3 畫，右邊 6 畫，一共 9 畫。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "筆畫",
+      "恆"
+    ]
+  },
+  {
+    "id": "g5zh-L4-025",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「樸素」的相反詞是哪一個？",
+    "options": [
+      "樸實",
+      "乾燥",
+      "簡單",
+      "華麗"
+    ],
+    "answer": "華麗",
+    "explanation": "樸素是簡單不華麗，相反詞是華麗。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "相反詞"
+    ]
+  },
+  {
+    "id": "g5zh-L4-026",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「滋潤」的相反詞是哪一個？",
+    "options": [
+      "潮溼",
+      "滋養",
+      "乾燥",
+      "溫暖"
+    ],
+    "answer": "乾燥",
+    "explanation": "滋潤是有水分、溼潤，相反詞是乾燥。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "相反詞"
+    ]
+  },
+  {
+    "id": "g5zh-L4-027",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "「慷慨」是什麼意思？",
+    "options": [
+      "生氣，不高興",
+      "大方，不吝嗇",
+      "害怕，不敢說話",
+      "節省，不浪費"
+    ],
+    "answer": "大方，不吝嗇",
+    "explanation": "慷慨是很大方、願意分享，一點也不小氣。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-L4-028",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "哪一個詞語最適合填入（　）？\n多喝牛奶可以（　）身體。",
+    "options": [
+      "滋事",
+      "滋養",
+      "滋生"
+    ],
+    "answer": "滋養",
+    "explanation": "「滋養」是補充養分；「滋生」是生長繁殖（像細菌滋生），「滋事」是惹麻煩。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "選詞填空"
+    ]
+  },
+  {
+    "id": "g5zh-L4-029",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「閱讀讓我們看見更大的世界，讓我們學會思考，讓我們找到快樂。」\n要打出哪一張修辭卡？",
+    "options": [
+      "譬喻",
+      "設問",
+      "排比",
+      "引用"
+    ],
+    "answer": "排比",
+    "explanation": "連用三個「讓我們……」，句子結構相似、意思相關，這是排比。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "排比"
+    ]
+  },
+  {
+    "id": "g5zh-L4-030",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「奶奶的菜園裡有青青的蔥、紅紅的番茄，還有圓圓的南瓜。」\n要打出哪一張修辭卡？",
+    "options": [
+      "類疊",
+      "設問",
+      "引用",
+      "轉化"
+    ],
+    "answer": "類疊",
+    "explanation": "「青青」「紅紅」「圓圓」都是疊字，這是類疊。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "類疊"
+    ]
+  },
+  {
+    "id": "g5zh-L4-031",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「剛煮好的白飯冒著白煙，散發出米香，吃進嘴裡又軟又甜。」\n要打出哪一張修辭卡？",
+    "options": [
+      "引用",
+      "設問",
+      "排比",
+      "摹寫"
+    ],
+    "answer": "摹寫",
+    "explanation": "寫出看到的白煙、聞到的米香、吃到的味道，這是摹寫。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "摹寫"
+    ]
+  },
+  {
+    "id": "g5zh-L4-032",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「《論語》說：『三人行，必有我師焉。』每個人身上都有值得學習的地方。」\n要打出哪一張修辭卡？",
+    "options": [
+      "排比",
+      "引用",
+      "轉化",
+      "摹寫"
+    ],
+    "answer": "引用",
+    "explanation": "句子引用了《論語》裡的話來說明道理，這是引用。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "引用"
+    ]
+  },
+  {
+    "id": "g5zh-L4-033",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "multi",
+    "prompt": "怪物念出雙重咒語：\n「書像一扇窗，帶我看見遠方；書像一盞燈，照亮我的心；書像一位朋友，陪我度過寂寞的時光。」\n這句話用了哪兩種修辭？（選兩張卡）",
+    "options": [
+      "引用",
+      "排比",
+      "譬喻",
+      "設問"
+    ],
+    "answer": [
+      "譬喻",
+      "排比"
+    ],
+    "explanation": "把書比成窗、燈、朋友，是譬喻；三個結構相同的句子連在一起，是排比。",
+    "difficulty": 3,
+    "tags": [
+      "rhetoric",
+      "譬喻",
+      "排比"
+    ]
+  },
+  {
+    "id": "g5zh-L4-034",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "truefalse",
+    "prompt": "怪物說：「他做事任勞任怨，每次打掃都一直抱怨好累。」\n這句話的成語用得對嗎？",
+    "answer": false,
+    "explanation": "「任勞任怨」是不怕辛苦、不抱怨；一直抱怨剛好相反。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "任勞任怨"
+    ]
+  },
+  {
+    "id": "g5zh-L4-035",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "truefalse",
+    "prompt": "怪物說：「學姊考上大學後飲水思源，常常回母校幫學弟妹上課。」\n這句話的成語用得對嗎？",
+    "answer": true,
+    "explanation": "「飲水思源」是不忘本、感謝幫助過自己的人，用得很恰當。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "飲水思源"
+    ]
+  },
+  {
+    "id": "g5zh-L4-036",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「喝水時想到水從哪裡來，比喻不忘本」的成語。",
+    "items": [
+      "飲",
+      "水",
+      "思",
+      "源"
+    ],
+    "explanation": "「飲水思源」：喝水想到水的來源，比喻不忘本。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "飲水思源"
+    ]
+  },
+  {
+    "id": "g5zh-L4-037",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「身體疲勞、痠痛的樣子」的成語。",
+    "items": [
+      "腰",
+      "痠",
+      "背",
+      "痛"
+    ],
+    "explanation": "「腰痠背痛」：腰和背又痠又痛。「痠」是疒部，別寫成「瘦」。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "腰痠背痛"
+    ]
+  },
+  {
+    "id": "g5zh-L4-038",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「大方地拿出錢來幫助別人」的成語。",
+    "items": [
+      "慷",
+      "慨",
+      "解",
+      "囊"
+    ],
+    "explanation": "「慷慨解囊」：大方地打開錢袋幫助別人。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "慷慨解囊"
+    ]
+  },
+  {
+    "id": "g5zh-L4-039",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n（　）明天放晴，（　）我們就去郊外野餐。",
+    "options": [
+      "不但／還",
+      "要是／那麼",
+      "雖然／卻"
+    ],
+    "answer": "要是／那麼",
+    "explanation": "前面是假設的情況，後面是結果，用「要是……那麼……」。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "要是／那麼"
+    ]
+  },
+  {
+    "id": "g5zh-L4-040",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n米勒（　）從小家裡很窮，（　）一直沒有放棄畫畫。",
+    "options": [
+      "雖然／卻",
+      "要是／那麼",
+      "只要／就"
+    ],
+    "answer": "雖然／卻",
+    "explanation": "家裡窮卻沒有放棄，前後意思相反，用「雖然……卻……」。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "雖然／卻"
+    ]
+  },
+  {
+    "id": "g5zh-L4-041",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "〈拾穗〉這幅畫的作者是誰？",
+    "options": [
+      "畢卡索",
+      "梵谷",
+      "達文西",
+      "米勒"
+    ],
+    "answer": "米勒",
+    "explanation": "〈拾穗〉是法國畫家米勒的作品。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L4-042",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "作者坐火車經過南部，看到什麼景色，想起了〈拾穗〉？",
+    "options": [
+      "金黃色的稻田",
+      "下雪的山頂",
+      "高聳的大樓",
+      "藍色的大海"
+    ],
+    "answer": "金黃色的稻田",
+    "explanation": "作者看見南部一片黃澄澄的稻田，聯想到〈拾穗〉這幅畫。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L4-043",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "作者想起的拾穗古老故事，出自哪一本書？",
+    "options": [
+      "《聖經》",
+      "《西遊記》",
+      "《論語》",
+      "《格林童話》"
+    ],
+    "answer": "《聖經》",
+    "explanation": "作者想起《聖經》裡路得在田裡拾穗的故事。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L4-044",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "這一課的主旨是什麼？",
+    "options": [
+      "教大家怎麼畫畫",
+      "介紹怎麼種稻子",
+      "說明火車跑得多快",
+      "藉著欣賞畫作，體會「分享」是恆久的美德"
+    ],
+    "answer": "藉著欣賞畫作，體會「分享」是恆久的美德",
+    "explanation": "作者從〈拾穗〉看見樂於分享的心，認為分享是恆久的美。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "主旨"
+    ]
+  },
+  {
+    "id": "g5zh-L4-045",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "choice",
+    "prompt": "米勒為什麼特別擅長畫農民的生活？",
+    "options": [
+      "農民付很多錢請他畫",
+      "他一直住在大城市",
+      "他出身農家，熟悉農民的生活",
+      "他只會畫一種東西"
+    ],
+    "answer": "他出身農家，熟悉農民的生活",
+    "explanation": "米勒出身農家、童年貧窮，後來搬到農村，專心畫農民樸實的生活。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L4-046",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n這一課作者除了客觀描述畫面，也說出自己對這幅畫的想法。",
+    "answer": true,
+    "explanation": "作者先描述畫面，再說出自己的感受和評價，客觀和主觀都有。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "寫法"
+    ]
+  },
+  {
+    "id": "g5zh-L4-047",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L4",
+    "type": "order",
+    "prompt": "依照課文的順序排好。",
+    "items": [
+      "看見南部的稻田",
+      "想起拾穗的故事",
+      "介紹畫家米勒",
+      "欣賞畫中的婦人",
+      "說出自己的評價"
+    ],
+    "explanation": "作者由稻田聯想到拾穗的故事，再介紹米勒和畫中的婦人，最後說出評價。",
+    "difficulty": 3,
+    "tags": [
+      "content",
+      "結構"
+    ]
+  }
+]

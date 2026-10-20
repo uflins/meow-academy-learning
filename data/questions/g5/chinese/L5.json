@@ -1,0 +1,983 @@
+[
+  {
+    "id": "g5zh-L5-001",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "「商譽」的「譽」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄩˋ",
+      "ㄐㄩˇ",
+      "ㄒㄩˋ",
+      "ㄩˇ"
+    ],
+    "answer": "ㄩˋ",
+    "explanation": "「譽」念ㄩˋ，名譽、榮譽都一樣。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "譽"
+    ]
+  },
+  {
+    "id": "g5zh-L5-002",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "「註冊」的「冊」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄔㄜˋ",
+      "ㄕㄢ",
+      "ㄘㄜˋ",
+      "ㄘㄜˇ"
+    ],
+    "answer": "ㄘㄜˋ",
+    "explanation": "「冊」念ㄘㄜˋ，是平舌音ㄘ，不是翹舌音ㄔ。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "冊"
+    ]
+  },
+  {
+    "id": "g5zh-L5-003",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "「企業」的「企」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄑㄧ",
+      "ㄐㄧˇ",
+      "ㄑㄧˇ",
+      "ㄑㄧˊ"
+    ],
+    "answer": "ㄑㄧˇ",
+    "explanation": "「企」念三聲ㄑㄧˇ，企業、企盼都一樣。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "企"
+    ]
+  },
+  {
+    "id": "g5zh-L5-004",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "「霸主」的「霸」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄆㄚˋ",
+      "ㄅㄚ",
+      "ㄅㄚˇ",
+      "ㄅㄚˋ"
+    ],
+    "answer": "ㄅㄚˋ",
+    "explanation": "「霸」念ㄅㄚˋ，霸主、橫行霸道都一樣。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "霸"
+    ]
+  },
+  {
+    "id": "g5zh-L5-005",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "「核准」的「核」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄍㄞ",
+      "ㄏㄞˊ",
+      "ㄏㄜˊ",
+      "ㄏㄜˋ"
+    ],
+    "answer": "ㄏㄜˊ",
+    "explanation": "「核」念ㄏㄜˊ；長得像的「孩」念ㄏㄞˊ，「該」念ㄍㄞ。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "核"
+    ]
+  },
+  {
+    "id": "g5zh-L5-006",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "「勝利」和「勝任」的「勝」，讀音依序是哪一組？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "ㄕㄥ／ㄕㄥˋ",
+      "ㄕㄥˋ／ㄕㄥˋ",
+      "ㄕㄥˋ／ㄕㄥ",
+      "ㄕㄥ／ㄕㄥ"
+    ],
+    "answer": "ㄕㄥˋ／ㄕㄥ",
+    "explanation": "贏了的「勝利」念四聲ㄕㄥˋ；能夠擔當的「勝任」念一聲ㄕㄥ。",
+    "difficulty": 2,
+    "tags": [
+      "polyphone",
+      "勝"
+    ]
+  },
+  {
+    "id": "g5zh-L5-007",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "下面哪一個詞語的「勝」念ㄕㄥ？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "不勝枚舉",
+      "略勝一籌",
+      "勝利",
+      "出奇制勝"
+    ],
+    "answer": "不勝枚舉",
+    "explanation": "「不勝枚舉」是多到數不完，「勝」念一聲ㄕㄥ；其他三個的「勝」都和輸贏有關，念ㄕㄥˋ。",
+    "difficulty": 3,
+    "tags": [
+      "polyphone",
+      "勝"
+    ]
+  },
+  {
+    "id": "g5zh-L5-008",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n請先在網站上（　）冊，才能參加線上比賽。",
+    "options": [
+      "註",
+      "注",
+      "駐",
+      "住"
+    ],
+    "answer": "註",
+    "explanation": "登記在名冊上是「註冊」，用言部的「註」；「駐」是馬部，「注」是水部。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "註／駐／注"
+    ]
+  },
+  {
+    "id": "g5zh-L5-009",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n牆上的日（　）已經翻到最後一頁了。",
+    "options": [
+      "曆",
+      "歷",
+      "瀝",
+      "厲"
+    ],
+    "answer": "曆",
+    "explanation": "記日子的「日曆」用日部的「曆」；止部的「歷」用在「歷史」「歷經」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "歷／曆"
+    ]
+  },
+  {
+    "id": "g5zh-L5-010",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n（　）經許多困難，他終於完成了夢想。",
+    "options": [
+      "歷",
+      "厲",
+      "曆"
+    ],
+    "answer": "歷",
+    "explanation": "經過、經歷的「歷」是止部；日部的「曆」是日曆。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "歷／曆"
+    ]
+  },
+  {
+    "id": "g5zh-L5-011",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n這款文具一推出就（　）售一空。",
+    "options": [
+      "消",
+      "削",
+      "稍",
+      "銷"
+    ],
+    "answer": "銷",
+    "explanation": "賣東西的「銷售」用金部的「銷」；「消」是水部（消息），「稍」是禾部（稍微）。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "銷／消"
+    ]
+  },
+  {
+    "id": "g5zh-L5-012",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n他（　）出手，接住了掉下來的球。",
+    "options": [
+      "伸",
+      "呻",
+      "紳",
+      "申"
+    ],
+    "answer": "伸",
+    "explanation": "把手展開是人部的「伸」；「申」用在「申請」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "申／伸"
+    ]
+  },
+  {
+    "id": "g5zh-L5-013",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n週末全家人難得（　）在一起吃飯。",
+    "options": [
+      "趣",
+      "娶",
+      "聚",
+      "取"
+    ],
+    "answer": "聚",
+    "explanation": "大家聚在一起要用「聚」；「取」是拿的意思，「聚」比「取」多了下面的部分。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "聚"
+    ]
+  },
+  {
+    "id": "g5zh-L5-014",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「這家公司的商標經過申請，終於被核淮了。」",
+    "options": [
+      "淮",
+      "核",
+      "商",
+      "申"
+    ],
+    "answer": "淮",
+    "explanation": "「核准」的「准」是兩點水，表示允許；三點水的「淮」是河流的名字。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "准／淮"
+    ]
+  },
+  {
+    "id": "g5zh-L5-015",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「他堅意不拔的精神讓人佩服。」",
+    "options": [
+      "佩",
+      "意",
+      "拔",
+      "堅"
+    ],
+    "answer": "意",
+    "explanation": "「堅毅不拔」形容意志堅定，要用殳部的「毅」。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "毅／意"
+    ]
+  },
+  {
+    "id": "g5zh-L5-016",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，找出錯字和正確的寫法：\n「這家店很重視名舉，從來不賣不好的東西。」",
+    "options": [
+      "舉→譽",
+      "店→點",
+      "視→是",
+      "從→送"
+    ],
+    "answer": "舉→譽",
+    "explanation": "好的名聲是「名譽」，下面是「言」；「舉」下面是「手」，意思是舉起。",
+    "difficulty": 3,
+    "tags": [
+      "wrongchar",
+      "譽／舉"
+    ]
+  },
+  {
+    "id": "g5zh-L5-017",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "「冊」的部首是什麼？",
+    "options": [
+      "丨",
+      "一",
+      "口",
+      "冂"
+    ],
+    "answer": "冂",
+    "explanation": "「冊」的部首是冂部，記住外面那個框就是「冂」。",
+    "difficulty": 3,
+    "tags": [
+      "radical",
+      "部首",
+      "冊"
+    ]
+  },
+  {
+    "id": "g5zh-L5-018",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "「歷」的部首是什麼？",
+    "options": [
+      "木",
+      "止",
+      "厂",
+      "禾"
+    ],
+    "answer": "止",
+    "explanation": "「歷」最下面是「止」，部首是止部；「曆」下面是「日」，是日部。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "歷"
+    ]
+  },
+  {
+    "id": "g5zh-L5-019",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "「勝」的部首是什麼？",
+    "options": [
+      "力",
+      "大",
+      "人",
+      "月"
+    ],
+    "answer": "力",
+    "explanation": "「勝」右下角是「力」，部首是力部，不是月部喔！",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "勝"
+    ]
+  },
+  {
+    "id": "g5zh-L5-020",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "input",
+    "prompt": "「申」一共有幾畫？",
+    "keypad": "digits",
+    "answer": "5",
+    "explanation": "「申」一共 5 畫，最後一筆是穿過中間的長豎。",
+    "difficulty": 1,
+    "tags": [
+      "radical",
+      "筆畫",
+      "申"
+    ]
+  },
+  {
+    "id": "g5zh-L5-021",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "哪一個詞語最適合填入（　）？\n這家老店誠實做生意，累積了很好的（　）。",
+    "options": [
+      "商譽",
+      "榮譽",
+      "商標"
+    ],
+    "answer": "商譽",
+    "explanation": "「商譽」是商店或公司的好名聲；「榮譽」是個人或團體的光榮。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "商譽／榮譽"
+    ]
+  },
+  {
+    "id": "g5zh-L5-022",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "哪一個詞語最適合填入（　）？\n她代表學校參加比賽，為學校爭取（　）。",
+    "options": [
+      "榮譽",
+      "商譽",
+      "商標"
+    ],
+    "answer": "榮譽",
+    "explanation": "為團體爭取光榮的名聲，用「榮譽」。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "商譽／榮譽"
+    ]
+  },
+  {
+    "id": "g5zh-L5-023",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "「霸主」最接近哪一個意思？",
+    "options": [
+      "公司裡最年輕的員工",
+      "在某個領域最強的人或團體",
+      "很不講理的老闆",
+      "剛開幕的小商店"
+    ],
+    "answer": "在某個領域最強的人或團體",
+    "explanation": "「霸主」指在某個領域最強、最有影響力的人或團體。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-L5-024",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "哪一個詞語最適合填入（　）？\n想讓商標受到保護，公司要向政府（　）註冊。",
+    "options": [
+      "申請",
+      "伸展",
+      "申訴"
+    ],
+    "answer": "申請",
+    "explanation": "提出請求、希望得到許可，用「申請」。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "選詞填空"
+    ]
+  },
+  {
+    "id": "g5zh-L5-025",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「你知道紅綠燈為什麼用紅色代表停止嗎？因為紅色最醒目，很遠就能看見。」\n要打出哪一張修辭卡？",
+    "options": [
+      "引用",
+      "設問",
+      "排比",
+      "譬喻"
+    ],
+    "answer": "設問",
+    "explanation": "先提出問題，再自己回答，這是設問。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "設問"
+    ]
+  },
+  {
+    "id": "g5zh-L5-026",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「便利商店的招牌整夜睜著眼睛，守護著回家的路人。」\n要打出哪一張修辭卡？",
+    "options": [
+      "排比",
+      "引用",
+      "轉化",
+      "設問"
+    ],
+    "answer": "轉化",
+    "explanation": "把招牌寫得像人一樣會睜眼、會守護，這是轉化。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "轉化"
+    ]
+  },
+  {
+    "id": "g5zh-L5-027",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「這個商標的圖案像一顆跳動的愛心，讓人一看就覺得溫暖。」\n要打出哪一張修辭卡？",
+    "options": [
+      "設問",
+      "引用",
+      "排比",
+      "譬喻"
+    ],
+    "answer": "譬喻",
+    "explanation": "用「像」把商標圖案比成愛心，這是譬喻。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-L5-028",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「紅色的圓形招牌上，畫著一隻白色的小鳥，嘴裡叼著一片綠葉。」\n要打出哪一張修辭卡？",
+    "options": [
+      "設問",
+      "轉化",
+      "引用",
+      "摹寫"
+    ],
+    "answer": "摹寫",
+    "explanation": "把招牌的顏色、形狀和圖案仔細描寫出來，這是摹寫（視覺）。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "摹寫"
+    ]
+  },
+  {
+    "id": "g5zh-L5-029",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "multi",
+    "prompt": "怪物念出雙重咒語：\n「這個商標代表什麼呢？原來那道弧線就像一個微笑，歡迎客人上門。」\n這句話用了哪兩種修辭？（選兩張卡）",
+    "options": [
+      "譬喻",
+      "引用",
+      "設問",
+      "排比"
+    ],
+    "answer": [
+      "設問",
+      "譬喻"
+    ],
+    "explanation": "先問「代表什麼呢」再自己回答，是設問；把弧線比成微笑，是譬喻。",
+    "difficulty": 3,
+    "tags": [
+      "rhetoric",
+      "設問",
+      "譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-L5-030",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "truefalse",
+    "prompt": "怪物說：「準備明天的考試是我的當務之急，所以我決定先去打電動。」\n這句話的成語用得對嗎？",
+    "answer": false,
+    "explanation": "「當務之急」是現在最要緊的事；既然考試最要緊，就應該先準備考試。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "當務之急"
+    ]
+  },
+  {
+    "id": "g5zh-L5-031",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "truefalse",
+    "prompt": "怪物說：「這家小店用新奇的口味出奇制勝，吸引了好多客人。」\n這句話的成語用得對嗎？",
+    "answer": true,
+    "explanation": "「出奇制勝」是用特別的方法取得勝利，用得很恰當。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "出奇制勝"
+    ]
+  },
+  {
+    "id": "g5zh-L5-032",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「意志堅定，不會動搖」的成語。",
+    "items": [
+      "堅",
+      "毅",
+      "不",
+      "拔"
+    ],
+    "explanation": "「堅毅不拔」：意志堅定，不會被動搖。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "堅毅不拔"
+    ]
+  },
+  {
+    "id": "g5zh-L5-033",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「過去的事清楚地出現在眼前」的成語。",
+    "items": [
+      "歷",
+      "歷",
+      "在",
+      "目"
+    ],
+    "explanation": "「歷歷在目」：過去的事一件件清楚地浮現在眼前。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "歷歷在目"
+    ]
+  },
+  {
+    "id": "g5zh-L5-034",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n這家公司努力研發新產品，（　）用心照顧每一位顧客。",
+    "options": [
+      "可是",
+      "並且",
+      "雖然",
+      "如果"
+    ],
+    "answer": "並且",
+    "explanation": "後面再補充一件同樣用心的事，用「並且」連接。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "並且"
+    ]
+  },
+  {
+    "id": "g5zh-L5-035",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n（　）這家店才開了兩年，（　）它的商標已經家喻戶曉。",
+    "options": [
+      "因為／所以",
+      "只要／就",
+      "雖然／但"
+    ],
+    "answer": "雖然／但",
+    "explanation": "開店時間短，商標卻很有名，前後意思相反，用「雖然……但……」。",
+    "difficulty": 2,
+    "tags": [
+      "sentence",
+      "雖然／但"
+    ]
+  },
+  {
+    "id": "g5zh-L5-036",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "要申請商標註冊，應該向哪一個機關申請？",
+    "options": [
+      "警察局",
+      "智慧財產局",
+      "衛生局",
+      "郵局"
+    ],
+    "answer": "智慧財產局",
+    "explanation": "商標和專利由經濟部的智慧財產局負責。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L5-037",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "北宋劉家功夫針鋪用什麼圖案當商標？",
+    "options": [
+      "一個勾勾",
+      "金黃色的 M",
+      "白兔搗藥",
+      "微笑箭頭"
+    ],
+    "answer": "白兔搗藥",
+    "explanation": "劉家功夫針鋪用「白兔搗藥」當商標，可見古代就有商標了。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L5-038",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "劉家功夫針鋪賣的是什麼東西？",
+    "options": [
+      "縫衣針",
+      "兔子玩偶",
+      "米糕",
+      "中藥"
+    ],
+    "answer": "縫衣針",
+    "explanation": "針鋪賣的是縫衣服的針，「白兔搗藥」只是它的商標圖案。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L5-039",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "臺灣最早核准的商標是哪一個？",
+    "options": [
+      "麥當勞",
+      "亞馬遜",
+      "黑松",
+      "林森美髮霜"
+    ],
+    "answer": "林森美髮霜",
+    "explanation": "臺灣最早核准的商標是林森美髮霜，黑松也在同一年申請。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L5-040",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "truefalse",
+    "prompt": "對還是錯？\nNike 的商標是一位很有名的設計師畫的。",
+    "answer": false,
+    "explanation": "Nike 的商標是一位大學生參加設計活動勝出的作品，靈感來自勝利女神的翅膀。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L5-041",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "亞馬遜的商標從 A 畫到 Z 的微笑箭頭，代表什麼意思？",
+    "options": [
+      "老闆很喜歡射箭",
+      "公司在 A 城和 Z 城有分店",
+      "各種商品都能送到顧客手中",
+      "公司只賣英文書"
+    ],
+    "answer": "各種商品都能送到顧客手中",
+    "explanation": "箭頭從 A 指到 Z，像一個微笑，表示各式各樣的商品都能送到顧客家。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L5-042",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "黑松公司用「松」字，是取松樹的什麼意思？",
+    "options": [
+      "長得特別快",
+      "果實很好吃",
+      "堅毅不拔、四季長青",
+      "花開得很漂亮"
+    ],
+    "answer": "堅毅不拔、四季長青",
+    "explanation": "松樹堅毅不拔、四季長青，黑松用它來代表公司的精神。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L5-043",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n黑松的商標是近幾年才加上「黑松」兩個字的。",
+    "answer": false,
+    "explanation": "「黑松」兩個字一直保留在商標上，不是最近才加的。",
+    "difficulty": 3,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L5-044",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "課文說麥當勞金黃色的 M，看起來像什麼？",
+    "options": [
+      "一道彩虹",
+      "兩扇打開的大門",
+      "一座高山",
+      "一隻小鳥"
+    ],
+    "answer": "兩扇打開的大門",
+    "explanation": "金黃色的 M 像兩扇打開的大門，好像在歡迎顧客進來。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L5-045",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "choice",
+    "prompt": "〈它抓得住你——商標的故事〉是哪一種文體？",
+    "options": [
+      "說明文",
+      "日記",
+      "記敘文",
+      "詩歌"
+    ],
+    "answer": "說明文",
+    "explanation": "本課介紹商標的意義，舉例說明，是說明文。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "文體"
+    ]
+  },
+  {
+    "id": "g5zh-L5-046",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L5",
+    "type": "order",
+    "prompt": "依照課文的順序排好。",
+    "items": [
+      "商標的意義和古代商標",
+      "臺灣的商標",
+      "國外的商標",
+      "每個商標都有故事"
+    ],
+    "explanation": "本課是「總說→分說→總結」：先說明商標的意義，再介紹臺灣和國外的例子，最後總結。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "結構"
+    ]
+  }
+]

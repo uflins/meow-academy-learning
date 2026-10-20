@@ -1,0 +1,997 @@
+[
+  {
+    "id": "g5zh-L2-001",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「縱谷」的「縱」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄗㄨㄥˋ",
+      "ㄗㄨㄥ",
+      "ㄘㄨㄥˊ",
+      "ㄓㄨㄥ"
+    ],
+    "answer": "ㄗㄨㄥ",
+    "explanation": "「縱谷」「縱隊」的「縱」念一聲ㄗㄨㄥ；「縱火」「放縱」才念四聲ㄗㄨㄥˋ。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "縱"
+    ]
+  },
+  {
+    "id": "g5zh-L2-002",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「縱火」的「縱」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄗㄨㄥˇ",
+      "ㄗㄨㄥ",
+      "ㄘㄨㄥˋ",
+      "ㄗㄨㄥˋ"
+    ],
+    "answer": "ㄗㄨㄥˋ",
+    "explanation": "「縱火」「放縱」的「縱」念四聲ㄗㄨㄥˋ；「縱谷」「縱隊」念一聲ㄗㄨㄥ。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "縱"
+    ]
+  },
+  {
+    "id": "g5zh-L2-003",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「肚臍」的「臍」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄐㄧˇ",
+      "ㄑㄧˊ",
+      "ㄐㄧˊ",
+      "ㄑㄧˋ"
+    ],
+    "answer": "ㄑㄧˊ",
+    "explanation": "「臍」念ㄑㄧˊ；長得很像的「擠」念ㄐㄧˇ。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "臍"
+    ]
+  },
+  {
+    "id": "g5zh-L2-004",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「山巒」的「巒」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄌㄨㄢˇ",
+      "ㄌㄧㄢˋ",
+      "ㄌㄨㄢˊ",
+      "ㄌㄢˊ"
+    ],
+    "answer": "ㄌㄨㄢˊ",
+    "explanation": "「巒」念ㄌㄨㄢˊ，和「孿生」的「孿」同音。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "巒"
+    ]
+  },
+  {
+    "id": "g5zh-L2-005",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「鍋鏟」的「鏟」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄕㄢˇ",
+      "ㄔㄢˇ",
+      "ㄘㄢˇ",
+      "ㄔㄢˋ"
+    ],
+    "answer": "ㄔㄢˇ",
+    "explanation": "「鏟」念ㄔㄢˇ，是翹舌音ㄔ，不是ㄘ。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "鏟"
+    ]
+  },
+  {
+    "id": "g5zh-L2-006",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「拍攝」的「攝」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄕㄜˇ",
+      "ㄙㄜˋ",
+      "ㄓㄜˋ",
+      "ㄕㄜˋ"
+    ],
+    "answer": "ㄕㄜˋ",
+    "explanation": "「攝」念ㄕㄜˋ，攝影、攝取也一樣。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "攝"
+    ]
+  },
+  {
+    "id": "g5zh-L2-007",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「捐血」的「血」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄒㄧㄢˇ",
+      "ㄒㄧㄝˇ",
+      "ㄒㄧㄝˋ",
+      "ㄒㄧㄝ"
+    ],
+    "answer": "ㄒㄧㄝˇ",
+    "explanation": "「血」念三聲ㄒㄧㄝˇ，血液、捐血都一樣。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "血"
+    ]
+  },
+  {
+    "id": "g5zh-L2-008",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "下面哪一組詞語的「縱」讀音相同？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "縱谷、放縱",
+      "縱谷、縱隊",
+      "縱隊、放縱",
+      "縱谷、縱火"
+    ],
+    "answer": "縱谷、縱隊",
+    "explanation": "縱谷、縱隊念ㄗㄨㄥ，縱火、放縱念ㄗㄨㄥˋ，所以讀音相同的是縱谷和縱隊。",
+    "difficulty": 3,
+    "tags": [
+      "polyphone",
+      "縱"
+    ]
+  },
+  {
+    "id": "g5zh-L2-009",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「人才濟濟」和「經濟」的「濟」，讀音依序是哪一組？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "ㄑㄧˊ／ㄐㄧˋ",
+      "ㄐㄧˇ／ㄐㄧˋ",
+      "ㄐㄧˋ／ㄐㄧˇ",
+      "ㄐㄧˋ／ㄐㄧˋ"
+    ],
+    "answer": "ㄐㄧˇ／ㄐㄧˋ",
+    "explanation": "形容人很多的「人才濟濟」念ㄐㄧˇ；「經濟」「救濟」念ㄐㄧˋ。",
+    "difficulty": 3,
+    "tags": [
+      "polyphone",
+      "濟"
+    ]
+  },
+  {
+    "id": "g5zh-L2-010",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「降低」和「投降」的「降」，讀音依序是哪一組？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "ㄒㄧㄤˊ／ㄒㄧㄤˊ",
+      "ㄐㄧㄤˋ／ㄐㄧㄤˋ",
+      "ㄒㄧㄤˊ／ㄐㄧㄤˋ",
+      "ㄐㄧㄤˋ／ㄒㄧㄤˊ"
+    ],
+    "answer": "ㄐㄧㄤˋ／ㄒㄧㄤˊ",
+    "explanation": "往下的「降低」念ㄐㄧㄤˋ；認輸的「投降」念ㄒㄧㄤˊ。",
+    "difficulty": 2,
+    "tags": [
+      "polyphone",
+      "降"
+    ]
+  },
+  {
+    "id": "g5zh-L2-011",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n颱風快來了，天上的雲似（　）跑得特別快。",
+    "options": [
+      "平",
+      "呼",
+      "乎"
+    ],
+    "answer": "乎",
+    "explanation": "「似乎」的「乎」第一筆是撇，部首是丿；「平」的第一筆是橫。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "乎／平"
+    ]
+  },
+  {
+    "id": "g5zh-L2-012",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n外婆每天都很忙（　），從早做到晚。",
+    "options": [
+      "綠",
+      "錄",
+      "祿",
+      "碌"
+    ],
+    "answer": "碌",
+    "explanation": "「忙碌」用石部的「碌」；金部的「錄」用在「記錄」，「綠」是顏色。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "錄／碌"
+    ]
+  },
+  {
+    "id": "g5zh-L2-013",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n爺爺用相機把家鄉的風景記（　）下來。",
+    "options": [
+      "碌",
+      "綠",
+      "祿",
+      "錄"
+    ],
+    "answer": "錄",
+    "explanation": "把事情寫下來或拍下來是「記錄」，用金部的「錄」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "錄／碌"
+    ]
+  },
+  {
+    "id": "g5zh-L2-014",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n這場意外不是天災，而是人（　）。",
+    "options": [
+      "蝸",
+      "鍋",
+      "禍",
+      "過"
+    ],
+    "answer": "禍",
+    "explanation": "災難的「禍」是示部，和「福」一樣；金部的「鍋」是煮東西的鍋子。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "禍／鍋"
+    ]
+  },
+  {
+    "id": "g5zh-L2-015",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n沿著（　）海公路騎腳踏車，可以看到一望無際的大海。",
+    "options": [
+      "濱",
+      "繽",
+      "檳",
+      "賓"
+    ],
+    "answer": "濱",
+    "explanation": "靠近水邊用三點水的「濱」；木部的「檳」用在「檳榔」。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "濱／檳"
+    ]
+  },
+  {
+    "id": "g5zh-L2-016",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n說到就要做到，我們要把愛護土地的想法真正實（　）。",
+    "options": [
+      "殘",
+      "賤",
+      "錢",
+      "踐"
+    ],
+    "answer": "踐",
+    "explanation": "「實踐」是親自去做，和腳有關，用足部的「踐」；歹部的「殘」用在「殘破」。",
+    "difficulty": 3,
+    "tags": [
+      "lookalike",
+      "踐／殘"
+    ]
+  },
+  {
+    "id": "g5zh-L2-017",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「老師請我們把實驗的結果記綠在簿子上。」",
+    "options": [
+      "師",
+      "簿",
+      "驗",
+      "綠"
+    ],
+    "answer": "綠",
+    "explanation": "把事情寫下來是「記錄」，要用金部的「錄」；「綠」是顏色。",
+    "difficulty": 1,
+    "tags": [
+      "wrongchar",
+      "錄／綠"
+    ]
+  },
+  {
+    "id": "g5zh-L2-018",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，找出錯字和正確的寫法：\n「看到被破壞的山林，他心中有說不出的衷愁。」",
+    "options": [
+      "說→設",
+      "衷→哀",
+      "林→淋",
+      "愁→秋"
+    ],
+    "answer": "衷→哀",
+    "explanation": "悲傷的「哀愁」要寫「哀」，中間是「口」；中間是「中」的「衷」用在「由衷」。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "哀／衷"
+    ]
+  },
+  {
+    "id": "g5zh-L2-019",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「空拍機飛上天，拍下一層又一層的山蠻。」",
+    "options": [
+      "山",
+      "蠻",
+      "層",
+      "拍"
+    ],
+    "answer": "蠻",
+    "explanation": "山峰連綿的「山巒」，下面是「山」；下面是「虫」的「蠻」用在「野蠻」。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "巒／蠻"
+    ]
+  },
+  {
+    "id": "g5zh-L2-020",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「降」的部首是什麼？",
+    "options": [
+      "夂",
+      "阜",
+      "邑",
+      "十"
+    ],
+    "answer": "阜",
+    "explanation": "「阝」在左邊是阜部，在右邊才是邑部。「降」的阝在左邊，所以是阜部。",
+    "difficulty": 3,
+    "tags": [
+      "radical",
+      "部首",
+      "降"
+    ]
+  },
+  {
+    "id": "g5zh-L2-021",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「臍」的部首是什麼？",
+    "options": [
+      "月",
+      "肉",
+      "刀",
+      "齊"
+    ],
+    "answer": "肉",
+    "explanation": "「臍」左邊的「月」和身體有關，是從「肉」變來的，所以部首是肉部。",
+    "difficulty": 3,
+    "tags": [
+      "radical",
+      "部首",
+      "臍"
+    ]
+  },
+  {
+    "id": "g5zh-L2-022",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「乎」的部首是什麼？",
+    "options": [
+      "一",
+      "亅",
+      "丶",
+      "丿"
+    ],
+    "answer": "丿",
+    "explanation": "「乎」第一筆是撇，部首是丿部。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "乎"
+    ]
+  },
+  {
+    "id": "g5zh-L2-023",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "input",
+    "prompt": "「哀」一共有幾畫？",
+    "keypad": "digits",
+    "answer": "9",
+    "explanation": "「哀」是「衣」的中間加上「口」：6＋3＝9 畫。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "筆畫",
+      "哀"
+    ]
+  },
+  {
+    "id": "g5zh-L2-024",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "哪一個詞語最適合填入（　）？\n颱風過後，海邊的小屋變得十分（　）。",
+    "options": [
+      "殘破",
+      "殘障",
+      "殘存"
+    ],
+    "answer": "殘破",
+    "explanation": "房子被破壞、變得破破爛爛，要用「殘破」。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "選詞填空"
+    ]
+  },
+  {
+    "id": "g5zh-L2-025",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「縱谷」是什麼樣的地形？",
+    "options": [
+      "海邊的沙灘",
+      "平地上的小山丘",
+      "很深的山洞",
+      "和山脈平行的河谷"
+    ],
+    "answer": "和山脈平行的河谷",
+    "explanation": "縱谷是和山脈方向平行的河谷，例如花東縱谷。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-L2-026",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「人禍」是什麼意思？",
+    "options": [
+      "讓人開心的好事",
+      "很多人聚在一起",
+      "人為造成的災禍",
+      "颱風、地震等自然災害"
+    ],
+    "answer": "人為造成的災禍",
+    "explanation": "「人禍」是人為造成的災害，像亂排汙水、亂挖山；颱風、地震是天災。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-L2-027",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "「這是一（　）生動而有趣的故事。」最適合填哪一個量詞？",
+    "options": [
+      "條",
+      "張",
+      "件",
+      "個"
+    ],
+    "answer": "個",
+    "explanation": "故事可以說「一個故事」或「一則故事」；「件」用在事情、衣服，不用在故事。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "量詞"
+    ]
+  },
+  {
+    "id": "g5zh-L2-028",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「從高空往下看，彎曲的公路像一條灰色的緞帶，繞在山腰上。」\n要打出哪一張修辭卡？",
+    "options": [
+      "引用",
+      "排比",
+      "譬喻",
+      "設問"
+    ],
+    "answer": "譬喻",
+    "explanation": "用「像」把公路比成緞帶，兩者都又長又彎，這是譬喻。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-L2-029",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「海浪拍打著礁石，發出巨大的聲響，白色的浪花在陽光下閃閃發亮。」\n要打出哪一張修辭卡？",
+    "options": [
+      "引用",
+      "摹寫",
+      "設問",
+      "譬喻"
+    ],
+    "answer": "摹寫",
+    "explanation": "寫出聽到的海浪聲和看到的浪花，這是摹寫（聽覺和視覺）。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "摹寫"
+    ]
+  },
+  {
+    "id": "g5zh-L2-030",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「古人說：『前人種樹，後人乘涼。』今天我們愛護山林，將來孩子才有乾淨的空氣。」\n要打出哪一張修辭卡？",
+    "options": [
+      "類疊",
+      "引用",
+      "轉化",
+      "譬喻"
+    ],
+    "answer": "引用",
+    "explanation": "借用古人說過的話來加強說服力，這是引用。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "引用"
+    ]
+  },
+  {
+    "id": "g5zh-L2-031",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「我們沿著河邊慢慢地走，一邊走一邊看，捨不得離開。」\n要打出哪一張修辭卡？",
+    "options": [
+      "設問",
+      "譬喻",
+      "引用",
+      "類疊"
+    ],
+    "answer": "類疊",
+    "explanation": "「慢慢」是疊字，「一邊走一邊看」重複了「一邊」，這是類疊。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "類疊"
+    ]
+  },
+  {
+    "id": "g5zh-L2-032",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "multi",
+    "prompt": "怪物念出雙重咒語：\n「遠遠看去，一塊塊稻田好像整齊的綠色棋盤。」\n這句話用了哪兩種修辭？（選兩張卡）",
+    "options": [
+      "設問",
+      "類疊",
+      "譬喻",
+      "引用"
+    ],
+    "answer": [
+      "譬喻",
+      "類疊"
+    ],
+    "explanation": "「遠遠」「一塊塊」是類疊；把稻田比成棋盤，用了譬喻。",
+    "difficulty": 3,
+    "tags": [
+      "rhetoric",
+      "譬喻",
+      "類疊"
+    ]
+  },
+  {
+    "id": "g5zh-L2-033",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "truefalse",
+    "prompt": "怪物說：「這個好消息來得出乎意料，全班都開心地跳了起來。」\n這句話的成語用得對嗎？",
+    "answer": true,
+    "explanation": "「出乎意料」是結果超出原本的想像，用得很恰當。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "出乎意料"
+    ]
+  },
+  {
+    "id": "g5zh-L2-034",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "truefalse",
+    "prompt": "怪物說：「他做事總是腳踏實地，所以每次考試都靠猜答案。」\n這句話的成語用得對嗎？",
+    "answer": false,
+    "explanation": "「腳踏實地」是做事實在、認真；靠猜答案剛好相反。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "腳踏實地"
+    ]
+  },
+  {
+    "id": "g5zh-L2-035",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「做事踏實、認真」的成語。",
+    "items": [
+      "腳",
+      "踏",
+      "實",
+      "地"
+    ],
+    "explanation": "「腳踏實地」：腳踩在實在的地上，比喻做事踏實。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "腳踏實地"
+    ]
+  },
+  {
+    "id": "g5zh-L2-036",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「非常少、非常小」的成語。",
+    "items": [
+      "微",
+      "乎",
+      "其",
+      "微"
+    ],
+    "explanation": "「微乎其微」：少到幾乎看不見。中間的「乎」是本課生字。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "微乎其微"
+    ]
+  },
+  {
+    "id": "g5zh-L2-037",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n他（　）想當醫生，（　）上了國中以後愛上畫畫，成了一位畫家。",
+    "options": [
+      "只有／才",
+      "只要／就",
+      "原本／但"
+    ],
+    "answer": "原本／但",
+    "explanation": "前後的想法改變了，用「原本……但……」表示轉折。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "原本／但"
+    ]
+  },
+  {
+    "id": "g5zh-L2-038",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n（　）保護家園，大家一起到海邊撿垃圾。",
+    "options": [
+      "原本",
+      "雖然",
+      "為了",
+      "只有"
+    ],
+    "answer": "為了",
+    "explanation": "前面說目的，後面說做法，用「為了」，這是目的複句。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "為了"
+    ]
+  },
+  {
+    "id": "g5zh-L2-039",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n（　）大家一起愛護環境，河川（　）能恢復乾淨。",
+    "options": [
+      "原本／但",
+      "雖然／可是",
+      "只有／才"
+    ],
+    "answer": "只有／才",
+    "explanation": "一定要有前面的條件，才會有後面的結果，用「只有……才……」。",
+    "difficulty": 2,
+    "tags": [
+      "sentence",
+      "只有／才"
+    ]
+  },
+  {
+    "id": "g5zh-L2-040",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "作者齊柏林原本是做什麼工作的？",
+    "options": [
+      "國小老師",
+      "空拍攝影師",
+      "電影演員",
+      "飛機駕駛員"
+    ],
+    "answer": "空拍攝影師",
+    "explanation": "齊柏林原本是交通部的空拍攝影師，後來辭職專心拍紀錄片。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L2-041",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "哪一件事讓齊柏林下定決心辭職，專心空拍臺灣？",
+    "options": [
+      "他到德國旅行",
+      "他買了一艘飛船",
+      "莫拉克颱風重創臺灣",
+      "他得到金馬獎"
+    ],
+    "answer": "莫拉克颱風重創臺灣",
+    "explanation": "民國98年莫拉克颱風重創臺灣，讓他決定辭職，記錄臺灣的美麗與哀愁。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L2-042",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "課文裡的「我的家」指的是哪裡？",
+    "options": [
+      "花蓮的山上",
+      "臺灣",
+      "德國",
+      "齊柏林住的房子"
+    ],
+    "answer": "臺灣",
+    "explanation": "作者把臺灣當成自己的家，「我的家」「家園」都是指臺灣。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L2-043",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n課文先寫臺灣的哀愁，再寫臺灣的美。",
+    "answer": false,
+    "explanation": "課文先寫臺灣的美，再寫臺灣的哀愁，用對照比較讓人更想珍惜臺灣。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "對照比較"
+    ]
+  },
+  {
+    "id": "g5zh-L2-044",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "課文最後提到九個大腳印的圖形，它代表什麼？",
+    "options": [
+      "有九個人去爬山",
+      "颱風走過的路線",
+      "腳踏實地愛臺灣",
+      "飛機降落的位置"
+    ],
+    "answer": "腳踏實地愛臺灣",
+    "explanation": "九個大腳印代表大家要腳踏實地，用行動愛臺灣。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L2-045",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "choice",
+    "prompt": "下面哪一個是課文提到的「人禍」？",
+    "options": [
+      "颱風帶來大雨",
+      "寒流讓氣溫下降",
+      "河川被汙水染黑",
+      "地震震倒房子"
+    ],
+    "answer": "河川被汙水染黑",
+    "explanation": "汙水是人排放的，屬於人禍；颱風、地震、寒流是天災。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L2-046",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L2",
+    "type": "order",
+    "prompt": "依照時間先後，把齊柏林的經歷排好。",
+    "items": [
+      "從小嚮往飛行",
+      "成為空拍攝影師",
+      "莫拉克颱風後辭職",
+      "拍成《看見臺灣》"
+    ],
+    "explanation": "他從小嚮往飛行，當了空拍攝影師；莫拉克颱風後辭職，花三年拍成《看見臺灣》。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "事件順序"
+    ]
+  }
+]

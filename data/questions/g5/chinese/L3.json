@@ -1,0 +1,981 @@
+[
+  {
+    "id": "g5zh-L3-001",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「陡峭」的「峭」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄒㄧㄠ",
+      "ㄕㄠˋ",
+      "ㄑㄧㄠˋ",
+      "ㄑㄧㄠˇ"
+    ],
+    "answer": "ㄑㄧㄠˋ",
+    "explanation": "「峭」念ㄑㄧㄠˋ，和「俏皮」的「俏」同音。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "峭"
+    ]
+  },
+  {
+    "id": "g5zh-L3-002",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「虯鬚」的「虯」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄐㄧㄡˇ",
+      "ㄐㄧㄡ",
+      "ㄑㄧㄡ",
+      "ㄑㄧㄡˊ"
+    ],
+    "answer": "ㄑㄧㄡˊ",
+    "explanation": "「虯」念ㄑㄧㄡˊ，意思是彎彎曲曲；長得像的「糾」念ㄐㄧㄡ。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "虯"
+    ]
+  },
+  {
+    "id": "g5zh-L3-003",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「堅韌」的「韌」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄖㄣˊ",
+      "ㄌㄣˋ",
+      "ㄖㄣˋ",
+      "ㄖㄨㄣˋ"
+    ],
+    "answer": "ㄖㄣˋ",
+    "explanation": "「韌」念ㄖㄣˋ。堅韌是又結實又有彈性、不容易斷。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "韌"
+    ]
+  },
+  {
+    "id": "g5zh-L3-004",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「高聳」的「聳」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄙㄨㄥ",
+      "ㄙㄨㄥˇ",
+      "ㄙㄨㄥˋ",
+      "ㄘㄨㄥˊ"
+    ],
+    "answer": "ㄙㄨㄥˇ",
+    "explanation": "「聳」念三聲ㄙㄨㄥˇ，不要念成「從」的ㄘㄨㄥˊ。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "聳"
+    ]
+  },
+  {
+    "id": "g5zh-L3-005",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「強勁」的「勁」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄑㄧㄥˋ",
+      "ㄐㄧㄥ",
+      "ㄐㄧㄥˇ",
+      "ㄐㄧㄥˋ"
+    ],
+    "answer": "ㄐㄧㄥˋ",
+    "explanation": "「強勁」的「勁」念ㄐㄧㄥˋ，和「捷徑」的「徑」同音。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "勁"
+    ]
+  },
+  {
+    "id": "g5zh-L3-006",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「鬍鬚」的「鬚」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄒㄩˊ",
+      "ㄒㄧㄡ",
+      "ㄒㄩ",
+      "ㄙㄨ"
+    ],
+    "answer": "ㄒㄩ",
+    "explanation": "「鬚」念ㄒㄩ，和「必須」的「須」同音。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "鬚"
+    ]
+  },
+  {
+    "id": "g5zh-L3-007",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「憑藉」和「杯盤狼藉」的「藉」，讀音依序是哪一組？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "ㄐㄧˊ／ㄐㄧㄝˋ",
+      "ㄐㄧㄝˋ／ㄐㄧˊ",
+      "ㄐㄧㄝˋ／ㄐㄧㄝˋ",
+      "ㄐㄧˊ／ㄐㄧˊ"
+    ],
+    "answer": "ㄐㄧㄝˋ／ㄐㄧˊ",
+    "explanation": "依靠的「憑藉」念ㄐㄧㄝˋ；亂七八糟的「杯盤狼藉」念ㄐㄧˊ。",
+    "difficulty": 3,
+    "tags": [
+      "polyphone",
+      "藉"
+    ]
+  },
+  {
+    "id": "g5zh-L3-008",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「削足適履」和「刀削麵」的「削」，讀音依序是哪一組？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "ㄒㄧㄠ／ㄒㄧㄠ",
+      "ㄒㄧㄠ／ㄒㄩㄝ",
+      "ㄑㄧㄠˋ／ㄒㄧㄠ",
+      "ㄒㄩㄝ／ㄒㄧㄠ"
+    ],
+    "answer": "ㄒㄩㄝ／ㄒㄧㄠ",
+    "explanation": "成語「削足適履」的「削」念ㄒㄩㄝ；「刀削麵」的「削」念ㄒㄧㄠ。",
+    "difficulty": 3,
+    "tags": [
+      "polyphone",
+      "削"
+    ]
+  },
+  {
+    "id": "g5zh-L3-009",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n這首童詩寫得活潑又（　）皮，讀起來好有趣。",
+    "options": [
+      "削",
+      "峭",
+      "俏",
+      "悄"
+    ],
+    "answer": "俏",
+    "explanation": "形容活潑可愛是人部的「俏皮」；山部的「峭」用在「陡峭」。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "峭／俏"
+    ]
+  },
+  {
+    "id": "g5zh-L3-010",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n我們走了一條捷（　），提早到達山頂。",
+    "options": [
+      "徑",
+      "輕",
+      "勁",
+      "經"
+    ],
+    "answer": "徑",
+    "explanation": "近路叫「捷徑」，用彳部的「徑」；力部的「勁」用在「強勁」。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "勁／徑"
+    ]
+  },
+  {
+    "id": "g5zh-L3-011",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n圖書館裡有好多有趣的書（　）。",
+    "options": [
+      "精",
+      "借",
+      "藉",
+      "籍"
+    ],
+    "answer": "籍",
+    "explanation": "書本的「書籍」用竹部的「籍」；草字頭的「藉」用在「藉由」「憑藉」。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "籍／藉"
+    ]
+  },
+  {
+    "id": "g5zh-L3-012",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n踢到石頭，我的腳（　）好痛。",
+    "options": [
+      "址",
+      "扯",
+      "趾",
+      "祉"
+    ],
+    "answer": "趾",
+    "explanation": "腳指頭的「趾」是足部；「址」是土部（地址），「扯」是手部（拉扯）。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "趾／扯"
+    ]
+  },
+  {
+    "id": "g5zh-L3-013",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n就算（　）忙，也要抽空陪家人吃飯。",
+    "options": [
+      "再",
+      "在",
+      "載"
+    ],
+    "answer": "再",
+    "explanation": "「再」有「更、又」的意思，「就算再忙」就是「就算更忙」；「在」表示所在的地方或正在做。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "再／在"
+    ]
+  },
+  {
+    "id": "g5zh-L3-014",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，找出錯字和正確的寫法：\n「就算在累，爬牆虎也不肯停下腳步。」",
+    "options": [
+      "停→亭",
+      "在→再",
+      "算→蒜",
+      "累→壘"
+    ],
+    "answer": "在→再",
+    "explanation": "「就算再累」的「再」是「更加」的意思，不能寫成「在」。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "再／在"
+    ]
+  },
+  {
+    "id": "g5zh-L3-015",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「他的眼光十分敏說，一眼就看出問題。」",
+    "options": [
+      "敏",
+      "說",
+      "眼",
+      "題"
+    ],
+    "answer": "說",
+    "explanation": "「敏銳」的「銳」是金部；言部的「說」是說話。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "銳／說"
+    ]
+  },
+  {
+    "id": "g5zh-L3-016",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「小貓的鬍需長長的，看起來好神氣。」",
+    "options": [
+      "神",
+      "貓",
+      "需",
+      "鬍"
+    ],
+    "answer": "需",
+    "explanation": "「鬍鬚」的「鬚」上面有「髟」，表示毛髮；「需」是需要。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "鬚／需"
+    ]
+  },
+  {
+    "id": "g5zh-L3-017",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「鬚」的部首是什麼？",
+    "options": [
+      "髟",
+      "彡",
+      "長",
+      "頁"
+    ],
+    "answer": "髟",
+    "explanation": "「鬚」的上面是「髟」，和毛髮有關，部首是髟部。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "鬚"
+    ]
+  },
+  {
+    "id": "g5zh-L3-018",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「聳」的部首是什麼？",
+    "options": [
+      "足",
+      "彳",
+      "耳",
+      "人"
+    ],
+    "answer": "耳",
+    "explanation": "「聳」上面是「從」，下面是「耳」，部首是耳部。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "聳"
+    ]
+  },
+  {
+    "id": "g5zh-L3-019",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「韌」的部首是什麼？",
+    "options": [
+      "木",
+      "口",
+      "韋",
+      "刀"
+    ],
+    "answer": "韋",
+    "explanation": "「韌」左邊是「韋」，部首是韋部；「韋」原本指加工過的皮革，很有韌性。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "韌"
+    ]
+  },
+  {
+    "id": "g5zh-L3-020",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「豐」的部首是什麼？",
+    "options": [
+      "丨",
+      "山",
+      "口",
+      "豆"
+    ],
+    "answer": "豆",
+    "explanation": "「豐」的下面是「豆」，部首是豆部。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "豐"
+    ]
+  },
+  {
+    "id": "g5zh-L3-021",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "input",
+    "prompt": "「扯」一共有幾畫？",
+    "keypad": "digits",
+    "answer": "7",
+    "explanation": "提手旁 3 畫，右邊「止」4 畫，一共 7 畫。",
+    "difficulty": 1,
+    "tags": [
+      "radical",
+      "筆畫",
+      "扯"
+    ]
+  },
+  {
+    "id": "g5zh-L3-022",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「陡峭」的相反詞是哪一個？",
+    "options": [
+      "尖銳",
+      "險峻",
+      "高聳",
+      "平緩"
+    ],
+    "answer": "平緩",
+    "explanation": "陡峭是又高又斜，平緩是坡度很小，兩者意思相反。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "相反詞"
+    ]
+  },
+  {
+    "id": "g5zh-L3-023",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「豐富」的相反詞是哪一個？",
+    "options": [
+      "貧乏",
+      "充足",
+      "豐收",
+      "繁茂"
+    ],
+    "answer": "貧乏",
+    "explanation": "豐富是很多，貧乏是很少、很缺乏，意思相反。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "相反詞"
+    ]
+  },
+  {
+    "id": "g5zh-L3-024",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「充飢」是什麼意思？",
+    "options": [
+      "肚子太飽吃不下",
+      "讓身體充滿力氣",
+      "把杯子裝滿水",
+      "吃東西填飽肚子"
+    ],
+    "answer": "吃東西填飽肚子",
+    "explanation": "「飢」是餓，「充飢」就是吃東西來填飽肚子。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-L3-025",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "哪一個詞語最適合填入（　）？\n遇到（　）不要灰心，再試一次就好。",
+    "options": [
+      "折斷",
+      "挫折",
+      "打折"
+    ],
+    "answer": "挫折",
+    "explanation": "做事不順利、遇到失敗叫「挫折」。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "選詞填空"
+    ]
+  },
+  {
+    "id": "g5zh-L3-026",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "「冷箭」原本是指什麼？",
+    "options": [
+      "射歪了的箭",
+      "暗中射來的箭",
+      "冬天打獵用的箭",
+      "用冰做成的箭"
+    ],
+    "answer": "暗中射來的箭",
+    "explanation": "冷箭原本是暗中射來的箭，也比喻暗中害人；詩裡用它來比喻打在身上的雨。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-L3-027",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「北風生氣地拍打著窗戶，吵著要進屋子裡取暖。」\n要打出哪一張修辭卡？",
+    "options": [
+      "轉化",
+      "引用",
+      "排比",
+      "譬喻"
+    ],
+    "answer": "轉化",
+    "explanation": "把北風寫得像人一樣會生氣、會吵著取暖，這是轉化（擬人）。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "轉化"
+    ]
+  },
+  {
+    "id": "g5zh-L3-028",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「小草為什麼能從石縫裡長出來？因為它從不放棄向上生長。」\n要打出哪一張修辭卡？",
+    "options": [
+      "譬喻",
+      "類疊",
+      "引用",
+      "設問"
+    ],
+    "answer": "設問",
+    "explanation": "先提出問題，再自己回答，這是設問。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "設問"
+    ]
+  },
+  {
+    "id": "g5zh-L3-029",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「攀岩選手緊緊貼在岩壁上，像一隻靈巧的壁虎。」\n要打出哪一張修辭卡？",
+    "options": [
+      "排比",
+      "設問",
+      "譬喻",
+      "引用"
+    ],
+    "answer": "譬喻",
+    "explanation": "用「像」把攀岩選手比成壁虎，這是譬喻。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-L3-030",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "multi",
+    "prompt": "怪物念出雙重咒語：\n「早晨的露珠像一顆顆透明的珍珠，掛在葉子上。」\n這句話用了哪兩種修辭？（選兩張卡）",
+    "options": [
+      "設問",
+      "譬喻",
+      "類疊",
+      "引用"
+    ],
+    "answer": [
+      "譬喻",
+      "類疊"
+    ],
+    "explanation": "把露珠比成珍珠是譬喻；「一顆顆」是疊字，是類疊。",
+    "difficulty": 3,
+    "tags": [
+      "rhetoric",
+      "譬喻",
+      "類疊"
+    ]
+  },
+  {
+    "id": "g5zh-L3-031",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "multi",
+    "prompt": "怪物念出雙重咒語：\n「牽牛花伸出小小的手，一步一步往籬笆上爬。」\n這句話用了哪兩種修辭？（選兩張卡）",
+    "options": [
+      "設問",
+      "轉化",
+      "類疊",
+      "引用"
+    ],
+    "answer": [
+      "轉化",
+      "類疊"
+    ],
+    "explanation": "牽牛花像人一樣伸手、往上爬，是轉化；「小小」「一步一步」是類疊。",
+    "difficulty": 3,
+    "tags": [
+      "rhetoric",
+      "轉化",
+      "類疊"
+    ]
+  },
+  {
+    "id": "g5zh-L3-032",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "truefalse",
+    "prompt": "怪物說：「他百折不撓，遇到一點困難就馬上放棄。」\n這句話的成語用得對嗎？",
+    "answer": false,
+    "explanation": "「百折不撓」是遇到再多挫折也不退縮，馬上放棄剛好相反。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "百折不撓"
+    ]
+  },
+  {
+    "id": "g5zh-L3-033",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "truefalse",
+    "prompt": "怪物說：「這本小說的情節引人入勝，我一拿起來就捨不得放下。」\n這句話的成語用得對嗎？",
+    "answer": true,
+    "explanation": "「引人入勝」是內容精采、吸引人，用得很恰當。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "引人入勝"
+    ]
+  },
+  {
+    "id": "g5zh-L3-034",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "truefalse",
+    "prompt": "怪物說：「七月的中午熱得要命，真是春寒料峭啊！」\n這句話的成語用得對嗎？",
+    "answer": false,
+    "explanation": "「春寒料峭」是形容初春還有點冷，不能用在炎熱的夏天。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "春寒料峭"
+    ]
+  },
+  {
+    "id": "g5zh-L3-035",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「意志堅強，不會改變」的成語。",
+    "items": [
+      "堅",
+      "定",
+      "不",
+      "移"
+    ],
+    "explanation": "「堅定不移」：意志堅定，不會動搖改變。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "堅定不移"
+    ]
+  },
+  {
+    "id": "g5zh-L3-036",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「勇敢地一直向前」的成語。",
+    "items": [
+      "勇",
+      "往",
+      "直",
+      "前"
+    ],
+    "explanation": "「勇往直前」：不怕困難，勇敢地往前進。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "勇往直前"
+    ]
+  },
+  {
+    "id": "g5zh-L3-037",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n我們（　）把功課寫完，（　）出去打球。",
+    "options": [
+      "先／再",
+      "雖然／可是",
+      "就算／也"
+    ],
+    "answer": "先／再",
+    "explanation": "事情有先後順序，用「先……再……」。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "先／再"
+    ]
+  },
+  {
+    "id": "g5zh-L3-038",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n（　）雨下得再大，爬牆虎（　）不會停止往上爬。",
+    "options": [
+      "先／再",
+      "只要／就",
+      "就算／也"
+    ],
+    "answer": "就算／也",
+    "explanation": "「就算……也……」表示即使情況很糟，結果也不會改變。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "就算／也"
+    ]
+  },
+  {
+    "id": "g5zh-L3-039",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "〈攀岩高手〉裡說話的「我」，其實是誰？",
+    "options": [
+      "壁虎",
+      "爬牆虎",
+      "攀岩選手",
+      "蜘蛛"
+    ],
+    "answer": "爬牆虎",
+    "explanation": "詩的最後才揭曉：「我」是往上蔓生的爬牆虎。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L3-040",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "〈攀岩高手〉是哪一種文體？",
+    "options": [
+      "說明文",
+      "詩歌",
+      "劇本",
+      "記敘文"
+    ],
+    "answer": "詩歌",
+    "explanation": "這課一行一句、分成好幾段，是一首詩歌。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "文體"
+    ]
+  },
+  {
+    "id": "g5zh-L3-041",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "作者為什麼到最後才說出「我」是誰？",
+    "options": [
+      "為了讓詩變得比較短",
+      "製造猜謎的趣味，讓讀者一直想猜下去",
+      "因為爬牆虎不想被看見",
+      "因為作者忘了先寫"
+    ],
+    "answer": "製造猜謎的趣味，讓讀者一直想猜下去",
+    "explanation": "最後才說出身分，像在猜謎，讓讀者讀得更有趣。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L3-042",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "這首詩想告訴我們什麼？",
+    "options": [
+      "植物不需要陽光也能長大",
+      "爬牆虎會把牆壁弄壞",
+      "要達成目標，需要堅定的決心和不怕困難的勇氣",
+      "下雨天最好不要出門"
+    ],
+    "answer": "要達成目標，需要堅定的決心和不怕困難的勇氣",
+    "explanation": "爬牆虎不怕風雨、一直往上爬，告訴我們要有決心和毅力。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "主旨"
+    ]
+  },
+  {
+    "id": "g5zh-L3-043",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "詩中把打在身上的雨滴比喻成什麼？",
+    "options": [
+      "冷箭",
+      "麵條",
+      "涼水",
+      "繩索"
+    ],
+    "answer": "冷箭",
+    "explanation": "雨滴又急又痛地打在身上，就像尖銳的冷箭。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "喻依"
+    ]
+  },
+  {
+    "id": "g5zh-L3-044",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "choice",
+    "prompt": "詩中把爬牆虎喝的露珠比喻成什麼？",
+    "options": [
+      "麵條",
+      "冷箭",
+      "涼水",
+      "繩索"
+    ],
+    "answer": "涼水",
+    "explanation": "爬牆虎喝露珠解渴，所以把露珠比成涼水。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "喻依"
+    ]
+  },
+  {
+    "id": "g5zh-L3-045",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L3",
+    "type": "order",
+    "prompt": "依照詩的內容順序排好。",
+    "items": [
+      "攀爬的背景",
+      "遇到風雨的挑戰",
+      "勇敢迎向光明",
+      "揭曉自己的身分"
+    ],
+    "explanation": "詩先寫攀爬的背景，接著寫風雨的挑戰和面對的態度，最後才揭曉「我」是爬牆虎。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "結構"
+    ]
+  }
+]

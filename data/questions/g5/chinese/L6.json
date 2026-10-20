@@ -1,0 +1,1105 @@
+[
+  {
+    "id": "g5zh-L6-001",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「娛樂」的「娛」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄩˋ",
+      "ㄩˊ",
+      "ㄩˇ",
+      "ㄨˊ"
+    ],
+    "answer": "ㄩˊ",
+    "explanation": "「娛」念ㄩˊ，和「魚」同音。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "娛"
+    ]
+  },
+  {
+    "id": "g5zh-L6-002",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「口哨」的「哨」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄒㄧㄠˋ",
+      "ㄕㄠˋ",
+      "ㄒㄧㄠ",
+      "ㄕㄠ"
+    ],
+    "answer": "ㄕㄠˋ",
+    "explanation": "「哨」念ㄕㄠˋ；長得像的「銷」「消」念ㄒㄧㄠ，「稍」念ㄕㄠ。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "哨"
+    ]
+  },
+  {
+    "id": "g5zh-L6-003",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「框架」的「框」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄎㄨㄥ",
+      "ㄎㄨㄤ",
+      "ㄎㄨㄤˇ",
+      "ㄍㄨㄤ"
+    ],
+    "answer": "ㄎㄨㄤ",
+    "explanation": "「框」念一聲ㄎㄨㄤ，和「眼眶」的「眶」、「竹筐」的「筐」同音。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "框"
+    ]
+  },
+  {
+    "id": "g5zh-L6-004",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「細膩」的「膩」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄌㄧˋ",
+      "ㄋㄧˋ",
+      "ㄋㄧˊ",
+      "ㄦˋ"
+    ],
+    "answer": "ㄋㄧˋ",
+    "explanation": "「膩」念ㄋㄧˋ；右邊的「貳」念ㄦˋ，但「膩」不這樣念。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "膩"
+    ]
+  },
+  {
+    "id": "g5zh-L6-005",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「脫穎而出」的「穎」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄧㄥˋ",
+      "ㄧㄥˊ",
+      "ㄐㄧㄥˇ",
+      "ㄧㄥˇ"
+    ],
+    "answer": "ㄧㄥˇ",
+    "explanation": "「穎」念三聲ㄧㄥˇ，新穎、聰穎也一樣。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "穎"
+    ]
+  },
+  {
+    "id": "g5zh-L6-006",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「共鳴」的「鳴」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄨ",
+      "ㄇㄧㄥˋ",
+      "ㄇㄧㄣˊ",
+      "ㄇㄧㄥˊ"
+    ],
+    "answer": "ㄇㄧㄥˊ",
+    "explanation": "「鳴」念ㄇㄧㄥˊ；長得像的「嗚」念ㄨ。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "鳴"
+    ]
+  },
+  {
+    "id": "g5zh-L6-007",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「娛樂」和「音樂」的「樂」，讀音依序是哪一組？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "ㄩㄝˋ／ㄌㄜˋ",
+      "ㄌㄜˋ／ㄩㄝˋ",
+      "ㄌㄜˋ／ㄌㄜˋ",
+      "ㄩㄝˋ／ㄩㄝˋ"
+    ],
+    "answer": "ㄌㄜˋ／ㄩㄝˋ",
+    "explanation": "讓人快樂的「娛樂」念ㄌㄜˋ；歌曲旋律的「音樂」念ㄩㄝˋ。",
+    "difficulty": 2,
+    "tags": [
+      "polyphone",
+      "樂"
+    ]
+  },
+  {
+    "id": "g5zh-L6-008",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n「配樂」和「快樂」的「樂」讀音相同。",
+    "speak": "這一題考破音字。請看題目，判斷對還是錯。",
+    "answer": false,
+    "explanation": "「配樂」是搭配的音樂，念ㄩㄝˋ；「快樂」念ㄌㄜˋ，讀音不同。",
+    "difficulty": 2,
+    "tags": [
+      "polyphone",
+      "樂"
+    ]
+  },
+  {
+    "id": "g5zh-L6-009",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n看完感人的電影，她熱淚盈（　）。",
+    "options": [
+      "筐",
+      "框",
+      "匡",
+      "眶"
+    ],
+    "answer": "眶",
+    "explanation": "眼睛的「眼眶」是目部的「眶」；「框」是木部（相框），「筐」是竹部（竹筐）。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "框／眶／筐"
+    ]
+  },
+  {
+    "id": "g5zh-L6-010",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n我把全家福照片放進相（　）裡。",
+    "options": [
+      "筐",
+      "眶",
+      "框"
+    ],
+    "answer": "框",
+    "explanation": "相框是木頭做的框，用木部的「框」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "框／眶／筐"
+    ]
+  },
+  {
+    "id": "g5zh-L6-011",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n根（　）氣象預報，明天會下雨。",
+    "options": [
+      "據",
+      "劇",
+      "鋸",
+      "遽"
+    ],
+    "answer": "據",
+    "explanation": "「根據」用提手旁的「據」；刀部的「劇」用在「劇情」「喜劇」。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "劇／據"
+    ]
+  },
+  {
+    "id": "g5zh-L6-012",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n這部卡通的（　）情很感人。",
+    "options": [
+      "據",
+      "劇",
+      "處"
+    ],
+    "answer": "劇",
+    "explanation": "故事的內容叫「劇情」，用刀部的「劇」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "劇／據"
+    ]
+  },
+  {
+    "id": "g5zh-L6-013",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n今年稻米豐收，農夫的收（　）很好。",
+    "options": [
+      "護",
+      "穫",
+      "獲"
+    ],
+    "answer": "穫",
+    "explanation": "收割農作物的「收穫」用禾部；「獲得」「榮獲」才用犬部的「獲」。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "獲／穫"
+    ]
+  },
+  {
+    "id": "g5zh-L6-014",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n她的作品從上百件中脫穎而出，榮（　）第一名。",
+    "options": [
+      "護",
+      "獲",
+      "穫"
+    ],
+    "answer": "獲",
+    "explanation": "得到獎項是「榮獲」，用犬部的「獲」。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "獲／穫"
+    ]
+  },
+  {
+    "id": "g5zh-L6-015",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n這場比賽由經驗豐富的裁（　）負責。",
+    "options": [
+      "拌",
+      "叛",
+      "伴",
+      "判"
+    ],
+    "answer": "判",
+    "explanation": "評斷對錯的「裁判」用刀部的「判」；「叛」是背叛。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "判／叛"
+    ]
+  },
+  {
+    "id": "g5zh-L6-016",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「下課時，同學們排對到操場集合。」",
+    "options": [
+      "操",
+      "學",
+      "對",
+      "課"
+    ],
+    "answer": "對",
+    "explanation": "排成隊伍是「排隊」，要用阜部的「隊」。",
+    "difficulty": 1,
+    "tags": [
+      "wrongchar",
+      "隊／對"
+    ]
+  },
+  {
+    "id": "g5zh-L6-017",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「參加活動的人數一年比一年贈加。」",
+    "options": [
+      "數",
+      "參",
+      "動",
+      "贈"
+    ],
+    "answer": "贈",
+    "explanation": "數量變多是土部的「增加」；貝部的「贈」是送東西。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "增／贈"
+    ]
+  },
+  {
+    "id": "g5zh-L6-018",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「照顧班上的植物，是值日生的職則。」",
+    "options": [
+      "顧",
+      "值",
+      "則",
+      "植"
+    ],
+    "answer": "則",
+    "explanation": "應該做好的工作叫「職責」，要用貝部的「責」。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "責／則"
+    ]
+  },
+  {
+    "id": "g5zh-L6-019",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，找出錯字和正確的寫法：\n「這部電影的配樂，讓觀眾產生了共嗚。」",
+    "options": [
+      "配→佩",
+      "產→鏟",
+      "嗚→鳴",
+      "眾→種"
+    ],
+    "answer": "嗚→鳴",
+    "explanation": "「共鳴」的「鳴」右邊是「鳥」；右邊是「烏」的「嗚」用在「嗚咽」。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "鳴／嗚"
+    ]
+  },
+  {
+    "id": "g5zh-L6-020",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「典」的部首是什麼？",
+    "options": [
+      "冂",
+      "一",
+      "曰",
+      "八"
+    ],
+    "answer": "八",
+    "explanation": "「典」最下面的兩筆是「八」，部首是八部。",
+    "difficulty": 3,
+    "tags": [
+      "radical",
+      "部首",
+      "典"
+    ]
+  },
+  {
+    "id": "g5zh-L6-021",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「效」的部首是什麼？",
+    "options": [
+      "父",
+      "亠",
+      "攴",
+      "文"
+    ],
+    "answer": "攴",
+    "explanation": "「效」右邊的「攵」是攴部的變形，所以部首是攴部。",
+    "difficulty": 3,
+    "tags": [
+      "radical",
+      "部首",
+      "效"
+    ]
+  },
+  {
+    "id": "g5zh-L6-022",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「貌」的部首是什麼？",
+    "options": [
+      "豸",
+      "儿",
+      "犬",
+      "白"
+    ],
+    "answer": "豸",
+    "explanation": "「貌」左邊的「豸」是部首，和「豹」一樣是豸部。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "貌"
+    ]
+  },
+  {
+    "id": "g5zh-L6-023",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「益」的部首是什麼？",
+    "options": [
+      "皿",
+      "水",
+      "八",
+      "一"
+    ],
+    "answer": "皿",
+    "explanation": "「益」下面是「皿」（器皿），部首是皿部。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "益"
+    ]
+  },
+  {
+    "id": "g5zh-L6-024",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "input",
+    "prompt": "「判」一共有幾畫？",
+    "keypad": "digits",
+    "answer": "7",
+    "explanation": "左邊「半」5 畫，右邊立刀 2 畫，一共 7 畫。",
+    "difficulty": 1,
+    "tags": [
+      "radical",
+      "筆畫",
+      "判"
+    ]
+  },
+  {
+    "id": "g5zh-L6-025",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「娛樂」是什麼意思？",
+    "options": [
+      "讓人快樂、放鬆的活動",
+      "讓人難過的事情",
+      "很辛苦的工作",
+      "畫畫用的工具"
+    ],
+    "answer": "讓人快樂、放鬆的活動",
+    "explanation": "看動畫、聽音樂這些讓人開心放鬆的活動，就是娛樂。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-L6-026",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "哪一個詞語最適合填入（　）？\n這部動畫的劇情讓很多觀眾產生（　），看完都感動得哭了。",
+    "options": [
+      "鳴叫",
+      "共同",
+      "共鳴"
+    ],
+    "answer": "共鳴",
+    "explanation": "心裡有同樣的感受、被打動，叫「共鳴」。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "選詞填空"
+    ]
+  },
+  {
+    "id": "g5zh-L6-027",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「細膩」的意思最接近哪一個？",
+    "options": [
+      "又油又膩",
+      "又吵又亂",
+      "細緻精巧",
+      "粗糙簡單"
+    ],
+    "answer": "細緻精巧",
+    "explanation": "「細膩」是細緻精巧，形容畫面或心思很仔細。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-L6-028",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "眼睛、耳朵、鼻子等可以感受外界的器官，合起來叫做什麼？",
+    "options": [
+      "感官",
+      "器材",
+      "官方",
+      "法官"
+    ],
+    "answer": "感官",
+    "explanation": "用來感受外界的眼、耳、鼻等器官，叫做「感官」。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-L6-029",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "「人文關懷」是指關心什麼？",
+    "options": [
+      "城市的大樓",
+      "人的內心和成長",
+      "動物的食物",
+      "電腦的速度"
+    ],
+    "answer": "人的內心和成長",
+    "explanation": "「人文關懷」是關心人的內心感受和成長，吉卜力的動畫就有這樣的特色。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "詞義"
+    ]
+  },
+  {
+    "id": "g5zh-L6-030",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「動畫讓我們看見奇妙的世界，聽見動人的音樂，感受溫暖的情意。」\n要打出哪一張修辭卡？",
+    "options": [
+      "設問",
+      "譬喻",
+      "排比",
+      "引用"
+    ],
+    "answer": "排比",
+    "explanation": "三個結構相似的句子連在一起，這是排比。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "排比"
+    ]
+  },
+  {
+    "id": "g5zh-L6-031",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「這部動畫的配樂像一陣溫柔的春風，吹進每個人的心裡。」\n要打出哪一張修辭卡？",
+    "options": [
+      "排比",
+      "設問",
+      "譬喻",
+      "引用"
+    ],
+    "answer": "譬喻",
+    "explanation": "用「像」把配樂比成春風，這是譬喻。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-L6-032",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「動畫為什麼能感動那麼多人？因為它說出了每個人心裡的故事。」\n要打出哪一張修辭卡？",
+    "options": [
+      "排比",
+      "摹寫",
+      "引用",
+      "設問"
+    ],
+    "answer": "設問",
+    "explanation": "先提出問題，再自己回答，這是設問。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "設問"
+    ]
+  },
+  {
+    "id": "g5zh-L6-033",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "multi",
+    "prompt": "怪物念出雙重咒語：\n「他一次又一次地畫，一遍又一遍地改，一天又一天地堅持。」\n這句話用了哪兩種修辭？（選兩張卡）",
+    "options": [
+      "類疊",
+      "排比",
+      "引用",
+      "譬喻"
+    ],
+    "answer": [
+      "排比",
+      "類疊"
+    ],
+    "explanation": "三個結構相同的句子連用，是排比；「一次又一次」這樣重複的詞語，是類疊。",
+    "difficulty": 3,
+    "tags": [
+      "rhetoric",
+      "排比",
+      "類疊"
+    ]
+  },
+  {
+    "id": "g5zh-L6-034",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "truefalse",
+    "prompt": "怪物說：「這位廚師對料理精益求精，每道菜都要做到最好。」\n這句話的成語用得對嗎？",
+    "answer": true,
+    "explanation": "「精益求精」是已經很好了還要更好，用得很恰當。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "精益求精"
+    ]
+  },
+  {
+    "id": "g5zh-L6-035",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "truefalse",
+    "prompt": "怪物說：「老師問問題，他不假思索地想了好久才回答。」\n這句話的成語用得對嗎？",
+    "answer": false,
+    "explanation": "「不假思索」是不用想就馬上說出來，「想了好久」剛好相反。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "不假思索"
+    ]
+  },
+  {
+    "id": "g5zh-L6-036",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "truefalse",
+    "prompt": "怪物說：「這位舉世聞名的畫家，全世界只有他的家人認識他。」\n這句話的成語用得對嗎？",
+    "answer": false,
+    "explanation": "「舉世聞名」是全世界都知道；只有家人認識，就不是舉世聞名。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "舉世聞名"
+    ]
+  },
+  {
+    "id": "g5zh-L6-037",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「才能突出，從眾人中顯露出來」的成語。",
+    "items": [
+      "脫",
+      "穎",
+      "而",
+      "出"
+    ],
+    "explanation": "「脫穎而出」：像錐子的尖端穿出袋子，比喻才能顯露出來。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "脫穎而出"
+    ]
+  },
+  {
+    "id": "g5zh-L6-038",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「有自己獨特的風格」的成語。",
+    "items": [
+      "獨",
+      "具",
+      "一",
+      "格"
+    ],
+    "explanation": "「獨具一格」：有與眾不同的獨特風格。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "獨具一格"
+    ]
+  },
+  {
+    "id": "g5zh-L6-039",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「已經很好了，還要求更好」的成語。",
+    "items": [
+      "精",
+      "益",
+      "求",
+      "精"
+    ],
+    "explanation": "「精益求精」：好了還要更好。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "精益求精"
+    ]
+  },
+  {
+    "id": "g5zh-L6-040",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n（　）明天下雨，運動會就改到下週舉行。",
+    "options": [
+      "不僅",
+      "雖然",
+      "如果",
+      "並且"
+    ],
+    "answer": "如果",
+    "explanation": "前面是假設的情況，用「如果」，這是假設複句。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "如果"
+    ]
+  },
+  {
+    "id": "g5zh-L6-041",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n（　）颱風快要來了，（　）學校決定停課一天。",
+    "options": [
+      "雖然／卻",
+      "由於／因此",
+      "如果／就"
+    ],
+    "answer": "由於／因此",
+    "explanation": "前面是原因、後面是結果，用「由於……因此……」。",
+    "difficulty": 2,
+    "tags": [
+      "sentence",
+      "由於／因此"
+    ]
+  },
+  {
+    "id": "g5zh-L6-042",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n這部動畫（　）畫面漂亮，音樂（　）很好聽。",
+    "options": [
+      "如果／就",
+      "不僅／也",
+      "由於／因此"
+    ],
+    "answer": "不僅／也",
+    "explanation": "畫面漂亮之外，音樂也好聽，用「不僅……也……」表示更進一步。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "不僅／也"
+    ]
+  },
+  {
+    "id": "g5zh-L6-043",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "order",
+    "prompt": "依照推出的時間先後，把這些動畫排好。",
+    "items": [
+      "《汽船威利號》",
+      "《白雪公主》",
+      "《小錫兵》",
+      "《玩具總動員》",
+      "《神隱少女》"
+    ],
+    "explanation": "1928《汽船威利號》→1937《白雪公主》→1988《小錫兵》→1995《玩具總動員》→2001《神隱少女》。",
+    "difficulty": 3,
+    "tags": [
+      "content",
+      "時間軸"
+    ]
+  },
+  {
+    "id": "g5zh-L6-044",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "迪士尼第一部聲音和畫面同步的動畫，主角是誰？",
+    "options": [
+      "唐老鴨",
+      "米老鼠",
+      "白雪公主",
+      "千尋"
+    ],
+    "answer": "米老鼠",
+    "explanation": "《汽船威利號》的主角是吹著口哨的米老鼠，不是唐老鴨。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L6-045",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "《白雪公主》在動畫史上有什麼特別？",
+    "options": [
+      "第一部黑白動畫",
+      "第一部 3D 電腦動畫",
+      "第一部有聲音的動畫",
+      "第一部彩色動畫長片"
+    ],
+    "answer": "第一部彩色動畫長片",
+    "explanation": "《白雪公主》改編自德國的格林童話，是第一部彩色動畫長片。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L6-046",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "皮克斯的《玩具總動員》有什麼特別？",
+    "options": [
+      "第一部有聲動畫",
+      "第一部 3D 電腦動畫長片",
+      "改編自格林童話",
+      "第一部黑白動畫"
+    ],
+    "answer": "第一部 3D 電腦動畫長片",
+    "explanation": "1995 年的《玩具總動員》是第一部 3D 電腦動畫長片。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L6-047",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "課文介紹的吉卜力動畫，有什麼特色？",
+    "options": [
+      "都改編自格林童話",
+      "最早開始做 3D 動畫",
+      "音樂風格獨特，配樂和劇情融為一體",
+      "只做黑白動畫"
+    ],
+    "answer": "音樂風格獨特，配樂和劇情融為一體",
+    "explanation": "吉卜力的音樂風格獨特，配樂和劇情融為一體。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L6-048",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "《神隱少女》的主角千尋，在故事中學會了什麼？",
+    "options": [
+      "怎麼吹口哨",
+      "獨立、負責和勇氣",
+      "怎麼做玩具",
+      "怎麼畫動畫"
+    ],
+    "answer": "獨立、負責和勇氣",
+    "explanation": "千尋沒有父母可以依靠，在冒險中學會獨立、負責、判斷和勇氣。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L6-049",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n比起 2D 動畫，3D 動畫的製作成本比較低。",
+    "answer": false,
+    "explanation": "3D 動畫看起來更立體真實，但成本比 2D 高。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L6-050",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n皮克斯的《小錫兵》開啟了 2D 動畫的時代。",
+    "answer": false,
+    "explanation": "《小錫兵》得到奧斯卡最佳動畫短片，開啟的是 3D 動畫，不是 2D。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L6-051",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "為了讓讀者看清楚動畫發展的先後，這一課用了什麼方法整理？",
+    "options": [
+      "小標題和時間軸",
+      "詩歌和歌詞",
+      "對話和劇本",
+      "書信和日記"
+    ],
+    "answer": "小標題和時間軸",
+    "explanation": "本課用小標題分出三家公司，再用時間軸整理先後，讓人一看就懂。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "寫法"
+    ]
+  },
+  {
+    "id": "g5zh-L6-052",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "L6",
+    "type": "choice",
+    "prompt": "這一課的主旨是什麼？",
+    "options": [
+      "只有迪士尼會做動畫",
+      "看動畫會讓眼睛變差",
+      "動畫只適合小孩子看",
+      "動畫是生活中的一門藝術"
+    ],
+    "answer": "動畫是生活中的一門藝術",
+    "explanation": "動畫結合繪畫、音樂和文學，是生活中的一門藝術。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "主旨"
+    ]
+  }
+]

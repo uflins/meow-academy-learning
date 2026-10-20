@@ -1,0 +1,836 @@
+[
+  {
+    "id": "g5zh-L1-001",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「瘧疾」的「瘧」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄋㄩㄝˋ",
+      "ㄋㄩㄝˊ",
+      "ㄋㄧㄝˋ",
+      "ㄌㄩㄝˋ"
+    ],
+    "answer": "ㄋㄩㄝˋ",
+    "explanation": "「瘧」念ㄋㄩㄝˋ，和「虐待」的「虐」同音。",
+    "difficulty": 2,
+    "tags": [
+      "reading",
+      "瘧"
+    ]
+  },
+  {
+    "id": "g5zh-L1-002",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「捐贈」的「贈」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄗㄥˋ",
+      "ㄘㄥˊ",
+      "ㄗㄥ",
+      "ㄙㄥ"
+    ],
+    "answer": "ㄗㄥˋ",
+    "explanation": "「贈」念四聲ㄗㄥˋ；「增加」的「增」才念一聲ㄗㄥ。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "贈"
+    ]
+  },
+  {
+    "id": "g5zh-L1-003",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「寄信」的「寄」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄐㄧˋ",
+      "ㄐㄧˊ",
+      "ㄑㄧˋ",
+      "ㄐㄧ"
+    ],
+    "answer": "ㄐㄧˋ",
+    "explanation": "「寄」念四聲ㄐㄧˋ。本課的「集」「疾」念二聲，「基」念一聲，別弄混了。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "寄"
+    ]
+  },
+  {
+    "id": "g5zh-L1-004",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「募集」的「募」怎麼念？",
+    "speak": "這一題考讀音。請看題目上標出來的字，選出正確的注音。",
+    "options": [
+      "ㄇㄛˋ",
+      "ㄇㄨˇ",
+      "ㄇㄨˋ",
+      "ㄇㄨˊ"
+    ],
+    "answer": "ㄇㄨˋ",
+    "explanation": "「募」念ㄇㄨˋ，和「羨慕」的「慕」、「布幕」的「幕」同音。",
+    "difficulty": 1,
+    "tags": [
+      "reading",
+      "募"
+    ]
+  },
+  {
+    "id": "g5zh-L1-005",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「收藏」和「寶藏」的「藏」，讀音依序是哪一組？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "ㄘㄤˊ／ㄗㄤˋ",
+      "ㄘㄤˊ／ㄘㄤˊ",
+      "ㄗㄤˋ／ㄘㄤˊ",
+      "ㄗㄤˋ／ㄗㄤˋ"
+    ],
+    "answer": "ㄘㄤˊ／ㄗㄤˋ",
+    "explanation": "把東西收好的「收藏」念ㄘㄤˊ；指寶物的「寶藏」念ㄗㄤˋ。",
+    "difficulty": 2,
+    "tags": [
+      "polyphone",
+      "藏"
+    ]
+  },
+  {
+    "id": "g5zh-L1-006",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「豆漿」和「漿糊」的「漿」，讀音依序是哪一組？",
+    "speak": "這一題考破音字。請看題目，選出正確的答案。",
+    "options": [
+      "ㄐㄧㄤ／ㄐㄧㄤ",
+      "ㄐㄧㄤˋ／ㄐㄧㄤ",
+      "ㄐㄧㄤ／ㄐㄧㄤˋ",
+      "ㄐㄧㄤˇ／ㄐㄧㄤˋ"
+    ],
+    "answer": "ㄐㄧㄤ／ㄐㄧㄤˋ",
+    "explanation": "喝的「豆漿」念一聲ㄐㄧㄤ；黏東西的「漿糊」念四聲ㄐㄧㄤˋ。",
+    "difficulty": 3,
+    "tags": [
+      "polyphone",
+      "漿"
+    ]
+  },
+  {
+    "id": "g5zh-L1-007",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n「躲藏」和「收藏」的「藏」讀音相同。",
+    "speak": "這一題考破音字。請看題目，判斷對還是錯。",
+    "answer": true,
+    "explanation": "「躲藏」和「收藏」都是把人或東西藏起來，「藏」都念ㄘㄤˊ。",
+    "difficulty": 2,
+    "tags": [
+      "polyphone",
+      "藏"
+    ]
+  },
+  {
+    "id": "g5zh-L1-008",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n升上六年級要參加哪個社團，是小美心中的一個大（　）擇。",
+    "options": [
+      "抉",
+      "決",
+      "缺",
+      "訣"
+    ],
+    "answer": "抉",
+    "explanation": "「抉擇」是挑選、決定，用提手旁的「抉」；三點水的「決」用在「決定」「解決」。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "抉／決"
+    ]
+  },
+  {
+    "id": "g5zh-L1-009",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n班遊要去哪裡，由全班投票來（　）定。",
+    "options": [
+      "缺",
+      "抉",
+      "決"
+    ],
+    "answer": "決",
+    "explanation": "「決定」的「決」是三點水；提手旁的「抉」多用在「抉擇」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "抉／決"
+    ]
+  },
+  {
+    "id": "g5zh-L1-010",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n比賽時，他緊迫（　）人，讓對手拿不到球。",
+    "options": [
+      "叮",
+      "釘",
+      "頂",
+      "盯"
+    ],
+    "answer": "盯",
+    "explanation": "用眼睛緊緊看著是目部的「盯」；口部的「叮」是蚊子叮咬。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "盯／叮"
+    ]
+  },
+  {
+    "id": "g5zh-L1-011",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n大家都很仰（　）這位勇敢的消防員。",
+    "options": [
+      "暮",
+      "幕",
+      "募",
+      "慕"
+    ],
+    "answer": "慕",
+    "explanation": "「仰慕」是心裡佩服，「慕」的下面是心的變形；「募」是力部，「幕」是巾部，「暮」是日部。",
+    "difficulty": 2,
+    "tags": [
+      "lookalike",
+      "慕／募"
+    ]
+  },
+  {
+    "id": "g5zh-L1-012",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "選出正確的字填入（　）：\n夏天晚上掛起（　）帳，就不怕被蚊子叮了。",
+    "options": [
+      "雯",
+      "蚊",
+      "紋",
+      "汶"
+    ],
+    "answer": "蚊",
+    "explanation": "蚊子是小蟲，所以「蚊」是虫部；糸部的「紋」用在「紋路」「皺紋」。",
+    "difficulty": 1,
+    "tags": [
+      "lookalike",
+      "蚊／紋"
+    ]
+  },
+  {
+    "id": "g5zh-L1-013",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「他把親手做的卡片捐增給醫院的小朋友。」",
+    "options": [
+      "增",
+      "捐",
+      "院",
+      "卡"
+    ],
+    "answer": "增",
+    "explanation": "把東西送給別人是「捐贈」，要用貝部的「贈」；土部的「增」是增加。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "贈／增"
+    ]
+  },
+  {
+    "id": "g5zh-L1-014",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，找出錯字和正確的寫法：\n「上課時，全班都取精會神地聽老師說故事。」",
+    "options": [
+      "精→睛",
+      "會→惠",
+      "神→伸",
+      "取→聚"
+    ],
+    "answer": "取→聚",
+    "explanation": "「聚精會神」要寫「聚」，「取」的下面還有一部分，不能少寫喔！",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "聚"
+    ]
+  },
+  {
+    "id": "g5zh-L1-015",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「站在十字路口，哥哥不知道該怎麼決擇。」",
+    "options": [
+      "決",
+      "字",
+      "該",
+      "路"
+    ],
+    "answer": "決",
+    "explanation": "「抉擇」要用提手旁的「抉」，像用手把想要的挑出來。",
+    "difficulty": 2,
+    "tags": [
+      "wrongchar",
+      "抉／決"
+    ]
+  },
+  {
+    "id": "g5zh-L1-016",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "錯字通緝令！這句話有一個錯字，是哪一個？\n「比賽得到第一名，老師頒給我一張獎壯。」",
+    "options": [
+      "賽",
+      "頒",
+      "第",
+      "壯"
+    ],
+    "answer": "壯",
+    "explanation": "「獎狀」的「狀」是犬部；士部的「壯」用在「強壯」。",
+    "difficulty": 1,
+    "tags": [
+      "wrongchar",
+      "狀／壯"
+    ]
+  },
+  {
+    "id": "g5zh-L1-017",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「獎」的部首是什麼？",
+    "options": [
+      "爿",
+      "大",
+      "夕",
+      "犬"
+    ],
+    "answer": "犬",
+    "explanation": "「獎」的下面是「犬」，部首是犬部；「狀」的部首也是犬。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "獎"
+    ]
+  },
+  {
+    "id": "g5zh-L1-018",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「募」的部首是什麼？",
+    "options": [
+      "艸",
+      "大",
+      "日",
+      "力"
+    ],
+    "answer": "力",
+    "explanation": "「募」最下面是「力」，部首是力部，不是草字頭喔！",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "募"
+    ]
+  },
+  {
+    "id": "g5zh-L1-019",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「集」的部首是什麼？",
+    "options": [
+      "人",
+      "木",
+      "十",
+      "隹"
+    ],
+    "answer": "隹",
+    "explanation": "「集」上面的「隹」是短尾巴的鳥，部首是隹部。",
+    "difficulty": 2,
+    "tags": [
+      "radical",
+      "部首",
+      "集"
+    ]
+  },
+  {
+    "id": "g5zh-L1-020",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "input",
+    "prompt": "「蚊」一共有幾畫？",
+    "keypad": "digits",
+    "answer": "10",
+    "explanation": "左邊「虫」6 畫，右邊「文」4 畫，一共 10 畫。",
+    "difficulty": 1,
+    "tags": [
+      "radical",
+      "筆畫",
+      "蚊"
+    ]
+  },
+  {
+    "id": "g5zh-L1-021",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "哪一個詞語最適合填入（　）？\n學校為災區（　）了好幾箱衣服和食物。",
+    "options": [
+      "募集",
+      "索取",
+      "召集"
+    ],
+    "answer": "募集",
+    "explanation": "向大家徵求物資用「募集」；「召集」是通知人來集合，「索取」是向人要東西。",
+    "difficulty": 2,
+    "tags": [
+      "word",
+      "募集／召集"
+    ]
+  },
+  {
+    "id": "g5zh-L1-022",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「捐贈」的相反詞是哪一個？",
+    "options": [
+      "贈送",
+      "收藏",
+      "索取",
+      "募集"
+    ],
+    "answer": "索取",
+    "explanation": "捐贈是把東西送給別人，索取是向別人要東西，意思相反。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "相反詞"
+    ]
+  },
+  {
+    "id": "g5zh-L1-023",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "「瘧疾」的「疾」，和哪一個詞語的「疾」意思相同？",
+    "options": [
+      "大聲疾呼",
+      "疾駛",
+      "疾風",
+      "積勞成疾"
+    ],
+    "answer": "積勞成疾",
+    "explanation": "瘧疾、積勞成疾的「疾」都是「病」；疾風、疾駛的「疾」是「快」，大聲疾呼的「疾」是「急切」。",
+    "difficulty": 3,
+    "tags": [
+      "word",
+      "字義"
+    ]
+  },
+  {
+    "id": "g5zh-L1-024",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「夢想就像一顆種子，只要用心照顧，總有一天會長成大樹。」\n要打出哪一張修辭卡？",
+    "options": [
+      "引用",
+      "排比",
+      "設問",
+      "譬喻"
+    ],
+    "answer": "譬喻",
+    "explanation": "用「像」把夢想比成種子，兩樣都會慢慢長大，這是譬喻。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-L1-025",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「爸爸常說：『天下無難事，只怕有心人。』所以我每天練琴，不輕易放棄。」\n要打出哪一張修辭卡？",
+    "options": [
+      "類疊",
+      "引用",
+      "轉化",
+      "譬喻"
+    ],
+    "answer": "引用",
+    "explanation": "句子借用了大家熟知的俗語來說明道理，這是引用。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "引用"
+    ]
+  },
+  {
+    "id": "g5zh-L1-026",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "multi",
+    "prompt": "怪物念出雙重咒語：\n「小明把一枚枚硬幣存進撲滿，撲滿就像一座小小的金庫。」\n這句話用了哪兩種修辭？（選兩張卡）",
+    "options": [
+      "類疊",
+      "設問",
+      "引用",
+      "譬喻"
+    ],
+    "answer": [
+      "譬喻",
+      "類疊"
+    ],
+    "explanation": "「一枚枚」「小小的」是類疊；把撲滿比成金庫，用了譬喻。",
+    "difficulty": 3,
+    "tags": [
+      "rhetoric",
+      "譬喻",
+      "類疊"
+    ]
+  },
+  {
+    "id": "g5zh-L1-027",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "truefalse",
+    "prompt": "怪物說：「妹妹為了完成拼圖，全力以赴地拼了一整個下午。」\n這句話的成語用得對嗎？",
+    "answer": true,
+    "explanation": "「全力以赴」是拿出全部力量去做，用在認真拼拼圖很恰當。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "全力以赴"
+    ]
+  },
+  {
+    "id": "g5zh-L1-028",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "truefalse",
+    "prompt": "怪物說：「小狗走丟了，他喜不自禁地哭了起來。」\n這句話的成語用得對嗎？",
+    "answer": false,
+    "explanation": "「喜不自禁」是高興得忍不住；小狗走丟應該很難過，不能用這個成語。",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "喜不自禁"
+    ]
+  },
+  {
+    "id": "g5zh-L1-029",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「拿出全部的力量去做」的成語。",
+    "items": [
+      "全",
+      "力",
+      "以",
+      "赴"
+    ],
+    "explanation": "「全力以赴」：用盡全部力量去做一件事。",
+    "difficulty": 1,
+    "tags": [
+      "idiom",
+      "全力以赴"
+    ]
+  },
+  {
+    "id": "g5zh-L1-030",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "order",
+    "prompt": "成語拼拼樂：把字排成「精神非常集中、很專心」的成語。",
+    "items": [
+      "聚",
+      "精",
+      "會",
+      "神"
+    ],
+    "explanation": "「聚精會神」：把精神聚在一起，非常專心。「聚」別寫成「取」喔！",
+    "difficulty": 2,
+    "tags": [
+      "idiom",
+      "聚精會神"
+    ]
+  },
+  {
+    "id": "g5zh-L1-031",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n（　）年紀還小，凱瑟琳（　）想出好多辦法幫助別人。",
+    "options": [
+      "只要／就",
+      "不但／還",
+      "雖然／可是"
+    ],
+    "answer": "雖然／可是",
+    "explanation": "年紀小卻能幫助別人，前後意思相反，用「雖然……可是……」。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "雖然／可是"
+    ]
+  },
+  {
+    "id": "g5zh-L1-032",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n（　）你願意伸出手，世界（　）會變得更溫暖。",
+    "options": [
+      "不但／還",
+      "雖然／可是",
+      "只要／就"
+    ],
+    "answer": "只要／就",
+    "explanation": "有了前面的條件，就會有後面的結果，用「只要……就……」。",
+    "difficulty": 1,
+    "tags": [
+      "sentence",
+      "只要／就"
+    ]
+  },
+  {
+    "id": "g5zh-L1-033",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "選出最適合填入（　）的關聯詞：\n這次義賣（　）幫助了非洲的孩子，（　）讓更多人認識瘧疾。",
+    "options": [
+      "不但／還",
+      "只要／就",
+      "雖然／可是"
+    ],
+    "answer": "不但／還",
+    "explanation": "後面比前面更進一步，用「不但……還……」。",
+    "difficulty": 2,
+    "tags": [
+      "sentence",
+      "不但／還"
+    ]
+  },
+  {
+    "id": "g5zh-L1-034",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "凱瑟琳為什麼想把蚊帳送到非洲？",
+    "options": [
+      "非洲的蚊帳比較便宜",
+      "她想去非洲旅行",
+      "瘧疾靠蚊子傳染，很多非洲孩子因此失去生命",
+      "她的弟弟住在非洲"
+    ],
+    "answer": "瘧疾靠蚊子傳染，很多非洲孩子因此失去生命",
+    "explanation": "瘧疾靠蚊子傳染，很多非洲孩子買不起蚊帳，所以凱瑟琳想送蚊帳保護他們。",
+    "difficulty": 1,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L1-035",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "這一課最想告訴我們什麼？",
+    "options": [
+      "寫信給名人就能得到很多錢",
+      "有夢想就勇敢去做、堅持到底，小孩也能改變世界",
+      "零用錢只能拿來買玩具",
+      "非洲的天氣非常炎熱"
+    ],
+    "answer": "有夢想就勇敢去做、堅持到底，小孩也能改變世界",
+    "explanation": "凱瑟琳年紀小，卻靠著行動和堅持幫助了很多人，這就是本課的主旨。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "主旨"
+    ]
+  },
+  {
+    "id": "g5zh-L1-036",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "凱瑟琳知道非洲每隔多久就有一個孩子死於瘧疾？",
+    "options": [
+      "三天",
+      "三十秒",
+      "三個月",
+      "三十分鐘"
+    ],
+    "answer": "三十秒",
+    "explanation": "課文說每三十秒就有一個非洲孩子死於瘧疾，這讓凱瑟琳決定行動。",
+    "difficulty": 2,
+    "tags": [
+      "content"
+    ]
+  },
+  {
+    "id": "g5zh-L1-037",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "order",
+    "prompt": "依照事情發生的先後，把凱瑟琳做的事排好。",
+    "items": [
+      "得知瘧疾的可怕",
+      "用點心錢買蚊帳",
+      "和媽媽義賣、做獎狀",
+      "寫信給貝克漢"
+    ],
+    "explanation": "她先知道瘧疾的可怕，用點心錢買蚊帳，再和媽媽義賣、送獎狀，後來還寫信給貝克漢。",
+    "difficulty": 3,
+    "tags": [
+      "content",
+      "事件順序"
+    ]
+  },
+  {
+    "id": "g5zh-L1-038",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n課文開頭先寫凱瑟琳被稱為「蚊帳大使」、來臺灣演講，再回頭寫她五歲時的事，這是倒敘的寫法。",
+    "answer": true,
+    "explanation": "先寫後來的成果，再回頭說事情怎麼開始，這種寫法叫做倒敘。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "倒敘"
+    ]
+  },
+  {
+    "id": "g5zh-L1-039",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "L1",
+    "type": "choice",
+    "prompt": "〈蚊帳大使〉是哪一種文體？",
+    "options": [
+      "詩歌",
+      "記敘文",
+      "說明文",
+      "書信"
+    ],
+    "answer": "記敘文",
+    "explanation": "本課用故事的方式記下凱瑟琳做的事，是記敘文。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "文體"
+    ]
+  }
+]

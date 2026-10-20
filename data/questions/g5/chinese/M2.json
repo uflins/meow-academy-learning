@@ -1,0 +1,328 @@
+[
+  {
+    "id": "g5zh-M2-001",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "「烤箱裡飄出奶油的香味，整個廚房都香香的。」主要寫的是哪一種感覺？",
+    "options": [
+      "視覺",
+      "嗅覺",
+      "聽覺",
+      "觸覺"
+    ],
+    "answer": "嗅覺",
+    "explanation": "寫的是鼻子聞到的香味，屬於嗅覺摹寫。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "摹寫感官"
+    ]
+  },
+  {
+    "id": "g5zh-M2-002",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "「窗外的風鈴叮叮噹噹地響個不停。」主要寫的是哪一種感覺？",
+    "options": [
+      "聽覺",
+      "味覺",
+      "嗅覺",
+      "視覺"
+    ],
+    "answer": "聽覺",
+    "explanation": "寫的是耳朵聽到的聲音，屬於聽覺摹寫。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "摹寫感官"
+    ]
+  },
+  {
+    "id": "g5zh-M2-003",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "「這顆檸檬好酸，我的臉都皺成一團了。」主要寫的是哪一種感覺？",
+    "options": [
+      "味覺",
+      "嗅覺",
+      "觸覺",
+      "聽覺"
+    ],
+    "answer": "味覺",
+    "explanation": "寫的是嘴巴嚐到的酸味，屬於味覺摹寫。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "摹寫感官"
+    ]
+  },
+  {
+    "id": "g5zh-M2-004",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "「剛曬好的棉被摸起來又軟又暖。」主要寫的是哪一種感覺？",
+    "options": [
+      "味覺",
+      "觸覺",
+      "視覺",
+      "聽覺"
+    ],
+    "answer": "觸覺",
+    "explanation": "寫的是用手摸到的感覺，屬於觸覺摹寫。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "摹寫感官"
+    ]
+  },
+  {
+    "id": "g5zh-M2-005",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "「夕陽把天空染成一片橘紅色。」主要寫的是哪一種感覺？",
+    "options": [
+      "聽覺",
+      "視覺",
+      "觸覺",
+      "嗅覺"
+    ],
+    "answer": "視覺",
+    "explanation": "寫的是眼睛看到的顏色，屬於視覺摹寫。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "摹寫感官"
+    ]
+  },
+  {
+    "id": "g5zh-M2-006",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "multi",
+    "prompt": "「黃色的玉米湯冒著白煙，喝一口，甜甜的味道在嘴裡散開。」用到了哪兩種感覺的摹寫？",
+    "options": [
+      "聽覺",
+      "觸覺",
+      "視覺",
+      "味覺"
+    ],
+    "answer": [
+      "視覺",
+      "味覺"
+    ],
+    "explanation": "看到黃色的湯和白煙是視覺，嚐到甜味是味覺。",
+    "difficulty": 3,
+    "tags": [
+      "content",
+      "摹寫感官"
+    ]
+  },
+  {
+    "id": "g5zh-M2-007",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "摹寫可以分成視覺、聽覺、嗅覺、味覺，還有哪一種？",
+    "options": [
+      "直覺",
+      "感覺",
+      "知覺",
+      "觸覺"
+    ],
+    "answer": "觸覺",
+    "explanation": "摹寫分成五種：視覺、聽覺、嗅覺、味覺、觸覺。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "摹寫感官"
+    ]
+  },
+  {
+    "id": "g5zh-M2-008",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「遠處傳來轟隆隆的雷聲，接著，雨點重重地打在屋頂上。」\n要打出哪一張修辭卡？",
+    "options": [
+      "引用",
+      "摹寫",
+      "設問",
+      "排比"
+    ],
+    "answer": "摹寫",
+    "explanation": "寫出聽到的雷聲和雨打屋頂的聲音，這是摹寫（聽覺）。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "摹寫"
+    ]
+  },
+  {
+    "id": "g5zh-M2-009",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「媽媽溫暖的手輕輕摸著我的額頭，我覺得好安心。」\n要打出哪一張修辭卡？",
+    "options": [
+      "排比",
+      "摹寫",
+      "引用",
+      "設問"
+    ],
+    "answer": "摹寫",
+    "explanation": "寫出手摸額頭的溫暖感覺，這是摹寫（觸覺）。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "摹寫"
+    ]
+  },
+  {
+    "id": "g5zh-M2-010",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "multi",
+    "prompt": "怪物念出雙重咒語：\n「冰淇淋涼涼的、甜甜的，像一朵會融化的白雲。」\n這句話用了哪兩種修辭？（選兩張卡）",
+    "options": [
+      "摹寫",
+      "譬喻",
+      "引用",
+      "設問"
+    ],
+    "answer": [
+      "摹寫",
+      "譬喻"
+    ],
+    "explanation": "寫出冰淇淋涼和甜的感覺是摹寫（觸覺、味覺）；把它比成白雲是譬喻。",
+    "difficulty": 3,
+    "tags": [
+      "rhetoric",
+      "摹寫",
+      "譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-M2-011",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "order",
+    "prompt": "自我提問有三個層次，依照由淺到深排好。",
+    "items": [
+      "找一找",
+      "推一推",
+      "評一評"
+    ],
+    "explanation": "先「找一找」文章寫出的訊息，再「推一推」沒有直接寫的意思，最後「評一評」說出自己的看法。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "自我提問"
+    ]
+  },
+  {
+    "id": "g5zh-M2-012",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "「〈拾穗〉裡有幾位彎腰撿麥穗的婦人？」這個問題屬於哪一個層次？",
+    "options": [
+      "找一找",
+      "推一推",
+      "評一評"
+    ],
+    "answer": "找一找",
+    "explanation": "答案在課文裡直接寫出來，找得到，所以是「找一找」。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "自我提問"
+    ]
+  },
+  {
+    "id": "g5zh-M2-013",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "「商標為什麼要設計得簡單好記？」課文沒有直接寫答案，要自己想一想，這個問題屬於哪一個層次？",
+    "options": [
+      "評一評",
+      "推一推",
+      "找一找"
+    ],
+    "answer": "推一推",
+    "explanation": "答案要從課文的線索推想出來，所以是「推一推」。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "自我提問"
+    ]
+  },
+  {
+    "id": "g5zh-M2-014",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "choice",
+    "prompt": "「你覺得電腦做的 3D 動畫，比手繪動畫更好看嗎？為什麼？」這個問題屬於哪一個層次？",
+    "options": [
+      "評一評",
+      "推一推",
+      "找一找"
+    ],
+    "answer": "評一評",
+    "explanation": "要說出自己的看法和理由，這是「評一評」。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "自我提問"
+    ]
+  },
+  {
+    "id": "g5zh-M2-015",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "二",
+    "section": "M2",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n「推一推」就是把文章裡直接寫出來的句子照抄下來。",
+    "answer": false,
+    "explanation": "照文章找答案是「找一找」；「推一推」是推出文章沒有直接說的意思。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "自我提問"
+    ]
+  }
+]

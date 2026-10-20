@@ -1,0 +1,316 @@
+[
+  {
+    "id": "g5zh-M1-001",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n「妹妹的眼睛長得很像媽媽。」這句話用了譬喻。",
+    "answer": false,
+    "explanation": "這裡的「像」是「相像」，只是說兩個人長得差不多，沒有把妹妹比成另一種事物，所以不是譬喻。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "譬喻",
+      "像不一定是譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-M1-002",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n「天色暗了下來，好像快要下雨了。」這句話用了譬喻。",
+    "answer": false,
+    "explanation": "這裡的「好像」是「似乎、可能」的意思，在猜測天氣，不是譬喻。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "譬喻",
+      "像不一定是譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-M1-003",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n「媽媽的笑容像冬天的太陽，讓人覺得好溫暖。」這句話用了譬喻。",
+    "answer": true,
+    "explanation": "把媽媽的笑容比成冬天的太陽，兩者都讓人覺得溫暖，這是譬喻。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-M1-004",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「夜晚的街燈像一排站崗的士兵，守護著安靜的街道。」\n要打出哪一張修辭卡？",
+    "options": [
+      "類疊",
+      "引用",
+      "設問",
+      "譬喻"
+    ],
+    "answer": "譬喻",
+    "explanation": "用「像」把街燈比成站崗的士兵，這是譬喻。",
+    "difficulty": 1,
+    "tags": [
+      "rhetoric",
+      "譬喻"
+    ]
+  },
+  {
+    "id": "g5zh-M1-005",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "choice",
+    "prompt": "怪物念出咒語：\n「小草從土裡探出頭來，好奇地看著這個世界。」\n要打出哪一張修辭卡？",
+    "options": [
+      "譬喻",
+      "轉化",
+      "設問",
+      "引用"
+    ],
+    "answer": "轉化",
+    "explanation": "把小草寫得像人一樣會探頭、會好奇，這是轉化；句子沒有把小草比成別的東西，所以不是譬喻。",
+    "difficulty": 2,
+    "tags": [
+      "rhetoric",
+      "轉化"
+    ]
+  },
+  {
+    "id": "g5zh-M1-006",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "multi",
+    "prompt": "怪物念出雙重咒語：\n「秋風一吹，葉子一片片飄落，像一隻隻黃色的蝴蝶。」\n這句話用了哪兩種修辭？（選兩張卡）",
+    "options": [
+      "譬喻",
+      "設問",
+      "引用",
+      "類疊"
+    ],
+    "answer": [
+      "譬喻",
+      "類疊"
+    ],
+    "explanation": "把落葉比成蝴蝶是譬喻；「一片片」「一隻隻」是類疊。",
+    "difficulty": 3,
+    "tags": [
+      "rhetoric",
+      "譬喻",
+      "類疊"
+    ]
+  },
+  {
+    "id": "g5zh-M1-007",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "choice",
+    "prompt": "「河流像大地的血管，把水送到每個地方。」這句話的「喻依」是哪一個？",
+    "options": [
+      "河流",
+      "像",
+      "水",
+      "血管"
+    ],
+    "answer": "血管",
+    "explanation": "被比喻的「河流」是喻體，「像」是喻詞，拿來比喻的「血管」是喻依。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "喻體喻詞喻依"
+    ]
+  },
+  {
+    "id": "g5zh-M1-008",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "choice",
+    "prompt": "「弟弟的房間亂得像颱風剛經過。」這句話的「喻體」是哪一個？",
+    "options": [
+      "颱風",
+      "亂",
+      "像",
+      "弟弟的房間"
+    ],
+    "answer": "弟弟的房間",
+    "explanation": "被比喻的對象「弟弟的房間」是喻體；拿來比喻的「颱風剛經過」是喻依。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "喻體喻詞喻依"
+    ]
+  },
+  {
+    "id": "g5zh-M1-009",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "choice",
+    "prompt": "「老師就像一盞燈，照亮我們前進的路。」這句話的「喻詞」是哪一個？",
+    "options": [
+      "老師",
+      "照亮",
+      "燈",
+      "像"
+    ],
+    "answer": "像",
+    "explanation": "連接喻體「老師」和喻依「燈」的「像」，就是喻詞。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "喻體喻詞喻依"
+    ]
+  },
+  {
+    "id": "g5zh-M1-010",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "choice",
+    "prompt": "下面哪一個詞「不能」當作譬喻的喻詞？",
+    "options": [
+      "好像",
+      "彷彿",
+      "如同",
+      "因為"
+    ],
+    "answer": "因為",
+    "explanation": "好像、彷彿、如同都能用來比喻；「因為」是說明原因的詞。",
+    "difficulty": 1,
+    "tags": [
+      "word",
+      "喻詞"
+    ]
+  },
+  {
+    "id": "g5zh-M1-011",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "choice",
+    "prompt": "「彩虹像一座七彩的橋。」彩虹和橋的相似點是什麼？",
+    "options": [
+      "都能讓車子開過去",
+      "都是用石頭做的",
+      "都會發出聲音",
+      "形狀彎彎的，橫跨在兩邊之間"
+    ],
+    "answer": "形狀彎彎的，橫跨在兩邊之間",
+    "explanation": "譬喻要找相似點：彩虹和拱橋一樣彎彎的，橫跨在兩邊。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "相似點"
+    ]
+  },
+  {
+    "id": "g5zh-M1-012",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "choice",
+    "prompt": "先寫事情的結果，再回頭說事情是怎麼開始的，這種寫法叫做什麼？",
+    "options": [
+      "倒敘",
+      "摘要",
+      "順敘",
+      "對話"
+    ],
+    "answer": "倒敘",
+    "explanation": "先寫結果、再回頭交代經過，叫做倒敘，能吸引讀者想知道原因。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "記敘文寫作",
+      "倒敘"
+    ]
+  },
+  {
+    "id": "g5zh-M1-013",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "choice",
+    "prompt": "想讓記敘文更精采，下面哪一個「不是」學習地圖介紹的方法？",
+    "options": [
+      "每一句都寫得一樣長",
+      "改變敘述的順序",
+      "加入描寫，豐富細節",
+      "寫出感受，引起共鳴"
+    ],
+    "answer": "每一句都寫得一樣長",
+    "explanation": "學習地圖介紹了改變順序、加入描寫、增加情感三種方法；句子一樣長不會讓文章更精采。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "記敘文寫作"
+    ]
+  },
+  {
+    "id": "g5zh-M1-014",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "choice",
+    "prompt": "小華的作文一開頭寫「我終於站上冠軍的頒獎臺」，接著才寫自己怎麼每天練習。他用了哪一種方法？",
+    "options": [
+      "改變順序，先寫結果",
+      "引用名人的話",
+      "全部用對話來寫",
+      "列出一張時間表"
+    ],
+    "answer": "改變順序，先寫結果",
+    "explanation": "先寫站上頒獎臺的結果，再回頭寫練習的過程，這是改變順序（倒敘）。",
+    "difficulty": 2,
+    "tags": [
+      "content",
+      "記敘文寫作",
+      "倒敘"
+    ]
+  },
+  {
+    "id": "g5zh-M1-015",
+    "grade": 5,
+    "subject": "chinese",
+    "unit": "一",
+    "section": "M1",
+    "type": "truefalse",
+    "prompt": "對還是錯？\n在記敘文裡加入看到、聽到、聞到的細節，可以讓文章更生動。",
+    "answer": true,
+    "explanation": "加入描寫、豐富細節，是讓記敘文更精采的方法之一。",
+    "difficulty": 1,
+    "tags": [
+      "content",
+      "記敘文寫作"
+    ]
+  }
+]

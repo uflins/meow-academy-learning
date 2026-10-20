@@ -7,7 +7,7 @@ export const BATTLE_SIZE = {
 
 export const REGIONS = {
   5: [
-    { id: 'chinese', name: '文字森林', subject: 'chinese', color: '#7BC47F', icon: '🌳', status: 'soon',
+    { id: 'chinese', name: '文字森林', subject: 'chinese', color: '#7BC47F', icon: '🌳', status: 'open',
       source: {
         kind: 'bank',
         units: [

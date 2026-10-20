@@ -113,7 +113,7 @@ function decorateOption(q, o, ctx) {
   if (kind === 'blend' && ctx.lowGrade && obj.image) obj.hideLabel = true; // 首冊沒教國字，只顯示圖
   if (q.style === 'clones') obj.svg = monsterSVG(q.subject, { className: 'clone' }); // 分數大魔王的分身
   if (kind === 'rhetoric' && RHETORIC_ICON[obj.label]) obj.image = RHETORIC_ICON[obj.label];
-  return typeof o === 'string' && !obj.svg ? o : obj;
+  return typeof o === 'string' && !obj.svg && !obj.image ? o : obj;
 }
 
 // ---------- 附圖 ----------
