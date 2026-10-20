@@ -16,6 +16,7 @@ export default function cats(root, params, { go, app }) {
   const player = app.player;
   if (!player) return go('home');
   ensureRewards(player);
+  const low = player.grade <= 2;
   let tab = params.tab || 'book';
   let selected = params.cat || null;
 
@@ -54,7 +55,7 @@ export default function cats(root, params, { go, app }) {
         },
         h('div', { class: 'cat-pic', html: catSVG(id, Object.assign({ mood: have ? 'normal' : 'sleep' }, look)) }),
         h('div', { class: 'cat-name' }, have ? catName(id, look.evolved) : '？？？'),
-        h('div', { class: 'cat-sub' }, have ? `Lv.${levelOf(catOf(player, id).xp)}` : hintFor(id)));
+        h('div', { class: 'cat-sub' }, have ? (low ? '⭐'.repeat(Math.min(5, levelOf(catOf(player, id).xp))) : `Lv.${levelOf(catOf(player, id).xp)}`) : hintFor(id)));
       })),
     ];
   }
@@ -71,10 +72,10 @@ export default function cats(root, params, { go, app }) {
         h('div', { class: 'cat-detail-info' },
           h('h2', {}, catName(id, look.evolved)),
           h('div', { class: 'muted' }, CATS[id].desc),
-          h('div', { class: 'lv-row' }, h('b', {}, `Lv.${lv}`),
+          h('div', { class: 'lv-row' }, h('b', {}, low ? '⭐'.repeat(Math.min(5, lv)) : `Lv.${lv}`),
             h('div', { class: 'xpbar' }, h('div', { class: 'xpfill', style: { width: `${Math.round(levelProgress(xp) * 100)}%` } })),
-            h('span', { class: 'muted' }, `${xp % 100} / 100`)),
-          h('div', { class: 'muted' }, isEvolved(player, id) ? '✨ 已經進化了！' : `再升到 Lv.${EVOLVE_LEVEL} 就會進化喔！`),
+            low ? null : h('span', { class: 'muted' }, `${xp % 100} / 100`)),
+          h('div', { class: 'muted' }, isEvolved(player, id) ? '✨ 已經進化了！' : (low ? '多答對一些題目，貓咪就會進化喔！' : `再升到 Lv.${EVOLVE_LEVEL} 就會進化喔！`)),
           h('h3', {}, '換裝'),
           player.gearOwned.length
             ? h('div', { class: 'gear-row' }, player.gearOwned.map((gid) => h('button', {

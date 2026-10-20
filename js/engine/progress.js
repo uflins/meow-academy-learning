@@ -22,7 +22,7 @@ export function starsFor(correct, total, defeated) {
   if (!defeated) return 0;
   const rate = total ? correct / total : 0;
   if (rate >= 0.9) return 3;
-  if (rate >= 0.7) return 2;
+  if (rate >= 0.66) return 2; // 3 題答對 2 題（67%）也算兩顆星
   return 1;
 }
 
@@ -58,8 +58,8 @@ export function recordBattle(player, { regionId, nodeId, subject, catId, results
     };
   }
 
-  // 統計：科目、節
-  for (const r of results) {
+  // 統計：科目、節（錯題特訓不算進答對率）
+  for (const r of (isDrill ? [] : results)) {
     for (const k of [subject, `${subject}:${r.q.section}`]) {
       const s = player.stats[k] || (player.stats[k] = { correct: 0, total: 0 });
       s.total += 1;

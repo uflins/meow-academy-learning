@@ -5,7 +5,7 @@ import { findRegion, BATTLE_SIZE } from '../engine/curriculum.js';
 import { loadRegionUnits, battleQuestions } from '../engine/pool.js';
 import { recordBattle, wrongFor, levelOf, progressKey } from '../engine/progress.js';
 import { afterBattle, battleCatFor, catLook, EVOLVE_LEVEL, FURNITURE, trackDaily } from '../engine/rewards.js';
-import { renderQuestion, formatAnswer, renderVisual, TONE_NO, richText } from '../engine/question-view.js';
+import { renderQuestion, formatAnswer, answerVisual, TONE_NO, richText } from '../engine/question-view.js';
 import { speak, stop as stopSpeech } from '../engine/speech.js';
 import { playZhuyin, preloadZhuyin } from '../engine/zhuyin-audio.js';
 import { play } from '../engine/sfx.js';
@@ -100,11 +100,15 @@ export default function battle(root, params, { go, app }) {
       comboEl.classList.toggle('ready', combo >= specialAt);
     };
 
+    let pauseTimer = null; // 限時挑戰：按 ✕ 時先停表
+    let resumeTimer = null;
     const quit = async () => {
+      if (pauseTimer) pauseTimer();
       const ok = await modal({ title: '要離開這場戰鬥嗎？', body: '這場的進度不會儲存喔。', actions: [
         { label: '繼續戰鬥', value: false, kind: 'primary' }, { label: '離開', value: true },
       ] });
       if (ok) go(...backTo());
+      else if (resumeTimer) resumeTimer();
     };
 
     const battleEl = h('div', { class: 'battle', style: { '--region': region.color } },
@@ -160,6 +164,7 @@ export default function battle(root, params, { go, app }) {
       catBox.classList.remove('jump');
       void catBox.offsetWidth;
       catBox.classList.add('jump');
+      setTimeout(() => catBox.classList.remove('jump'), 650);
       const big = h('div', { class: 'cheer' }, '答對了！');
       fx.append(big);
       for (let k = 0; k < 6; k++) {
@@ -242,15 +247,30 @@ export default function battle(root, params, { go, app }) {
       let timer = null;
       if (timed) {
         const fill = timerBar.firstChild;
+        let left = TIME_LIMIT * 1000;
+        let startedAt = 0;
+        const run = () => {
+          startedAt = Date.now();
+          fill.style.transition = `width ${left / 1000}s linear`;
+          fill.style.width = '0%';
+          timer = setTimeout(() => view.timeUp(), left);
+        };
         fill.style.transition = 'none';
         fill.style.width = '100%';
         void fill.offsetWidth;
-        fill.style.transition = `width ${TIME_LIMIT}s linear`;
-        fill.style.width = '0%';
-        timer = setTimeout(() => view.timeUp(), TIME_LIMIT * 1000);
+        run();
+        pauseTimer = () => {
+          clearTimeout(timer);
+          left = Math.max(1000, left - (Date.now() - startedAt));
+          fill.style.width = getComputedStyle(fill).width;
+          fill.style.transition = 'none';
+        };
+        resumeTimer = run;
       }
       let res = await view.waitAnswer();
       clearTimeout(timer);
+      pauseTimer = null;
+      resumeTimer = null;
       if (timed) { const fill = timerBar.firstChild; fill.style.width = getComputedStyle(fill).width; fill.style.transition = 'none'; }
       if (res.timedOut) burst('⏰ 時間到！', 'oops');
       if (!alive) return;
@@ -339,6 +359,7 @@ export default function battle(root, params, { go, app }) {
       const msg = won ? (node.isBoss ? '打倒大魔王了！' : '打倒糊塗怪了！') : `${catName(catId, look.evolved)}累了，休息一下再挑戰！`;
       if (lowGrade) speak(won ? `${msg}你答對了${r.correct}題` : msg);
       battleEl.classList.add('done');
+      timerBar.remove();
       qwrap.replaceChildren(h('div', { class: 'result' },
         h('div', { class: 'result-scroll' },
           h('div', { class: 'result-cat', html: catSVG(catId, Object.assign({ mood: won ? 'happy' : 'sleep' }, nowLook)) }),
@@ -363,7 +384,7 @@ export default function battle(root, params, { go, app }) {
             h('summary', {}, `看看答錯的題目（${wrongs.length}）`),
             wrongs.map((w) => h('div', { class: 'wrong-item' },
               h('div', { class: 'wrong-q' }, richText(w.q, w.q.prompt)),
-              renderVisual(w.q.visual, 'small'),
+              answerVisual(w.q),
               h('div', { class: 'wrong-a' }, '答案：', richText(w.q, formatAnswer(w.q))),
               w.q.explanation ? h('div', { class: 'wrong-e' }, richText(w.q, w.q.explanation)) : null))) : null,
         ),

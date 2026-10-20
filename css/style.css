@@ -546,3 +546,14 @@ ruby { ruby-position: inter-character; }
 .weak-list { margin: 4px 0 0; padding-left: 22px; color: var(--ink); }
 .help-list { margin: 4px 0 10px; padding-left: 24px; line-height: 1.7; }
 .parent-body h3 { margin: 12px 0 4px; }
+
+/* 地圖、方位盤答錯時：保留作答區（標出正確位置），說明放在旁邊 */
+.question.explaining.style-map .q-answer, .question.explaining.style-compass .q-answer { display: flex; flex: 1 1 55%; }
+.question.explaining.style-map .q-body > .explain, .question.explaining.style-compass .q-body > .explain { flex: 1 1 45%; }
+.question.style-map .q-body, .question.style-compass .q-body { gap: 14px; }
+
+/* 一年級：3 個選項配附圖時不要被切掉 */
+.q-answer { justify-content: safe center; }
+body.low-grade .question.has-visual .q-options.n3 { gap: 8px; }
+body.low-grade .question.has-visual .q-options.n3 .opt { min-height: 0; padding: 4px 10px; }
+body.low-grade .question.has-visual .q-options.n3 .opt-image { font-size: 1.4em; }

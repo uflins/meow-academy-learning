@@ -135,12 +135,17 @@ export function mapQuestion(rng) {
 }
 
 // 臺灣周邊示意圖（只畫相對位置）
-export function mapSVG(spots = []) {
-  const dots = spots.map((s) => `
-    <g class="map-spot" data-label="${s.label}" style="cursor:pointer">
-      <circle cx="${s.at[0]}" cy="${s.at[1]}" r="24" fill="#FFF8EE" stroke="#E07B45" stroke-width="4"/>
-      <text x="${s.at[0]}" y="${s.at[1] + 9}" font-size="24" font-weight="800" text-anchor="middle" fill="#B5583A">${s.label}</text>
-    </g>`).join('');
+// highlight：要標成正確（綠色）的代號，並在旁邊寫出地名
+export function mapSVG(spots = [], highlight = null) {
+  const dots = spots.map((s) => {
+    const on = s.label === highlight;
+    return `
+    <g class="map-spot ${on ? 'right' : ''}" data-label="${s.label}" style="cursor:pointer">
+      <circle cx="${s.at[0]}" cy="${s.at[1]}" r="30" fill="${on ? '#DFF5DF' : '#FFF8EE'}" stroke="${on ? '#3E9049' : '#E07B45'}" stroke-width="4"/>
+      <text x="${s.at[0]}" y="${s.at[1] + 9}" font-size="26" font-weight="800" text-anchor="middle" fill="${on ? '#2E6B37' : '#B5583A'}">${s.label}</text>
+      ${on ? `<text x="${s.at[0]}" y="${s.at[1] + 52}" font-size="20" font-weight="800" text-anchor="middle" fill="#2E6B37">${s.name}</text>` : ''}
+    </g>`;
+  }).join('');
   return `<svg viewBox="0 0 600 450">
     <rect width="600" height="450" rx="18" fill="#CFE9F7"/>
     <path d="M0 0 H 130 Q 150 80 120 140 Q 150 200 110 260 Q 90 320 40 360 Q 20 380 0 380 Z" fill="#E9DCC0" stroke="#B9A57A" stroke-width="2"/>

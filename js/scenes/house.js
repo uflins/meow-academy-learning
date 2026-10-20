@@ -209,10 +209,22 @@ export default function house(root, params, { go, app }) {
       renderTools();
     }
 
+    // 地毯和家具有沒有重疊（地毯放上去會被家具蓋住）
+    function underFurniture(kind, x, z) {
+      const [w, d] = footprint(kind, 0);
+      return placed.some((p) => {
+        if (isRug(p.kind)) return false;
+        const [pw, pd] = footprint(p.kind, p.rot);
+        return x < p.x + pw && x + w > p.x && z < p.z + pd && z + d > p.z;
+      });
+    }
+
     function nearestFree(kind) {
       const order = [];
       for (let z = 0; z < N; z++) for (let x = 0; x < N; x++) order.push([x, z, Math.hypot(x - 3, z - 3)]);
       order.sort((a, b) => a[2] - b[2]);
+      // 地毯先找沒有家具壓著的地方
+      if (isRug(kind)) for (const [x, z] of order) if (!blocked(kind, x, z, 0) && !underFurniture(kind, x, z)) return [x, z];
       for (const [x, z] of order) if (!blocked(kind, x, z, 0)) return [x, z];
       return null;
     }
@@ -457,15 +469,16 @@ export default function house(root, params, { go, app }) {
 
   async function openShop() {
     const list = h('div', { class: 'shop-grid' });
-    const renderShop = () => list.replaceChildren(...Object.entries(FURNITURE).filter(([, f]) => f.price).map(([kind, f]) => h('div', { class: 'shop-item' },
+    const fishLine = h('p', { class: 'muted' });
+    const renderShop = () => { fishLine.textContent = `你有 🐟 ${player.fish} 條小魚乾。`; list.replaceChildren(...Object.entries(FURNITURE).filter(([, f]) => f.price).map(([kind, f]) => h('div', { class: 'shop-item' },
       h('div', { class: 'inv-icon big' }, ICON[f.archetype] || '🪑'),
       h('div', { class: 'shop-name' }, f.name),
       h('button', {
         class: 'btn small primary', disabled: player.fish < f.price,
         onclick: () => { if (buyFurniture(player, kind)) { play('levelup'); toast(`買到了 ${f.name}！放在倉庫裡`); refreshBar(); renderShop(); renderInv(); } },
-      }, `🐟 ${f.price}`))));
+      }, `🐟 ${f.price}`)))); };
     renderShop();
-    await modal({ title: '🛍️ 家具店', body: h('div', {}, h('p', { class: 'muted' }, `你有 🐟 ${player.fish} 條小魚乾。`), list), actions: [{ label: '關閉', value: true, kind: 'primary' }] });
+    await modal({ title: '🛍️ 家具店', body: h('div', {}, fishLine, list), actions: [{ label: '關閉', value: true, kind: 'primary' }] });
   }
 
   return () => { alive = false; cleanupFns.forEach((f) => f()); };

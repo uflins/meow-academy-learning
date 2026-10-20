@@ -57,6 +57,14 @@ export function isCorrect(q, given) {
 }
 
 export function formatAnswer(q) {
+  if (q.style === 'map' && q.map) {
+    const s = q.map.spots.find((x) => x.label === q.answer);
+    return s ? `${s.label}（${s.name}）` : String(q.answer);
+  }
+  if (q.tags && q.tags[0] === 'blend' && q.grade <= 2) {
+    const o = (q.options || []).find((x) => typeof x === 'object' && x.label === q.answer);
+    if (o && o.image) return o.image;
+  }
   switch (q.type) {
     case 'truefalse': return q.answer ? '⭕ 對' : '❌ 錯';
     case 'multi': return q.answer.join('、');
@@ -145,6 +153,14 @@ function splitDiagramSVG({ total, parts }) {
   </svg>`;
 }
 
+// 錯題回顧、錯題本用：題目附圖；地圖、方位盤標出正確位置；拼音鍋畫出鍋子
+export function answerVisual(q) {
+  if (q.style === 'map' && q.map) return h('div', { class: 'q-visual svg small', html: mapSVG(q.map.spots, q.answer) });
+  if (q.style === 'compass') return h('div', { class: 'q-visual svg small', html: compassSVG(q.options, q.answer) });
+  if (!q.visual && q.tags && q.tags[0] === 'blend') return h('div', { class: 'q-visual svg small', html: potSVG(q.prompt.split('\n').pop()) });
+  return renderVisual(q.visual, 'small');
+}
+
 // 題目附圖；size = 'small' 用在錯題回顧、錯題本
 export function renderVisual(v, size = '') {
   if (!v) return null;
@@ -195,11 +211,11 @@ function choiceArea(q, ctx, answer) {
   return wrap;
 }
 
-// 影子魔法師：點方位盤
-function compassArea(q, ctx, answer) {
+// 影子魔法師：方位盤（highlight：標成正確的方位）
+function compassSVG(options, highlight = null) {
   const R = 150, C = 200;
   const ANGLE = { 正北: 0, 東偏北: 58, 正東: 90, 東偏南: 122, 正南: 180, 西偏南: 238, 正西: 270, 西偏北: 302 };
-  const spots = q.options.filter((l) => l in ANGLE).map((l) => {
+  const spots = options.filter((l) => l in ANGLE).map((l) => {
     const a = (ANGLE[l] * Math.PI) / 180;
     const x = C + R * Math.sin(a), y = C - R * Math.cos(a);
     // 文字放在圓圈外側：左右兩邊靠外對齊，上下兩個放在圓圈的上方或下方
@@ -207,11 +223,12 @@ function compassArea(q, ctx, answer) {
     const tx = side ? x + side * 30 : x;
     const ty = side ? y + 8 : y + (Math.cos(a) > 0 ? -32 : 46);
     const anchor = side > 0 ? 'start' : side < 0 ? 'end' : 'middle';
-    return `<g class="hot" data-label="${l}"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="22" fill="#FFF8EE" stroke="#E07B45" stroke-width="4"/>
+    const on = l === highlight;
+    return `<g class="hot ${on ? 'right' : ''}" data-label="${l}"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="31" fill="${on ? '#DFF5DF' : '#FFF8EE'}" stroke="${on ? '#3E9049' : '#E07B45'}" stroke-width="4"/>
       <text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" font-size="23" font-weight="800" text-anchor="${anchor}" fill="#4A3B32">${l}</text></g>`;
   }).join('');
-  const center = q.options.includes('幾乎沒有影子')
-    ? `<g class="hot" data-label="幾乎沒有影子"><circle cx="${C}" cy="${C + 58}" r="30" fill="#FFF8EE" stroke="#E07B45" stroke-width="4"/>
+  const center = options.includes('幾乎沒有影子')
+    ? `<g class="hot ${highlight === '幾乎沒有影子' ? 'right' : ''}" data-label="幾乎沒有影子"><circle cx="${C}" cy="${C + 58}" r="32" fill="${highlight === '幾乎沒有影子' ? '#DFF5DF' : '#FFF8EE'}" stroke="#E07B45" stroke-width="4"/>
        <text x="${C}" y="${C + 54}" font-size="13" font-weight="800" text-anchor="middle" fill="#4A3B32">幾乎沒</text>
        <text x="${C}" y="${C + 70}" font-size="13" font-weight="800" text-anchor="middle" fill="#4A3B32">有影子</text></g>`
     : '';
@@ -222,7 +239,11 @@ function compassArea(q, ctx, answer) {
     <ellipse cx="${C}" cy="${C + 4}" rx="16" ry="6" fill="#8C6239" opacity=".5"/>
     ${spots}${center}
   </svg>`;
-  const el = h('div', { class: 'q-hot compass', html: svg });
+  return svg;
+}
+
+function compassArea(q, ctx, answer) {
+  const el = h('div', { class: 'q-hot compass', html: compassSVG(q.options) });
   el.addEventListener('click', (e) => {
     const g = e.target.closest('.hot');
     if (g) answer(g.dataset.label, g);

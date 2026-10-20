@@ -137,6 +137,8 @@ export function ensureRewards(p) {
   p.furniture = p.furniture || {}; // kind -> 數量（含已擺放的）
   p.house = p.house || { placed: [] };
   p.battleCat = p.battleCat || {}; // 科目 -> 出戰的貓
+  // 舊存檔：已經有經驗值的貓補進圖鑑
+  for (const [id, c] of Object.entries(p.cats || {})) if (c && c.xp > 0 && !p.collection[id]) p.collection[id] = Date.now();
   return p;
 }
 

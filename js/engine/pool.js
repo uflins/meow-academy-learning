@@ -11,8 +11,18 @@ function withSpecial(list, special, n) {
   if (!special) return list;
   const k = Math.ceil(n * 0.6);
   if (SPECIAL_GEN[special]) {
-    const extra = Array.from({ length: k }, () => SPECIAL_GEN[special](Math.random));
-    return shuffle(Math.random, [...list.slice(0, n - k), ...extra]);
+    const extra = [];
+    const seen = new Set();
+    for (let t = 0; t < k * 15 && extra.length < k; t++) {
+      const q = SPECIAL_GEN[special](Math.random);
+      const key = `${q.prompt}|${q.answer}|${q.map ? q.map.spots.map((s) => s.name).sort().join() : ''}`;
+      const target = q.prompt.match(/「(.+?)」/)?.[1];
+      if (seen.has(key) || (target && seen.has(`t:${target}`))) continue;
+      seen.add(key);
+      if (target) seen.add(`t:${target}`);
+      extra.push(q);
+    }
+    return shuffle(Math.random, [...list.slice(0, n - extra.length), ...extra]);
   }
   return list;
 }
@@ -166,6 +176,27 @@ function makeMany(section, n, isBoss) {
     out.push(q);
   }
   return out;
+}
+
+// 「科目:節」→ 關卡標題（例如「2-4 倍數」「第1課 蚊帳大使」），錯題本和家長區用
+const titleMaps = {};
+export function sectionTitleMap(grade, regions) {
+  if (!titleMaps[grade]) {
+    titleMaps[grade] = (async () => {
+      const map = {};
+      for (const r of regions.filter((x) => x.status === 'open')) {
+        try {
+          for (const u of await loadRegionUnits(r)) {
+            for (const n of u.nodes) if (!n.isBoss && n.sections) map[`${r.subject}:${n.sections[0]}`] = n.title;
+            const boss = u.nodes.find((n) => n.isBoss);
+            if (boss) for (const s of boss.sections) if (s && !map[`${r.subject}:${s}`]) map[`${r.subject}:${s}`] = boss.title;
+          }
+        } catch (e) { /* 載入失敗就用節的代號 */ }
+      }
+      return map;
+    })();
+  }
+  return titleMaps[grade];
 }
 
 // 一場戰鬥的題目：先抽新題，再把約 20% 換成錯題本的題目

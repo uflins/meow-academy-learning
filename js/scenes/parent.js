@@ -6,7 +6,7 @@ import { AVATARS, CATS, SUBJECT_CAT } from '../art/art.js';
 import { regionsFor } from '../engine/curriculum.js';
 import { levelOf } from '../engine/progress.js';
 import { speak, voiceInfo, available as speechAvailable } from '../engine/speech.js';
-import { loadRegionUnits } from '../engine/pool.js';
+import { sectionTitleMap } from '../engine/pool.js';
 import { formatAnswer, richText } from '../engine/question-view.js';
 
 const SUBJECT_NAME = { chinese: '國語', math: '數學', science: '自然', social: '社會', english: '英語' };
@@ -132,24 +132,7 @@ export default function parent(root, params, { go }) {
   }
 
   // ---------- 成績 ----------
-  // 關卡標題（例如「2-4 倍數」「第三課 河馬和河狸」），依年級載入一次
-  const titleCache = {};
-  async function sectionTitles(grade) {
-    if (!titleCache[grade]) {
-      titleCache[grade] = (async () => {
-        const map = {};
-        for (const r of regionsFor(grade).filter((x) => x.status === 'open')) {
-          try {
-            for (const u of await loadRegionUnits(r)) {
-              for (const n of u.nodes) if (!n.isBoss && n.sections) map[`${r.subject}:${n.sections[0]}`] = n.title;
-            }
-          } catch (e) { /* 載入失敗就用節的代號 */ }
-        }
-        return map;
-      })();
-    }
-    return titleCache[grade];
-  }
+  const sectionTitles = (grade) => sectionTitleMap(grade, regionsFor(grade));
 
   function report() {
     const list = store.listPlayers();

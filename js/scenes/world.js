@@ -72,7 +72,7 @@ export default function world(root, params, { go, app }) {
         h('div', { class: 'region-icon' }, r.icon),
         h('div', { class: 'region-name' }, r.name, low ? h('span', { class: 'mini-say', role: 'button', 'aria-label': '念給我聽', onclick: (e) => { e.stopPropagation(); speak(r.name); } }, '🔊') : null),
         h('div', { class: 'region-cat', html: catSVG(catId, Object.assign({ mood: open ? 'normal' : 'sleep' }, open ? look : {})) }),
-        h('div', { class: 'region-meta' }, open ? `${catName(catId, look.evolved)} Lv.${levelOf(cat.xp)}` : '🚧 建造中'));
+        h('div', { class: 'region-meta' }, open ? (low ? `${catName(catId, look.evolved)} ${'⭐'.repeat(Math.min(5, levelOf(cat.xp)))}` : `${catName(catId, look.evolved)} Lv.${levelOf(cat.xp)}`) : '🚧 建造中'));
       })),
       dailyPanel(player, () => go('world')),
       h('div', { class: 'world-actions' },
