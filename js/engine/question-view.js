@@ -17,7 +17,7 @@ export function richText(q, text) {
   for (const m of str.matchAll(FRAC_RE)) {
     if (m.index > last) out.push(str.slice(last, m.index));
     if (m[1]) out.push(m[1].replace('又', ''), h('span', { class: 'frac-and' }, ''));
-    out.push(h('span', { class: 'frac' }, h('span', { class: 'num' }, m[2]), h('span', { class: 'den' }, m[3])));
+    out.push(h('span', { class: 'frac' }, h('span', { class: 'fr-n' }, m[2]), h('span', { class: 'fr-d' }, m[3])));
     last = m.index + m[0].length;
   }
   if (last < str.length) out.push(str.slice(last));
