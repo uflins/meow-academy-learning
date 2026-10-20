@@ -4,7 +4,7 @@ import { h, wait, modal } from '../ui/dom.js';
 import { findRegion, BATTLE_SIZE } from '../engine/curriculum.js';
 import { loadRegionUnits, battleQuestions } from '../engine/pool.js';
 import { recordBattle, wrongFor, levelOf, progressKey } from '../engine/progress.js';
-import { afterBattle, battleCatFor, catLook, EVOLVE_LEVEL, FURNITURE } from '../engine/rewards.js';
+import { afterBattle, battleCatFor, catLook, EVOLVE_LEVEL, FURNITURE, trackDaily } from '../engine/rewards.js';
 import { renderQuestion, formatAnswer, renderVisual } from '../engine/question-view.js';
 import { speak, stop as stopSpeech } from '../engine/speech.js';
 import { playZhuyin, preloadZhuyin } from '../engine/zhuyin-audio.js';
@@ -251,6 +251,7 @@ export default function battle(root, params, { go, app }) {
       regionId: region.id, nodeId: node.id, subject: region.subject, catId, results, defeated, isBoss: node.isBoss, isDrill,
     });
     const gifts = afterBattle(player, { subject: region.subject, catId, rec, defeated, isBoss: node.isBoss, unitNodeKeys });
+    trackDaily(player, { rec, results });
     if (defeated) {
       // 最後一擊：把剩下的血打完
       burst('最後一擊！', 'special');

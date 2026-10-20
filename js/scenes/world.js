@@ -3,7 +3,7 @@ import { h, toast } from '../ui/dom.js';
 import { regionsFor } from '../engine/curriculum.js';
 import { catSVG, SUBJECT_CAT, CATS } from '../art/art.js';
 import { levelOf, catOf } from '../engine/progress.js';
-import { battleCatFor, catLook } from '../engine/rewards.js';
+import { battleCatFor, catLook, dailyTasks, claimDaily, FURNITURE } from '../engine/rewards.js';
 import { catName } from '../art/art.js';
 import { play } from '../engine/sfx.js';
 
@@ -15,6 +15,29 @@ export function playerBar(player, { go, back }) {
     h('div', { class: 'chip' }, '🐟 ', String(player.fish)),
     h('div', { class: 'chip' }, '⭐ ', String(Object.values(player.progress).reduce((s, p) => s + (p.stars || 0), 0))),
   );
+}
+
+// 今天的任務
+function dailyPanel(player, refresh) {
+  const d = dailyTasks(player);
+  return h('div', { class: 'daily' },
+    h('div', { class: 'daily-title' }, '📅 今天的任務', d.bonus ? h('span', { class: 'muted' }, '　全部完成，明天再來！') : h('span', { class: 'muted' }, '　三個都完成送一件「軟綿綿小日子」家具')),
+    h('div', { class: 'daily-list' }, d.tasks.map((t) => h('div', { class: `daily-task ${t.claimed ? 'claimed' : ''}` },
+      h('div', { class: 'daily-label' }, t.label),
+      h('div', { class: 'xpbar' }, h('div', { class: 'xpfill', style: { width: `${Math.round((t.n / t.goal) * 100)}%` } })),
+      h('div', { class: 'daily-n' }, `${t.n}/${t.goal}`),
+      t.claimed
+        ? h('span', { class: 'daily-done' }, '✓ 已領')
+        : h('button', {
+            class: `btn small ${t.n >= t.goal ? 'primary' : ''}`, disabled: t.n < t.goal,
+            onclick: () => {
+              const got = claimDaily(player, t.id);
+              if (!got) return;
+              play('levelup');
+              toast(got.furniture ? `+${got.fish} 🐟，還得到家具「${FURNITURE[got.furniture].name}」！` : `+${got.fish} 🐟`);
+              refresh();
+            },
+          }, `領 🐟${t.fish}`)))));
 }
 
 export default function world(root, params, { go, app }) {
@@ -46,6 +69,7 @@ export default function world(root, params, { go, app }) {
         h('div', { class: 'region-cat', html: catSVG(catId, Object.assign({ mood: open ? 'normal' : 'sleep' }, open ? look : {})) }),
         h('div', { class: 'region-meta' }, open ? `${catName(catId, look.evolved)} Lv.${levelOf(cat.xp)}` : '🚧 建造中'));
       })),
+      dailyPanel(player, () => go('world')),
       h('div', { class: 'world-actions' },
         h('button', { class: 'btn', onclick: () => go('cats') }, '🐱 我的貓咪'),
         h('button', { class: 'btn', onclick: () => go('house') }, '🏠 我的喵屋'),

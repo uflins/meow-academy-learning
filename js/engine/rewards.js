@@ -56,13 +56,79 @@ export const FURNITURE = {
   c_plant: { name: '角落小盆栽', archetype: 'plant', colors: ['#9DBF9E', '#CDBBA7'], set: 'corner' },
   c_blanket: { name: '毛毯堆', archetype: 'cushion', colors: ['#B9C7B4', '#D8CFC4'], set: 'corner' },
   c_shelf: { name: '矮書架', archetype: 'shelf', colors: ['#CDBBA7', '#9DB4C0'], set: 'corner' },
+  // 軟綿綿小日子：每日任務全部完成
+  s_bed: { name: '圓圓小被窩', archetype: 'bed', colors: ['#FFF3D6', '#FFD6E0'], set: 'soft' },
+  s_sofa: { name: '布丁沙發', archetype: 'sofa', colors: ['#FFE08A', '#C98A4B'], set: 'soft' },
+  s_rug: { name: '鬆餅地毯', archetype: 'rug', colors: ['#E8B96F', '#FFF3D6'], set: 'soft' },
+  s_table: { name: '點心盤小桌', archetype: 'table', colors: ['#FFFFFF', '#FFB4C6'], set: 'soft' },
+  s_cart: { name: '拉麵小推車', archetype: 'box', colors: ['#F2B5A0', '#FFF3D6'], set: 'soft' },
+  s_light: { name: '星星夜燈', archetype: 'lamp', colors: ['#FFF1A8', '#FFD6E0'], set: 'soft' },
+  s_garden: { name: '小菜園盆栽', archetype: 'plant', colors: ['#9DD69F', '#E8B96F'], set: 'soft' },
+  s_sign: { name: '手寫木牌', archetype: 'hatstand', colors: ['#C49A6C', '#FFF3D6'], set: 'soft' },
 };
 
 export const SETS = {
   gentleman: { name: '鬍子紳士貓之家', how: '每個關卡第一次拿到三顆星' },
   trainer: { name: '冒險訓練師', how: '打倒大魔王' },
   corner: { name: '角落小夥伴', how: '錯題本畢業（每畢業 3 題得 1 件）' },
+  soft: { name: '軟綿綿小日子', how: '每日任務全部完成' },
 };
+
+// ---------- 每日任務（設計規格書 5.3）----------
+function today() {
+  const d = new Date();
+  return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+}
+
+export function dailyTasks(p) {
+  ensureRewards(p);
+  if (!p.daily || p.daily.date !== today()) {
+    const low = p.grade <= 2;
+    const hasWrong = p.wrongBook.some((w) => w.q.grade === p.grade);
+    p.daily = {
+      date: today(),
+      bonus: false,
+      tasks: [
+        { id: 'correct', label: `答對 ${low ? 6 : 10} 題`, goal: low ? 6 : 10, n: 0, claimed: false, fish: 5 },
+        { id: 'battles', label: `打完 ${low ? 2 : 3} 場戰鬥`, goal: low ? 2 : 3, n: 0, claimed: false, fish: 5 },
+        hasWrong
+          ? { id: 'wrong', label: '錯題答對 2 題', goal: 2, n: 0, claimed: false, fish: 8 }
+          : { id: 'stars', label: '拿到 1 次三顆星', goal: 1, n: 0, claimed: false, fish: 8 },
+      ],
+    };
+    store.save();
+  }
+  return p.daily;
+}
+
+// 戰鬥結束後更新每日任務進度
+export function trackDaily(p, { rec, results }) {
+  const d = dailyTasks(p);
+  for (const t of d.tasks) {
+    if (t.id === 'correct') t.n += rec.correct;
+    if (t.id === 'battles') t.n += 1;
+    if (t.id === 'wrong') t.n += results.filter((r) => r.correct && r.q.fromWrongBook).length;
+    if (t.id === 'stars' && rec.stars === 3) t.n += 1;
+    t.n = Math.min(t.n, t.goal);
+  }
+  store.save();
+}
+
+// 領任務獎勵；三個都領完再送一件「軟綿綿小日子」家具。回傳 { fish, furniture }
+export function claimDaily(p, id) {
+  const d = dailyTasks(p);
+  const t = d.tasks.find((x) => x.id === id);
+  if (!t || t.claimed || t.n < t.goal) return null;
+  t.claimed = true;
+  p.fish += t.fish;
+  let furniture = null;
+  if (!d.bonus && d.tasks.every((x) => x.claimed)) {
+    d.bonus = true;
+    furniture = giveFurniture(p, pickFromSet(p, 'soft'));
+  }
+  store.save();
+  return { fish: t.fish, furniture };
+}
 
 export function ensureRewards(p) {
   p.counters = Object.assign({ graduated: 0, bossWins: 0, fullStarUnits: 0, fishEarned: 0, gradToward: 0 }, p.counters || {});

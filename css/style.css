@@ -469,3 +469,13 @@ body.low-grade .opt.bubble { font-size: clamp(56px, 7.5vw, 80px); min-height: 0;
 .inv-item { flex: none; display: flex; align-items: center; gap: 6px; min-height: 48px; padding: 4px 12px; font-size: .9em; }
 .inv-icon { font-size: 1.4em; }
 .inv-icon.big { font-size: 2.6em; }
+
+/* 每日任務 */
+.daily { margin-top: 16px; background: var(--card); border: 3px solid var(--line); border-radius: 20px; padding: 10px 16px; }
+.daily-title { font-weight: 800; margin-bottom: 6px; }
+.daily-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 8px 16px; }
+.daily-task { display: grid; grid-template-columns: 1fr 70px auto auto; align-items: center; gap: 8px; }
+.daily-task.claimed { opacity: .6; }
+.daily-label { font-weight: 700; }
+.daily-n { font-size: .85em; color: var(--muted); }
+.daily-done { color: var(--good-dark); font-weight: 700; }
