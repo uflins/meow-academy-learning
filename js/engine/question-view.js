@@ -3,6 +3,7 @@ import { h, fromHTML } from '../ui/dom.js';
 import { shuffle } from '../gen/util.js';
 import { speak } from './speech.js';
 import { play } from './sfx.js';
+import { playZhuyin } from './zhuyin-audio.js';
 
 export function optionLabel(o) {
   return typeof o === 'string' ? o : o.label;
@@ -85,10 +86,10 @@ function optionContent(o) {
 }
 
 function choiceArea(q, ctx, answer) {
-  const wrap = h('div', { class: `q-options n${q.options.length} ${q.options.some((o) => o.svg) ? 'has-svg' : ''}` });
+  const wrap = h('div', { class: `q-options n${q.options.length} ${q.options.some((o) => o.svg) ? 'has-svg' : ''} ${q.style === 'bubble' ? 'bubbles' : ''}` });
   for (const o of q.options) {
     const label = optionLabel(o);
-    const btn = h('button', { class: 'opt btn', dataset: { label }, onclick: () => answer(label, btn) }, optionContent(o));
+    const btn = h('button', { class: `opt btn ${q.style === 'bubble' ? 'bubble' : ''}`, dataset: { label }, onclick: () => answer(label, btn) }, optionContent(o));
     if (ctx.lowGrade && typeof o === 'object' && o.speak) {
       btn.append(h('span', {
         class: 'opt-say', role: 'button', 'aria-label': '聽一聽',
@@ -197,7 +198,7 @@ export function renderQuestion(q, ctx = {}) {
     resolveAnswer({ given, correct, btn });
   };
 
-  const sayBtn = h('button', { class: 'say-btn', 'aria-label': '再聽一次', onclick: () => speak(q.speak || q.prompt) }, '🔊');
+  const sayBtn = h('button', { class: 'say-btn', 'aria-label': '再聽一次', onclick: () => (q.audio ? playZhuyin(q.audio) : speak(q.speak || q.prompt)) }, '🔊');
   const prompt = h('div', { class: 'q-prompt' }, sayBtn, h('span', { class: 'q-text' }, q.prompt));
 
   let area;

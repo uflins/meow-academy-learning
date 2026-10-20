@@ -1,6 +1,8 @@
 // 依區域載入單元與關卡，並為每場戰鬥抽題（含約 20% 的錯題本題目）。
 import { shuffle, sample } from '../gen/util.js';
 import { wrongFor } from './progress.js';
+import { zhuyinAudioReady } from './zhuyin-audio.js';
+import { makeBubble } from '../gen/zhuyin-bubbles.js';
 
 const bankCache = new Map();
 const moduleCache = new Map();
@@ -51,25 +53,40 @@ export async function loadRegionUnits(region) {
     });
   }
   if (src.kind === 'bank') {
+    const useBubbles = !!src.bubbles && await zhuyinAudioReady();
+    // 把 k 題換成注音泡泡（同一場不重複考同一個符號）
+    const withBubbles = (list, section, k) => {
+      if (!useBubbles || !k) return list;
+      const used = new Set();
+      const bubbles = [];
+      for (let t = 0; t < k * 6 && bubbles.length < k; t++) {
+        const b = makeBubble(Math.random, section);
+        if (used.has(b.audio)) continue;
+        used.add(b.audio);
+        bubbles.push(b);
+      }
+      return shuffle(Math.random, [...list.slice(0, list.length - bubbles.length), ...bubbles]);
+    };
     return src.units.map((u) => {
       const nodes = u.sections.map((s) => ({
         id: `u${u.unit}-s${s.section}`,
         title: s.title,
         isBoss: false,
         sections: [String(s.section)],
-        draw: async (n) => pickVaried(await loadBank(s.file), n),
+        draw: async (n) => withBubbles(pickVaried(await loadBank(s.file), n), s.section, 1),
       }));
       nodes.push({
         id: `u${u.unit}-boss`,
-        title: `${u.boss.title} 大魔王`,
+        title: /大魔王|怪/.test(u.boss.title) ? u.boss.title : `${u.boss.title} 大魔王`,
         isBoss: true,
         sections: [...u.sections.map((s) => String(s.section)), String(u.boss.section || '')],
         draw: async (n) => {
-          const review = await loadBank(u.boss.file);
           const lessons = (await Promise.all(u.sections.map((s) => loadBank(s.file)))).flat();
+          if (!u.boss.file) return withBubbles(pickVaried(lessons, n), u.boss.section, 0);
+          const review = await loadBank(u.boss.file);
           const fromReview = pickVaried(review, Math.ceil(n * 0.6));
           const fromLessons = pickVaried(lessons.filter((q) => !fromReview.includes(q)), n - fromReview.length);
-          return shuffle(Math.random, [...fromReview, ...fromLessons]);
+          return withBubbles(shuffle(Math.random, [...fromReview, ...fromLessons]), u.boss.section, 2);
         },
       });
       return { unit: u.unit, title: u.title, nodes };

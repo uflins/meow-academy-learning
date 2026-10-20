@@ -2,3 +2,6 @@ node_modules/
 .DS_Store
 *.log
 .claude/
+
+# 注音音檔：來源確認可以公開之前，不放進公開 repo
+assets/zhuyin/

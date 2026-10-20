@@ -6,6 +6,7 @@ import { loadRegionUnits, battleQuestions } from '../engine/pool.js';
 import { recordBattle, wrongFor, levelOf } from '../engine/progress.js';
 import { renderQuestion, formatAnswer, renderVisual } from '../engine/question-view.js';
 import { speak, stop as stopSpeech } from '../engine/speech.js';
+import { playZhuyin, preloadZhuyin } from '../engine/zhuyin-audio.js';
 import { play } from '../engine/sfx.js';
 import { catSVG, monsterSVG, SUBJECT_CAT, CATS } from '../art/art.js';
 import { sample } from '../gen/util.js';
@@ -156,6 +157,14 @@ export default function battle(root, params, { go, app }) {
       catBox.classList.remove('hit');
     };
 
+    // 一年級：念題目；注音泡泡題先念提示，再播注音音檔
+    const sayQuestion = async (q) => {
+      if (!q.audio) { speak(q.speak || q.prompt); return; }
+      preloadZhuyin([q.audio]);
+      await speak(q.speak);
+      if (alive) playZhuyin(q.audio);
+    };
+
     // 說明放在作答區的位置，題目和附圖保持看得到
     const explain = (view, q) => new Promise((resolve) => {
       const say = q.explainSpeak || q.explanation;
@@ -164,12 +173,13 @@ export default function battle(root, params, { go, app }) {
         h('div', { class: 'explain-answer' }, formatAnswer(q)),
         q.explanation ? h('div', { class: 'explain-text' }, q.explanation) : null,
         h('div', { class: 'explain-actions' },
-          lowGrade && say ? h('button', { class: 'btn', onclick: () => speak(say) }, '🔊 再聽一次') : null,
+          lowGrade && (say || q.audio) ? h('button', { class: 'btn', onclick: () => (q.audio ? playZhuyin(q.audio) : speak(say)) }, '🔊 再聽一次') : null,
           h('button', { class: 'btn primary', onclick: () => { stopSpeech(); resolve(); } }, '我懂了'),
         ),
       );
       view.showExplanation(panel);
-      if (lowGrade && say) speak(say);
+      if (lowGrade && q.audio) speak(q.explainSpeak || '').then(() => alive && playZhuyin(q.audio));
+      else if (lowGrade && say) speak(say);
     });
 
     for (let i = 0; i < n && alive; i++) {
@@ -178,7 +188,7 @@ export default function battle(root, params, { go, app }) {
       setCat('normal');
       const view = renderQuestion(q, { lowGrade });
       qwrap.replaceChildren(view.el);
-      if (lowGrade) speak(q.speak || q.prompt);
+      if (lowGrade) sayQuestion(q);
 
       let res = await view.waitAnswer();
       if (!alive) return;

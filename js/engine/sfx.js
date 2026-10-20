@@ -13,9 +13,21 @@ function audio() {
   return ctx;
 }
 
-// iPad 要在使用者觸控後才能播放聲音
+// 給其他模組共用同一個音訊環境（例如注音音檔）
+export function audioContext() {
+  return audio();
+}
+
+// iPad 要在使用者觸控後才能播放聲音；在點擊當下播一小段無聲的聲音來解鎖
 export function unlock() {
-  audio();
+  const a = audio();
+  if (!a) return;
+  try {
+    const src = a.createBufferSource();
+    src.buffer = a.createBuffer(1, 1, 22050);
+    src.connect(a.destination);
+    src.start(0);
+  } catch (e) { /* 忽略 */ }
 }
 
 function tone(freq, start, dur, { type = 'sine', gain = 0.18, slideTo = null } = {}) {
