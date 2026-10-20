@@ -8,8 +8,10 @@ import region from './scenes/region.js';
 import battle from './scenes/battle.js';
 import parent from './scenes/parent.js';
 import wrongbook from './scenes/wrongbook.js';
+import cats from './scenes/cats.js';
+import house from './scenes/house.js';
 
-const scenes = { home, world, region, battle, parent, wrongbook };
+const scenes = { home, world, region, battle, parent, wrongbook, cats, house };
 
 export const app = {
   root: null,

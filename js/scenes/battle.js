@@ -3,12 +3,13 @@
 import { h, wait, modal } from '../ui/dom.js';
 import { findRegion, BATTLE_SIZE } from '../engine/curriculum.js';
 import { loadRegionUnits, battleQuestions } from '../engine/pool.js';
-import { recordBattle, wrongFor, levelOf } from '../engine/progress.js';
+import { recordBattle, wrongFor, levelOf, progressKey } from '../engine/progress.js';
+import { afterBattle, battleCatFor, catLook, EVOLVE_LEVEL, FURNITURE } from '../engine/rewards.js';
 import { renderQuestion, formatAnswer, renderVisual } from '../engine/question-view.js';
 import { speak, stop as stopSpeech } from '../engine/speech.js';
 import { playZhuyin, preloadZhuyin } from '../engine/zhuyin-audio.js';
 import { play } from '../engine/sfx.js';
-import { catSVG, monsterSVG, SUBJECT_CAT, CATS } from '../art/art.js';
+import { catSVG, monsterSVG, SUBJECT_CAT, catName } from '../art/art.js';
 import { sample } from '../gen/util.js';
 
 const PRAISE = ['答對了！', '好厲害！', '太棒了！', '漂亮！', '完全正確！'];
@@ -41,7 +42,9 @@ async function setup(player, params) {
   const node = units.flatMap((u) => u.nodes).find((n) => n.id === params.nodeId);
   const size = BATTLE_SIZE[player.grade] || BATTLE_SIZE[5];
   const questions = await battleQuestions(player, region, node, node.isBoss ? size.boss : size.normal);
-  return { region, node, questions, backTo: () => ['region', { regionId: region.id }], backLabel: '回地圖' };
+  const unit = units.find((u) => u.nodes.includes(node));
+  const unitNodeKeys = unit ? unit.nodes.map((x) => progressKey(region.id, x.id)) : [];
+  return { region, node, questions, unitNodeKeys, backTo: () => ['region', { regionId: region.id }], backLabel: '回地圖' };
 }
 
 export default function battle(root, params, { go, app }) {
@@ -63,17 +66,19 @@ export default function battle(root, params, { go, app }) {
     root.replaceChildren(h('div', { class: 'warn' }, `載入失敗：${e.message}`), h('button', { class: 'btn', onclick: () => go('world') }, '回地圖'));
   });
 
-  async function run({ region, node, questions, backTo, backLabel, isDrill }) {
-    const catId = SUBJECT_CAT[region.subject] || 'abacus';
+  async function run({ region, node, questions, backTo, backLabel, isDrill, unitNodeKeys }) {
+    const catId = battleCatFor(player, region.subject);
+    const look = catLook(player, catId);
+    const isPartner = catId === SUBJECT_CAT[region.subject];
     const n = questions.length;
-    const perHit = 100 / n;
+    const perHit = (100 / n) * (isPartner ? 1.15 : 1); // 夥伴貓攻擊力加成
     const specialAt = lowGrade ? 2 : 3; // 連對幾題後，下一招變必殺技（一年級題數少，連對 2 題就好）
     let damage = 0;
     let catHp = 100;
     let combo = 0;
     const results = [];
 
-    const catBox = h('div', { class: 'fighter cat idle', html: catSVG(catId) });
+    const catBox = h('div', { class: 'fighter cat idle', html: catSVG(catId, look) });
     const monBox = h('div', { class: `fighter monster ${node.isBoss ? 'boss' : ''}`, html: monsterSVG(region.subject, { boss: node.isBoss }) });
     const catHpBar = hpBar('cat');
     const monHpBar = hpBar('monster');
@@ -82,7 +87,7 @@ export default function battle(root, params, { go, app }) {
     const fx = h('div', { class: 'fx-layer' });
     const qwrap = h('div', { class: 'qwrap' });
 
-    const setCat = (mood) => { catBox.innerHTML = catSVG(catId, { mood }); };
+    const setCat = (mood) => { catBox.innerHTML = catSVG(catId, Object.assign({ mood }, look)); };
     const setMon = (mood) => { monBox.innerHTML = monsterSVG(region.subject, { boss: node.isBoss, mood }); };
     // 最後一題答完前，怪物至少留 5% 血
     const updateHp = (final = false) => {
@@ -108,7 +113,7 @@ export default function battle(root, params, { go, app }) {
         counter,
       ),
       h('div', { class: 'stage' },
-        h('div', { class: 'side left' }, h('div', { class: 'name' }, CATS[catId].name), catHpBar.el, catBox),
+        h('div', { class: 'side left' }, h('div', { class: 'name' }, catName(catId, look.evolved), isPartner ? h('span', { class: 'partner' }, ' 夥伴加成') : null), catHpBar.el, catBox),
         h('div', { class: 'mid' }, comboEl),
         h('div', { class: 'side right' }, h('div', { class: 'name' }, node.isBoss ? '大魔王' : '糊塗怪'), monHpBar.el, monBox),
         fx,
@@ -245,6 +250,7 @@ export default function battle(root, params, { go, app }) {
     const rec = recordBattle(player, {
       regionId: region.id, nodeId: node.id, subject: region.subject, catId, results, defeated, isBoss: node.isBoss, isDrill,
     });
+    const gifts = afterBattle(player, { subject: region.subject, catId, rec, defeated, isBoss: node.isBoss, unitNodeKeys });
     if (defeated) {
       // 最後一擊：把剩下的血打完
       burst('最後一擊！', 'special');
@@ -264,25 +270,34 @@ export default function battle(root, params, { go, app }) {
     } else {
       updateHp();
     }
-    showResult(rec, defeated);
+    showResult(rec, defeated, gifts);
 
-    function showResult(r, won) {
+    function showResult(r, won, g) {
       const wrongs = results.filter((x) => !x.correct);
       const levelUp = r.levelAfter > r.levelBefore;
       if (levelUp) setTimeout(() => play('levelup'), 600);
-      const msg = won ? (node.isBoss ? '打倒大魔王了！' : '打倒糊塗怪了！') : `${CATS[catId].name}累了，休息一下再挑戰！`;
+      const evolvedNow = r.levelBefore < EVOLVE_LEVEL && r.levelAfter >= EVOLVE_LEVEL;
+      const nowLook = catLook(player, catId);
+      const msg = won ? (node.isBoss ? '打倒大魔王了！' : '打倒糊塗怪了！') : `${catName(catId, look.evolved)}累了，休息一下再挑戰！`;
       if (lowGrade) speak(won ? `${msg}你答對了${r.correct}題` : msg);
       battleEl.classList.add('done');
       qwrap.replaceChildren(h('div', { class: 'result' },
         h('div', { class: 'result-scroll' },
-          h('div', { class: 'result-cat', html: catSVG(catId, { mood: won ? 'happy' : 'sleep' }) }),
+          h('div', { class: 'result-cat', html: catSVG(catId, Object.assign({ mood: won ? 'happy' : 'sleep' }, nowLook)) }),
           h('h2', { class: 'result-title' }, msg),
           h('div', { class: 'result-stars' }, [0, 1, 2].map((k) => h('span', { class: k < r.stars ? 'on' : '', style: { animationDelay: `${k * 0.25}s` } }, '★'))),
           h('div', { class: 'result-line' }, `答對 ${r.correct} / ${r.total} 題`),
           h('div', { class: 'result-gains' },
             h('span', { class: 'chip' }, `+${r.xp} 經驗值`),
             h('span', { class: 'chip' }, `+${r.fish} 🐟`)),
-          levelUp ? h('div', { class: 'levelup' }, `🎉 ${CATS[catId].name}升到 Lv.${levelOf(player.cats[catId].xp)} 了！`) : null,
+          evolvedNow ? h('div', { class: 'levelup big' }, `✨ ${catName(catId)}進化成「${catName(catId, true)}」了！`) : null,
+          levelUp && !evolvedNow ? h('div', { class: 'levelup' }, `🎉 ${catName(catId, nowLook.evolved)}升到 Lv.${levelOf(player.cats[catId].xp)} 了！`) : null,
+          g.newCats.length ? h('div', { class: 'gift-row' }, g.newCats.map((id) => h('div', { class: 'gift' },
+            h('div', { class: 'gift-cat', html: catSVG(id, { mood: 'happy' }) }),
+            h('div', {}, `${catName(id)}加入了！`)))) : null,
+          g.furniture.length ? h('div', { class: 'gift-row' }, g.furniture.map((k) => h('div', { class: 'gift' },
+            h('div', { class: 'gift-icon' }, '🎁'),
+            h('div', {}, `得到家具：${FURNITURE[k].name}`)))) : null,
           r.graduated ? h('div', { class: 'levelup' }, `🎓 有 ${r.graduated} 題從錯題本畢業了！`) : null,
           wrongs.length ? h('details', { class: 'result-wrongs' },
             h('summary', {}, `看看答錯的題目（${wrongs.length}）`),

@@ -3,6 +3,8 @@ import { h, toast } from '../ui/dom.js';
 import { regionsFor } from '../engine/curriculum.js';
 import { catSVG, SUBJECT_CAT, CATS } from '../art/art.js';
 import { levelOf, catOf } from '../engine/progress.js';
+import { battleCatFor, catLook } from '../engine/rewards.js';
+import { catName } from '../art/art.js';
 import { play } from '../engine/sfx.js';
 
 export function playerBar(player, { go, back }) {
@@ -26,8 +28,9 @@ export default function world(root, params, { go, app }) {
     h('div', { class: 'world' },
       h('h2', { class: 'scene-title' }, '世界地圖'),
       h('div', { class: 'region-grid' }, regions.map((r) => {
-        const catId = SUBJECT_CAT[r.subject];
+        const catId = battleCatFor(player, r.subject);
         const cat = catOf(player, catId);
+        const look = catLook(player, catId);
         const open = r.status === 'open';
         return h('button', {
           class: `region-card btn ${open ? '' : 'locked'}`,
@@ -40,10 +43,12 @@ export default function world(root, params, { go, app }) {
         },
         h('div', { class: 'region-icon' }, r.icon),
         h('div', { class: 'region-name' }, r.name),
-        h('div', { class: 'region-cat', html: catSVG(catId, { mood: open ? 'normal' : 'sleep' }) }),
-        h('div', { class: 'region-meta' }, open ? `${CATS[catId].name} Lv.${levelOf(cat.xp)}` : '🚧 建造中'));
+        h('div', { class: 'region-cat', html: catSVG(catId, Object.assign({ mood: open ? 'normal' : 'sleep' }, open ? look : {})) }),
+        h('div', { class: 'region-meta' }, open ? `${catName(catId, look.evolved)} Lv.${levelOf(cat.xp)}` : '🚧 建造中'));
       })),
       h('div', { class: 'world-actions' },
+        h('button', { class: 'btn', onclick: () => go('cats') }, '🐱 我的貓咪'),
+        h('button', { class: 'btn', onclick: () => go('house') }, '🏠 我的喵屋'),
         h('button', { class: 'btn', onclick: () => go('wrongbook') }, `📒 錯題本（${wrongCount}）`),
       ),
     ),

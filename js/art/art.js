@@ -22,6 +22,35 @@ export const CATS = {
     name: '泡泡貓', subject: 'english', desc: '會吹字母泡泡',
     base: '#FBFBFD', outline: '#8A8FA3', shade: '#E2E5EE', light: '#FFFFFF', accent: '#8EC9F5',
   },
+  // 以下是要收集的特別貓（取得條件見 js/engine/rewards.js）
+  brave: {
+    name: '勇氣貓', desc: '綁著紅頭巾，不怕錯題',
+    base: '#F4A261', outline: '#93461F', shade: '#DD8443', light: '#FFD3A8', accent: '#E5484D',
+  },
+  star: {
+    name: '星星貓', desc: '額頭有一顆星星',
+    base: '#5B6BB5', outline: '#2E3770', shade: '#4A5899', light: '#8D9AD8', accent: '#FFD54F',
+  },
+  king: {
+    name: '魔王貓', desc: '打倒很多大魔王，披著紫色披風',
+    base: '#3F3A4A', outline: '#1E1A26', shade: '#2F2A38', light: '#6B6478', accent: '#8E5BD6',
+  },
+  fishy: {
+    name: '小魚乾貓', desc: '尾巴上叼著一條小魚乾',
+    base: '#F7F2E8', outline: '#8C7A62', shade: '#E4DACB', light: '#FFFFFF', accent: '#6FB3E0',
+  },
+};
+
+// 換裝配件（價格見 js/engine/rewards.js）
+export const GEAR = {
+  party: { name: '派對帽', slot: 'hat', icon: '🎉' },
+  beret: { name: '畫家帽', slot: 'hat', icon: '🎨' },
+  crown: { name: '小皇冠', slot: 'hat', icon: '👑' },
+  scarf: { name: '紅圍巾', slot: 'neck', icon: '🧣' },
+  bowtie: { name: '紳士領結', slot: 'neck', icon: '🎀' },
+  bell: { name: '鈴鐺項圈', slot: 'neck', icon: '🔔' },
+  glasses: { name: '圓眼鏡', slot: 'eyes', icon: '👓' },
+  shades: { name: '酷酷墨鏡', slot: 'eyes', icon: '🕶️' },
 };
 
 export const SUBJECT_CAT = { chinese: 'momo', math: 'abacus', science: 'leaf', social: 'explorer', english: 'bubble' };
@@ -71,12 +100,95 @@ function accessory(id, c) {
     case 'bubble':
       return `<circle cx="226" cy="40" r="11" fill="rgba(142,201,245,.35)" stroke="#5FA8DE" stroke-width="2"/>
               <text x="226" y="45" font-size="13" text-anchor="middle" fill="#3A7BB8" font-weight="700">A</text>`;
+    case 'brave': // 紅頭巾
+      return `<path d="M128 58 Q 172 44 218 60 L 216 70 Q 172 54 130 68 Z" fill="${c.accent}" stroke="#9E2A2E" stroke-width="2"/>
+              <path d="M130 64 L 112 58 L 116 74 Z M131 66 L 114 76 L 124 82 Z" fill="${c.accent}" stroke="#9E2A2E" stroke-width="2" stroke-linejoin="round"/>`;
+    case 'star': // 額頭的星星
+      return `<path d="${starPath(176, 50, 9, 4)}" fill="${c.accent}" stroke="#C99A1F" stroke-width="1.5"/>`;
+    case 'fishy': // 尾巴叼著小魚乾
+      return `<path d="M30 56 q -14 -10 -4 -24 q 12 4 10 18 z" fill="${c.accent}" stroke="#3A7BB8" stroke-width="2"/>
+              <path d="M22 30 l -8 -6 l 2 10 z" fill="${c.accent}" stroke="#3A7BB8" stroke-width="2" stroke-linejoin="round"/>
+              <circle cx="31" cy="42" r="1.8" fill="#24496B"/>`;
     default:
       return '';
   }
 }
 
-export function catSVG(id = 'abacus', { mood = 'normal', className = '' } = {}) {
+function starPath(cx, cy, R, r) {
+  const pts = [];
+  for (let i = 0; i < 10; i++) {
+    const a = -Math.PI / 2 + (i * Math.PI) / 5;
+    const rad = i % 2 ? r : R;
+    pts.push(`${(cx + rad * Math.cos(a)).toFixed(1)} ${(cy + rad * Math.sin(a)).toFixed(1)}`);
+  }
+  return `M${pts.join(' L')} Z`;
+}
+
+const TAIL_ACC = new Set(['momo', 'abacus', 'fishy']);
+
+// 披風（魔王貓、進化後）
+function cape(color, outline) {
+  return `<g class="cape">
+    <path d="M154 92 Q 118 70 72 88 Q 56 112 64 142 Q 88 128 110 134 Q 128 118 156 108 Z" fill="${color}" stroke="${outline}" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M150 96 Q 118 80 80 94" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".35"/>
+  </g>`;
+}
+
+function gearHat(id) {
+  switch (id) {
+    case 'party':
+      return `<path d="M154 38 L 176 -6 L 196 36 Z" fill="#FF8FB1" stroke="#B5476B" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M161 24 L 189 22 M157 32 L 194 30" stroke="#FFE066" stroke-width="4"/>
+              <circle cx="176" cy="-6" r="6" fill="#FFE066" stroke="#C99A1F" stroke-width="2"/>`;
+    case 'beret':
+      return `<ellipse cx="170" cy="36" rx="38" ry="13" fill="#E5484D" stroke="#9E2A2E" stroke-width="2.5"/>
+              <path d="M168 24 l 4 -9" stroke="#9E2A2E" stroke-width="3" stroke-linecap="round"/>`;
+    case 'crown':
+      return `<path d="M148 38 L 152 12 L 164 28 L 174 6 L 184 28 L 196 12 L 198 38 Z" fill="#FFD54F" stroke="#B8860B" stroke-width="2.5" stroke-linejoin="round"/>
+              <circle cx="174" cy="30" r="4" fill="#E5574F"/>`;
+    default: return '';
+  }
+}
+
+function gearNeck(id) {
+  switch (id) {
+    case 'scarf':
+      return `<path d="M136 108 Q 172 126 206 112 L 204 124 Q 170 138 134 120 Z" fill="#E5484D" stroke="#9E2A2E" stroke-width="2"/>
+              <path d="M150 122 l -6 26 l 12 -2 l 2 -22 z" fill="#E5484D" stroke="#9E2A2E" stroke-width="2" stroke-linejoin="round"/>`;
+    case 'bowtie':
+      return `<path d="M172 120 L 154 110 L 154 132 Z M172 120 L 190 110 L 190 132 Z" fill="#7A2E3B" stroke="#4A1A24" stroke-width="2" stroke-linejoin="round"/>
+              <circle cx="172" cy="121" r="5" fill="#9E3B4C" stroke="#4A1A24" stroke-width="2"/>`;
+    case 'bell':
+      return `<path d="M138 112 Q 172 128 206 114" fill="none" stroke="#E5484D" stroke-width="6" stroke-linecap="round"/>
+              <circle cx="172" cy="128" r="8" fill="#FFD54F" stroke="#B8860B" stroke-width="2"/>
+              <path d="M168 130 h8" stroke="#B8860B" stroke-width="2"/>`;
+    default: return '';
+  }
+}
+
+function gearEyes(id) {
+  switch (id) {
+    case 'glasses':
+      return `<circle cx="158" cy="78" r="12" fill="rgba(255,255,255,.15)" stroke="#3A2A22" stroke-width="2.5"/>
+              <circle cx="192" cy="78" r="13" fill="rgba(255,255,255,.15)" stroke="#3A2A22" stroke-width="2.5"/>
+              <path d="M170 78 q 5 -4 9 0" fill="none" stroke="#3A2A22" stroke-width="2.5"/>`;
+    case 'shades':
+      return `<path d="M144 70 h 28 q 0 18 -14 18 q -14 0 -14 -18 Z M178 70 h 30 q 0 19 -15 19 q -15 0 -15 -19 Z" fill="#222" stroke="#000" stroke-width="2"/>
+              <path d="M172 72 h 6" stroke="#000" stroke-width="3"/>
+              <path d="M150 74 l 6 0" stroke="#fff" stroke-width="2" opacity=".6"/>`;
+    default: return '';
+  }
+}
+
+// 顯示名稱（進化後加「超級」）
+export function catName(id, evolved = false) {
+  const c = CATS[id] || CATS.abacus;
+  return evolved ? `超級${c.name}` : c.name;
+}
+
+// evolved：Lv.5 進化後的外型（披風、星星光點、額頭星星）
+// gear：{ hat, neck, eyes } 換裝配件
+export function catSVG(id = 'abacus', { mood = 'normal', className = '', evolved = false, gear = {} } = {}) {
   const c = CATS[id] || CATS.abacus;
   const n = ++uid;
   const ink = '#3A2A22';
@@ -91,7 +203,7 @@ export function catSVG(id = 'abacus', { mood = 'normal', className = '' } = {}) 
   <g class="cat-tail">
     <path d="${tailPath}" fill="none" stroke="${c.outline}" stroke-width="17" stroke-linecap="round"/>
     <path d="${tailPath}" fill="none" stroke="${c.base}" stroke-width="11" stroke-linecap="round"/>
-    ${id === 'momo' || id === 'abacus' ? accessory(id, c) : ''}
+    ${TAIL_ACC.has(id) ? accessory(id, c) : ''}
   </g>
   <g class="cat-legs-far">
     <rect x="72" y="120" width="18" height="42" rx="9" fill="${c.shade}" stroke="${c.outline}" stroke-width="2.5"/>
@@ -105,6 +217,7 @@ export function catSVG(id = 'abacus', { mood = 'normal', className = '' } = {}) 
     </g>
     <ellipse cx="112" cy="112" rx="58" ry="38" fill="none" stroke="${c.outline}" stroke-width="3"/>
   </g>
+  ${id === 'king' || evolved ? cape(c.accent, c.outline) : ''}
   <g class="cat-legs-near">
     <rect x="86" y="124" width="20" height="44" rx="10" fill="${c.base}" stroke="${c.outline}" stroke-width="2.5"/>
     <rect x="154" y="124" width="20" height="44" rx="10" fill="${c.base}" stroke="${c.outline}" stroke-width="2.5"/>
@@ -128,8 +241,13 @@ export function catSVG(id = 'abacus', { mood = 'normal', className = '' } = {}) 
     <path d="M199 87 q4 -4 8 0 q-4 5 -8 0 z" fill="#F28B9B" stroke="${c.outline}" stroke-width="1.5" stroke-linejoin="round"/>
     ${mouth(mood, c)}
     <path d="M214 92 L 236 88 M214 98 L 234 101" stroke="${c.outline}" stroke-width="1.4" stroke-linecap="round" opacity=".45"/>
-    ${id !== 'momo' && id !== 'abacus' ? accessory(id, c) : ''}
+    ${!TAIL_ACC.has(id) && !(gear.hat && (id === 'explorer' || id === 'leaf')) ? accessory(id, c) : ''}
+    ${evolved && id !== 'star' ? `<path d="${starPath(174, 50, 7, 3)}" fill="#FFD54F" stroke="#C99A1F" stroke-width="1.2"/>` : ''}
+    ${gearNeck(gear.neck)}
+    ${gearEyes(gear.eyes)}
+    ${gearHat(gear.hat)}
   </g>
+  ${evolved ? `<g class="sparkles"><path d="${starPath(24, 120, 7, 2.5)}" fill="#FFE066"/><path d="${starPath(226, 140, 6, 2)}" fill="#FFE066"/><path d="${starPath(120, 40, 5, 2)}" fill="#FFE066"/></g>` : ''}
   ${mood === 'sleep' ? `<text x="214" y="30" font-size="22" fill="${c.outline}" font-weight="700">z</text>` : ''}
 </svg>`;
 }

@@ -423,3 +423,49 @@ body.low-grade .opt-say {
 .opt.bubble.right { background: radial-gradient(circle at 32% 28%, #fff 0 12%, #DFF5DF 13% 55%, #A9DFA9 100%); }
 @keyframes floaty { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
 body.low-grade .opt.bubble { font-size: clamp(56px, 7.5vw, 80px); min-height: 0; }
+
+/* 獎勵 */
+.partner { font-size: .75em; color: #fff; background: var(--good); border-radius: 99px; padding: 1px 8px; margin-left: 4px; }
+.levelup.big { font-size: 1.4em; }
+.gift-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.gift { display: flex; flex-direction: column; align-items: center; gap: 2px; background: #FFF8EE; border: 2px dashed var(--line-dark); border-radius: 16px; padding: 8px 14px; font-weight: 700; animation: pop .4s both; }
+.gift-cat .cat-svg { width: 110px; }
+.gift-icon { font-size: 40px; }
+
+/* 我的貓咪 */
+.cats { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+.cats-body { flex: 1; overflow: auto; background: var(--card); border: 3px solid var(--line); border-radius: 22px; padding: 14px 16px; }
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; }
+.cat-card { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px; }
+.cat-card .cat-pic .cat-svg { width: 150px; }
+.cat-card.locked .cat-pic { filter: brightness(0) opacity(.18); }
+.cat-name { font-size: 1.1em; }
+.cat-sub { font-size: .8em; color: var(--muted); font-weight: 500; line-height: 1.3; text-align: center; }
+.cat-detail { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
+.cat-detail-pic .cat-svg { width: min(320px, 40vw); }
+.cat-detail-info { flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 8px; }
+.cat-detail-info h3 { margin-top: 8px; }
+.lv-row { display: flex; align-items: center; gap: 10px; }
+.xpbar { flex: 1; height: 14px; background: #F1E4D3; border-radius: 99px; border: 2px solid var(--line-dark); overflow: hidden; }
+.xpfill { height: 100%; background: var(--gold); }
+.gear-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.shop-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+.shop-item { display: flex; flex-direction: column; align-items: center; gap: 4px; border: 2px solid var(--line); border-radius: 16px; padding: 8px; background: #FFFCF6; }
+.shop-pic .cat-svg { width: 140px; }
+.shop-name { font-weight: 700; }
+
+/* 我的喵屋 */
+.scene-house { height: 100dvh; min-height: 0; overflow: hidden; }
+.house { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 8px; }
+.house-head { display: flex; align-items: center; gap: 10px; }
+.house-head .scene-title { margin: 0; }
+.house-stage { position: relative; flex: 1; min-height: 0; border-radius: 24px; border: 3px solid var(--line); background: linear-gradient(180deg, #FFF8EE, #FBE6CA); overflow: hidden; }
+.house-stage canvas { display: block; width: 100%; height: 100%; }
+.house-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.sel-name { font-weight: 800; }
+.house-inv { display: flex; align-items: center; gap: 10px; background: var(--card); border: 3px solid var(--line); border-radius: 18px; padding: 8px 12px; min-height: 70px; }
+.inv-title { font-weight: 800; flex: none; }
+.inv-list { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; }
+.inv-item { flex: none; display: flex; align-items: center; gap: 6px; min-height: 48px; padding: 4px 12px; font-size: .9em; }
+.inv-icon { font-size: 1.4em; }
+.inv-icon.big { font-size: 2.6em; }
