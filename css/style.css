@@ -544,3 +544,5 @@ ruby { ruby-position: inter-character; }
 .question.has-visual .q-visual.svg { flex: 1 1 58%; }
 .question.has-visual .q-visual.svg ~ .q-answer { flex: 1 1 42%; }
 .weak-list { margin: 4px 0 0; padding-left: 22px; color: var(--ink); }
+.help-list { margin: 4px 0 10px; padding-left: 24px; line-height: 1.7; }
+.parent-body h3 { margin: 12px 0 4px; }

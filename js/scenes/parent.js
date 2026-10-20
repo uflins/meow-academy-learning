@@ -44,13 +44,13 @@ export default function parent(root, params, { go }) {
   const tabs = h('div', { class: 'tabs' });
 
   const renderTabs = () => {
-    tabs.replaceChildren(...[['players', '玩家'], ['report', '成績'], ['backup', '存檔'], ['settings', '設定']].map(([id, label]) =>
+    tabs.replaceChildren(...[['players', '玩家'], ['report', '成績'], ['backup', '存檔'], ['settings', '設定'], ['help', '使用說明']].map(([id, label]) =>
       h('button', { class: `tab ${tab === id ? 'on' : ''}`, onclick: () => { tab = id; render(); } }, label)));
   };
 
   const render = () => {
     renderTabs();
-    body.replaceChildren(...({ players, report, backup, settings })[tab]().filter(Boolean));
+    body.replaceChildren(...({ players, report, backup, settings, help })[tab]().filter(Boolean));
   };
 
   // ---------- 玩家 ----------
@@ -247,6 +247,30 @@ export default function parent(root, params, { go }) {
     store.markBackedUp();
     toast('已匯出');
     render();
+  }
+
+  // ---------- 使用說明 ----------
+  function help() {
+    const standalone = window.navigator.standalone || window.matchMedia?.('(display-mode: standalone)').matches;
+    return [
+      standalone ? null : h('div', { class: 'warn' }, '目前不是從主畫面開啟。建議照下面第 1 點加入主畫面，全螢幕比較好玩，存檔也比較穩。'),
+      h('h3', {}, '1. 加入 iPad 主畫面'),
+      h('ol', { class: 'help-list' },
+        h('li', {}, '用 Safari 打開遊戲網址'),
+        h('li', {}, '按網址列旁邊的「分享」按鈕（方框加向上箭頭）'),
+        h('li', {}, '選「加入主畫面」，再按「新增」'),
+        h('li', {}, '之後從主畫面的「喵喵學園」圖示開啟')),
+      h('h3', {}, '2. 存檔要定期備份'),
+      h('p', {}, '進度只存在這台 iPad 的這個瀏覽器裡。清除 Safari 資料、換 iPad 前，請到「存檔」分頁按「匯出存檔」，把檔案存到「檔案」App 或傳給自己。'),
+      h('h3', {}, '3. 小孩怎麼玩'),
+      h('ul', { class: 'help-list' },
+        h('li', {}, '在首頁點自己的頭像，輸入密碼（一年級是依序點 3 張圖）'),
+        h('li', {}, '每一招都要答一題；答錯的題目會收進錯題本，之後再出現'),
+        h('li', {}, '打倒大魔王、拿到三顆星、完成每日任務可以得到家具，到「我的喵屋」擺放'),
+        h('li', {}, '五年級的大魔王可以選「限時挑戰」，每題 40 秒')),
+      h('h3', {}, '4. 需要網路的地方'),
+      h('p', {}, '打開遊戲和「我的喵屋」的 3D 畫面需要網路；答題、存檔不需要。'),
+    ];
   }
 
   // ---------- 設定 ----------
