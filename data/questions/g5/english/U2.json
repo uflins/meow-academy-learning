@@ -1,0 +1,1436 @@
+[
+ {
+  "id": "g5eng-U2-001",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看圖選科目：這是什麼課？（美術）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🎨",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "art",
+  "options": [
+   "art",
+   "math",
+   "PE"
+  ],
+  "answer": "art",
+  "explanation": "美術課是 art。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-002",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看圖選科目：這是什麼課？（國語）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "📖",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "Chinese",
+  "options": [
+   "Chinese",
+   "music",
+   "science"
+  ],
+  "answer": "Chinese",
+  "explanation": "國語課是 Chinese。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-003",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看圖選科目：這是什麼課？（英語）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🔤",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "English",
+  "options": [
+   "English",
+   "PE",
+   "social studies"
+  ],
+  "answer": "English",
+  "explanation": "英語課是 English。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-004",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看圖選科目：這是什麼課？（數學）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🔢",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "math",
+  "options": [
+   "math",
+   "science",
+   "art"
+  ],
+  "answer": "math",
+  "explanation": "數學課是 math。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-005",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看圖選科目：這是什麼課？（音樂）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🎵",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "music",
+  "options": [
+   "music",
+   "social studies",
+   "Chinese"
+  ],
+  "answer": "music",
+  "explanation": "音樂課是 music。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-006",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看圖選科目：這是什麼課？（體育）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "⚽",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "PE",
+  "options": [
+   "PE",
+   "art",
+   "English"
+  ],
+  "answer": "PE",
+  "explanation": "體育課是 PE。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-007",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看圖選科目：這是什麼課？（自然）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🔬",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "science",
+  "options": [
+   "science",
+   "Chinese",
+   "math"
+  ],
+  "answer": "science",
+  "explanation": "自然課是 science。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-008",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看圖選科目：這是什麼課？（社會）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🌏",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "social studies",
+  "options": [
+   "social studies",
+   "English",
+   "music"
+  ],
+  "answer": "social studies",
+  "explanation": "社會課是 social studies。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-009",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "「社會課」的英文是哪一個？",
+  "answerSpeak": "social studies",
+  "options": [
+   "social studies",
+   "science",
+   "PE"
+  ],
+  "answer": "social studies",
+  "explanation": "社會是 social studies，兩個字。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-010",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "「PE」是哪一科？",
+  "options": [
+   "體育",
+   "美術",
+   "音樂"
+  ],
+  "answer": "體育",
+  "explanation": "PE = Physical Education，體育。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-011",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "science",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "science",
+  "options": [
+   "science",
+   "social studies",
+   "music"
+  ],
+  "answer": "science",
+  "explanation": "science 是自然科。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-012",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "music",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "music",
+  "options": [
+   "music",
+   "math",
+   "art"
+  ],
+  "answer": "music",
+  "explanation": "music 是音樂。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-013",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "social studies",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "social studies",
+  "options": [
+   "social studies",
+   "science",
+   "Chinese"
+  ],
+  "answer": "social studies",
+  "explanation": "social studies 是社會。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-014",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "math",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "math",
+  "options": [
+   "math",
+   "music",
+   "PE"
+  ],
+  "answer": "math",
+  "explanation": "math 是數學。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-015",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「音樂」的英文",
+  "speak": "music",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "music",
+  "items": [
+   "m",
+   "u",
+   "s",
+   "i",
+   "c"
+  ],
+  "explanation": "m-u-s-i-c。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "music"
+  ]
+ },
+ {
+  "id": "g5eng-U2-016",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「自然」的英文",
+  "speak": "science",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "science",
+  "items": [
+   "s",
+   "c",
+   "i",
+   "e",
+   "n",
+   "c",
+   "e"
+  ],
+  "explanation": "s-c-i-e-n-c-e，sc 開頭，念 /s/。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "science"
+  ]
+ },
+ {
+  "id": "g5eng-U2-017",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「英語」的英文",
+  "speak": "English",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "English",
+  "items": [
+   "E",
+   "n",
+   "g",
+   "l",
+   "i",
+   "s",
+   "h"
+  ],
+  "explanation": "E-n-g-l-i-s-h，語言的第一個字母要大寫。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "English"
+  ]
+ },
+ {
+  "id": "g5eng-U2-018",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「國語」的英文",
+  "speak": "Chinese",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Chinese",
+  "items": [
+   "C",
+   "h",
+   "i",
+   "n",
+   "e",
+   "s",
+   "e"
+  ],
+  "explanation": "C-h-i-n-e-s-e，語言的第一個字母要大寫。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "Chinese"
+  ]
+ },
+ {
+  "id": "g5eng-U2-019",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "science",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "science",
+  "options": [
+   "science",
+   "sience",
+   "scince"
+  ],
+  "answer": "science",
+  "explanation": "science 的開頭是 sc，c 不另外發音。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "subject"
+  ]
+ },
+ {
+  "id": "g5eng-U2-020",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "哪一個科目的第一個字母一定要大寫？",
+  "options": [
+   "English",
+   "math",
+   "music"
+  ],
+  "answer": "English",
+  "explanation": "English、Chinese 是語言，第一個字母要大寫。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "capital"
+  ],
+  "answerSpeak": "English"
+ },
+ {
+  "id": "g5eng-U2-021",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "____ you have art class on Monday?",
+  "options": [
+   "Do",
+   "Does",
+   "Is"
+  ],
+  "answer": "Do",
+  "explanation": "主詞是 you，用 Do。",
+  "difficulty": 1,
+  "tags": [
+   "grammar",
+   "do"
+  ],
+  "answerSpeak": "Do you have art class on Monday?"
+ },
+ {
+  "id": "g5eng-U2-022",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "____ she have math class on Friday?",
+  "options": [
+   "Does",
+   "Do",
+   "Is"
+  ],
+  "answer": "Does",
+  "explanation": "主詞是 she（她），用 Does。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "do"
+  ],
+  "answerSpeak": "Does she have math class on Friday?"
+ },
+ {
+  "id": "g5eng-U2-023",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "____ Tom have PE class on Tuesday?",
+  "options": [
+   "Does",
+   "Do",
+   "Are"
+  ],
+  "answer": "Does",
+  "explanation": "Tom 是一個人（他），用 Does。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "do"
+  ],
+  "answerSpeak": "Does Tom have PE class on Tuesday?"
+ },
+ {
+  "id": "g5eng-U2-024",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "____ they have music class today?",
+  "options": [
+   "Do",
+   "Does",
+   "Is"
+  ],
+  "answer": "Do",
+  "explanation": "主詞是 they（他們），用 Do。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "do"
+  ],
+  "answerSpeak": "Do they have music class today?"
+ },
+ {
+  "id": "g5eng-U2-025",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "A: Does he have English class on Thursday?　B: Yes, he ____.",
+  "options": [
+   "does",
+   "do",
+   "is"
+  ],
+  "answer": "does",
+  "explanation": "Does he …? 回答 Yes, he does.",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "do"
+  ],
+  "answerSpeak": "Does he have English class on Thursday? Yes, he does."
+ },
+ {
+  "id": "g5eng-U2-026",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "A: Do you have PE class today?　B: No, I ____.",
+  "options": [
+   "don't",
+   "doesn't",
+   "isn't"
+  ],
+  "answer": "don't",
+  "explanation": "Do you …? 回答 No, I don't.",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "do"
+  ],
+  "answerSpeak": "Do you have PE class today? No, I don't."
+ },
+ {
+  "id": "g5eng-U2-027",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "A: Does your sister have art class on Wednesday?　B: No, she ____.",
+  "options": [
+   "doesn't",
+   "don't",
+   "isn't"
+  ],
+  "answer": "doesn't",
+  "explanation": "your sister 是「她」，回答 No, she doesn't.",
+  "difficulty": 3,
+  "tags": [
+   "grammar",
+   "do"
+  ],
+  "answerSpeak": "Does your sister have art class on Wednesday? No, she doesn't."
+ },
+ {
+  "id": "g5eng-U2-028",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "doesn't 是哪兩個字縮起來的？",
+  "options": [
+   "does not",
+   "do not",
+   "is not"
+  ],
+  "answer": "does not",
+  "explanation": "doesn't = does not；don't = do not。",
+  "difficulty": 1,
+  "tags": [
+   "grammar",
+   "do"
+  ]
+ },
+ {
+  "id": "g5eng-U2-029",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "哪一句是對的？",
+  "options": [
+   "Does she have science class?",
+   "Does she has science class?",
+   "Do she have science class?"
+  ],
+  "answer": "Does she have science class?",
+  "explanation": "Does 後面的動詞用原形 have，不用 has。",
+  "difficulty": 3,
+  "tags": [
+   "grammar",
+   "do"
+  ],
+  "answerSpeak": "Does she have science class?"
+ },
+ {
+  "id": "g5eng-U2-030",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "哪一個主詞要用 Does 來問？",
+  "options": [
+   "he",
+   "you",
+   "they"
+  ],
+  "answer": "he",
+  "explanation": "he、she、一個人的名字用 Does；I、you、we、they 用 Do。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "do"
+  ]
+ },
+ {
+  "id": "g5eng-U2-031",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽問題，選出最適合的回答",
+  "speak": "Do you have science class on Friday?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Do you have science class on Friday? Yes, I do.",
+  "options": [
+   "Yes, I do.",
+   "Yes, it is.",
+   "Yes, he does."
+  ],
+  "answer": "Yes, I do.",
+  "explanation": "Do you …? 用 Yes, I do. 或 No, I don't. 回答。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "reply",
+   "do"
+  ]
+ },
+ {
+  "id": "g5eng-U2-032",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽問題，選出最適合的回答",
+  "speak": "Does he have PE class on Monday?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Does he have PE class on Monday? No, he doesn't.",
+  "options": [
+   "No, he doesn't.",
+   "No, I don't.",
+   "No, it isn't."
+  ],
+  "answer": "No, he doesn't.",
+  "explanation": "Does he …? 用 Yes, he does. 或 No, he doesn't. 回答。",
+  "difficulty": 3,
+  "tags": [
+   "listen",
+   "reply",
+   "do"
+  ]
+ },
+ {
+  "id": "g5eng-U2-033",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽問題，選出最適合的回答",
+  "speak": "Does Amy have art class today?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Does Amy have art class today? Yes, she does.",
+  "options": [
+   "Yes, she does.",
+   "Yes, he does.",
+   "Yes, I do."
+  ],
+  "answer": "Yes, she does.",
+  "explanation": "Amy 是女生，用 she：Yes, she does.",
+  "difficulty": 3,
+  "tags": [
+   "listen",
+   "reply",
+   "do"
+  ]
+ },
+ {
+  "id": "g5eng-U2-034",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "order",
+  "prompt": "把句子排好：「你星期一有數學課嗎？」",
+  "speak": "Do you have math class on Monday?",
+  "speakLang": "en",
+  "answerSpeak": "Do you have math class on Monday?",
+  "items": [
+   "Do",
+   "you",
+   "have",
+   "math",
+   "class",
+   "on",
+   "Monday?"
+  ],
+  "explanation": "Do you have ＋科目＋ class on ＋星期？",
+  "difficulty": 3,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-U2-035",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "order",
+  "prompt": "把句子排好：「她星期三有美術課嗎？」",
+  "speak": "Does she have art class on Wednesday?",
+  "speakLang": "en",
+  "answerSpeak": "Does she have art class on Wednesday?",
+  "items": [
+   "Does",
+   "she",
+   "have",
+   "art",
+   "class",
+   "on",
+   "Wednesday?"
+  ],
+  "explanation": "主詞是 she，用 Does 開頭。",
+  "difficulty": 3,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-U2-036",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "order",
+  "prompt": "把句子排好：「不，她沒有。」",
+  "speak": "No, she doesn't.",
+  "speakLang": "en",
+  "answerSpeak": "No, she doesn't.",
+  "items": [
+   "No,",
+   "she",
+   "doesn't."
+  ],
+  "explanation": "No, she doesn't.",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-U2-037",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "order",
+  "prompt": "把句子排好：「當然！跟我來。」",
+  "speak": "Sure! Follow me.",
+  "speakLang": "en",
+  "answerSpeak": "Sure! Follow me.",
+  "items": [
+   "Sure!",
+   "Follow",
+   "me."
+  ],
+  "explanation": "Sure! 當然；Follow me. 跟我來。",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-U2-038",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "走路不小心撞到別人，要說什麼？",
+  "options": [
+   "Oops, sorry!",
+   "Good job!",
+   "Follow me."
+  ],
+  "answer": "Oops, sorry!",
+  "explanation": "撞到人要說 Oops, sorry!",
+  "difficulty": 1,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "Oops, sorry!"
+ },
+ {
+  "id": "g5eng-U2-039",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "上學遲到了，進教室要說什麼？",
+  "options": [
+   "Sorry, I'm late.",
+   "It's time to go.",
+   "Have a good time."
+  ],
+  "answer": "Sorry, I'm late.",
+  "explanation": "Sorry, I'm late. 是「抱歉，我遲到了」。",
+  "difficulty": 1,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "Sorry, I'm late."
+ },
+ {
+  "id": "g5eng-U2-040",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "朋友問：「Can we go and watch?」你想答應，要說什麼？",
+  "options": [
+   "Sure! Follow me.",
+   "Watch out!",
+   "Oops, sorry!"
+  ],
+  "answer": "Sure! Follow me.",
+  "explanation": "Sure! 是「當然」，再請他們跟你來。",
+  "difficulty": 2,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "Sure! Follow me."
+ },
+ {
+  "id": "g5eng-U2-041",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "「Watch out!」是什麼意思？",
+  "options": [
+   "小心！",
+   "看我！",
+   "跟我來！"
+  ],
+  "answer": "小心！",
+  "explanation": "Watch out! 是提醒別人「小心」。Look at me! 才是「看我」。",
+  "difficulty": 2,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "Watch out!"
+ },
+ {
+  "id": "g5eng-U2-042",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "「I'm in a hurry.」是什麼意思？",
+  "options": [
+   "我在趕時間。",
+   "我遲到了。",
+   "我很開心。"
+  ],
+  "answer": "我在趕時間。",
+  "explanation": "in a hurry 是「匆忙、趕時間」。",
+  "difficulty": 3,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "I'm in a hurry."
+ },
+ {
+  "id": "g5eng-U2-043",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "「teammate」是什麼意思？",
+  "options": [
+   "隊友",
+   "老師",
+   "同學"
+  ],
+  "answer": "隊友",
+  "explanation": "teammate 是一起比賽的隊友。",
+  "difficulty": 2,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "teammate"
+ },
+ {
+  "id": "g5eng-U2-044",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "kite",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "kite",
+  "options": [
+   "kite",
+   "kit"
+  ],
+  "answer": "kite",
+  "explanation": "kite 是 i_e，i 念長音（和字母 I 一樣）；kit 是短音。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "i_e"
+  ]
+ },
+ {
+  "id": "g5eng-U2-045",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "time",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "time",
+  "options": [
+   "time",
+   "Tim"
+  ],
+  "answer": "time",
+  "explanation": "time 是 i_e，i 念長音。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "i_e"
+  ]
+ },
+ {
+  "id": "g5eng-U2-046",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "ride",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "ride",
+  "options": [
+   "ride",
+   "rid"
+  ],
+  "answer": "ride",
+  "explanation": "ride 是 i_e，i 念長音。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "i_e"
+  ]
+ },
+ {
+  "id": "g5eng-U2-047",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "fine",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "fine",
+  "options": [
+   "fine",
+   "fin"
+  ],
+  "answer": "fine",
+  "explanation": "fine 是 i_e，i 念長音。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "i_e"
+  ]
+ },
+ {
+  "id": "g5eng-U2-048",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "pie",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "pie",
+  "options": [
+   "pie",
+   "pye",
+   "pi"
+  ],
+  "answer": "pie",
+  "explanation": "pie 的長音 i 用 ie。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "ie"
+  ]
+ },
+ {
+  "id": "g5eng-U2-049",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "fly",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "fly",
+  "options": [
+   "fly",
+   "flie",
+   "fli"
+  ],
+  "answer": "fly",
+  "explanation": "fly 的長音 i 在字尾，用 y。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "y"
+  ]
+ },
+ {
+  "id": "g5eng-U2-050",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "nine",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "nine",
+  "options": [
+   "nine",
+   "nin",
+   "nain"
+  ],
+  "answer": "nine",
+  "explanation": "nine 是 i_e：i＋子音＋e。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "i_e"
+  ]
+ },
+ {
+  "id": "g5eng-U2-051",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "sky",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "sky",
+  "options": [
+   "sky",
+   "skie",
+   "skai"
+  ],
+  "answer": "sky",
+  "explanation": "sky 的長音 i 在字尾，用 y。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "y"
+  ]
+ },
+ {
+  "id": "g5eng-U2-052",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "哪一個字的 y 念長音 i（和字母 I 一樣）？",
+  "options": [
+   "my",
+   "yes",
+   "yellow"
+  ],
+  "answer": "my",
+  "explanation": "y 在字尾時常念長音 i，例如 my、fly、sky；在開頭念 /j/，例如 yes。",
+  "difficulty": 3,
+  "tags": [
+   "phonics",
+   "y"
+  ]
+ },
+ {
+  "id": "g5eng-U2-053",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看課表。A: Do they have PE class on Monday?　B: ____",
+  "options": [
+   "Yes, they do.",
+   "No, they don't.",
+   "Yes, it is."
+  ],
+  "answer": "Yes, they do.",
+  "explanation": "Mon. 的第 3 節是 PE，所以 Yes, they do.",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "schedule"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 288\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"288\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 5-2</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"212\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"316\" dy=\"0\">social</tspan><tspan x=\"316\" dy=\"21\">studies</tspan></text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  },
+  "answerSpeak": "Do they have PE class on Monday? Yes, they do."
+ },
+ {
+  "id": "g5eng-U2-054",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看課表。A: Do they have art class on Tuesday?　B: ____",
+  "options": [
+   "No, they don't.",
+   "Yes, they do.",
+   "No, it isn't."
+  ],
+  "answer": "No, they don't.",
+  "explanation": "Tue. 是 English、science、math，沒有 art。",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "schedule"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 288\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"288\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 5-2</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"212\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"316\" dy=\"0\">social</tspan><tspan x=\"316\" dy=\"21\">studies</tspan></text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  },
+  "answerSpeak": "Do they have art class on Tuesday? No, they don't."
+ },
+ {
+  "id": "g5eng-U2-055",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看課表：星期五（Fri.）第 1 節是什麼課？",
+  "options": [
+   "music",
+   "math",
+   "science"
+  ],
+  "answer": "music",
+  "explanation": "Fri. 那一行的第 1 節是 music。",
+  "difficulty": 1,
+  "tags": [
+   "table",
+   "schedule"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 288\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"288\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 5-2</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"212\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"316\" dy=\"0\">social</tspan><tspan x=\"316\" dy=\"21\">studies</tspan></text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  },
+  "answerSpeak": "music"
+ },
+ {
+  "id": "g5eng-U2-056",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "看課表：哪一天有 social studies？",
+  "options": [
+   "Wednesday",
+   "Monday",
+   "Thursday"
+  ],
+  "answer": "Wednesday",
+  "explanation": "social studies 在 Wed.（星期三）第 3 節。",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "schedule"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 288\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"288\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 5-2</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"212\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"316\" dy=\"0\">social</tspan><tspan x=\"316\" dy=\"21\">studies</tspan></text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"278\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  },
+  "answerSpeak": "Wednesday"
+ },
+ {
+  "id": "g5eng-U2-057",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "讀一讀：\nToday is Monday. Lily is late for school. \"Sorry, I'm late,\" she says. Lily has music class and PE class today. She likes PE very much. After school, she plays basketball with her teammates.\n\nDoes Lily have music class today?",
+  "options": [
+   "Yes, she does.",
+   "No, she doesn't.",
+   "Yes, I do."
+  ],
+  "answer": "Yes, she does.",
+  "explanation": "文章說 Lily has music class and PE class today.",
+  "difficulty": 2,
+  "tags": [
+   "reading"
+  ]
+ },
+ {
+  "id": "g5eng-U2-058",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "讀一讀：\nToday is Monday. Lily is late for school. \"Sorry, I'm late,\" she says. Lily has music class and PE class today. She likes PE very much. After school, she plays basketball with her teammates.\n\nWhat does Lily like?",
+  "options": [
+   "PE",
+   "music",
+   "math"
+  ],
+  "answer": "PE",
+  "explanation": "She likes PE very much.",
+  "difficulty": 2,
+  "tags": [
+   "reading"
+  ]
+ },
+ {
+  "id": "g5eng-U2-059",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "truefalse",
+  "prompt": "讀一讀：\nToday is Monday. Lily is late for school. \"Sorry, I'm late,\" she says. Lily has music class and PE class today. She likes PE very much. After school, she plays basketball with her teammates.\n\nLily is late for school.",
+  "answer": true,
+  "explanation": "Lily is late for school. 她遲到了。",
+  "difficulty": 2,
+  "tags": [
+   "reading"
+  ]
+ }
+]

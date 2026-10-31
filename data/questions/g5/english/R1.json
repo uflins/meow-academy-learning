@@ -1,0 +1,682 @@
+[
+ {
+  "id": "g5eng-R1-001",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "看課表：星期三（Wed.）第 2 節是什麼課？",
+  "options": [
+   "PE",
+   "math",
+   "English"
+  ],
+  "answer": "PE",
+  "explanation": "Wed. 那一行第 2 節是 PE。",
+  "difficulty": 1,
+  "tags": [
+   "table",
+   "schedule"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 344\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"344\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 506</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"212\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"212\" dy=\"0\">social</tspan><tspan x=\"212\" dy=\"21\">studies</tspan></text><text x=\"316\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><rect x=\"5\" y=\"278\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"314\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">4</text><text x=\"108\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"420\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"524\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  },
+  "answerSpeak": "PE"
+ },
+ {
+  "id": "g5eng-R1-002",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "看課表：星期四（Thu.）第 1 節是什麼課？",
+  "options": [
+   "science",
+   "art",
+   "music"
+  ],
+  "answer": "science",
+  "explanation": "Thu. 那一行第 1 節是 science。",
+  "difficulty": 1,
+  "tags": [
+   "table",
+   "schedule"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 344\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"344\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 506</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"212\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"212\" dy=\"0\">social</tspan><tspan x=\"212\" dy=\"21\">studies</tspan></text><text x=\"316\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><rect x=\"5\" y=\"278\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"314\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">4</text><text x=\"108\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"420\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"524\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  },
+  "answerSpeak": "science"
+ },
+ {
+  "id": "g5eng-R1-003",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "看課表。A: Do they have art class on Tuesday?　B: ____",
+  "options": [
+   "Yes, they do.",
+   "No, they don't.",
+   "Yes, it is."
+  ],
+  "answer": "Yes, they do.",
+  "explanation": "Tue. 第 1 節是 art。",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "schedule"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 344\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"344\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 506</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"212\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"212\" dy=\"0\">social</tspan><tspan x=\"212\" dy=\"21\">studies</tspan></text><text x=\"316\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><rect x=\"5\" y=\"278\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"314\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">4</text><text x=\"108\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"420\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"524\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  },
+  "answerSpeak": "Do they have art class on Tuesday? Yes, they do."
+ },
+ {
+  "id": "g5eng-R1-004",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "看課表。A: Do they have music class on Friday?　B: ____",
+  "options": [
+   "No, they don't.",
+   "Yes, they do.",
+   "No, it isn't."
+  ],
+  "answer": "No, they don't.",
+  "explanation": "Fri. 是 Chinese、English、PE、math，沒有 music。",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "schedule"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 344\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"344\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 506</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"212\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"212\" dy=\"0\">social</tspan><tspan x=\"212\" dy=\"21\">studies</tspan></text><text x=\"316\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><rect x=\"5\" y=\"278\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"314\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">4</text><text x=\"108\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"420\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"524\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  },
+  "answerSpeak": "Do they have music class on Friday? No, they don't."
+ },
+ {
+  "id": "g5eng-R1-005",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "看課表：哪兩天有 PE？",
+  "options": [
+   "Wednesday 和 Friday",
+   "Monday 和 Friday",
+   "Tuesday 和 Thursday"
+  ],
+  "answer": "Wednesday 和 Friday",
+  "explanation": "PE 在 Wed. 第 2 節、Fri. 第 3 節。",
+  "difficulty": 3,
+  "tags": [
+   "table",
+   "schedule"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 344\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"344\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 506</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"212\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"212\" dy=\"0\">social</tspan><tspan x=\"212\" dy=\"21\">studies</tspan></text><text x=\"316\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><rect x=\"5\" y=\"278\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"314\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">4</text><text x=\"108\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"420\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"524\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  }
+ },
+ {
+  "id": "g5eng-R1-006",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "看課表：星期一（Mon.）一共有幾節課？",
+  "options": [
+   "four",
+   "three",
+   "five"
+  ],
+  "answer": "four",
+  "explanation": "Mon. 有 English、math、music、Chinese 四節。",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "schedule"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 344\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"344\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 506</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"212\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"212\" dy=\"0\">social</tspan><tspan x=\"212\" dy=\"21\">studies</tspan></text><text x=\"316\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><rect x=\"5\" y=\"278\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"314\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">4</text><text x=\"108\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"420\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"524\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  },
+  "answerSpeak": "four"
+ },
+ {
+  "id": "g5eng-R1-007",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "看課表：Tom 最喜歡 science。他最喜歡哪兩天？",
+  "options": [
+   "Wednesday 和 Thursday",
+   "Monday 和 Tuesday",
+   "Thursday 和 Friday"
+  ],
+  "answer": "Wednesday 和 Thursday",
+  "explanation": "science 在 Wed. 第 4 節、Thu. 第 1 節。",
+  "difficulty": 3,
+  "tags": [
+   "table",
+   "schedule",
+   "favorite"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 586 344\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect width=\"586\" height=\"344\" rx=\"14\" fill=\"#FFFDF7\" stroke=\"#C9B7E8\" stroke-width=\"3\"/><text x=\"293\" y=\"34\" font-size=\"22\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#5B4391\">Class 506</text><rect x=\"5\" y=\"54\" width=\"576\" height=\"56\" fill=\"#E7DDF8\"/><text x=\"31\" y=\"89\" font-size=\"17\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">Class</text><text x=\"108\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Mon.</text><text x=\"212\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Tue.</text><text x=\"316\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Wed.</text><text x=\"420\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Thu.</text><text x=\"524\" y=\"90\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#4A3B32\">Fri.</text><text x=\"31\" y=\"146\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">1</text><text x=\"108\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"212\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"316\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"420\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"524\" y=\"146\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><rect x=\"5\" y=\"166\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"202\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">2</text><text x=\"108\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"212\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"316\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><text x=\"420\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"524\" y=\"202\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"31\" y=\"258\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">3</text><text x=\"108\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"212\" y=\"247\" font-size=\"19\" text-anchor=\"middle\" fill=\"#4A3B32\"><tspan x=\"212\" dy=\"0\">social</tspan><tspan x=\"212\" dy=\"21\">studies</tspan></text><text x=\"316\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">English</text><text x=\"420\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">art</text><text x=\"524\" y=\"258\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">PE</text><rect x=\"5\" y=\"278\" width=\"576\" height=\"56\" fill=\"#F6F1FC\"/><text x=\"31\" y=\"314\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#7559A8\">4</text><text x=\"108\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">Chinese</text><text x=\"212\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><text x=\"316\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">science</text><text x=\"420\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">music</text><text x=\"524\" y=\"314\" font-size=\"23\" text-anchor=\"middle\" fill=\"#4A3B32\">math</text><line x1=\"56\" y1=\"54\" x2=\"56\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"160\" y1=\"54\" x2=\"160\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"264\" y1=\"54\" x2=\"264\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"368\" y1=\"54\" x2=\"368\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"472\" y1=\"54\" x2=\"472\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/><line x1=\"576\" y1=\"54\" x2=\"576\" y2=\"334\" stroke=\"#D8CDEE\" stroke-width=\"2\"/></svg>"
+  }
+ },
+ {
+  "id": "g5eng-R1-008",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "讀一讀：\nMy name is Grace. My favorite subject is art. I have art class on Tuesday and Thursday. They're my favorite days. My brother likes music. He has music class on Monday.\n\nWhat is Grace's favorite subject?",
+  "options": [
+   "art",
+   "music",
+   "math"
+  ],
+  "answer": "art",
+  "explanation": "My favorite subject is art.",
+  "difficulty": 2,
+  "tags": [
+   "reading"
+  ],
+  "answerSpeak": "art"
+ },
+ {
+  "id": "g5eng-R1-009",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "讀一讀：\nMy name is Grace. My favorite subject is art. I have art class on Tuesday and Thursday. They're my favorite days. My brother likes music. He has music class on Monday.\n\nWhat are Grace's favorite days?",
+  "options": [
+   "Tuesday and Thursday",
+   "Monday and Tuesday",
+   "Thursday and Friday"
+  ],
+  "answer": "Tuesday and Thursday",
+  "explanation": "她 Tuesday 和 Thursday 有 art 課，所以是她最喜歡的日子。",
+  "difficulty": 3,
+  "tags": [
+   "reading"
+  ]
+ },
+ {
+  "id": "g5eng-R1-010",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "讀一讀：\nMy name is Grace. My favorite subject is art. I have art class on Tuesday and Thursday. They're my favorite days. My brother likes music. He has music class on Monday.\n\nDoes her brother have music class on Monday?",
+  "options": [
+   "Yes, he does.",
+   "No, he doesn't.",
+   "Yes, she does."
+  ],
+  "answer": "Yes, he does.",
+  "explanation": "He has music class on Monday. 哥哥是 he，用 Yes, he does.",
+  "difficulty": 3,
+  "tags": [
+   "reading"
+  ]
+ },
+ {
+  "id": "g5eng-R1-011",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "order",
+  "prompt": "把句子排好：「我最喜歡的科目是自然。」",
+  "speak": "My favorite subject is science.",
+  "speakLang": "en",
+  "answerSpeak": "My favorite subject is science.",
+  "items": [
+   "My",
+   "favorite",
+   "subject",
+   "is",
+   "science."
+  ],
+  "explanation": "My favorite subject is ＋科目。",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-R1-012",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "order",
+  "prompt": "把句子排好：「我星期五有美術課。」",
+  "speak": "I have art class on Friday.",
+  "speakLang": "en",
+  "answerSpeak": "I have art class on Friday.",
+  "items": [
+   "I",
+   "have",
+   "art",
+   "class",
+   "on",
+   "Friday."
+  ],
+  "explanation": "I have ＋科目＋ class on ＋星期。",
+  "difficulty": 3,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-R1-013",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "seed",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "seed",
+  "options": [
+   "seed",
+   "side"
+  ],
+  "answer": "seed",
+  "explanation": "seed 的 ee 念長音 e；side 的 i_e 念長音 i。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "contrast"
+  ]
+ },
+ {
+  "id": "g5eng-R1-014",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "tail",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "tail",
+  "options": [
+   "tail",
+   "tile"
+  ],
+  "answer": "tail",
+  "explanation": "tail 的 ai 念長音 a；tile 的 i_e 念長音 i。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "contrast"
+  ]
+ },
+ {
+  "id": "g5eng-R1-015",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "by",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "by",
+  "options": [
+   "by",
+   "bay"
+  ],
+  "answer": "by",
+  "explanation": "by 的 y 念長音 i；bay 的 ay 念長音 a。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "contrast"
+  ]
+ },
+ {
+  "id": "g5eng-R1-016",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "peel",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "peel",
+  "options": [
+   "peel",
+   "pail"
+  ],
+  "answer": "peel",
+  "explanation": "peel 的 ee 念長音 e；pail 的 ai 念長音 a。",
+  "difficulty": 3,
+  "tags": [
+   "listen",
+   "phonics",
+   "contrast"
+  ]
+ },
+ {
+  "id": "g5eng-R1-017",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "sail",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "sail",
+  "options": [
+   "sail",
+   "seal"
+  ],
+  "answer": "sail",
+  "explanation": "sail 的 ai 念長音 a；seal 的 ea 念長音 e。",
+  "difficulty": 3,
+  "tags": [
+   "listen",
+   "phonics",
+   "contrast"
+  ]
+ },
+ {
+  "id": "g5eng-R1-018",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "ride",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "ride",
+  "options": [
+   "ride",
+   "read"
+  ],
+  "answer": "ride",
+  "explanation": "ride 的 i_e 念長音 i；read 的 ea 念長音 e。",
+  "difficulty": 3,
+  "tags": [
+   "listen",
+   "phonics",
+   "contrast"
+  ]
+ },
+ {
+  "id": "g5eng-R1-019",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "哪一個字的母音和 rain 一樣（長音 a）？",
+  "options": [
+   "day",
+   "tea",
+   "pie"
+  ],
+  "answer": "day",
+  "explanation": "rain 的 ai 和 day 的 ay 都念長音 a。",
+  "difficulty": 2,
+  "tags": [
+   "phonics",
+   "contrast"
+  ],
+  "answerSpeak": "rain, day"
+ },
+ {
+  "id": "g5eng-R1-020",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "哪一個字的母音和 tree 一樣（長音 e）？",
+  "options": [
+   "sea",
+   "sky",
+   "cake"
+  ],
+  "answer": "sea",
+  "explanation": "tree 的 ee 和 sea 的 ea 都念長音 e。",
+  "difficulty": 2,
+  "tags": [
+   "phonics",
+   "contrast"
+  ],
+  "answerSpeak": "tree, sea"
+ },
+ {
+  "id": "g5eng-R1-021",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "哪一個字的母音和 kite 一樣（長音 i）？",
+  "options": [
+   "fly",
+   "feet",
+   "May"
+  ],
+  "answer": "fly",
+  "explanation": "kite 的 i_e 和 fly 的 y 都念長音 i。",
+  "difficulty": 2,
+  "tags": [
+   "phonics",
+   "contrast"
+  ],
+  "answerSpeak": "kite, fly"
+ },
+ {
+  "id": "g5eng-R1-022",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "長母音 e 可以怎麼拼？",
+  "options": [
+   "e_e、ee、ea",
+   "a_e、ai、ay",
+   "i_e、ie、y"
+  ],
+  "answer": "e_e、ee、ea",
+  "explanation": "長音 e：Pete（e_e）、bee（ee）、tea（ea）。",
+  "difficulty": 2,
+  "tags": [
+   "phonics",
+   "contrast"
+  ]
+ },
+ {
+  "id": "g5eng-R1-023",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "朋友很緊張，你想安慰他，要說什麼？",
+  "options": [
+   "Don't worry.",
+   "Watch out!",
+   "Oh, no!"
+  ],
+  "answer": "Don't worry.",
+  "explanation": "Don't worry. 是「別擔心」。",
+  "difficulty": 1,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "Don't worry."
+ },
+ {
+  "id": "g5eng-R1-024",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "跟朋友說「待會見！」要說什麼？",
+  "options": [
+   "See you later!",
+   "Good idea!",
+   "Follow me!"
+  ],
+  "answer": "See you later!",
+  "explanation": "See you later! 是「待會見」。",
+  "difficulty": 1,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "See you later!"
+ },
+ {
+  "id": "g5eng-R1-025",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "你想到一個好方法，要說什麼？",
+  "options": [
+   "I have an idea.",
+   "Good idea!",
+   "I'm late."
+  ],
+  "answer": "I have an idea.",
+  "explanation": "I have an idea. 是「我有一個主意」；Good idea! 是稱讚別人的主意。",
+  "difficulty": 2,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "I have an idea."
+ },
+ {
+  "id": "g5eng-R1-026",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽問題，選出最適合的回答",
+  "speak": "What day is today?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "What day is today? It's Thursday.",
+  "options": [
+   "It's Thursday.",
+   "Yes, I do.",
+   "It's math."
+  ],
+  "answer": "It's Thursday.",
+  "explanation": "問星期幾，回答 It's ＋星期。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "reply",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-R1-027",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽問題，選出最適合的回答",
+  "speak": "Do you have English class today?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Do you have English class today? No, I don't.",
+  "options": [
+   "No, I don't.",
+   "No, it isn't.",
+   "No, she doesn't."
+  ],
+  "answer": "No, I don't.",
+  "explanation": "Do you …? 用 Yes, I do. 或 No, I don't.",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "reply",
+   "do"
+  ]
+ },
+ {
+  "id": "g5eng-R1-028",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "A: Is it Friday today?　B: No, it ____. It's Thursday.",
+  "options": [
+   "isn't",
+   "doesn't",
+   "don't"
+  ],
+  "answer": "isn't",
+  "explanation": "Is it …? 的否定回答用 isn't。",
+  "difficulty": 3,
+  "tags": [
+   "grammar",
+   "isnt"
+  ],
+  "answerSpeak": "Is it Friday today? No, it isn't. It's Thursday."
+ },
+ {
+  "id": "g5eng-R1-029",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "A: ____ Ken have science class on Monday?　B: Yes, he does.",
+  "options": [
+   "Does",
+   "Do",
+   "Is"
+  ],
+  "answer": "Does",
+  "explanation": "Ken 是一個人（他），用 Does。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "do"
+  ],
+  "answerSpeak": "Does Ken have science class on Monday? Yes, he does."
+ }
+]

@@ -557,3 +557,8 @@ ruby { ruby-position: inter-character; }
 body.low-grade .question.has-visual .q-options.n3 { gap: 8px; }
 body.low-grade .question.has-visual .q-options.n3 .opt { min-height: 0; padding: 4px 10px; }
 body.low-grade .question.has-visual .q-options.n3 .opt-image { font-size: 1.4em; }
+
+/* 英語拼字：字母卡小一點，長單字（Wednesday）排成一行 */
+.q-order.kind-spell .order-row, .q-order.kind-spell .order-bank { gap: 6px; flex-wrap: nowrap; }
+.q-order.kind-spell .order-slot, .q-order.kind-spell .card { min-width: 50px; width: 50px; min-height: 58px; padding: 0; font-size: 1.5em; }
+.q-order.kind-spell .order-slot .card { width: 100%; }

@@ -26,6 +26,20 @@ export const REGIONS = {
           ], boss: { title: '修辭大魔王（二）', special: 'rhetoric' } },
         ],
       } },
+    { id: 'english', name: 'ABC 港口', subject: 'english', color: '#B39DDB', icon: '⚓', status: 'open',
+      source: {
+        kind: 'bank',
+        units: [
+          { unit: 'A', title: 'Starter & Unit 1　星期', sections: [
+            { section: 'ST', title: 'Starter 數字與 a_e、ai、ay', file: 'g5/english/ST.json' },
+            { section: 'U1', title: 'Unit 1 What Day Is Today?', file: 'g5/english/U1.json' },
+          ], boss: { title: '拼錯怪', focus: ['spell', 'listen'] } },
+          { unit: 'B', title: 'Unit 2 & Review 1　科目與課表', sections: [
+            { section: 'U2', title: 'Unit 2 Do You Have PE Class on Monday?', file: 'g5/english/U2.json' },
+            { section: 'R1', title: 'Review 1 Class Schedule', file: 'g5/english/R1.json' },
+          ], boss: { title: '課表大魔王', focus: ['table', 'grammar'] } },
+        ],
+      } },
     { id: 'math', name: '數字火山', subject: 'math', color: '#F28C6B', icon: '🌋', status: 'open',
       source: { kind: 'gen', module: '../gen/math5.js', bossSpecial: { '4': 'fraction-clones' } } },
     { id: 'science', name: '光之草原', subject: 'science', color: '#F2C14E', icon: '☀️', status: 'open',

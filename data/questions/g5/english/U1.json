@@ -1,0 +1,1407 @@
+[
+ {
+  "id": "g5eng-U1-001",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「星期日」的英文是哪一個？",
+  "answerSpeak": "Sunday",
+  "options": [
+   "Sunday",
+   "Monday",
+   "Friday"
+  ],
+  "answer": "Sunday",
+  "explanation": "星期日是 Sunday。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-002",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「星期一」的英文是哪一個？",
+  "answerSpeak": "Monday",
+  "options": [
+   "Monday",
+   "Tuesday",
+   "Saturday"
+  ],
+  "answer": "Monday",
+  "explanation": "星期一是 Monday。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-003",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「星期二」的英文是哪一個？",
+  "answerSpeak": "Tuesday",
+  "options": [
+   "Tuesday",
+   "Wednesday",
+   "Sunday"
+  ],
+  "answer": "Tuesday",
+  "explanation": "星期二是 Tuesday。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-004",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「星期三」的英文是哪一個？",
+  "answerSpeak": "Wednesday",
+  "options": [
+   "Wednesday",
+   "Thursday",
+   "Monday"
+  ],
+  "answer": "Wednesday",
+  "explanation": "星期三是 Wednesday。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-005",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「星期四」的英文是哪一個？",
+  "answerSpeak": "Thursday",
+  "options": [
+   "Thursday",
+   "Friday",
+   "Tuesday"
+  ],
+  "answer": "Thursday",
+  "explanation": "星期四是 Thursday。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-006",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「星期五」的英文是哪一個？",
+  "answerSpeak": "Friday",
+  "options": [
+   "Friday",
+   "Saturday",
+   "Wednesday"
+  ],
+  "answer": "Friday",
+  "explanation": "星期五是 Friday。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-007",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「星期六」的英文是哪一個？",
+  "answerSpeak": "Saturday",
+  "options": [
+   "Saturday",
+   "Sunday",
+   "Thursday"
+  ],
+  "answer": "Saturday",
+  "explanation": "星期六是 Saturday。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-008",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「Thu.」是哪一天的縮寫？",
+  "answerSpeak": "Thursday",
+  "options": [
+   "Thursday",
+   "Tuesday",
+   "Wednesday"
+  ],
+  "answer": "Thursday",
+  "explanation": "Thu. 是 Thursday（星期四）；Tue. 是 Tuesday（星期二）。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "day",
+   "abbr"
+  ]
+ },
+ {
+  "id": "g5eng-U1-009",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「Tue.」是哪一天的縮寫？",
+  "answerSpeak": "Tuesday",
+  "options": [
+   "Tuesday",
+   "Thursday",
+   "Saturday"
+  ],
+  "answer": "Tuesday",
+  "explanation": "Tue. 是 Tuesday（星期二）。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "day",
+   "abbr"
+  ]
+ },
+ {
+  "id": "g5eng-U1-010",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "一個星期的第一天（日曆最左邊）是哪一天？",
+  "answerSpeak": "Sunday",
+  "options": [
+   "Sunday",
+   "Monday",
+   "Saturday"
+  ],
+  "answer": "Sunday",
+  "explanation": "英文日曆從 Sunday（星期日）開始。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-011",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "Thursday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Thursday",
+  "options": [
+   "Thursday",
+   "Tuesday",
+   "Saturday"
+  ],
+  "answer": "Thursday",
+  "explanation": "Thursday（星期四）開頭是 th，咬舌頭念。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-012",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "Tuesday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Tuesday",
+  "options": [
+   "Tuesday",
+   "Thursday",
+   "Sunday"
+  ],
+  "answer": "Tuesday",
+  "explanation": "Tuesday 是星期二。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-013",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "Wednesday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Wednesday",
+  "options": [
+   "Wednesday",
+   "Monday",
+   "Friday"
+  ],
+  "answer": "Wednesday",
+  "explanation": "Wednesday 是星期三，中間的 d 不發音。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-014",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "Saturday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Saturday",
+  "options": [
+   "Saturday",
+   "Sunday",
+   "Thursday"
+  ],
+  "answer": "Saturday",
+  "explanation": "Saturday 是星期六。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-015",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "Friday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Friday",
+  "options": [
+   "Friday",
+   "Monday",
+   "Sunday"
+  ],
+  "answer": "Friday",
+  "explanation": "Friday 是星期五。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-016",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「星期三」的英文",
+  "speak": "Wednesday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Wednesday",
+  "items": [
+   "W",
+   "e",
+   "d",
+   "n",
+   "e",
+   "s",
+   "d",
+   "a",
+   "y"
+  ],
+  "explanation": "W-e-d-n-e-s-d-a-y。念的時候聽不到 d，寫的時候要記得 Wed-nes-day。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "Wednesday"
+  ]
+ },
+ {
+  "id": "g5eng-U1-017",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「星期四」的英文",
+  "speak": "Thursday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Thursday",
+  "items": [
+   "T",
+   "h",
+   "u",
+   "r",
+   "s",
+   "d",
+   "a",
+   "y"
+  ],
+  "explanation": "T-h-u-r-s-d-a-y，開頭是 Th。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "Thursday"
+  ]
+ },
+ {
+  "id": "g5eng-U1-018",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「星期二」的英文",
+  "speak": "Tuesday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Tuesday",
+  "items": [
+   "T",
+   "u",
+   "e",
+   "s",
+   "d",
+   "a",
+   "y"
+  ],
+  "explanation": "T-u-e-s-d-a-y。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "Tuesday"
+  ]
+ },
+ {
+  "id": "g5eng-U1-019",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「星期五」的英文",
+  "speak": "Friday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Friday",
+  "items": [
+   "F",
+   "r",
+   "i",
+   "d",
+   "a",
+   "y"
+  ],
+  "explanation": "F-r-i-d-a-y。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "Friday"
+  ]
+ },
+ {
+  "id": "g5eng-U1-020",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「星期六」的英文",
+  "speak": "Saturday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Saturday",
+  "items": [
+   "S",
+   "a",
+   "t",
+   "u",
+   "r",
+   "d",
+   "a",
+   "y"
+  ],
+  "explanation": "S-a-t-u-r-d-a-y。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "Saturday"
+  ]
+ },
+ {
+  "id": "g5eng-U1-021",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "Wednesday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Wednesday",
+  "options": [
+   "Wednesday",
+   "Wentsday",
+   "Wensday"
+  ],
+  "answer": "Wednesday",
+  "explanation": "Wednesday 念起來像 Wens-day，但寫成 Wed-nes-day：W-e-d-n-e-s-d-a-y。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-022",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "Thursday",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Thursday",
+  "options": [
+   "Thursday",
+   "Thusday",
+   "Tursday"
+  ],
+  "answer": "Thursday",
+  "explanation": "Thursday：T-h-u-r-s-d-a-y。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-023",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "星期的英文，第一個字母要怎麼寫？",
+  "options": [
+   "大寫，例如 Monday",
+   "小寫，例如 monday",
+   "全部大寫，例如 MONDAY"
+  ],
+  "answer": "大寫，例如 Monday",
+  "explanation": "星期是專有名詞，第一個字母一定大寫。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "capital"
+  ]
+ },
+ {
+  "id": "g5eng-U1-024",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "A: What ____ is it?　B: It's Sunday.",
+  "options": [
+   "day",
+   "time",
+   "color"
+  ],
+  "answer": "day",
+  "explanation": "回答是星期，所以問 What day。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "what"
+  ],
+  "answerSpeak": "What day is it? It's Sunday."
+ },
+ {
+  "id": "g5eng-U1-025",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "A: What ____ is it?　B: It's nine thirty.",
+  "options": [
+   "time",
+   "day",
+   "color"
+  ],
+  "answer": "time",
+  "explanation": "回答是幾點，所以問 What time。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "what"
+  ],
+  "answerSpeak": "What time is it? It's nine thirty."
+ },
+ {
+  "id": "g5eng-U1-026",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "A: What ____ is it?　B: It's yellow.",
+  "options": [
+   "color",
+   "day",
+   "time"
+  ],
+  "answer": "color",
+  "explanation": "回答是顏色，所以問 What color。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "what"
+  ],
+  "answerSpeak": "What color is it? It's yellow."
+ },
+ {
+  "id": "g5eng-U1-027",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "A: What day is today?　B: ____",
+  "options": [
+   "It's Wednesday.",
+   "It's six o'clock.",
+   "It's blue."
+  ],
+  "answer": "It's Wednesday.",
+  "explanation": "問星期幾，要回答星期。",
+  "difficulty": 1,
+  "tags": [
+   "grammar",
+   "what"
+  ],
+  "answerSpeak": "What day is today? It's Wednesday."
+ },
+ {
+  "id": "g5eng-U1-028",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "A: Is it Monday today?　B: No, it ____. It's Tuesday.",
+  "options": [
+   "isn't",
+   "is",
+   "not"
+  ],
+  "answer": "isn't",
+  "explanation": "否定要用 isn't（= is not）。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "isnt"
+  ],
+  "answerSpeak": "Is it Monday today? No, it isn't. It's Tuesday."
+ },
+ {
+  "id": "g5eng-U1-029",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "A: ____ it Friday today?　B: Yes, it is.",
+  "options": [
+   "Is",
+   "Are",
+   "Am"
+  ],
+  "answer": "Is",
+  "explanation": "Is it …? 問「今天是…嗎？」",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "isnt"
+  ],
+  "answerSpeak": "Is it Friday today? Yes, it is."
+ },
+ {
+  "id": "g5eng-U1-030",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "isn't 是哪兩個字縮起來的？",
+  "options": [
+   "is not",
+   "it not",
+   "is it"
+  ],
+  "answer": "is not",
+  "explanation": "isn't = is not。",
+  "difficulty": 1,
+  "tags": [
+   "grammar",
+   "isnt"
+  ]
+ },
+ {
+  "id": "g5eng-U1-031",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "今天是星期四（Thursday）。A: Is it Tuesday today?　B: ____",
+  "options": [
+   "No, it isn't. It's Thursday.",
+   "Yes, it is.",
+   "No, it isn't. It's Tuesday."
+  ],
+  "answer": "No, it isn't. It's Thursday.",
+  "explanation": "今天不是星期二，所以說 No, it isn't.，再說出今天是 Thursday。",
+  "difficulty": 3,
+  "tags": [
+   "grammar",
+   "calendar"
+  ],
+  "answerSpeak": "Is it Tuesday today? No, it isn't. It's Thursday."
+ },
+ {
+  "id": "g5eng-U1-032",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "今天是星期六（Saturday）。A: Is it Saturday today?　B: ____",
+  "options": [
+   "Yes, it is.",
+   "No, it isn't.",
+   "Yes, it isn't."
+  ],
+  "answer": "Yes, it is.",
+  "explanation": "今天就是星期六，回答 Yes, it is.",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "calendar"
+  ],
+  "answerSpeak": "Is it Saturday today? Yes, it is."
+ },
+ {
+  "id": "g5eng-U1-033",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "昨天是星期一（Monday）。A: What day is today?　B: ____",
+  "options": [
+   "It's Tuesday.",
+   "It's Sunday.",
+   "It's Monday."
+  ],
+  "answer": "It's Tuesday.",
+  "explanation": "星期一的下一天是星期二 Tuesday。",
+  "difficulty": 3,
+  "tags": [
+   "grammar",
+   "calendar"
+  ],
+  "answerSpeak": "What day is today? It's Tuesday."
+ },
+ {
+  "id": "g5eng-U1-034",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "明天是星期日（Sunday）。今天是哪一天？",
+  "options": [
+   "Saturday",
+   "Monday",
+   "Friday"
+  ],
+  "answer": "Saturday",
+  "explanation": "星期日的前一天是星期六 Saturday。",
+  "difficulty": 3,
+  "tags": [
+   "grammar",
+   "calendar"
+  ],
+  "answerSpeak": "Saturday"
+ },
+ {
+  "id": "g5eng-U1-035",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽問題，選出最適合的回答",
+  "speak": "What day is today?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "What day is today? It's Friday.",
+  "options": [
+   "It's Friday.",
+   "Yes, it is.",
+   "It's nine o'clock."
+  ],
+  "answer": "It's Friday.",
+  "explanation": "問星期幾，回答 It's ＋星期。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "reply",
+   "day"
+  ]
+ },
+ {
+  "id": "g5eng-U1-036",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽問題，選出最適合的回答",
+  "speak": "Is it Sunday today?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Is it Sunday today? No, it isn't. It's Monday.",
+  "options": [
+   "No, it isn't. It's Monday.",
+   "No, it is.",
+   "Yes, it isn't."
+  ],
+  "answer": "No, it isn't. It's Monday.",
+  "explanation": "No 後面要接 isn't；Yes 後面接 is。",
+  "difficulty": 3,
+  "tags": [
+   "listen",
+   "reply",
+   "isnt"
+  ]
+ },
+ {
+  "id": "g5eng-U1-037",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽問題，選出最適合的回答",
+  "speak": "Is it Wednesday today?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Is it Wednesday today? Yes, it is.",
+  "options": [
+   "Yes, it is.",
+   "Yes, it isn't.",
+   "It's Friday."
+  ],
+  "answer": "Yes, it is.",
+  "explanation": "Is it …? 用 Yes, it is. 或 No, it isn't. 回答。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "reply",
+   "isnt"
+  ]
+ },
+ {
+  "id": "g5eng-U1-038",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "order",
+  "prompt": "把句子排好：「今天星期幾？」",
+  "speak": "What day is today?",
+  "speakLang": "en",
+  "answerSpeak": "What day is today?",
+  "items": [
+   "What",
+   "day",
+   "is",
+   "today?"
+  ],
+  "explanation": "疑問句 What day 放最前面，再接 is today?",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-U1-039",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "order",
+  "prompt": "把句子排好：「今天是星期一嗎？」",
+  "speak": "Is it Monday today?",
+  "speakLang": "en",
+  "answerSpeak": "Is it Monday today?",
+  "items": [
+   "Is",
+   "it",
+   "Monday",
+   "today?"
+  ],
+  "explanation": "問「是不是」，Is 放最前面。",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-U1-040",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "order",
+  "prompt": "把句子排好：「不，不是。今天是星期二。」",
+  "speak": "No, it isn't. It's Tuesday.",
+  "speakLang": "en",
+  "answerSpeak": "No, it isn't. It's Tuesday.",
+  "items": [
+   "No,",
+   "it",
+   "isn't.",
+   "It's",
+   "Tuesday."
+  ],
+  "explanation": "先說 No, it isn't.，再說 It's Tuesday.",
+  "difficulty": 3,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-U1-041",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "order",
+  "prompt": "把句子排好：「我們來訂票吧。」",
+  "speak": "Let's book the tickets.",
+  "speakLang": "en",
+  "answerSpeak": "Let's book the tickets.",
+  "items": [
+   "Let's",
+   "book",
+   "the",
+   "tickets."
+  ],
+  "explanation": "Let's ＋動作：我們一起…吧。",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-U1-042",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "朋友要去看足球比賽，你想祝他玩得開心，要說什麼？",
+  "options": [
+   "Have a good time.",
+   "Good job!",
+   "Sorry, I'm late."
+  ],
+  "answer": "Have a good time.",
+  "explanation": "Have a good time. 是「祝你玩得愉快」。",
+  "difficulty": 1,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "Have a good time."
+ },
+ {
+  "id": "g5eng-U1-043",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「TGIF!」是什麼意思？",
+  "options": [
+   "謝天謝地，今天星期五！",
+   "今天星期一，好累！",
+   "我們去看足球吧！"
+  ],
+  "answer": "謝天謝地，今天星期五！",
+  "explanation": "TGIF = Thank goodness it's Friday.",
+  "difficulty": 2,
+  "tags": [
+   "talk"
+  ]
+ },
+ {
+  "id": "g5eng-U1-044",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「It's awesome!」是什麼意思？",
+  "options": [
+   "太棒了！（令人讚嘆）",
+   "太可怕了！",
+   "我好累！"
+  ],
+  "answer": "太棒了！（令人讚嘆）",
+  "explanation": "awesome 是「令人讚嘆的、超棒的」。",
+  "difficulty": 2,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "It's awesome!"
+ },
+ {
+  "id": "g5eng-U1-045",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "在西班牙，「Hola!」是什麼意思？",
+  "options": [
+   "嗨！",
+   "再見！",
+   "謝謝！"
+  ],
+  "answer": "嗨！",
+  "explanation": "hola 是西班牙文的「嗨」。",
+  "difficulty": 1,
+  "tags": [
+   "talk"
+  ]
+ },
+ {
+  "id": "g5eng-U1-046",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "Pete",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Pete",
+  "options": [
+   "Pete",
+   "pet"
+  ],
+  "answer": "Pete",
+  "explanation": "Pete 是 e_e，e 念長音（和字母 E 一樣）；pet 是短音。小考把 Pete 寫成 Pet，要注意字尾的 e。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "e_e"
+  ]
+ },
+ {
+  "id": "g5eng-U1-047",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "feed",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "feed",
+  "options": [
+   "feed",
+   "fed"
+  ],
+  "answer": "feed",
+  "explanation": "feed 的 ee 念長音 e；fed 是短音。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "ee"
+  ]
+ },
+ {
+  "id": "g5eng-U1-048",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "seat",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "seat",
+  "options": [
+   "seat",
+   "set"
+  ],
+  "answer": "seat",
+  "explanation": "seat 的 ea 念長音 e；set 是短音。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "ea"
+  ]
+ },
+ {
+  "id": "g5eng-U1-049",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "meat",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "meat",
+  "options": [
+   "meat",
+   "met"
+  ],
+  "answer": "meat",
+  "explanation": "meat 的 ea 念長音 e。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "ea"
+  ]
+ },
+ {
+  "id": "g5eng-U1-050",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "sheep",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "sheep",
+  "options": [
+   "sheep",
+   "ship"
+  ],
+  "answer": "sheep",
+  "explanation": "sheep 的 ee 念長音 e；ship 是短音 i。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "ee"
+  ]
+ },
+ {
+  "id": "g5eng-U1-051",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "tree",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "tree",
+  "options": [
+   "tree",
+   "trea",
+   "tre"
+  ],
+  "answer": "tree",
+  "explanation": "tree 的長音 e 用 ee。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "ee"
+  ]
+ },
+ {
+  "id": "g5eng-U1-052",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "these",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "these",
+  "options": [
+   "these",
+   "theese",
+   "theas"
+  ],
+  "answer": "these",
+  "explanation": "these 是 e_e：e＋子音＋e。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "e_e"
+  ]
+ },
+ {
+  "id": "g5eng-U1-053",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "sleep",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "sleep",
+  "options": [
+   "sleep",
+   "sleap",
+   "slepe"
+  ],
+  "answer": "sleep",
+  "explanation": "sleep 的長音 e 用 ee。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "ee"
+  ]
+ },
+ {
+  "id": "g5eng-U1-054",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "哪一個字的 e 念長音（和字母 E 的名字一樣）？",
+  "options": [
+   "bee",
+   "bed",
+   "ten"
+  ],
+  "answer": "bee",
+  "explanation": "bee 的 ee 念長音 e；bed、ten 是短音。",
+  "difficulty": 1,
+  "tags": [
+   "phonics",
+   "ee"
+  ]
+ },
+ {
+  "id": "g5eng-U1-055",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "看看貓咪咖啡館的牌子。A: Is it open on Monday?　B: ____",
+  "options": [
+   "No, it isn't.",
+   "Yes, it is.",
+   "Yes, it does."
+  ],
+  "answer": "No, it isn't.",
+  "explanation": "Monday 休息（Closed），所以 No, it isn't.",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "hours"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 250\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect x=\"4\" y=\"4\" width=\"512\" height=\"242\" rx=\"18\" fill=\"#3E5C76\" stroke=\"#22384B\" stroke-width=\"5\"/><text x=\"260\" y=\"52\" font-size=\"28\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#FFE08A\">Cat Café</text><text x=\"40\" y=\"110\" font-size=\"21\" font-weight=\"700\" fill=\"#FFFFFF\">Opening Days</text><text x=\"480\" y=\"110\" font-size=\"21\" text-anchor=\"end\" fill=\"#FFFFFF\">Wednesday - Sunday</text><text x=\"40\" y=\"160\" font-size=\"21\" font-weight=\"700\" fill=\"#FFFFFF\">Opening Hours</text><text x=\"480\" y=\"160\" font-size=\"21\" text-anchor=\"end\" fill=\"#FFFFFF\">10:00 a.m. - 8:00 p.m.</text><text x=\"260\" y=\"212\" font-size=\"19\" text-anchor=\"middle\" fill=\"#FFB4A2\">Closed on Monday and Tuesday</text></svg>"
+  },
+  "answerSpeak": "Is it open on Monday? No, it isn't."
+ },
+ {
+  "id": "g5eng-U1-056",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "看看貓咪咖啡館的牌子。A: Is it open on Friday?　B: ____",
+  "options": [
+   "Yes, it is.",
+   "No, it isn't.",
+   "No, it is."
+  ],
+  "answer": "Yes, it is.",
+  "explanation": "Wednesday 到 Sunday 都有開，Friday 在中間，所以 Yes, it is.",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "hours"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 250\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect x=\"4\" y=\"4\" width=\"512\" height=\"242\" rx=\"18\" fill=\"#3E5C76\" stroke=\"#22384B\" stroke-width=\"5\"/><text x=\"260\" y=\"52\" font-size=\"28\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#FFE08A\">Cat Café</text><text x=\"40\" y=\"110\" font-size=\"21\" font-weight=\"700\" fill=\"#FFFFFF\">Opening Days</text><text x=\"480\" y=\"110\" font-size=\"21\" text-anchor=\"end\" fill=\"#FFFFFF\">Wednesday - Sunday</text><text x=\"40\" y=\"160\" font-size=\"21\" font-weight=\"700\" fill=\"#FFFFFF\">Opening Hours</text><text x=\"480\" y=\"160\" font-size=\"21\" text-anchor=\"end\" fill=\"#FFFFFF\">10:00 a.m. - 8:00 p.m.</text><text x=\"260\" y=\"212\" font-size=\"19\" text-anchor=\"middle\" fill=\"#FFB4A2\">Closed on Monday and Tuesday</text></svg>"
+  },
+  "answerSpeak": "Is it open on Friday? Yes, it is."
+ },
+ {
+  "id": "g5eng-U1-057",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "看看貓咪咖啡館的牌子。它早上幾點開門？",
+  "options": [
+   "10:00 a.m.",
+   "8:00 a.m.",
+   "10:00 p.m."
+  ],
+  "answer": "10:00 a.m.",
+  "explanation": "Opening Hours 寫 10:00 a.m. - 8:00 p.m.，早上 10 點開、晚上 8 點關。a.m. 是上午，p.m. 是下午和晚上。",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "hours"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 250\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect x=\"4\" y=\"4\" width=\"512\" height=\"242\" rx=\"18\" fill=\"#3E5C76\" stroke=\"#22384B\" stroke-width=\"5\"/><text x=\"260\" y=\"52\" font-size=\"28\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#FFE08A\">Cat Café</text><text x=\"40\" y=\"110\" font-size=\"21\" font-weight=\"700\" fill=\"#FFFFFF\">Opening Days</text><text x=\"480\" y=\"110\" font-size=\"21\" text-anchor=\"end\" fill=\"#FFFFFF\">Wednesday - Sunday</text><text x=\"40\" y=\"160\" font-size=\"21\" font-weight=\"700\" fill=\"#FFFFFF\">Opening Hours</text><text x=\"480\" y=\"160\" font-size=\"21\" text-anchor=\"end\" fill=\"#FFFFFF\">10:00 a.m. - 8:00 p.m.</text><text x=\"260\" y=\"212\" font-size=\"19\" text-anchor=\"middle\" fill=\"#FFB4A2\">Closed on Monday and Tuesday</text></svg>"
+  }
+ },
+ {
+  "id": "g5eng-U1-058",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "讀一讀：\nToday is Saturday. Ben and his sister go to the Cat Museum. The museum is open from Tuesday to Sunday. They book the tickets on the phone. After that, they see many cat models. \"It's awesome!\" Ben says.\n\nWhat day is today?",
+  "options": [
+   "It's Saturday.",
+   "It's Sunday.",
+   "It's Tuesday."
+  ],
+  "answer": "It's Saturday.",
+  "explanation": "第一句就說 Today is Saturday.",
+  "difficulty": 2,
+  "tags": [
+   "reading"
+  ]
+ },
+ {
+  "id": "g5eng-U1-059",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "讀一讀：\nToday is Saturday. Ben and his sister go to the Cat Museum. The museum is open from Tuesday to Sunday. They book the tickets on the phone. After that, they see many cat models. \"It's awesome!\" Ben says.\n\nIs the museum open on Monday?",
+  "options": [
+   "No, it isn't.",
+   "Yes, it is.",
+   "Yes, they do."
+  ],
+  "answer": "No, it isn't.",
+  "explanation": "博物館從 Tuesday 開到 Sunday，Monday 沒有開。",
+  "difficulty": 3,
+  "tags": [
+   "reading"
+  ]
+ },
+ {
+  "id": "g5eng-U1-060",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "truefalse",
+  "prompt": "讀一讀：\nToday is Saturday. Ben and his sister go to the Cat Museum. The museum is open from Tuesday to Sunday. They book the tickets on the phone. After that, they see many cat models. \"It's awesome!\" Ben says.\n\nBen and his sister book the tickets at the museum.",
+  "answer": false,
+  "explanation": "他們是 on the phone（用手機）訂票，不是在博物館。",
+  "difficulty": 3,
+  "tags": [
+   "reading"
+  ]
+ }
+]

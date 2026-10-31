@@ -14,9 +14,25 @@ function chooseVoice() {
   return prefer || voices.find((v) => /^zh/i.test(v.lang)) || null;
 }
 
+// 英語題用美式英語語音（iPad 內建 Samantha 等）。Apple 還內建一些搞笑音效語音（Bahh、Bubbles、Zarvox…），不能選到
+let enVoice = null;
+const EN_PREFER = ['Samantha', 'Ava', 'Allison', 'Susan', 'Nicky', 'Alex', 'Shelley', 'Flo', 'Sandy', 'Reed', 'Eddy'];
+const EN_NOVELTY = /Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Grandma|Grandpa|Rocko|Junior|Ralph|Fred|Kathy/i;
+function chooseEnVoice() {
+  if (!('speechSynthesis' in window)) return null;
+  const voices = speechSynthesis.getVoices();
+  const us = voices.filter((v) => /en[-_]US/i.test(v.lang) && !EN_NOVELTY.test(v.name));
+  for (const name of EN_PREFER) {
+    const v = us.find((x) => x.name.startsWith(name));
+    if (v) return v;
+  }
+  return us[0] || voices.find((v) => /^en/i.test(v.lang) && !EN_NOVELTY.test(v.name)) || null;
+}
+
 if ('speechSynthesis' in window) {
   voice = chooseVoice();
-  speechSynthesis.addEventListener?.('voiceschanged', () => { voice = chooseVoice(); });
+  enVoice = chooseEnVoice();
+  speechSynthesis.addEventListener?.('voiceschanged', () => { voice = chooseVoice(); enVoice = chooseEnVoice(); });
 }
 
 // iPad Safari 要求第一次朗讀發生在手指點擊的當下；在第一次點擊時先念一句無聲的，之後就能自由朗讀
@@ -43,16 +59,18 @@ export function stop() {
   if (available()) speechSynthesis.cancel();
 }
 
-// 念一段文字；念完（或失敗、逾時）時 resolve。
-export function speak(text, { rate } = {}) {
+// 念一段文字；念完（或失敗、逾時）時 resolve。lang: 'en' 用英語語音念。
+export function speak(text, { rate, lang } = {}) {
   return new Promise((resolve) => {
     if (!text || !available() || settings().muted) return resolve(false);
     if (!voice) voice = chooseVoice();
+    if (lang === 'en' && !enVoice) enVoice = chooseEnVoice();
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'zh-TW';
-    if (voice) u.voice = voice;
-    u.rate = rate || settings().voiceRate || 0.9;
+    u.lang = lang === 'en' ? 'en-US' : 'zh-TW';
+    const v = lang === 'en' ? enVoice : voice;
+    if (v) u.voice = v;
+    u.rate = rate || (lang === 'en' ? 0.8 : settings().voiceRate || 0.9);
     u.pitch = 1.05;
     let done = false;
     const finish = (ok) => { if (!done) { done = true; resolve(ok); } };

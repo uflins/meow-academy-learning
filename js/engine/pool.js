@@ -114,6 +114,12 @@ export async function loadRegionUnits(region) {
             const all = [...picked, ...rest];
             return shuffle(Math.random, all.length >= n ? all : [...all, ...pickVaried(lessons.filter((q) => !all.includes(q)), n - all.length)]);
           }
+          if (u.boss.focus) {
+            // 英語大魔王：約六成是指定玩法（拼錯怪考拼字和聽力、課表大魔王考讀表和文法）
+            const focus = pickVaried(lessons.filter((q) => q.tags && u.boss.focus.includes(q.tags[0])), Math.ceil(n * 0.6));
+            const rest = pickVaried(lessons.filter((q) => !focus.includes(q)), n - focus.length);
+            return shuffle(Math.random, [...focus, ...rest]);
+          }
           if (!u.boss.file) return withSpecial(pickVaried(lessons, n), u.boss.special, n);
           const review = await loadBank(u.boss.file);
           const fromReview = pickVaried(review, Math.ceil(n * 0.6));

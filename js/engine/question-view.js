@@ -200,10 +200,10 @@ function choiceArea(q, ctx, answer) {
     const label = optionLabel(o);
     const shown = shownOpts[oi];
     const btn = h('button', { class: `opt btn ${q.style === 'bubble' ? 'bubble' : ''}`, dataset: { label }, onclick: () => answer(label, btn) }, optionContent(shown, q));
-    if (ctx.lowGrade && typeof o === 'object' && o.speak) {
+    if ((ctx.lowGrade || q.speakLang) && typeof o === 'object' && o.speak) {
       btn.append(h('span', {
         class: 'opt-say', role: 'button', 'aria-label': '聽一聽',
-        onclick: (e) => { e.stopPropagation(); speak(o.speak); },
+        onclick: (e) => { e.stopPropagation(); speak(o.speak, { lang: q.speakLang }); },
       }, '🔊'));
     }
     wrap.append(btn);
@@ -345,8 +345,9 @@ function orderArea(q, ctx, answer) {
     confirm.disabled = placed.length !== q.items.length;
   };
   render();
-  return h('div', { class: 'q-order' },
-    h('div', { class: 'q-hint' }, '依序點卡片排好；點上面的卡片可以拿回來，排好按「確定」'),
+  const kind = (q.tags && q.tags[0]) || '';
+  return h('div', { class: `q-order kind-${kind}` },
+    h('div', { class: 'q-hint' }, kind === 'spell' ? '依序點字母拼出單字；點上面的字母可以拿回來，排好按「確定」' : '依序點卡片排好；點上面的卡片可以拿回來，排好按「確定」'),
     row, bank, confirm);
 }
 
@@ -364,7 +365,7 @@ export function renderQuestion(q, ctx = {}) {
     resolveAnswer({ given, correct, btn });
   };
 
-  const sayBtn = h('button', { class: 'say-btn', 'aria-label': '再聽一次', onclick: () => (q.audio ? playZhuyin(q.audio) : speak(q.speak || q.prompt)) }, '🔊');
+  const sayBtn = h('button', { class: 'say-btn', 'aria-label': '再聽一次', onclick: () => (q.audio ? playZhuyin(q.audio) : q.speakLang ? speak(q.speak, { lang: q.speakLang }) : speak(q.speak || q.prompt)) }, '🔊');
   const prompt = h('div', { class: 'q-prompt' }, sayBtn, h('span', { class: 'q-text' }, richText(q, q.prompt)));
 
   let area;

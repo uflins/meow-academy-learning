@@ -200,7 +200,9 @@ export default function battle(root, params, { go, app }) {
     };
 
     // 一年級：念題目；注音泡泡題先念提示，再播注音音檔
+    // 英語聽力題（autoSay）：五年級也自動念一次英文
     const sayQuestion = async (q) => {
+      if (q.speakLang) { speak(q.speak, { lang: q.speakLang }); return; }
       if (!q.audio) { speak(q.speak || q.prompt); return; }
       preloadZhuyin([q.audio]);
       await speak(q.speak);
@@ -228,6 +230,7 @@ export default function battle(root, params, { go, app }) {
         q.explanation ? h('div', { class: 'explain-text' }, richText(q, q.explanation)) : null,
         h('div', { class: 'explain-actions' },
           lowGrade && (say || q.audio) ? h('button', { class: 'btn', onclick: () => (q.audio ? playZhuyin(q.audio) : speak(say)) }, '🔊 ', zy('再聽一次')) : null,
+          !lowGrade && q.answerSpeak ? h('button', { class: 'btn', onclick: () => speak(q.answerSpeak, { lang: 'en' }) }, '🔊 聽正確念法') : null,
           h('button', { class: 'btn primary', onclick: () => { stopSpeech(); resolve(); } }, lowGrade ? ['👍 ', zy('我懂了')] : '我懂了'),
         ),
       );
@@ -242,7 +245,7 @@ export default function battle(root, params, { go, app }) {
       setCat('normal');
       const view = renderQuestion(q, { lowGrade });
       qwrap.replaceChildren(view.el);
-      if (lowGrade) sayQuestion(q);
+      if (lowGrade || q.autoSay) sayQuestion(q);
 
       let timer = null;
       if (timed) {

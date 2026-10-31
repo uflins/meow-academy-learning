@@ -1,0 +1,929 @@
+[
+ {
+  "id": "g5eng-ST-001",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "seventy",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "seventy",
+  "options": [
+   "seventy",
+   "seventeen",
+   "seven"
+  ],
+  "answer": "seventy",
+  "explanation": "seventy 是 70，字尾是 -ty；seventeen 是 17，字尾是 -teen。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "number"
+  ]
+ },
+ {
+  "id": "g5eng-ST-002",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "eighty",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "eighty",
+  "options": [
+   "eighty",
+   "eighteen",
+   "eight"
+  ],
+  "answer": "eighty",
+  "explanation": "eighty 是 80（-ty 結尾）；eighteen 是 18。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "number"
+  ]
+ },
+ {
+  "id": "g5eng-ST-003",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "ninety",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "ninety",
+  "options": [
+   "ninety",
+   "nineteen",
+   "nine"
+  ],
+  "answer": "ninety",
+  "explanation": "ninety 是 90；nineteen 是 19。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "number"
+  ]
+ },
+ {
+  "id": "g5eng-ST-004",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "sixty",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "sixty",
+  "options": [
+   "sixty",
+   "sixteen",
+   "fifty"
+  ],
+  "answer": "sixty",
+  "explanation": "sixty 是 60；sixteen 是 16；fifty 是 50。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "number"
+  ]
+ },
+ {
+  "id": "g5eng-ST-005",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "one hundred",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "one hundred",
+  "options": [
+   "one hundred",
+   "ninety",
+   "eleven"
+  ],
+  "answer": "one hundred",
+  "explanation": "one hundred 是 100。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "number"
+  ]
+ },
+ {
+  "id": "g5eng-ST-006",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "forty",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "forty",
+  "options": [
+   "forty",
+   "fourteen",
+   "fifty"
+  ],
+  "answer": "forty",
+  "explanation": "forty 是 40；fourteen 是 14；fifty 是 50。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "number"
+  ]
+ },
+ {
+  "id": "g5eng-ST-007",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "「80」的英文是哪一個？",
+  "answerSpeak": "eighty",
+  "options": [
+   "eighty",
+   "eighteen",
+   "aighty"
+  ],
+  "answer": "eighty",
+  "explanation": "80 是 eighty，開頭是 e-i-g-h，和 eight 一樣。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "number"
+  ]
+ },
+ {
+  "id": "g5eng-ST-008",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "「90」的英文是哪一個？",
+  "answerSpeak": "ninety",
+  "options": [
+   "ninety",
+   "ninty",
+   "nineteen"
+  ],
+  "answer": "ninety",
+  "explanation": "90 是 ninety，要留著 nine 的 e，再加 -ty。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "number"
+  ]
+ },
+ {
+  "id": "g5eng-ST-009",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "「40」的英文是哪一個？",
+  "answerSpeak": "forty",
+  "options": [
+   "forty",
+   "fourty",
+   "fourteen"
+  ],
+  "answer": "forty",
+  "explanation": "40 是 forty，沒有 u！four（4）才有 u。",
+  "difficulty": 3,
+  "tags": [
+   "picture",
+   "number"
+  ]
+ },
+ {
+  "id": "g5eng-ST-010",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "「70」的英文是哪一個？",
+  "answerSpeak": "seventy",
+  "options": [
+   "seventy",
+   "seventeen",
+   "sevendy"
+  ],
+  "answer": "seventy",
+  "explanation": "70 是 seventy。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "number"
+  ]
+ },
+ {
+  "id": "g5eng-ST-011",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「40」的英文",
+  "speak": "forty",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "forty",
+  "items": [
+   "f",
+   "o",
+   "r",
+   "t",
+   "y"
+  ],
+  "explanation": "40 是 f-o-r-t-y，沒有 u。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "forty"
+  ]
+ },
+ {
+  "id": "g5eng-ST-012",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「80」的英文",
+  "speak": "eighty",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "eighty",
+  "items": [
+   "e",
+   "i",
+   "g",
+   "h",
+   "t",
+   "y"
+  ],
+  "explanation": "80 是 e-i-g-h-t-y。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "eighty"
+  ]
+ },
+ {
+  "id": "g5eng-ST-013",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「90」的英文",
+  "speak": "ninety",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "ninety",
+  "items": [
+   "n",
+   "i",
+   "n",
+   "e",
+   "t",
+   "y"
+  ],
+  "explanation": "90 是 n-i-n-e-t-y，nine 的 e 要留著。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "ninety"
+  ]
+ },
+ {
+  "id": "g5eng-ST-014",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "order",
+  "prompt": "🎧 聽一聽，把字母排成「60」的英文",
+  "speak": "sixty",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "sixty",
+  "items": [
+   "s",
+   "i",
+   "x",
+   "t",
+   "y"
+  ],
+  "explanation": "60 是 s-i-x-t-y。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "sixty"
+  ]
+ },
+ {
+  "id": "g5eng-ST-015",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "小明的存錢筒有 50 元，又放進 30 元。現在一共有多少元？",
+  "options": [
+   "eighty",
+   "eighteen",
+   "seventy"
+  ],
+  "answer": "eighty",
+  "explanation": "50 + 30 = 80，80 是 eighty。",
+  "difficulty": 2,
+  "tags": [
+   "number",
+   "math"
+  ]
+ },
+ {
+  "id": "g5eng-ST-016",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "「twenty + forty」等於多少？",
+  "options": [
+   "sixty",
+   "sixteen",
+   "fifty"
+  ],
+  "answer": "sixty",
+  "explanation": "20 + 40 = 60，60 是 sixty。",
+  "difficulty": 2,
+  "tags": [
+   "number",
+   "math"
+  ]
+ },
+ {
+  "id": "g5eng-ST-017",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "tape",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "tape",
+  "options": [
+   "tape",
+   "tap"
+  ],
+  "answer": "tape",
+  "explanation": "tape 的 a 念長音（和字母 A 一樣），因為後面有 e（a_e）。tap 是短音。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "phonics",
+   "a_e"
+  ]
+ },
+ {
+  "id": "g5eng-ST-018",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "made",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "made",
+  "options": [
+   "made",
+   "mad"
+  ],
+  "answer": "made",
+  "explanation": "made 是 a_e，a 念長音；mad 是短音。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "phonics",
+   "a_e"
+  ]
+ },
+ {
+  "id": "g5eng-ST-019",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "plane",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "plane",
+  "options": [
+   "plane",
+   "plan"
+  ],
+  "answer": "plane",
+  "explanation": "plane 是 a_e，a 念長音；plan 是短音。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "a_e"
+  ]
+ },
+ {
+  "id": "g5eng-ST-020",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "rain",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "rain",
+  "options": [
+   "rain",
+   "ran"
+  ],
+  "answer": "rain",
+  "explanation": "rain 的 ai 念長音 a；ran 是短音。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "ai"
+  ]
+ },
+ {
+  "id": "g5eng-ST-021",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "pail",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "pail",
+  "options": [
+   "pail",
+   "pal"
+  ],
+  "answer": "pail",
+  "explanation": "pail 的 ai 念長音 a；pal 是短音。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "phonics",
+   "ai"
+  ]
+ },
+ {
+  "id": "g5eng-ST-022",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "day",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "day",
+  "options": [
+   "day",
+   "dad"
+  ],
+  "answer": "day",
+  "explanation": "day 的 ay 念長音 a。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "phonics",
+   "ay"
+  ]
+ },
+ {
+  "id": "g5eng-ST-023",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "rain",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "rain",
+  "options": [
+   "rain",
+   "rane",
+   "rayn"
+  ],
+  "answer": "rain",
+  "explanation": "rain 的長音 a 在字中間，用 ai。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "ai"
+  ]
+ },
+ {
+  "id": "g5eng-ST-024",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "cake",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "cake",
+  "options": [
+   "cake",
+   "caik",
+   "cayk"
+  ],
+  "answer": "cake",
+  "explanation": "cake 是 a_e：a＋子音＋e，e 不發音。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "a_e"
+  ]
+ },
+ {
+  "id": "g5eng-ST-025",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "today",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "today",
+  "options": [
+   "today",
+   "todai",
+   "todae"
+  ],
+  "answer": "today",
+  "explanation": "today 的長音 a 在字尾，用 ay。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "ay"
+  ]
+ },
+ {
+  "id": "g5eng-ST-026",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "lake",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "lake",
+  "options": [
+   "lake",
+   "laik",
+   "layk"
+  ],
+  "answer": "lake",
+  "explanation": "lake 是 a_e。",
+  "difficulty": 2,
+  "tags": [
+   "spell",
+   "a_e"
+  ]
+ },
+ {
+  "id": "g5eng-ST-027",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "maid",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "maid",
+  "options": [
+   "maid",
+   "mayd",
+   "mad"
+  ],
+  "answer": "maid",
+  "explanation": "maid 的長音 a 在字中間，用 ai；mad 是短音（生氣的）。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "ai"
+  ]
+ },
+ {
+  "id": "g5eng-ST-028",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "哪一個字的 a 念長音（和字母 A 的名字一樣）？",
+  "options": [
+   "cake",
+   "cat",
+   "hat"
+  ],
+  "answer": "cake",
+  "explanation": "cake 是 a_e，a 念長音；cat、hat 都是短音。",
+  "difficulty": 1,
+  "tags": [
+   "phonics",
+   "a_e"
+  ]
+ },
+ {
+  "id": "g5eng-ST-029",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "ai、ay 都念長音 a。哪一個字的長音 a 通常放在「字尾」？",
+  "options": [
+   "ay（例如 day、May）",
+   "ai（例如 rain、mail）",
+   "a_e（例如 cake）"
+  ],
+  "answer": "ay（例如 day、May）",
+  "explanation": "ay 通常在字尾，ai 通常在字中間。",
+  "difficulty": 2,
+  "tags": [
+   "phonics",
+   "ay"
+  ]
+ },
+ {
+  "id": "g5eng-ST-030",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "order",
+  "prompt": "把句子排好：「他正在桌子下面睡覺。」",
+  "speak": "He's sleeping under the table.",
+  "speakLang": "en",
+  "answerSpeak": "He's sleeping under the table.",
+  "items": [
+   "He's",
+   "sleeping",
+   "under",
+   "the",
+   "table."
+  ],
+  "explanation": "He's（他是）＋ sleeping（正在睡）＋ under the table（在桌子下面）。",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-ST-031",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "order",
+  "prompt": "把句子排好：「她正在臥室裡看書。」",
+  "speak": "She's reading in the bedroom.",
+  "speakLang": "en",
+  "answerSpeak": "She's reading in the bedroom.",
+  "items": [
+   "She's",
+   "reading",
+   "in",
+   "the",
+   "bedroom."
+  ],
+  "explanation": "She's ＋ reading（正在看書）＋ in the bedroom（在臥室裡）。",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-ST-032",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "order",
+  "prompt": "把句子排好：「我的包包在哪裡？」",
+  "speak": "Where's my bag?",
+  "speakLang": "en",
+  "answerSpeak": "Where's my bag?",
+  "items": [
+   "Where's",
+   "my",
+   "bag?"
+  ],
+  "explanation": "問東西在哪裡：Where's ＋ 東西？",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-ST-033",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽問題，選出最適合的回答",
+  "speak": "Where's Rocky?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Where's Rocky? He's sleeping under the table.",
+  "options": [
+   "He's sleeping under the table.",
+   "It's Friday.",
+   "It's four o'clock."
+  ],
+  "answer": "He's sleeping under the table.",
+  "explanation": "問「在哪裡」，要回答位置：He's … under the table。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "reply",
+   "where"
+  ]
+ },
+ {
+  "id": "g5eng-ST-034",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🎧 聽一聽問題，選出最適合的回答",
+  "speak": "What's she doing?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "What's she doing? She's swimming.",
+  "options": [
+   "She's swimming.",
+   "She's in the kitchen.",
+   "Yes, she is."
+  ],
+  "answer": "She's swimming.",
+  "explanation": "問「正在做什麼」，要回答動作 -ing：She's swimming。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "reply",
+   "doing"
+  ]
+ },
+ {
+  "id": "g5eng-ST-035",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "貓咪在桌子「下面」睡覺，要用哪一個字？",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🐱",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "under",
+  "options": [
+   "under",
+   "on",
+   "by"
+  ],
+  "answer": "under",
+  "explanation": "under 是「在…下面」；on 是在上面；by 是在旁邊。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "position"
+  ]
+ },
+ {
+  "id": "g5eng-ST-036",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "包包在椅子「旁邊」，要用哪一個字？",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🎒",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "by",
+  "options": [
+   "by",
+   "under",
+   "in"
+  ],
+  "answer": "by",
+  "explanation": "by 是「在…旁邊」。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "position"
+  ]
+ },
+ {
+  "id": "g5eng-ST-037",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "見面時是下午，要說什麼？",
+  "options": [
+   "Good afternoon!",
+   "Good morning!",
+   "Good night!"
+  ],
+  "answer": "Good afternoon!",
+  "explanation": "下午見面說 Good afternoon!",
+  "difficulty": 1,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "Good afternoon!"
+ },
+ {
+  "id": "g5eng-ST-038",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "想約大家一起出去玩，要說什麼？",
+  "options": [
+   "Let's go out!",
+   "Watch out!",
+   "See you later!"
+  ],
+  "answer": "Let's go out!",
+  "explanation": "Let's go out! 是「我們出去吧！」；Watch out! 是「小心！」。",
+  "difficulty": 1,
+  "tags": [
+   "talk"
+  ],
+  "answerSpeak": "Let's go out!"
+ }
+]
