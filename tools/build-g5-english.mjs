@@ -209,7 +209,7 @@ function unit1() {
   add(pick("A: Is it Monday today?　B: No, it ____. It's Tuesday.", "isn't", ["is", "not"], "否定要用 isn't（= is not）。", "grammar", ["isnt"], 2, { answerSpeak: "Is it Monday today? No, it isn't. It's Tuesday." }));
   add(pick("A: ____ it Friday today?　B: Yes, it is.", "Is", ["Are", "Am"], "Is it …? 問「今天是…嗎？」", "grammar", ["isnt"], 2, { answerSpeak: "Is it Friday today? Yes, it is." }));
   add(pick("isn't 是哪兩個字縮起來的？", "is not", ["it not", "is it"], "isn't = is not。", "grammar", ["isnt"], 1));
-  // 日曆推理（孩子小考錯過：今天是星期四，卻回答 Yes）
+  // 日曆推理：今天不是問的那一天，要回答 No, it isn't.
   add(pick("今天是星期四（Thursday）。A: Is it Tuesday today?　B: ____", "No, it isn't. It's Thursday.", ["Yes, it is.", "No, it isn't. It's Tuesday."], "今天不是星期二，所以說 No, it isn't.，再說出今天是 Thursday。", "grammar", ["calendar"], 3, { answerSpeak: "Is it Tuesday today? No, it isn't. It's Thursday." }));
   add(pick("今天是星期六（Saturday）。A: Is it Saturday today?　B: ____", "Yes, it is.", ["No, it isn't.", "Yes, it isn't."], "今天就是星期六，回答 Yes, it is.", "grammar", ["calendar"], 2, { answerSpeak: "Is it Saturday today? Yes, it is." }));
   add(pick("昨天是星期一（Monday）。A: What day is today?　B: ____", "It's Tuesday.", ["It's Sunday.", "It's Monday."], "星期一的下一天是星期二 Tuesday。", "grammar", ["calendar"], 3, { answerSpeak: "What day is today? It's Tuesday." }));
@@ -229,7 +229,7 @@ function unit1() {
   add(pick("「It's awesome!」是什麼意思？", "太棒了！（令人讚嘆）", ["太可怕了！", "我好累！"], "awesome 是「令人讚嘆的、超棒的」。", "talk", [], 2, { answerSpeak: "It's awesome!" }));
   add(pick("在西班牙，「Hola!」是什麼意思？", "嗨！", ["再見！", "謝謝！"], "hola 是西班牙文的「嗨」。", "talk", [], 1));
   // e_e / ee / ea
-  add(listen("Pete", ["pet"], "Pete 是 e_e，e 念長音（和字母 E 一樣）；pet 是短音。小考把 Pete 寫成 Pet，要注意字尾的 e。", ["phonics", "e_e"], 2));
+  add(listen("Pete", ["pet"], "Pete 是 e_e，e 念長音（和字母 E 一樣）；pet 是短音。寫的時候別忘了字尾的 e。", ["phonics", "e_e"], 2));
   add(listen("feed", ["fed"], "feed 的 ee 念長音 e；fed 是短音。", ["phonics", "ee"], 2));
   add(listen("seat", ["set"], "seat 的 ea 念長音 e；set 是短音。", ["phonics", "ea"], 2));
   add(listen("meat", ["met"], "meat 的 ea 念長音 e。", ["phonics", "ea"], 2));
