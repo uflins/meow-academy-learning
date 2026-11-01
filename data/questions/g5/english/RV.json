@@ -1,0 +1,957 @@
+[
+ {
+  "id": "g5eng-RV-001",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看時鐘。A: What time is it?　B: ____",
+  "options": [
+   "It's four o'clock.",
+   "It's four thirty.",
+   "It's twelve twenty."
+  ],
+  "answer": "It's four o'clock.",
+  "explanation": "短針指 4、長針指 12，是 4 點整：four o'clock。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "time"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 220\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><circle cx=\"110\" cy=\"110\" r=\"102\" fill=\"#FFFDF7\" stroke=\"#5B7FB5\" stroke-width=\"7\"/><text x=\"149.0\" y=\"50.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">1</text><text x=\"177.5\" y=\"79.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">2</text><text x=\"188.0\" y=\"118.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">3</text><text x=\"177.5\" y=\"157.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">4</text><text x=\"149.0\" y=\"185.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">5</text><text x=\"110.0\" y=\"196.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">6</text><text x=\"71.0\" y=\"185.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">7</text><text x=\"42.5\" y=\"157.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">8</text><text x=\"32.0\" y=\"118.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">9</text><text x=\"42.5\" y=\"79.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">10</text><text x=\"71.0\" y=\"50.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">11</text><text x=\"110.0\" y=\"40.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">12</text><line x1=\"110\" y1=\"110\" x2=\"151.6\" y2=\"134.0\" stroke=\"#4A3B32\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"110\" y1=\"110\" x2=\"110.0\" y2=\"38.0\" stroke=\"#D9442F\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"110\" r=\"7\" fill=\"#4A3B32\"/></svg>"
+  },
+  "answerSpeak": "What time is it? It's four o'clock."
+ },
+ {
+  "id": "g5eng-RV-002",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看時鐘。A: What time is it?　B: ____",
+  "options": [
+   "It's seven thirty.",
+   "It's six thirty.",
+   "It's seven o'clock."
+  ],
+  "answer": "It's seven thirty.",
+  "explanation": "長針指 6 是 30 分，短針在 7 和 8 中間：seven thirty。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "time"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 220\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><circle cx=\"110\" cy=\"110\" r=\"102\" fill=\"#FFFDF7\" stroke=\"#5B7FB5\" stroke-width=\"7\"/><text x=\"149.0\" y=\"50.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">1</text><text x=\"177.5\" y=\"79.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">2</text><text x=\"188.0\" y=\"118.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">3</text><text x=\"177.5\" y=\"157.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">4</text><text x=\"149.0\" y=\"185.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">5</text><text x=\"110.0\" y=\"196.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">6</text><text x=\"71.0\" y=\"185.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">7</text><text x=\"42.5\" y=\"157.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">8</text><text x=\"32.0\" y=\"118.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">9</text><text x=\"42.5\" y=\"79.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">10</text><text x=\"71.0\" y=\"50.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">11</text><text x=\"110.0\" y=\"40.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">12</text><line x1=\"110\" y1=\"110\" x2=\"76.1\" y2=\"143.9\" stroke=\"#4A3B32\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"110\" y1=\"110\" x2=\"110.0\" y2=\"182.0\" stroke=\"#D9442F\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"110\" r=\"7\" fill=\"#4A3B32\"/></svg>"
+  },
+  "answerSpeak": "What time is it? It's seven thirty."
+ },
+ {
+  "id": "g5eng-RV-003",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看時鐘。A: What time is it?　B: ____",
+  "options": [
+   "It's two forty-five.",
+   "It's nine ten.",
+   "It's two fifteen."
+  ],
+  "answer": "It's two forty-five.",
+  "explanation": "長針指 9 是 45 分，短針快到 3：two forty-five。",
+  "difficulty": 3,
+  "tags": [
+   "picture",
+   "time"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 220\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><circle cx=\"110\" cy=\"110\" r=\"102\" fill=\"#FFFDF7\" stroke=\"#5B7FB5\" stroke-width=\"7\"/><text x=\"149.0\" y=\"50.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">1</text><text x=\"177.5\" y=\"79.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">2</text><text x=\"188.0\" y=\"118.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">3</text><text x=\"177.5\" y=\"157.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">4</text><text x=\"149.0\" y=\"185.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">5</text><text x=\"110.0\" y=\"196.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">6</text><text x=\"71.0\" y=\"185.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">7</text><text x=\"42.5\" y=\"157.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">8</text><text x=\"32.0\" y=\"118.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">9</text><text x=\"42.5\" y=\"79.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">10</text><text x=\"71.0\" y=\"50.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">11</text><text x=\"110.0\" y=\"40.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">12</text><line x1=\"110\" y1=\"110\" x2=\"157.6\" y2=\"103.7\" stroke=\"#4A3B32\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"110\" y1=\"110\" x2=\"38.0\" y2=\"110.0\" stroke=\"#D9442F\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"110\" r=\"7\" fill=\"#4A3B32\"/></svg>"
+  },
+  "answerSpeak": "What time is it? It's two forty-five."
+ },
+ {
+  "id": "g5eng-RV-004",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看時鐘。A: What time is it?　B: ____",
+  "options": [
+   "It's nine fifteen.",
+   "It's three forty-five.",
+   "It's nine fifty."
+  ],
+  "answer": "It's nine fifteen.",
+  "explanation": "長針指 3 是 15 分，短針過了 9：nine fifteen。",
+  "difficulty": 3,
+  "tags": [
+   "picture",
+   "time"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 220\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><circle cx=\"110\" cy=\"110\" r=\"102\" fill=\"#FFFDF7\" stroke=\"#5B7FB5\" stroke-width=\"7\"/><text x=\"149.0\" y=\"50.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">1</text><text x=\"177.5\" y=\"79.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">2</text><text x=\"188.0\" y=\"118.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">3</text><text x=\"177.5\" y=\"157.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">4</text><text x=\"149.0\" y=\"185.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">5</text><text x=\"110.0\" y=\"196.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">6</text><text x=\"71.0\" y=\"185.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">7</text><text x=\"42.5\" y=\"157.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">8</text><text x=\"32.0\" y=\"118.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">9</text><text x=\"42.5\" y=\"79.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">10</text><text x=\"71.0\" y=\"50.5\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">11</text><text x=\"110.0\" y=\"40.0\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A3B32\">12</text><line x1=\"110\" y1=\"110\" x2=\"62.4\" y2=\"103.7\" stroke=\"#4A3B32\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"110\" y1=\"110\" x2=\"182.0\" y2=\"110.0\" stroke=\"#D9442F\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"110\" r=\"7\" fill=\"#4A3B32\"/></svg>"
+  },
+  "answerSpeak": "What time is it? It's nine fifteen."
+ },
+ {
+  "id": "g5eng-RV-005",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "It's six fifty.",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "It's six fifty.",
+  "options": [
+   "It's six fifty.",
+   "It's six fifteen.",
+   "It's five fifty."
+  ],
+  "answer": "It's six fifty.",
+  "explanation": "six fifty 是 6:50；fifteen 是 15，fifty 是 50。",
+  "difficulty": 2,
+  "tags": [
+   "listen",
+   "time"
+  ]
+ },
+ {
+  "id": "g5eng-RV-006",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，選出你聽到的字",
+  "speak": "thirty-five",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "thirty-five",
+  "options": [
+   "thirty-five",
+   "forty-five",
+   "twenty-five"
+  ],
+  "answer": "thirty-five",
+  "explanation": "thirty-five 是 35。",
+  "difficulty": 1,
+  "tags": [
+   "listen",
+   "time"
+  ]
+ },
+ {
+  "id": "g5eng-RV-007",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "「45」的英文是哪一個？",
+  "answerSpeak": "forty-five",
+  "options": [
+   "forty-five",
+   "fourty-five",
+   "fifty-four"
+  ],
+  "answer": "forty-five",
+  "explanation": "45 是 forty-five，forty 沒有 u。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "time"
+  ]
+ },
+ {
+  "id": "g5eng-RV-008",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: What's he doing?　B: He's ____.（游泳）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🏊",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "swimming",
+  "options": [
+   "swimming",
+   "reading",
+   "drinking"
+  ],
+  "answer": "swimming",
+  "explanation": "游泳是 swimming。正在做的事用 -ing。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "action"
+  ]
+ },
+ {
+  "id": "g5eng-RV-009",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: What's he doing?　B: He's ____.（睡覺）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "😴",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "sleeping",
+  "options": [
+   "sleeping",
+   "eating",
+   "running"
+  ],
+  "answer": "sleeping",
+  "explanation": "睡覺是 sleeping。正在做的事用 -ing。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "action"
+  ]
+ },
+ {
+  "id": "g5eng-RV-010",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: What's he doing?　B: He's ____.（看書）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "📖",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "reading",
+  "options": [
+   "reading",
+   "drinking",
+   "writing"
+  ],
+  "answer": "reading",
+  "explanation": "看書是 reading。正在做的事用 -ing。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "action"
+  ]
+ },
+ {
+  "id": "g5eng-RV-011",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: What's he doing?　B: He's ____.（吃東西）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🍔",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "eating",
+  "options": [
+   "eating",
+   "running",
+   "swimming"
+  ],
+  "answer": "eating",
+  "explanation": "吃東西是 eating。正在做的事用 -ing。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "action"
+  ]
+ },
+ {
+  "id": "g5eng-RV-012",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: What's he doing?　B: He's ____.（喝東西）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🥤",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "drinking",
+  "options": [
+   "drinking",
+   "writing",
+   "sleeping"
+  ],
+  "answer": "drinking",
+  "explanation": "喝東西是 drinking。正在做的事用 -ing。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "action"
+  ]
+ },
+ {
+  "id": "g5eng-RV-013",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: What's he doing?　B: He's ____.（跑步）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🏃",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "running",
+  "options": [
+   "running",
+   "swimming",
+   "reading"
+  ],
+  "answer": "running",
+  "explanation": "跑步是 running。正在做的事用 -ing。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "action"
+  ]
+ },
+ {
+  "id": "g5eng-RV-014",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: What's he doing?　B: He's ____.（寫字）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "✍️",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "writing",
+  "options": [
+   "writing",
+   "sleeping",
+   "eating"
+  ],
+  "answer": "writing",
+  "explanation": "寫字是 writing。正在做的事用 -ing。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "action"
+  ]
+ },
+ {
+  "id": "g5eng-RV-015",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "swimming",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "swimming",
+  "options": [
+   "swimming",
+   "swiming",
+   "swimmming"
+  ],
+  "answer": "swimming",
+  "explanation": "swim 加 -ing 要多寫一個 m：swimming。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "action"
+  ]
+ },
+ {
+  "id": "g5eng-RV-016",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "running",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "running",
+  "options": [
+   "running",
+   "runing",
+   "runnig"
+  ],
+  "answer": "running",
+  "explanation": "run 加 -ing 要多寫一個 n：running。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "action"
+  ]
+ },
+ {
+  "id": "g5eng-RV-017",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "🎧 聽一聽，哪一個拼法才對？",
+  "speak": "writing",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "writing",
+  "options": [
+   "writing",
+   "writeing",
+   "writting"
+  ],
+  "answer": "writing",
+  "explanation": "write 加 -ing 要先去掉 e：writing。",
+  "difficulty": 3,
+  "tags": [
+   "spell",
+   "action"
+  ]
+ },
+ {
+  "id": "g5eng-RV-018",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "A: What's she doing?　B: She's ____.（游泳）",
+  "options": [
+   "swimming",
+   "swim",
+   "swims"
+  ],
+  "answer": "swimming",
+  "explanation": "正在做的事：She's ＋ 動詞-ing。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "action"
+  ],
+  "answerSpeak": "What's she doing? She's swimming."
+ },
+ {
+  "id": "g5eng-RV-019",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: Where's Mom?　B: She's in the ____.（臥室）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🛏️",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "bedroom",
+  "options": [
+   "bedroom",
+   "bathroom",
+   "living room"
+  ],
+  "answer": "bedroom",
+  "explanation": "臥室是 bedroom。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "room"
+  ]
+ },
+ {
+  "id": "g5eng-RV-020",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: Where's Mom?　B: She's in the ____.（浴室）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🛁",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "bathroom",
+  "options": [
+   "bathroom",
+   "kitchen",
+   "yard"
+  ],
+  "answer": "bathroom",
+  "explanation": "浴室是 bathroom。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "room"
+  ]
+ },
+ {
+  "id": "g5eng-RV-021",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: Where's Mom?　B: She's in the ____.（廚房）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🍳",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "kitchen",
+  "options": [
+   "kitchen",
+   "living room",
+   "dining room"
+  ],
+  "answer": "kitchen",
+  "explanation": "廚房是 kitchen。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "room"
+  ]
+ },
+ {
+  "id": "g5eng-RV-022",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: Where's Mom?　B: She's in the ____.（客廳）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🛋️",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "living room",
+  "options": [
+   "living room",
+   "yard",
+   "bedroom"
+  ],
+  "answer": "living room",
+  "explanation": "客廳是 living room。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "room"
+  ]
+ },
+ {
+  "id": "g5eng-RV-023",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: Where's Mom?　B: She's in the ____.（院子）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🌳",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "yard",
+  "options": [
+   "yard",
+   "dining room",
+   "bathroom"
+  ],
+  "answer": "yard",
+  "explanation": "院子是 yard。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "room"
+  ]
+ },
+ {
+  "id": "g5eng-RV-024",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖。A: Where's Mom?　B: She's in the ____.（餐廳）",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🍽️",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "dining room",
+  "options": [
+   "dining room",
+   "bedroom",
+   "kitchen"
+  ],
+  "answer": "dining room",
+  "explanation": "餐廳是 dining room。",
+  "difficulty": 2,
+  "tags": [
+   "picture",
+   "room"
+  ]
+ },
+ {
+  "id": "g5eng-RV-025",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖選單字",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "💻",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "computer",
+  "options": [
+   "computer",
+   "desk",
+   "chair"
+  ],
+  "answer": "computer",
+  "explanation": "💻 是 computer（電腦）。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "item"
+  ]
+ },
+ {
+  "id": "g5eng-RV-026",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖選單字",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "📦",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "box",
+  "options": [
+   "box",
+   "bag",
+   "table"
+  ],
+  "answer": "box",
+  "explanation": "📦 是 box（箱子）。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "item"
+  ]
+ },
+ {
+  "id": "g5eng-RV-027",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "看圖選單字",
+  "visual": {
+   "emojiGroups": [
+    {
+     "emoji": "🪑",
+     "count": 1
+    }
+   ]
+  },
+  "answerSpeak": "chair",
+  "options": [
+   "chair",
+   "desk",
+   "table"
+  ],
+  "answer": "chair",
+  "explanation": "🪑 是 chair（椅子）。",
+  "difficulty": 1,
+  "tags": [
+   "picture",
+   "item"
+  ]
+ },
+ {
+  "id": "g5eng-RV-028",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "A: Where's my bag?　B: It's ____ the chair.（在椅子下面）",
+  "options": [
+   "under",
+   "on",
+   "in"
+  ],
+  "answer": "under",
+  "explanation": "under 是「在…下面」。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "position"
+  ],
+  "answerSpeak": "Where's my bag? It's under the chair."
+ },
+ {
+  "id": "g5eng-RV-029",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "球在箱子「裡面」：The ball is ____ the box.",
+  "options": [
+   "in",
+   "on",
+   "by"
+  ],
+  "answer": "in",
+  "explanation": "in 是「在…裡面」。",
+  "difficulty": 2,
+  "tags": [
+   "grammar",
+   "position"
+  ],
+  "answerSpeak": "The ball is in the box."
+ },
+ {
+  "id": "g5eng-RV-030",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "書在桌子「上面」：The book is ____ the desk.",
+  "options": [
+   "on",
+   "under",
+   "in"
+  ],
+  "answer": "on",
+  "explanation": "on 是「在…上面」。",
+  "difficulty": 1,
+  "tags": [
+   "grammar",
+   "position"
+  ],
+  "answerSpeak": "The book is on the desk."
+ },
+ {
+  "id": "g5eng-RV-031",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "order",
+  "prompt": "把句子排好：「現在幾點？」",
+  "speak": "What time is it?",
+  "speakLang": "en",
+  "answerSpeak": "What time is it?",
+  "items": [
+   "What",
+   "time",
+   "is",
+   "it?"
+  ],
+  "explanation": "What time is it? 問時間。",
+  "difficulty": 1,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-RV-032",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "order",
+  "prompt": "把句子排好：「她在廚房裡。」",
+  "speak": "She's in the kitchen.",
+  "speakLang": "en",
+  "answerSpeak": "She's in the kitchen.",
+  "items": [
+   "She's",
+   "in",
+   "the",
+   "kitchen."
+  ],
+  "explanation": "She's in the ＋地方。",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-RV-033",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "order",
+  "prompt": "把句子排好：「他正在做什麼？」",
+  "speak": "What's he doing?",
+  "speakLang": "en",
+  "answerSpeak": "What's he doing?",
+  "items": [
+   "What's",
+   "he",
+   "doing?"
+  ],
+  "explanation": "What's he doing? 問正在做什麼。",
+  "difficulty": 2,
+  "tags": [
+   "sentence"
+  ]
+ },
+ {
+  "id": "g5eng-RV-034",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「What time is it?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "What time is it?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "What time is it? It's ten o'clock.",
+  "options": [
+   "It's ten o'clock.",
+   "It's Monday.",
+   "Yes, it is."
+  ],
+  "answer": "It's ten o'clock.",
+  "explanation": "問幾點，用 It's ＋時間 回答。",
+  "difficulty": 1,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-RV-035",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Where's your dad?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Where's your dad?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Where's your dad? He's in the living room.",
+  "options": [
+   "He's in the living room.",
+   "He's reading.",
+   "It's under the chair."
+  ],
+  "answer": "He's in the living room.",
+  "explanation": "問人在哪裡，回答 He's in the ＋地方。",
+  "difficulty": 2,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-RV-036",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "RV",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「What are you doing?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "What are you doing?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "What are you doing? I'm reading.",
+  "options": [
+   "I'm reading.",
+   "I'm in the bedroom.",
+   "Yes, I do."
+  ],
+  "answer": "I'm reading.",
+  "explanation": "問你正在做什麼，用 I'm ＋動詞-ing 回答。",
+  "difficulty": 2,
+  "tags": [
+   "oral"
+  ]
+ }
+]

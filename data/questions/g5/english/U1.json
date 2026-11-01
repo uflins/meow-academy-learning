@@ -1403,5 +1403,234 @@
   "tags": [
    "reading"
   ]
+ },
+ {
+  "id": "g5eng-U1-061",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "看看科學園區的牌子。它下午幾點關門？",
+  "options": [
+   "5:00 p.m.",
+   "9:00 p.m.",
+   "5:00 a.m."
+  ],
+  "answer": "5:00 p.m.",
+  "explanation": "Opening Hours 寫 9:00 a.m. - 5:00 p.m.，下午 5 點關門。",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "minitask"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 250\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect x=\"4\" y=\"4\" width=\"512\" height=\"242\" rx=\"18\" fill=\"#3E5C76\" stroke=\"#22384B\" stroke-width=\"5\"/><text x=\"260\" y=\"52\" font-size=\"28\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#FFE08A\">Star Science Park</text><text x=\"40\" y=\"110\" font-size=\"21\" font-weight=\"700\" fill=\"#FFFFFF\">Opening Days</text><text x=\"480\" y=\"110\" font-size=\"21\" text-anchor=\"end\" fill=\"#FFFFFF\">Tuesday - Sunday</text><text x=\"40\" y=\"160\" font-size=\"21\" font-weight=\"700\" fill=\"#FFFFFF\">Opening Hours</text><text x=\"480\" y=\"160\" font-size=\"21\" text-anchor=\"end\" fill=\"#FFFFFF\">9:00 a.m. - 5:00 p.m.</text><text x=\"260\" y=\"212\" font-size=\"19\" text-anchor=\"middle\" fill=\"#FFB4A2\">Closed on Monday</text></svg>"
+  }
+ },
+ {
+  "id": "g5eng-U1-062",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "看看科學園區的牌子。A: Is it open on Sunday?　B: ____",
+  "options": [
+   "Yes, it is.",
+   "No, it isn't.",
+   "Yes, it does."
+  ],
+  "answer": "Yes, it is.",
+  "explanation": "Tuesday 到 Sunday 都有開。",
+  "difficulty": 2,
+  "tags": [
+   "table",
+   "minitask"
+  ],
+  "visual": {
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 250\" font-family=\"-apple-system,'Helvetica Neue','PingFang TC',sans-serif\"><rect x=\"4\" y=\"4\" width=\"512\" height=\"242\" rx=\"18\" fill=\"#3E5C76\" stroke=\"#22384B\" stroke-width=\"5\"/><text x=\"260\" y=\"52\" font-size=\"28\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#FFE08A\">Star Science Park</text><text x=\"40\" y=\"110\" font-size=\"21\" font-weight=\"700\" fill=\"#FFFFFF\">Opening Days</text><text x=\"480\" y=\"110\" font-size=\"21\" text-anchor=\"end\" fill=\"#FFFFFF\">Tuesday - Sunday</text><text x=\"40\" y=\"160\" font-size=\"21\" font-weight=\"700\" fill=\"#FFFFFF\">Opening Hours</text><text x=\"480\" y=\"160\" font-size=\"21\" text-anchor=\"end\" fill=\"#FFFFFF\">9:00 a.m. - 5:00 p.m.</text><text x=\"260\" y=\"212\" font-size=\"19\" text-anchor=\"middle\" fill=\"#FFB4A2\">Closed on Monday</text></svg>"
+  },
+  "answerSpeak": "Is it open on Sunday? Yes, it is."
+ },
+ {
+  "id": "g5eng-U1-063",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "牌子上的「Opening Days」是什麼意思？",
+  "options": [
+   "開放日（哪幾天有開）",
+   "開放時間（幾點開）",
+   "休息日"
+  ],
+  "answer": "開放日（哪幾天有開）",
+  "explanation": "Opening Days 是開放日；Opening Hours 是開放時間。",
+  "difficulty": 1,
+  "tags": [
+   "table",
+   "minitask"
+  ]
+ },
+ {
+  "id": "g5eng-U1-064",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "「a.m.」是什麼時候？",
+  "options": [
+   "上午",
+   "下午",
+   "晚上"
+  ],
+  "answer": "上午",
+  "explanation": "a.m. 是上午（半夜 12 點到中午 12 點）；p.m. 是下午和晚上。",
+  "difficulty": 1,
+  "tags": [
+   "table",
+   "minitask"
+  ]
+ },
+ {
+  "id": "g5eng-U1-065",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "讀一讀：\nI want to go to the Star Science Park in Tainan. It's open from Tuesday to Sunday. I can see robots and fossils there.\n\nWhat can she see there?",
+  "options": [
+   "robots and fossils",
+   "koalas and lions",
+   "football games"
+  ],
+  "answer": "robots and fossils",
+  "explanation": "最後一句：I can see robots and fossils there.",
+  "difficulty": 2,
+  "tags": [
+   "reading",
+   "minitask"
+  ]
+ },
+ {
+  "id": "g5eng-U1-066",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "讀一讀：\nI want to go to the Star Science Park in Tainan. It's open from Tuesday to Sunday. I can see robots and fossils there.\n\nCan she go there on Monday?",
+  "options": [
+   "No. It's open from Tuesday to Sunday.",
+   "Yes. It's open every day.",
+   "Yes. It's open on Monday."
+  ],
+  "answer": "No. It's open from Tuesday to Sunday.",
+  "explanation": "從 Tuesday 開到 Sunday，Monday 沒開。",
+  "difficulty": 3,
+  "tags": [
+   "reading",
+   "minitask"
+  ]
+ },
+ {
+  "id": "g5eng-U1-067",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「What day is today?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "What day is today?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "What day is today? It's Friday.",
+  "options": [
+   "It's Friday.",
+   "It's ten o'clock.",
+   "Yes, it is."
+  ],
+  "answer": "It's Friday.",
+  "explanation": "問星期幾，回答 It's ＋星期。",
+  "difficulty": 1,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-U1-068",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Is it Monday today?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Is it Monday today?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Is it Monday today? No, it isn't. It's Wednesday.",
+  "options": [
+   "No, it isn't. It's Wednesday.",
+   "No, it is. It's Monday.",
+   "Yes, it isn't."
+  ],
+  "answer": "No, it isn't. It's Wednesday.",
+  "explanation": "No 後面接 isn't，再說出今天星期幾。",
+  "difficulty": 3,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-U1-069",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Where do you want to go?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Where do you want to go?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Where do you want to go? I want to go to the museum.",
+  "options": [
+   "I want to go to the museum.",
+   "It's open every day.",
+   "I'm at home."
+  ],
+  "answer": "I want to go to the museum.",
+  "explanation": "Mini Task 的句型：I want to go to ＋地方。",
+  "difficulty": 2,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-U1-070",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "U1",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Is the museum open on Monday?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Is the museum open on Monday?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Is the museum open on Monday? No, it isn't. It's closed on Monday.",
+  "options": [
+   "No, it isn't. It's closed on Monday.",
+   "No, I don't.",
+   "Yes, it does."
+  ],
+  "answer": "No, it isn't. It's closed on Monday.",
+  "explanation": "Is it open …? 用 Yes, it is. 或 No, it isn't. 回答。",
+  "difficulty": 3,
+  "tags": [
+   "oral"
+  ]
  }
 ]

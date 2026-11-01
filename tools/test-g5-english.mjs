@@ -1,4 +1,4 @@
-// 五年級英語（Here We Go 第 5 冊，期中考：Starter、Unit 1、Unit 2、Review 1）題庫檢查
+// 五年級英語（Here We Go 第 5 冊，期中考：舊冊複習、Starter、Unit 1、Unit 2、Review 1，另有口試問答）題庫檢查
 // 用法：node tools/test-g5-english.mjs
 // 題庫由 tools/build-g5-english.mjs 產生。檢查 docs/題目格式.md 的欄位、id 不重複、各題型的答案格式、
 // 英語朗讀欄位、每個檔的題數和玩法（tags[0]）。有錯就以非 0 結束。
@@ -11,12 +11,13 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DIR = join(ROOT, "data/questions/g5/english");
 
 // 玩法（tags[0]）：規格書 4.4 英語（ABC 港口）
-const KINDS = ["listen", "spell", "sentence", "picture", "grammar", "table", "reading", "phonics", "talk", "number"];
+const KINDS = ["listen", "spell", "sentence", "picture", "grammar", "table", "reading", "phonics", "talk", "number", "oral"];
 const FILES = [
-  { section: "ST", unit: "A", min: 30, need: { listen: 8, spell: 6, sentence: 2 } },
-  { section: "U1", unit: "A", min: 40, need: { listen: 8, spell: 6, grammar: 8, sentence: 3, table: 2, reading: 2 } },
-  { section: "U2", unit: "B", min: 40, need: { listen: 8, spell: 6, grammar: 8, sentence: 3, table: 3, reading: 2 } },
-  { section: "R1", unit: "B", min: 25, need: { table: 5, listen: 6, reading: 3 } },
+  { section: "RV", unit: "A", min: 25, need: { picture: 10, spell: 3, sentence: 2, oral: 2 } },
+  { section: "ST", unit: "A", min: 30, need: { listen: 8, spell: 6, sentence: 2, oral: 2 } },
+  { section: "U1", unit: "A", min: 40, need: { listen: 8, spell: 6, grammar: 8, sentence: 3, table: 5, reading: 4, oral: 3 } },
+  { section: "U2", unit: "B", min: 40, need: { listen: 8, spell: 6, grammar: 8, sentence: 3, table: 3, reading: 8, oral: 3 } },
+  { section: "R1", unit: "B", min: 25, need: { table: 5, listen: 6, reading: 3, oral: 3 } },
 ];
 const Q_KEYS = new Set(["id", "grade", "subject", "unit", "section", "type", "prompt", "speak", "speakLang", "autoSay", "answerSpeak",
   "visual", "options", "answer", "items", "explanation", "difficulty", "tags"]);

@@ -925,5 +925,53 @@
    "talk"
   ],
   "answerSpeak": "Let's go out!"
+ },
+ {
+  "id": "g5eng-ST-039",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Where's your cat?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Where's your cat?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Where's your cat? It's sleeping under the table.",
+  "options": [
+   "It's sleeping under the table.",
+   "It's eighty.",
+   "Yes, it is."
+  ],
+  "answer": "It's sleeping under the table.",
+  "explanation": "問在哪裡，回答位置；也可以加上正在做的事。",
+  "difficulty": 2,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-ST-040",
+  "grade": 5,
+  "subject": "english",
+  "unit": "A",
+  "section": "ST",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「How much is it?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "How much is it?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "How much is it? It's seventy dollars.",
+  "options": [
+   "It's seventy dollars.",
+   "It's seventeen o'clock.",
+   "It's Monday."
+  ],
+  "answer": "It's seventy dollars.",
+  "explanation": "問多少錢，回答 It's ＋數字＋ dollars。",
+  "difficulty": 3,
+  "tags": [
+   "oral"
+  ]
  }
 ]

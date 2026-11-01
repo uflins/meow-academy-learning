@@ -678,5 +678,101 @@
    "do"
   ],
   "answerSpeak": "Does Ken have science class on Monday? Yes, he does."
+ },
+ {
+  "id": "g5eng-R1-030",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「What's your favorite subject?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "What's your favorite subject?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "What's your favorite subject? My favorite subject is science.",
+  "options": [
+   "My favorite subject is science.",
+   "It's Friday.",
+   "Yes, I do."
+  ],
+  "answer": "My favorite subject is science.",
+  "explanation": "My favorite subject is ＋科目。",
+  "difficulty": 1,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-R1-031",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「What's your favorite day at school? Why?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "What's your favorite day at school? Why?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "What's your favorite day at school? Why? Wednesday. I have art class on Wednesday.",
+  "options": [
+   "Wednesday. I have art class on Wednesday.",
+   "Yes, it is.",
+   "I'm in the bedroom."
+  ],
+  "answer": "Wednesday. I have art class on Wednesday.",
+  "explanation": "說出星期，再說那天有什麼喜歡的課。",
+  "difficulty": 3,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-R1-032",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Do you have math class on Friday?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Do you have math class on Friday?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Do you have math class on Friday? No, I don't.",
+  "options": [
+   "No, I don't.",
+   "No, it isn't.",
+   "No, she doesn't."
+  ],
+  "answer": "No, I don't.",
+  "explanation": "Do you …? 用 Yes, I do. 或 No, I don't.",
+  "difficulty": 2,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-R1-033",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "R1",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Does she have music class today?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Does she have music class today?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Does she have music class today? Yes, she does.",
+  "options": [
+   "Yes, she does.",
+   "Yes, she do.",
+   "Yes, I do."
+  ],
+  "answer": "Yes, she does.",
+  "explanation": "Does she …? 用 Yes, she does.",
+  "difficulty": 2,
+  "tags": [
+   "oral"
+  ]
  }
 ]

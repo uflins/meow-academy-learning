@@ -30,14 +30,15 @@ export const REGIONS = {
       source: {
         kind: 'bank',
         units: [
-          { unit: 'A', title: 'Starter & Unit 1　星期', sections: [
+          { unit: 'A', title: '舊冊複習、Starter、Unit 1　時間與星期', sections: [
+            { section: 'RV', title: '舊冊複習 時間、動作、房間', file: 'g5/english/RV.json' },
             { section: 'ST', title: 'Starter 數字與 a_e、ai、ay', file: 'g5/english/ST.json' },
             { section: 'U1', title: 'Unit 1 What Day Is Today?', file: 'g5/english/U1.json' },
           ], boss: { title: '拼錯怪', focus: ['spell', 'listen'] } },
           { unit: 'B', title: 'Unit 2 & Review 1　科目與課表', sections: [
             { section: 'U2', title: 'Unit 2 Do You Have PE Class on Monday?', file: 'g5/english/U2.json' },
             { section: 'R1', title: 'Review 1 Class Schedule', file: 'g5/english/R1.json' },
-          ], boss: { title: '課表大魔王', focus: ['table', 'grammar'] } },
+          ], boss: { title: '課表大魔王', focus: ['table', 'grammar', 'oral'] } },
         ],
       } },
     { id: 'math', name: '數字火山', subject: 'math', color: '#F28C6B', icon: '🌋', status: 'open',

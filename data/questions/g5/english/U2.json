@@ -1432,5 +1432,255 @@
   "tags": [
    "reading"
   ]
+ },
+ {
+  "id": "g5eng-U2-060",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "Discover：在以色列（Israel），學生在學校學什麼特別的課？",
+  "options": [
+   "cyber security",
+   "surfing",
+   "folk dances"
+  ],
+  "answer": "cyber security",
+  "explanation": "以色列想成為「網路國家」，學校教 Cyber Security（網路安全）。",
+  "difficulty": 2,
+  "tags": [
+   "reading",
+   "discover"
+  ],
+  "answerSpeak": "cyber security"
+ },
+ {
+  "id": "g5eng-U2-061",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "Discover：在亞美尼亞（Armenia），每個學生都要學什麼？",
+  "options": [
+   "folk dances",
+   "cyber security",
+   "ice hockey"
+  ],
+  "answer": "folk dances",
+  "explanation": "亞美尼亞有 1,500 多種民俗舞蹈，每個學生都要學 folk dances。",
+  "difficulty": 2,
+  "tags": [
+   "reading",
+   "discover"
+  ],
+  "answerSpeak": "folk dances"
+ },
+ {
+  "id": "g5eng-U2-062",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "Discover：在澳洲（Australia），很多學校在海邊，學生在學校學什麼？",
+  "options": [
+   "surfing",
+   "folk dances",
+   "cyber security"
+  ],
+  "answer": "surfing",
+  "explanation": "澳洲的學校教 surfing（衝浪）和水上安全。",
+  "difficulty": 2,
+  "tags": [
+   "reading",
+   "discover"
+  ],
+  "answerSpeak": "surfing"
+ },
+ {
+  "id": "g5eng-U2-063",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "「Cyber Security」是什麼課？",
+  "options": [
+   "網路安全",
+   "衝浪",
+   "民俗舞蹈"
+  ],
+  "answer": "網路安全",
+  "explanation": "cyber security 教我們上網要小心，避開駭客和網路怪人。",
+  "difficulty": 1,
+  "tags": [
+   "reading",
+   "discover"
+  ],
+  "answerSpeak": "cyber security"
+ },
+ {
+  "id": "g5eng-U2-064",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "「be careful」是什麼意思？",
+  "options": [
+   "小心",
+   "避開",
+   "比賽"
+  ],
+  "answer": "小心",
+  "explanation": "be careful 是小心；avoid 是避開；contest 是比賽。",
+  "difficulty": 2,
+  "tags": [
+   "reading",
+   "discover"
+  ],
+  "answerSpeak": "be careful"
+ },
+ {
+  "id": "g5eng-U2-065",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "「My school is near the sea.」的 near 是什麼意思？",
+  "options": [
+   "靠近",
+   "在…裡面",
+   "在…下面"
+  ],
+  "answer": "靠近",
+  "explanation": "near 是接近、靠近。",
+  "difficulty": 2,
+  "tags": [
+   "reading",
+   "discover"
+  ],
+  "answerSpeak": "My school is near the sea."
+ },
+ {
+  "id": "g5eng-U2-066",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "「We have many surfing contests.」的 contest 是什麼意思？",
+  "options": [
+   "比賽",
+   "課程",
+   "隊友"
+  ],
+  "answer": "比賽",
+  "explanation": "contest 是比賽。",
+  "difficulty": 2,
+  "tags": [
+   "reading",
+   "discover"
+  ],
+  "answerSpeak": "contest"
+ },
+ {
+  "id": "g5eng-U2-067",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Do you have PE class on Monday?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Do you have PE class on Monday?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Do you have PE class on Monday? Yes, I do.",
+  "options": [
+   "Yes, I do.",
+   "Yes, it is.",
+   "Yes, he does."
+  ],
+  "answer": "Yes, I do.",
+  "explanation": "Do you …? 用 Yes, I do. 或 No, I don't. 回答。",
+  "difficulty": 1,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-U2-068",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Does your brother have English class today?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Does your brother have English class today?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Does your brother have English class today? No, he doesn't.",
+  "options": [
+   "No, he doesn't.",
+   "No, I don't.",
+   "No, it isn't."
+  ],
+  "answer": "No, he doesn't.",
+  "explanation": "your brother 是「他」，用 Yes, he does. 或 No, he doesn't.",
+  "difficulty": 3,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-U2-069",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Do you like art?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Do you like art?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Do you like art? Yes, I do. It's fun.",
+  "options": [
+   "Yes, I do. It's fun.",
+   "Yes, it is.",
+   "It's Tuesday."
+  ],
+  "answer": "Yes, I do. It's fun.",
+  "explanation": "Do you like …? 用 Yes, I do. 或 No, I don't. 回答，可以再加原因。",
+  "difficulty": 2,
+  "tags": [
+   "oral"
+  ]
+ },
+ {
+  "id": "g5eng-U2-070",
+  "grade": 5,
+  "subject": "english",
+  "unit": "B",
+  "section": "U2",
+  "type": "choice",
+  "prompt": "🗣️ 口試練習：老師問「Which class do you like? Why?」\n先自己說說看，再選出可以怎麼回答",
+  "speak": "Which class do you like? Why?",
+  "speakLang": "en",
+  "autoSay": true,
+  "answerSpeak": "Which class do you like? Why? I like music. It's fun.",
+  "options": [
+   "I like music. It's fun.",
+   "Yes, I do.",
+   "It's on Monday."
+  ],
+  "answer": "I like music. It's fun.",
+  "explanation": "Which class 問「哪一科」，要說出科目和原因。",
+  "difficulty": 3,
+  "tags": [
+   "oral"
+  ]
  }
 ]
